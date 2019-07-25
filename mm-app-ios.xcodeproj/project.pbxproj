@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B69DC2CA22EA0A5C00C8F142 /* UserTermViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69DC2C922EA0A5C00C8F142 /* UserTermViewController.swift */; };
 		B6B5B44A22E77A55004BBF81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B5B44922E77A55004BBF81 /* AppDelegate.swift */; };
 		B6B5B44C22E77A55004BBF81 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B5B44B22E77A55004BBF81 /* HomeViewController.swift */; };
 		B6B5B44F22E77A55004BBF81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6B5B44D22E77A55004BBF81 /* Main.storyboard */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B69DC2C922EA0A5C00C8F142 /* UserTermViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTermViewController.swift; sourceTree = "<group>"; };
 		B6B5B44622E77A55004BBF81 /* mm-app-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mm-app-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6B5B44922E77A55004BBF81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6B5B44B22E77A55004BBF81 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -71,6 +73,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B69DC2C822EA0A3200C8F142 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B69DC2C922EA0A5C00C8F142 /* UserTermViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		B6B5B43D22E77A55004BBF81 = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +100,7 @@
 		B6B5B44822E77A55004BBF81 /* mm-app-ios */ = {
 			isa = PBXGroup;
 			children = (
+				B69DC2C822EA0A3200C8F142 /* View */,
 				B6B74AC922E9D36B001261B3 /* Login */,
 				B6B5B46422E8C517004BBF81 /* Home */,
 				B6B5B44922E77A55004BBF81 /* AppDelegate.swift */,
@@ -231,6 +242,7 @@
 				B6B74ACD22E9D571001261B3 /* ValidationViewController.swift in Sources */,
 				B6B5B45222E77A55004BBF81 /* mm_app_ios.xcdatamodeld in Sources */,
 				B6B5B45F22E77C16004BBF81 /* MenuViewController.swift in Sources */,
+				B69DC2CA22EA0A5C00C8F142 /* UserTermViewController.swift in Sources */,
 				B6B74ACB22E9D455001261B3 /* CadastroViewController.swift in Sources */,
 				B6B5B46122E78B20004BBF81 /* SlideInTransition.swift in Sources */,
 			);
