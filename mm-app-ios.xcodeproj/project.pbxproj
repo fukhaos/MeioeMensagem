@@ -18,6 +18,9 @@
 		B6B5B46822E8C8D3004BBF81 /* 41528940_241462876494767_8632959559543993127_n.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6B5B46722E8C8D3004BBF81 /* 41528940_241462876494767_8632959559543993127_n.jpg */; };
 		B6B5B46A22E8CF64004BBF81 /* headerBranco@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6B5B46922E8CF64004BBF81 /* headerBranco@2x.png */; };
 		B6B5B48522E8F4F7004BBF81 /* group@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B6B5B48422E8F4F7004BBF81 /* group@2x.png */; };
+		B6B5B48722E8FC75004BBF81 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B5B48622E8FC75004BBF81 /* LoginViewController.swift */; };
+		B6B74ACB22E9D455001261B3 /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B74ACA22E9D455001261B3 /* CadastroViewController.swift */; };
+		B6B74ACD22E9D571001261B3 /* ValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B74ACC22E9D571001261B3 /* ValidationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +55,9 @@
 		B6B5B48222E8F1EC004BBF81 /* RobotoCondensed-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RobotoCondensed-Light.ttf"; sourceTree = "<group>"; };
 		B6B5B48322E8F1EC004BBF81 /* Roboto-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Light.ttf"; sourceTree = "<group>"; };
 		B6B5B48422E8F4F7004BBF81 /* group@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "group@2x.png"; sourceTree = "<group>"; };
+		B6B5B48622E8FC75004BBF81 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B6B74ACA22E9D455001261B3 /* CadastroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
+		B6B74ACC22E9D571001261B3 /* ValidationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +90,9 @@
 		B6B5B44822E77A55004BBF81 /* mm-app-ios */ = {
 			isa = PBXGroup;
 			children = (
-				B6B5B44922E77A55004BBF81 /* AppDelegate.swift */,
+				B6B74AC922E9D36B001261B3 /* Login */,
 				B6B5B46422E8C517004BBF81 /* Home */,
+				B6B5B44922E77A55004BBF81 /* AppDelegate.swift */,
 				B6B5B44D22E77A55004BBF81 /* Main.storyboard */,
 				B6B5B45322E77A58004BBF81 /* Assets.xcassets */,
 				B6B5B45522E77A58004BBF81 /* LaunchScreen.storyboard */,
@@ -132,6 +139,16 @@
 				B6B5B47922E8F1EB004BBF81 /* RobotoCondensed-Regular.ttf */,
 			);
 			path = Font;
+			sourceTree = "<group>";
+		};
+		B6B74AC922E9D36B001261B3 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				B6B5B48622E8FC75004BBF81 /* LoginViewController.swift */,
+				B6B74ACA22E9D455001261B3 /* CadastroViewController.swift */,
+				B6B74ACC22E9D571001261B3 /* ValidationViewController.swift */,
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,10 +225,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6B5B48722E8FC75004BBF81 /* LoginViewController.swift in Sources */,
 				B6B5B44C22E77A55004BBF81 /* HomeViewController.swift in Sources */,
 				B6B5B44A22E77A55004BBF81 /* AppDelegate.swift in Sources */,
+				B6B74ACD22E9D571001261B3 /* ValidationViewController.swift in Sources */,
 				B6B5B45222E77A55004BBF81 /* mm_app_ios.xcdatamodeld in Sources */,
 				B6B5B45F22E77C16004BBF81 /* MenuViewController.swift in Sources */,
+				B6B74ACB22E9D455001261B3 /* CadastroViewController.swift in Sources */,
 				B6B5B46122E78B20004BBF81 /* SlideInTransition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
