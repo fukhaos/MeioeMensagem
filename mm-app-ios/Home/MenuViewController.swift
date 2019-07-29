@@ -28,6 +28,7 @@ class MenuViewController: UITableViewController {
     var didTapMenuType: ((MenuType) -> Void)?
     
     
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -46,4 +47,11 @@ class MenuViewController: UITableViewController {
         
         
     }
+    
+    @IBAction func logoutFaceButton(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "segueLogout", sender: nil)
+        
+        
+    }
+    
 }

@@ -70,22 +70,22 @@ class UserTermViewController: UIViewController, WKNavigationDelegate {
         }
     }
     
-    //    func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction,
-    //                 decisionHandler: @escaping (WKNavigationActionPolicy) -> Void) {
-    //
-    //        let globalUrl: URL = self.url
-    //
-    //        let localUrl = navigationAction.request.url ?? URL(string: "")
-    //
-    //        if localUrl != globalUrl {
-    //            decisionHandler(.cancel)
-    //            UIApplication.shared.open(url, options: [:]) { (value) in
-    //
-    //            }
-    //            return
-    //        }
-    //
-    //        decisionHandler(.allow)
-    //    }
+        func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction,
+                     decisionHandler: @escaping (WKNavigationActionPolicy) -> Void) {
+    
+            let globalUrl: URL = self.url
+    
+            let localUrl = navigationAction.request.url ?? URL(string: "")
+    
+            if localUrl != globalUrl {
+                decisionHandler(.cancel)
+                UIApplication.shared.open(url, options: [:]) { (value) in
+    
+                }
+                return
+            }
+    
+            decisionHandler(.allow)
+        }
 }
 

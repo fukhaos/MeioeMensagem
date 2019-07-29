@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import FBSDKLoginKit
+import FacebookLogin
 
 class HomeViewController: UIViewController {
 
@@ -53,7 +55,11 @@ class HomeViewController: UIViewController {
         case .politicaPrivacidade:
             self.title = "Política de Privacidade"
         case .sair:
+            let view = LogoutViewController()
+            
             self.title = "Sair"
+            
+            
         }
         
         
