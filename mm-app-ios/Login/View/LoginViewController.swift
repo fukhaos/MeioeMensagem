@@ -108,7 +108,7 @@ class LoginViewController: UIViewController {
 
     //Segue para o cadastro.
     @IBAction func cadastroButton(_ sender: Any) {
-     performSegue(withIdentifier: "segueSingup", sender: nil)
+    performSegue(withIdentifier: "segueSingup", sender: nil)
 
 
 

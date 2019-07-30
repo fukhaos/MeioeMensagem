@@ -62,7 +62,7 @@ class HomeViewController: UIViewController {
             
         }
         
-        
+//        
 //        topView?.removeFromSuperview()
 //        switch menuType {
 //        case .notificacao:
