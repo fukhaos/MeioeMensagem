@@ -19,12 +19,24 @@ PODS:
     - FBSDKCoreKit (~> 5.0)
   - FBSDKShareKit (5.2.3):
     - FBSDKCoreKit (~> 5.0)
+  - RxCocoa (5.0.0):
+    - RxRelay (~> 5)
+    - RxSwift (~> 5)
+  - RxRelay (5.0.0):
+    - RxSwift (~> 5)
+  - RxSwift (5.0.0)
+  - RxTheme (4.0.0):
+    - RxCocoa (~> 5.0)
+    - RxSwift (~> 5.0)
+  - TinyConstraints (4.0.1)
 
 DEPENDENCIES:
   - FacebookCore
   - FacebookLogin
   - FacebookShare
   - FBSDKLoginKit
+  - RxTheme
+  - TinyConstraints
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -34,6 +46,11 @@ SPEC REPOS:
     - FBSDKCoreKit
     - FBSDKLoginKit
     - FBSDKShareKit
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - RxTheme
+    - TinyConstraints
 
 SPEC CHECKSUMS:
   FacebookCore: 563bb4cbcd7dd86cf89f3729252140bf256aacaa
@@ -42,7 +59,12 @@ SPEC CHECKSUMS:
   FBSDKCoreKit: 5154c35d9058fd7dfa0445ba19e194c4b172fc32
   FBSDKLoginKit: dc98b6bf12334f1a42f28d0457fffc9aa3d1eca5
   FBSDKShareKit: 6f9c622f9a5d051f43f2dab6f753d5198422b89c
+  RxCocoa: fcf32050ac00d801f34a7f71d5e8e7f23026dcd8
+  RxRelay: 4f7409406a51a55cd88483f21ed898c234d60f18
+  RxSwift: 8b0671caa829a763bbce7271095859121cbd895f
+  RxTheme: 0b642f47c7d197a803c6b9c083964188c34f7ddb
+  TinyConstraints: 8dd91295e56797648c7bc335dd20e1d91ec4c192
 
-PODFILE CHECKSUM: c074684ce53178f4105dd632bb8eaf7e83dee73e
+PODFILE CHECKSUM: 699b3ece7df636e64d3eb0b6ba464c6b98e4c257
 
 COCOAPODS: 1.7.5

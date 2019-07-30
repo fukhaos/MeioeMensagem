@@ -97,22 +97,19 @@ class LoginViewController: UIViewController {
     }
     
     
-
+    //Segue Forgot Password
     
-
-    
-
-    
-
-    
-
-    //Segue para o cadastro.
-    @IBAction func cadastroButton(_ sender: Any) {
-    performSegue(withIdentifier: "segueSingup", sender: nil)
-
-
-
+    @IBAction func forgotPass(_ sender: Any) {
+        self.performSegue(withIdentifier: "segueForgotPass", sender: nil)
     }
+    
+
+    
+
+    
+
+    
+
     
     
     
