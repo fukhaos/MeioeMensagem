@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		07F3D3BF7B776148D55F1FA8 /* Pods_mm_app_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03C24D40C3591D84EB1DF17C /* Pods_mm_app_ios.framework */; };
 		B68B1EB722F06B85009310A2 /* meioMensagem.png in Resources */ = {isa = PBXBuildFile; fileRef = B68B1EB622F06B85009310A2 /* meioMensagem.png */; };
+		B68B1EBB22F097DE009310A2 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B68B1EBA22F097DE009310A2 /* Login.storyboard */; };
+		B68B1EBF22F09FFD009310A2 /* TesteStoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68B1EBE22F09FFD009310A2 /* TesteStoryView.swift */; };
 		B69DC2CA22EA0A5C00C8F142 /* UserTermViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69DC2C922EA0A5C00C8F142 /* UserTermViewController.swift */; };
 		B69DC2D322EB37B400C8F142 /* iconCheckoff@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B69DC2D222EB37B400C8F142 /* iconCheckoff@2x.png */; };
 		B69DC2D522EB3D1600C8F142 /* SpringButtom.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69DC2D422EB3D1600C8F142 /* SpringButtom.swift */; };
@@ -20,9 +22,7 @@
 		B69DC2E222EB3E6500C8F142 /* SpringTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69DC2E122EB3E6500C8F142 /* SpringTextView.swift */; };
 		B69DC2E422EB3E9300C8F142 /* SpringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69DC2E322EB3E9300C8F142 /* SpringView.swift */; };
 		B69DC2E822EB433C00C8F142 /* iconCheckOn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B69DC2E722EB433C00C8F142 /* iconCheckOn@2x.png */; };
-		B69DC2EC22EB6A3900C8F142 /* InformationLoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69DC2EB22EB6A3900C8F142 /* InformationLoginView.swift */; };
 		B6AEF82F22EB852B00C86800 /* GoogleService-Info-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = B6AEF82E22EB852B00C86800 /* GoogleService-Info-2.plist */; };
-		B6AEF83A22EF350400C86800 /* RegisterReturn.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AEF83922EF350400C86800 /* RegisterReturn.swift */; };
 		B6B5B44A22E77A55004BBF81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B5B44922E77A55004BBF81 /* AppDelegate.swift */; };
 		B6B5B44C22E77A55004BBF81 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B5B44B22E77A55004BBF81 /* HomeViewController.swift */; };
 		B6B5B44F22E77A55004BBF81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6B5B44D22E77A55004BBF81 /* Main.storyboard */; };
@@ -37,7 +37,6 @@
 		B6B5B48722E8FC75004BBF81 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B5B48622E8FC75004BBF81 /* LoginViewController.swift */; };
 		B6B74ACB22E9D455001261B3 /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B74ACA22E9D455001261B3 /* CadastroViewController.swift */; };
 		B6B74ACD22E9D571001261B3 /* ValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B74ACC22E9D571001261B3 /* ValidationViewController.swift */; };
-		B6FFB19022EF710E0032CAA0 /* LogoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6FFB18F22EF710E0032CAA0 /* LogoutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +44,8 @@
 		80F0A74DCB9F3FEFD5D974CA /* Pods-mm-app-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mm-app-ios.debug.xcconfig"; path = "Target Support Files/Pods-mm-app-ios/Pods-mm-app-ios.debug.xcconfig"; sourceTree = "<group>"; };
 		834153118F4E1737552448B1 /* Pods-mm-app-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mm-app-ios.release.xcconfig"; path = "Target Support Files/Pods-mm-app-ios/Pods-mm-app-ios.release.xcconfig"; sourceTree = "<group>"; };
 		B68B1EB622F06B85009310A2 /* meioMensagem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meioMensagem.png; sourceTree = "<group>"; };
+		B68B1EBA22F097DE009310A2 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
+		B68B1EBE22F09FFD009310A2 /* TesteStoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TesteStoryView.swift; sourceTree = "<group>"; };
 		B69DC2C922EA0A5C00C8F142 /* UserTermViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTermViewController.swift; sourceTree = "<group>"; };
 		B69DC2D222EB37B400C8F142 /* iconCheckoff@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconCheckoff@2x.png"; sourceTree = "<group>"; };
 		B69DC2D422EB3D1600C8F142 /* SpringButtom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringButtom.swift; sourceTree = "<group>"; };
@@ -56,9 +57,7 @@
 		B69DC2E122EB3E6500C8F142 /* SpringTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringTextView.swift; sourceTree = "<group>"; };
 		B69DC2E322EB3E9300C8F142 /* SpringView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringView.swift; sourceTree = "<group>"; };
 		B69DC2E722EB433C00C8F142 /* iconCheckOn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconCheckOn@2x.png"; sourceTree = "<group>"; };
-		B69DC2EB22EB6A3900C8F142 /* InformationLoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = InformationLoginView.swift; path = ../../InformationLoginView.swift; sourceTree = "<group>"; };
 		B6AEF82E22EB852B00C86800 /* GoogleService-Info-2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-2.plist"; sourceTree = "<group>"; };
-		B6AEF83922EF350400C86800 /* RegisterReturn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterReturn.swift; sourceTree = "<group>"; };
 		B6B5B44622E77A55004BBF81 /* mm-app-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mm-app-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6B5B44922E77A55004BBF81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6B5B44B22E77A55004BBF81 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -93,7 +92,6 @@
 		B6B5B48622E8FC75004BBF81 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B6B74ACA22E9D455001261B3 /* CadastroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
 		B6B74ACC22E9D571001261B3 /* ValidationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationViewController.swift; sourceTree = "<group>"; };
-		B6FFB18F22EF710E0032CAA0 /* LogoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,21 +129,12 @@
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		B6AEF83622EF34D000C86800 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				B6AEF83922EF350400C86800 /* RegisterReturn.swift */,
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
 		B6AEF83B22EF352200C86800 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				B6B5B48622E8FC75004BBF81 /* LoginViewController.swift */,
 				B6B74ACA22E9D455001261B3 /* CadastroViewController.swift */,
 				B6B74ACC22E9D571001261B3 /* ValidationViewController.swift */,
-				B6FFB18F22EF710E0032CAA0 /* LogoutViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -175,6 +164,7 @@
 				B6B74AC922E9D36B001261B3 /* Login */,
 				B6B5B46422E8C517004BBF81 /* Home */,
 				B6B5B44922E77A55004BBF81 /* AppDelegate.swift */,
+				B68B1EBE22F09FFD009310A2 /* TesteStoryView.swift */,
 				B6B5B44D22E77A55004BBF81 /* Main.storyboard */,
 				B6B5B45322E77A58004BBF81 /* Assets.xcassets */,
 				B6B5B45522E77A58004BBF81 /* LaunchScreen.storyboard */,
@@ -203,7 +193,6 @@
 		B6B5B46422E8C517004BBF81 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				B69DC2EB22EB6A3900C8F142 /* InformationLoginView.swift */,
 				B6B5B44B22E77A55004BBF81 /* HomeViewController.swift */,
 				B6B5B45E22E77C16004BBF81 /* MenuViewController.swift */,
 				B6B5B46022E78B20004BBF81 /* SlideInTransition.swift */,
@@ -240,8 +229,8 @@
 			isa = PBXGroup;
 			children = (
 				B6AEF83B22EF352200C86800 /* View */,
-				B6AEF83622EF34D000C86800 /* Model */,
 				B6AEF83022EF1F2300C86800 /* ViewModel */,
+				B68B1EBA22F097DE009310A2 /* Login.storyboard */,
 			);
 			path = Login;
 			sourceTree = "<group>";
@@ -325,6 +314,7 @@
 				B69DC2D322EB37B400C8F142 /* iconCheckoff@2x.png in Resources */,
 				B6B5B48522E8F4F7004BBF81 /* group@2x.png in Resources */,
 				B6B5B44F22E77A55004BBF81 /* Main.storyboard in Resources */,
+				B68B1EBB22F097DE009310A2 /* Login.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,11 +372,10 @@
 				B69DC2E222EB3E6500C8F142 /* SpringTextView.swift in Sources */,
 				B6B5B44A22E77A55004BBF81 /* AppDelegate.swift in Sources */,
 				B69DC2D922EB3DBC00C8F142 /* SpringAnimation.swift in Sources */,
+				B68B1EBF22F09FFD009310A2 /* TesteStoryView.swift in Sources */,
 				B69DC2D522EB3D1600C8F142 /* SpringButtom.swift in Sources */,
 				B69DC2E422EB3E9300C8F142 /* SpringView.swift in Sources */,
-				B69DC2EC22EB6A3900C8F142 /* InformationLoginView.swift in Sources */,
 				B6B74ACD22E9D571001261B3 /* ValidationViewController.swift in Sources */,
-				B6AEF83A22EF350400C86800 /* RegisterReturn.swift in Sources */,
 				B6B5B45222E77A55004BBF81 /* mm_app_ios.xcdatamodeld in Sources */,
 				B6B5B45F22E77C16004BBF81 /* MenuViewController.swift in Sources */,
 				B69DC2D722EB3D8C00C8F142 /* Spring.swift in Sources */,
@@ -395,7 +384,6 @@
 				B69DC2CA22EA0A5C00C8F142 /* UserTermViewController.swift in Sources */,
 				B69DC2E022EB3E3A00C8F142 /* SpringTextField.swift in Sources */,
 				B6B74ACB22E9D455001261B3 /* CadastroViewController.swift in Sources */,
-				B6FFB19022EF710E0032CAA0 /* LogoutViewController.swift in Sources */,
 				B6B5B46122E78B20004BBF81 /* SlideInTransition.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

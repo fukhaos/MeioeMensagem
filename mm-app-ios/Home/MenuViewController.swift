@@ -48,10 +48,9 @@ class MenuViewController: UITableViewController {
         
     }
     
-    @IBAction func logoutFaceButton(_ sender: UIButton) {
-        self.performSegue(withIdentifier: "segueLogout", sender: nil)
-        
-        
+    @IBAction func segueStory(_ sender: Any) {
+        self.performSegue(withIdentifier: "segueStory", sender: nil)
     }
+    
     
 }

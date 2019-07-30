@@ -8,9 +8,7 @@
 
 import UIKit
 import CoreData
-import FBSDKShareKit
-import FBSDKLoginKit
-import FacebookCore
+
 
 
 @UIApplicationMain

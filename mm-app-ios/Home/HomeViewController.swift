@@ -55,31 +55,16 @@ class HomeViewController: UIViewController {
         case .politicaPrivacidade:
             self.title = "Política de Privacidade"
         case .sair:
-            let view = LogoutViewController()
-            
             self.title = "Sair"
-            
-            
+            break
         }
-        
-//        
-//        topView?.removeFromSuperview()
-//        switch menuType {
-//        case .notificacao:
-//            let view = UIView()
-//            view.backgroundColor = .blue
-//            view.frame = self.view.bounds
-//            self.view.addSubview(view)
-//            self.topView = view
-//        case .meusDownloads:
-//            let view = UIView()
-//            view.backgroundColor = .red
-//            view.frame = self.view.bounds
-//            self.view.addSubview(view)
-//            self.topView = view
-//        default: break
-//        }
     }
+    
+    
+    
+
+    
+    
 }
 
 //Add Protocol Transition Delegate
