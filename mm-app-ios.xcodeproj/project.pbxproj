@@ -10,7 +10,6 @@
 		07F3D3BF7B776148D55F1FA8 /* Pods_mm_app_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03C24D40C3591D84EB1DF17C /* Pods_mm_app_ios.framework */; };
 		B68B1EB722F06B85009310A2 /* meioMensagem.png in Resources */ = {isa = PBXBuildFile; fileRef = B68B1EB622F06B85009310A2 /* meioMensagem.png */; };
 		B68B1EBB22F097DE009310A2 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B68B1EBA22F097DE009310A2 /* Login.storyboard */; };
-		B68B1EBF22F09FFD009310A2 /* TesteStoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68B1EBE22F09FFD009310A2 /* TesteStoryView.swift */; };
 		B68B1EC222F0D323009310A2 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B68B1EC122F0D323009310A2 /* Colors.xcassets */; };
 		B68B1EC422F0D4DD009310A2 /* DarkThemeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68B1EC322F0D4DD009310A2 /* DarkThemeViewController.swift */; };
 		B68B1EC622F0D849009310A2 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68B1EC522F0D849009310A2 /* Theme.swift */; };
@@ -42,6 +41,8 @@
 		B6B5B48722E8FC75004BBF81 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B5B48622E8FC75004BBF81 /* LoginViewController.swift */; };
 		B6B74ACB22E9D455001261B3 /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B74ACA22E9D455001261B3 /* CadastroViewController.swift */; };
 		B6B74ACD22E9D571001261B3 /* ValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B74ACC22E9D571001261B3 /* ValidationViewController.swift */; };
+		B6D84B2322F1D93E00C9EEDB /* ForgotPassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D84B2222F1D93E00C9EEDB /* ForgotPassViewController.swift */; };
+		B6D84B2522F1DD1B00C9EEDB /* ResendEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D84B2422F1DD1B00C9EEDB /* ResendEmailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,7 +51,6 @@
 		834153118F4E1737552448B1 /* Pods-mm-app-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mm-app-ios.release.xcconfig"; path = "Target Support Files/Pods-mm-app-ios/Pods-mm-app-ios.release.xcconfig"; sourceTree = "<group>"; };
 		B68B1EB622F06B85009310A2 /* meioMensagem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meioMensagem.png; sourceTree = "<group>"; };
 		B68B1EBA22F097DE009310A2 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
-		B68B1EBE22F09FFD009310A2 /* TesteStoryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TesteStoryView.swift; sourceTree = "<group>"; };
 		B68B1EC122F0D323009310A2 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		B68B1EC322F0D4DD009310A2 /* DarkThemeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkThemeViewController.swift; sourceTree = "<group>"; };
 		B68B1EC522F0D849009310A2 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
@@ -102,6 +102,8 @@
 		B6B5B48622E8FC75004BBF81 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B6B74ACA22E9D455001261B3 /* CadastroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
 		B6B74ACC22E9D571001261B3 /* ValidationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationViewController.swift; sourceTree = "<group>"; };
+		B6D84B2222F1D93E00C9EEDB /* ForgotPassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassViewController.swift; sourceTree = "<group>"; };
+		B6D84B2422F1DD1B00C9EEDB /* ResendEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResendEmailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,19 +152,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
-		B6AEF83022EF1F2300C86800 /* ViewModel */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = ViewModel;
-			sourceTree = "<group>";
-		};
 		B6AEF83B22EF352200C86800 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				B6B5B48622E8FC75004BBF81 /* LoginViewController.swift */,
 				B6B74ACA22E9D455001261B3 /* CadastroViewController.swift */,
 				B6B74ACC22E9D571001261B3 /* ValidationViewController.swift */,
+				B6D84B2222F1D93E00C9EEDB /* ForgotPassViewController.swift */,
+				B6D84B2422F1DD1B00C9EEDB /* ResendEmailViewController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -194,7 +191,6 @@
 				B6B74AC922E9D36B001261B3 /* Login */,
 				B6B5B46422E8C517004BBF81 /* Home */,
 				B6B5B44922E77A55004BBF81 /* AppDelegate.swift */,
-				B68B1EBE22F09FFD009310A2 /* TesteStoryView.swift */,
 				B6B5B44D22E77A55004BBF81 /* Main.storyboard */,
 				B6B5B45322E77A58004BBF81 /* Assets.xcassets */,
 				B6B5B45522E77A58004BBF81 /* LaunchScreen.storyboard */,
@@ -260,7 +256,6 @@
 			isa = PBXGroup;
 			children = (
 				B6AEF83B22EF352200C86800 /* View */,
-				B6AEF83022EF1F2300C86800 /* ViewModel */,
 				B68B1EBA22F097DE009310A2 /* Login.storyboard */,
 			);
 			path = Login;
@@ -400,12 +395,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6D84B2522F1DD1B00C9EEDB /* ResendEmailViewController.swift in Sources */,
 				B6B5B48722E8FC75004BBF81 /* LoginViewController.swift in Sources */,
 				B6B5B44C22E77A55004BBF81 /* HomeViewController.swift in Sources */,
+				B6D84B2322F1D93E00C9EEDB /* ForgotPassViewController.swift in Sources */,
 				B69DC2E222EB3E6500C8F142 /* SpringTextView.swift in Sources */,
 				B6B5B44A22E77A55004BBF81 /* AppDelegate.swift in Sources */,
 				B69DC2D922EB3DBC00C8F142 /* SpringAnimation.swift in Sources */,
-				B68B1EBF22F09FFD009310A2 /* TesteStoryView.swift in Sources */,
 				B69DC2D522EB3D1600C8F142 /* SpringButtom.swift in Sources */,
 				B69DC2E422EB3E9300C8F142 /* SpringView.swift in Sources */,
 				B6B74ACD22E9D571001261B3 /* ValidationViewController.swift in Sources */,

@@ -103,7 +103,11 @@ class LoginViewController: UIViewController {
         self.performSegue(withIdentifier: "segueForgotPass", sender: nil)
     }
     
-
+    @IBAction func cadastroNew(_ sender: Any) {
+        
+        self.performSegue(withIdentifier: "segueSingup", sender: nil)
+    }
+    
     
 
     
