@@ -15,7 +15,7 @@ class ResendEmailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.ViewResendEmail.layer.cornerRadius = 25 
+        self.ViewResendEmail.layer.cornerRadius = 19
         
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard))
         view.addGestureRecognizer(tap)

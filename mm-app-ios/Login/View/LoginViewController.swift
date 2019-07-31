@@ -30,7 +30,7 @@ class LoginViewController: UIViewController {
         super.viewDidLoad()
      
         //Arredonda os cantos do botão Entrar
-        self.viewEntrar.layer.cornerRadius = 25
+        self.viewEntrar.layer.cornerRadius = 20
         
         //Arredonda a View inteira.
         self.testeButtoon.layer.cornerRadius = 40

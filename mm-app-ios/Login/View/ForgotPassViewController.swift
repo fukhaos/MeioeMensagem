@@ -19,7 +19,7 @@ class ForgotPassViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.viewSendPass.layer.cornerRadius = 25
+        self.viewSendPass.layer.cornerRadius = 19
         
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard))
         view.addGestureRecognizer(tap)
