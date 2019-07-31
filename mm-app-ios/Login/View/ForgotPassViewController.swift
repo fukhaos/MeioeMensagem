@@ -21,7 +21,14 @@ class ForgotPassViewController: UIViewController {
 
         self.viewSendPass.layer.cornerRadius = 25
         
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard))
+        view.addGestureRecognizer(tap)
         
+        
+    }
+    
+    @objc func dismissKeyboard() {
+        view.endEditing(true)
     }
     
     @IBAction func forgotPassButton(_ sender: Any) {

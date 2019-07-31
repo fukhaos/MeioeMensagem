@@ -45,7 +45,12 @@ class CadastroViewController: UIViewController {
         super.viewDidLoad()
         self.CadastrarView.layer.cornerRadius = 25
 
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard))
+        view.addGestureRecognizer(tap)
         
+    }
+    @objc func dismissKeyboard() {
+        view.endEditing(true)
     }
     
     func setUIElements() {
@@ -192,6 +197,8 @@ class CadastroViewController: UIViewController {
             alerta.addAction(bntOk)
             present(alerta, animated: true, completion: nil)
             
+        }else {
+            self.shouldPerformSegue(withIdentifier: "segueOk", sender: nil)
         }
      
 
