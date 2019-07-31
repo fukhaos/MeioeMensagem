@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="M2C-4p-geW">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="M4j-9h-oJY">
+            <objects>
+                <viewController id="luk-Hf-YCd" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oGN-e0-HhN">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GrL-cz-dZF">
+                                <rect key="frame" x="16" y="64" width="253" height="50"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Guia de navegação" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y2M-o9-sn5">
+                                        <rect key="frame" x="8" y="11" width="237" height="29"/>
+                                        <fontDescription key="fontDescription" type="system" weight="black" pointSize="24"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="y2M-o9-sn5" firstAttribute="leading" secondItem="GrL-cz-dZF" secondAttribute="leading" constant="8" id="0Qy-Fp-kzL"/>
+                                    <constraint firstAttribute="bottom" secondItem="y2M-o9-sn5" secondAttribute="bottom" constant="10" id="ohJ-8t-uNx"/>
+                                    <constraint firstAttribute="trailing" secondItem="y2M-o9-sn5" secondAttribute="trailing" constant="8" id="s0w-Kc-fdi"/>
+                                    <constraint firstItem="y2M-o9-sn5" firstAttribute="top" secondItem="GrL-cz-dZF" secondAttribute="top" constant="11" id="xQD-xr-rog"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9Dd-ZM-z9R">
+                                <rect key="frame" x="42" y="122" width="118" height="241"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="group2Copy" translatesAutoresizingMaskIntoConstraints="NO" id="gFY-JA-arf">
+                                        <rect key="frame" x="8" y="8" width="102" height="225"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                            </view>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RSo-xT-cyE">
+                                <rect key="frame" x="215" y="122" width="118" height="241"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="group2Copy2" translatesAutoresizingMaskIntoConstraints="NO" id="Vy8-Za-Phy">
+                                        <rect key="frame" x="8" y="8" width="102" height="225"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Deslize o dedo sobre a tela verticalmente para ler o conteúdo das matérias" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hA3-Ae-ga9">
+                                <rect key="frame" x="204" y="371" width="140" height="72"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Deslize o dedo horizontalmente para avançar ou retornar entre as matérias" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ur2-lf-CTJ">
+                                <rect key="frame" x="31" y="371" width="140" height="90"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="GrL-cz-dZF" firstAttribute="top" secondItem="GYW-Dp-4HT" secondAttribute="top" id="5h7-ap-peE"/>
+                            <constraint firstItem="9Dd-ZM-z9R" firstAttribute="leading" secondItem="GYW-Dp-4HT" secondAttribute="leading" constant="42" id="7ww-G2-dHh"/>
+                            <constraint firstItem="ur2-lf-CTJ" firstAttribute="leading" secondItem="GYW-Dp-4HT" secondAttribute="leading" constant="31" id="Bgr-XW-fI1"/>
+                            <constraint firstItem="9Dd-ZM-z9R" firstAttribute="top" secondItem="GrL-cz-dZF" secondAttribute="bottom" constant="8" id="M9W-ts-mXK"/>
+                            <constraint firstItem="GYW-Dp-4HT" firstAttribute="trailing" secondItem="GrL-cz-dZF" secondAttribute="trailing" constant="106" id="WHC-9o-DLg"/>
+                            <constraint firstItem="ur2-lf-CTJ" firstAttribute="top" secondItem="9Dd-ZM-z9R" secondAttribute="bottom" constant="8" id="WMf-N4-b1Z"/>
+                            <constraint firstItem="GrL-cz-dZF" firstAttribute="leading" secondItem="GYW-Dp-4HT" secondAttribute="leading" constant="16" id="b6X-gS-cur"/>
+                            <constraint firstItem="GYW-Dp-4HT" firstAttribute="trailing" secondItem="RSo-xT-cyE" secondAttribute="trailing" constant="42" id="l4C-65-sLB"/>
+                            <constraint firstItem="RSo-xT-cyE" firstAttribute="top" secondItem="GrL-cz-dZF" secondAttribute="bottom" constant="8" id="rOm-rH-gS8"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="GYW-Dp-4HT"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="8Mn-6o-fqT"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Nkb-lD-i4n" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="912.79999999999995" y="60.719640179910051"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="BPi-ie-yUj">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="M2C-4p-geW" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="wBn-go-WsC">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="luk-Hf-YCd" kind="relationship" relationship="rootViewController" id="fjb-Kw-0Yi"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mV6-TV-HEs" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2.8985507246376816" y="61.607142857142854"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="group2Copy" width="116" height="239"/>
+        <image name="group2Copy2" width="116" height="239"/>
+    </resources>
+</document>
