@@ -21,6 +21,13 @@ class HomeViewController: UIViewController {
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard))
         view.addGestureRecognizer(tap)
         
+        
+        var count = Int()
+        if count == 0 {
+            self.performSegue(withIdentifier: "segueTuto", sender: nil)
+            
+        }
+        count += 1
     }
     
     @objc func dismissKeyboard() {
