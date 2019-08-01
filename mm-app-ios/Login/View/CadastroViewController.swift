@@ -23,32 +23,37 @@ class CadastroViewController: UIViewController {
     //MARK: - Outlets
     @IBOutlet weak var CadastrarView: UIView!
     @IBOutlet weak var checkButton: SpringButton!
-    @IBOutlet weak var nameTextF: UITextField!
-    @IBOutlet weak var lastNameText: UITextField!
-    @IBOutlet weak var nickNameTextF: UITextField!
-    @IBOutlet weak var cpfTextF: UITextField!
-    @IBOutlet weak var emailTextF: UITextField!
-    @IBOutlet weak var alternaEmailTextF: UITextField!
-    @IBOutlet weak var passwdTextF: UITextField!
-    @IBOutlet weak var confirmaPasswdTextF: UITextField!
     @IBOutlet weak var userAndTermsButton: UIButton!
+    
+    @IBOutlet weak var nameTextField: UITextField!
+    @IBOutlet weak var lastNameTextField: UITextField!
+    @IBOutlet weak var nickNameTextField: UITextField!
+    @IBOutlet weak var cpfTextField: UITextField!
+    @IBOutlet weak var emailTextField: UITextField!
+    @IBOutlet weak var alternaEmailTextField: UITextField!
+    @IBOutlet weak var passwdTextField: UITextField!
+    @IBOutlet weak var confirmaPasswdTextField: UITextField!
+   
     
 
     
     
     
     //MARK: - Properties
-    var dataBase : OpaquePointer? = nil
+    //var dataBase : OpaquePointer? = nil
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        //Arredando a View Cadastrar
         self.CadastrarView.layer.cornerRadius = 25
 
+        //Recolhe o teclado ao tocar na tela
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard))
         view.addGestureRecognizer(tap)
         
     }
+    //Objective-C para recolher teclado ao tocar na tela
     @objc func dismissKeyboard() {
         view.endEditing(true)
     }
@@ -87,69 +92,42 @@ class CadastroViewController: UIViewController {
     }
         
 
-    private func validateFields() -> String{
-        var msg = ""
-        let cpf = cpfTextF.text
-        
-        if self.nameTextF.text == "" {
-            msg = "Preencha o campo Nome"
-        } else if self.lastNameText.text == "" {
-            msg = "Preencha o campo Sobrenome"
-        } else if self.nickNameTextF.text == "" {
-            msg = "Preencha o campo Apelido"
-        } else if self.cpfTextF.text == "" {
-            msg = "Preencha o campo CPF"
-        }else if self.cpfTextF.text?.count ?? 11 < 11 {
-            msg = "O campo CPF deve conter 11 números"
-        } else if !(cpf!.isValidCPF) {
-            msg = "CPF inválido"
-        } else if self.emailTextF.text == "" {
-            msg = "Preencha o campo E-mail"
-        }else if !(self.emailTextF.text?.isValidEmail() ?? true) {
-            msg = "O e-mail não e valído"
-        } else if self.passwdTextF.text == "" {
-            msg = "Preencha o campo senha"
-        } else if self.confirmaPasswdTextF.text == "" {
-            msg = "Confirme a senha"
-        } else if passwdTextF.text != confirmaPasswdTextF.text {
-            msg = "As senhas devem ser iguais"
-        } else if !checkButton.isSelected {
-            msg = "Aceite os termos de Uso"
-        }
-        
-        return msg
+    @IBAction func userAndTermo(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "segueUserAndTermo", sender: nil)
     }
+    
     
     
     
     //MARK: - Action
     @IBAction func cadastroBTN(_ sender: UIButton) {
-       let cpf = cpfTextF.text
+       let cpf = cpfTextField.text
         
-        if self.nameTextF.text == "" {
+        if self.nameTextField.text == "" {
             let alerta = UIAlertController(title: "Alerta", message: "Preencha o campo nome", preferredStyle: .alert)
             let bntOk = UIAlertAction(title: "OK", style: .default, handler: nil)
             alerta.addAction(bntOk)
             present(alerta, animated: true, completion: nil)
-        } else if self.lastNameText.text == "" {
+            
+        } else if self.lastNameTextField.text == "" {
             let alerta = UIAlertController(title: "Alerta", message: "Preencha o campo Sobrenome", preferredStyle: .alert)
             let bntOk = UIAlertAction(title: "OK", style: .default, handler: nil)
             alerta.addAction(bntOk)
             present(alerta, animated: true, completion: nil)
             
-        } else if self.nickNameTextF.text == "" {
+        } else if self.nickNameTextField.text == "" {
             let alerta = UIAlertController(title: "Alerta", message: "Preencha o campo Apelido", preferredStyle: .alert)
             let bntOk = UIAlertAction(title: "OK", style: .default, handler: nil)
             alerta.addAction(bntOk)
             present(alerta, animated: true, completion: nil)
            
-        } else if self.cpfTextF.text == "" {
+        } else if self.cpfTextField.text == "" {
             let alerta = UIAlertController(title: "Alerta", message: "Preencha o campo CPF.", preferredStyle: .alert)
             let bntOk = UIAlertAction(title: "OK", style: .default, handler: nil)
             alerta.addAction(bntOk)
             present(alerta, animated: true, completion: nil)
             
-        }else if self.cpfTextF.text?.count ?? 11 < 11 {
+        }else if self.cpfTextField.text?.count ?? 11 < 11 {
             let alerta = UIAlertController(title: "Alerta", message: "O número do CPF deve conter 11 digitos.", preferredStyle: .alert)
             let bntOk = UIAlertAction(title: "OK", style: .default, handler: nil)
             alerta.addAction(bntOk)
@@ -161,31 +139,43 @@ class CadastroViewController: UIViewController {
             alerta.addAction(bntOk)
             present(alerta, animated: true, completion: nil)
             
-        } else if self.emailTextF.text == "" {
+        } else if self.emailTextField.text == "" {
             let alerta = UIAlertController(title: "Alerta", message: "Preencha o campo Email", preferredStyle: .alert)
             let bntOk = UIAlertAction(title: "OK", style: .default, handler: nil)
             alerta.addAction(bntOk)
             present(alerta, animated: true, completion: nil)
             
-        }else if !(self.emailTextF.text?.isValidEmail() ?? true) {
+        } else if self.alternaEmailTextField.text == "" {
+            let alerta = UIAlertController(title: "Alerta", message: "Preencha o campo de confirmação de e-mail", preferredStyle: .alert)
+            let bntOk = UIAlertAction(title: "OK", style: .default, handler: nil)
+            alerta.addAction(bntOk)
+            present(alerta, animated: true, completion: nil)
+            
+        } else if self.emailTextField.text != self.alternaEmailTextField.text {
+            let alerta = UIAlertController(title: "Alerta", message: "O Campo e-mail e confirma e-mail são diferentes.", preferredStyle: .alert)
+            let bntOk = UIAlertAction(title: "OK", style: .default, handler: nil)
+            alerta.addAction(bntOk)
+            present(alerta, animated: true, completion: nil)
+            
+        } else if !(self.emailTextField.text?.isValidEmail() ?? true) {
             let alerta = UIAlertController(title: "Alerta", message: "E-mail invalido", preferredStyle: .alert)
             let bntOk = UIAlertAction(title: "OK", style: .default, handler: nil)
             alerta.addAction(bntOk)
             present(alerta, animated: true, completion: nil)
             
-        } else if self.passwdTextF.text == "" {
+        } else if self.passwdTextField.text == "" {
             let alerta = UIAlertController(title: "Alerta", message: "Preencha o campo senha.", preferredStyle: .alert)
             let bntOk = UIAlertAction(title: "OK", style: .default, handler: nil)
             alerta.addAction(bntOk)
             present(alerta, animated: true, completion: nil)
             
-        } else if self.confirmaPasswdTextF.text == "" {
+        } else if self.confirmaPasswdTextField.text == "" {
             let alerta = UIAlertController(title: "Alerta", message: "preencha o campo Confirma Senha.", preferredStyle: .alert)
             let bntOk = UIAlertAction(title: "OK", style: .default, handler: nil)
             alerta.addAction(bntOk)
             present(alerta, animated: true, completion: nil)
             
-        } else if passwdTextF.text != confirmaPasswdTextF.text {
+        } else if passwdTextField.text != confirmaPasswdTextField.text {
             let alerta = UIAlertController(title: "Alerta", message: "Senhas diferentes, favor verificar.", preferredStyle: .alert)
             let bntOk = UIAlertAction(title: "OK", style: .default, handler: nil)
             alerta.addAction(bntOk)
@@ -197,8 +187,10 @@ class CadastroViewController: UIViewController {
             alerta.addAction(bntOk)
             present(alerta, animated: true, completion: nil)
             
-        }else {
-            self.shouldPerformSegue(withIdentifier: "segueOk", sender: nil)
+        } else {
+            
+                self.shouldPerformSegue(withIdentifier: "segueOk", sender: nil)
+           
         }
      
 

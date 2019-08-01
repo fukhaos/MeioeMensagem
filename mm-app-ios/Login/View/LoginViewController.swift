@@ -22,32 +22,28 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var senhaTextField: UITextField!
     @IBOutlet weak var viewEntrar: UIView!
-    @IBOutlet weak var testeButtoon: UIView!
+    @IBOutlet weak var viewFacebook: UIView!
+    @IBOutlet weak var viewLinkedin: UIView!
     
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
      
-        //Arredonda os cantos do botão Entrar
+        //Arredonda os cantos das UIView
         self.viewEntrar.layer.cornerRadius = 20
+        self.viewFacebook.layer.cornerRadius = 30
+        self.viewLinkedin.layer.cornerRadius = 30
         
-        //Arredonda a View inteira.
-        self.testeButtoon.layer.cornerRadius = 40
-        
-        if AccessToken.isCurrentAccessTokenActive {
-            var nome = AccessToken.current?.userID
-            performSegue(withIdentifier: "segueDash", sender: nome)
-            
-        }else {
-            print("Usuário não conectado.")
-        }
+      
 
+        // Recolhe o teclado ao tocar na tela.
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard))
         view.addGestureRecognizer(tap)
      
     }
     
+    //Object-C para recolher teclado.
     @objc func dismissKeyboard() {
         view.endEditing(true)
     }
@@ -63,46 +59,30 @@ class LoginViewController: UIViewController {
         
     }
     
-    
-
-    
     @IBAction func signIn(_ sender: Any) {
     
     }
+//
+//    @IBAction func loginWithFacebook(_ sender: Any) {
+//        let manager = LoginManager()
+//        manager.logIn(permissions: [.publicProfile, .email], viewController: self) { (result) in
+//            switch result {
+//            case .cancelled:
+//                print("User cancelled login process")
+//                break
+//            case .failed(let error) :
+//                print("Login failed with error \(error.localizedDescription)")
+//                break
+//            case .success(let grantedPermissions, let _, let accessToken):
+//                print("access token == \(accessToken)")
+//                self.performSegue(withIdentifier: "segueSingup", sender: nil)
+//            }
+//
+//        }
+//
+//    }
     
-    @IBAction func loginWithFacebook(_ sender: Any) {
-        let manager = LoginManager()
-        manager.logIn(permissions: [.publicProfile, .email], viewController: self) { (result) in
-            switch result {
-            case .cancelled:
-                print("User cancelled login process")
-                break
-            case .failed(let error) :
-                print("Login failed with error \(error.localizedDescription)")
-                break
-            case .success(let grantedPermissions, let _, let accessToken):
-                print("access token == \(accessToken)")
-                self.performSegue(withIdentifier: "segueSingup", sender: nil)
-            }
-            
-        }
-        
-    }
-    
-    private func validateFields() -> String {
-        
-        var msg = ""
-        
-        if self.emailTextField.text == "" {
-            msg = "Preencha o email"
-        } else if self.senhaTextField.text == "" {
-            msg = "Preencha a senha"
-        }
-        
-        return msg
-    }
-    
-    
+  
     //Segue Forgot Password
     
     @IBAction func forgotPass(_ sender: Any) {
@@ -115,7 +95,25 @@ class LoginViewController: UIViewController {
     }
     
     
-
+    @IBAction func cadastroButton(_ sender: UIButton) {
+        
+        if emailTextField.text == "" || senhaTextField.text == ""{
+            let alerta = UIAlertController(title: "Alerta", message: "Os campos E-mail e Senha devem ser preenchidos", preferredStyle: .alert)
+            let bntOk = UIAlertAction(title: "OK", style: .default, handler: nil)
+            alerta.addAction(bntOk)
+            present(alerta, animated: true, completion: nil)
+        }else if !(self.emailTextField.text?.isValidEmail() ?? true) {
+            let alerta = UIAlertController(title: "Alerta", message: "E-mail invalido, favor verificar.", preferredStyle: .alert)
+            let bntOk = UIAlertAction(title: "OK", style: .default, handler: nil)
+            alerta.addAction(bntOk)
+            present(alerta, animated: true, completion: nil)
+        }else {
+            self.performSegue(withIdentifier: "segueLoginOk", sender: nil)
+        }
+        
+    }
+    
+    
     
 
     

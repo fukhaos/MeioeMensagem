@@ -737,10 +737,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="99d-0X-Plk">
-                                <rect key="frame" x="0.0" y="64" width="375" height="936"/>
+                                <rect key="frame" x="0.0" y="20" width="375" height="980"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Kty-b3-MXf" userLabel="PrincipalView">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="936"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="980"/>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </view>
                                 </subviews>
@@ -769,24 +769,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2wW-Qd-hqB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-7263" y="2207"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="kBd-IB-uoi">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Dhg-A8-kOb" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="2Sz-NI-sin">
-                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="Puz-GT-9Ax" kind="relationship" relationship="rootViewController" id="gbZ-rI-f8Z"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="0mK-la-Eh3" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-8238" y="2208"/>
         </scene>
     </scenes>
     <resources>

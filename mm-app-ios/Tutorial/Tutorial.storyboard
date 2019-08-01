@@ -22,7 +22,7 @@
                                 <rect key="frame" x="0.0" y="64" width="375" height="836"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0PB-vL-PHe" userLabel="PrincipalView">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="936"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="922"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Guia de navegação" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uct-zb-wCV">
                                                 <rect key="frame" x="20" y="32" width="219" height="27"/>
@@ -31,13 +31,13 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="group2Copy" translatesAutoresizingMaskIntoConstraints="NO" id="fq4-Ll-Brb">
-                                                <rect key="frame" x="43" y="91" width="116" height="239.00000000000006"/>
+                                                <rect key="frame" x="43" y="91" width="116" height="239"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="239" id="3QD-Ef-nlO"/>
                                                 </constraints>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="group2Copy2" translatesAutoresizingMaskIntoConstraints="NO" id="dsT-zY-e94">
-                                                <rect key="frame" x="216" y="91" width="116" height="240.00000000000006"/>
+                                                <rect key="frame" x="216" y="91" width="116" height="240"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Deslize o dedo horizontalmente para avançar ou retornar entre as matérias" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A8Y-ff-JSR">
                                                 <rect key="frame" x="31" y="350" width="140" height="90"/>
@@ -134,14 +134,14 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jHh-db-FL6">
-                                                <rect key="frame" x="20" y="718" width="334" height="65"/>
+                                                <rect key="frame" x="20" y="718" width="334" height="51"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QMJ-vf-YJG">
-                                                        <rect key="frame" x="8" y="7" width="318" height="51"/>
+                                                        <rect key="frame" x="8" y="7" width="318" height="36"/>
                                                         <color key="backgroundColor" red="0.018509034069999999" green="0.48856800789999999" blue="0.76702630520000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="width" constant="318" id="gvA-zr-Vjq"/>
-                                                            <constraint firstAttribute="height" constant="51" id="wZv-dH-pkQ"/>
+                                                            <constraint firstAttribute="height" constant="36" id="KH3-30-JRT"/>
+                                                            <constraint firstAttribute="width" constant="318" id="Rxd-Px-fRE"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" weight="black" pointSize="16"/>
                                                         <state key="normal" title="ENTENDI!">
@@ -155,10 +155,12 @@
                                                 </subviews>
                                                 <color key="backgroundColor" red="0.019627574830000001" green="0.48962080479999998" blue="0.76839584110000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <constraints>
-                                                    <constraint firstItem="QMJ-vf-YJG" firstAttribute="leading" secondItem="jHh-db-FL6" secondAttribute="leading" constant="8" id="Oen-y0-1kU"/>
-                                                    <constraint firstAttribute="bottom" secondItem="QMJ-vf-YJG" secondAttribute="bottom" constant="7" id="XjV-eh-sFo"/>
-                                                    <constraint firstItem="QMJ-vf-YJG" firstAttribute="top" secondItem="jHh-db-FL6" secondAttribute="top" constant="7" id="ct7-4t-8jT"/>
-                                                    <constraint firstAttribute="trailing" secondItem="QMJ-vf-YJG" secondAttribute="trailing" constant="8" id="wIp-dX-nbc"/>
+                                                    <constraint firstAttribute="height" constant="51" id="DAu-cV-I5m"/>
+                                                    <constraint firstAttribute="trailing" secondItem="QMJ-vf-YJG" secondAttribute="trailing" constant="8" id="Jhi-pv-My0"/>
+                                                    <constraint firstAttribute="bottom" secondItem="QMJ-vf-YJG" secondAttribute="bottom" constant="8" id="KMs-7T-2A9"/>
+                                                    <constraint firstAttribute="width" constant="334" id="USA-I9-K9P"/>
+                                                    <constraint firstItem="QMJ-vf-YJG" firstAttribute="leading" secondItem="jHh-db-FL6" secondAttribute="leading" constant="8" id="VmV-Ir-Arl"/>
+                                                    <constraint firstItem="QMJ-vf-YJG" firstAttribute="top" secondItem="jHh-db-FL6" secondAttribute="top" constant="7" id="sri-Lp-5NL"/>
                                                 </constraints>
                                             </view>
                                         </subviews>
@@ -248,7 +250,7 @@
                 <viewControllerPlaceholder storyboardName="Main" id="McK-uP-feB" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tjy-0j-Y8F" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-11399" y="2075"/>
+            <point key="canvasLocation" x="-11403" y="2018"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="RUB-FD-WFi">
