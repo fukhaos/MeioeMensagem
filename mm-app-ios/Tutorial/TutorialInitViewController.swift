@@ -10,13 +10,19 @@ import UIKit
 
 class TutorialInitViewController: UIViewController {
 
+    @IBOutlet weak var viewEntendi: UIView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        
+        self.viewEntendi.layer.cornerRadius = 24
     }
     
-
+    @IBAction func endTutorial(_ sender: Any) {
+        self.performSegue(withIdentifier: "segueMain", sender: nil)
+    }
+    
 
 
 }
