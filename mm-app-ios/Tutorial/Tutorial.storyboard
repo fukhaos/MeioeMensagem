@@ -223,7 +223,8 @@
                     <navigationItem key="navigationItem" title="Tutorial" id="sIg-Tr-OpQ"/>
                     <size key="freeformSize" width="375" height="900"/>
                     <connections>
-                        <segue destination="JhU-i1-FWy" kind="show" identifier="segueMain" id="xhW-A3-djj"/>
+                        <outlet property="PrincipalView" destination="0PB-vL-PHe" id="nTJ-JO-6Yf"/>
+                        <segue destination="JhU-i1-FWy" kind="show" identifier="goMain" id="xhW-A3-djj"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a3f-UK-PDK" userLabel="First Responder" sceneMemberID="firstResponder"/>

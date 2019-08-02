@@ -10,18 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Main-->
-        <scene sceneID="WW4-99-9Tu">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Main" id="Hri-84-FcN" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="R3f-c9-bWd" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-8800" y="1933"/>
-        </scene>
-        <!--Tutorial-->
+        <!--Preferencia-->
         <scene sceneID="nEs-Hd-3pB">
             <objects>
-                <viewController id="AEb-ao-qJL" customClass="TutorialInitViewController" customModule="mm_app_ios" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="AEb-ao-qJL" userLabel="Preferencia" customClass="PreferAndConfigViewController" customModule="mm_app_ios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="3Ac-sb-huC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="900"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -29,10 +21,10 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="fEE-b8-vmb">
                                 <rect key="frame" x="0.0" y="64" width="375" height="978"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4dn-eh-1Z7" userLabel="PrincipalView">
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4dn-eh-1Z7">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="950"/>
                                         <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Preferências" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qof-BH-9ml">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Preferências" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qof-BH-9ml" userLabel="labels">
                                                 <rect key="frame" x="20" y="16" width="155" height="27"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="27" id="J9I-GE-fBO"/>
@@ -74,7 +66,7 @@
                                                     <constraint firstAttribute="width" constant="335" id="uiE-6K-49B"/>
                                                 </constraints>
                                             </view>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Modo Noturno" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uvf-qa-ha0">
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Modo Noturno" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uvf-qa-ha0" userLabel="labels">
                                                 <rect key="frame" x="20" y="78" width="111" height="20"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="111" id="1Tq-gx-o4c"/>
@@ -91,6 +83,9 @@
                                                     <constraint firstAttribute="width" constant="49" id="HPf-Ti-m8Y"/>
                                                 </constraints>
                                                 <color key="onTintColor" red="0.0013012208510190248" green="0.61936485767364502" blue="0.8401070237159729" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <connections>
+                                                    <action selector="themeChanged:" destination="AEb-ao-qJL" eventType="valueChanged" id="OYa-bp-lpf"/>
+                                                </connections>
                                             </switch>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Notificações" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YsO-op-VGl">
                                                 <rect key="frame" x="20" y="150" width="149" height="28"/>
@@ -426,12 +421,23 @@
                     <navigationItem key="navigationItem" title="Tutorial" id="X5q-sd-lb1"/>
                     <size key="freeformSize" width="375" height="900"/>
                     <connections>
-                        <segue destination="Hri-84-FcN" kind="show" identifier="goMain" id="SAX-yj-gYg"/>
+                        <outlet property="Labels" destination="qof-BH-9ml" id="QXa-O4-Pga"/>
+                        <outlet property="PrincipalView" destination="4dn-eh-1Z7" id="29k-vn-ugx"/>
+                        <outlet property="label2" destination="Uvf-qa-ha0" id="dzE-GR-KU3"/>
+                        <outlet property="label3" destination="YsO-op-VGl" id="5IZ-ew-MOy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PPL-Xe-Iqb" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-9463.04347826087" y="2044.5652173913045"/>
+        </scene>
+        <!--Main-->
+        <scene sceneID="dR2-nl-z0g">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" id="XcU-d0-gcw" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="w5v-4U-2P3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-8819" y="1956"/>
         </scene>
     </scenes>
     <resources>

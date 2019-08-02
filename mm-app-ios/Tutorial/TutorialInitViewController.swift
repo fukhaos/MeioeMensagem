@@ -10,6 +10,7 @@ import UIKit
 
 class TutorialInitViewController: UIViewController {
     
+    @IBOutlet weak var PrincipalView: UIView!
     
     var indexPath: IndexPath!
     
@@ -20,10 +21,15 @@ class TutorialInitViewController: UIViewController {
       
     }
     
-    
-    @IBAction func backMain(_ sender: Any) {
-        self.performSegue(withIdentifier: "segueMain", sender: nil)
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+      
     }
     
 
+    
+    @IBAction func backMain(_ sender: Any) {
+        self.performSegue(withIdentifier: "goMain", sender: nil)
+    }
+    
 }
