@@ -9,24 +9,31 @@
 import UIKit
 
 
-
 class PreferAndConfigViewController: UIViewController {
+
     
-
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        //Recolhe o teclado ao tocar na tela.
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard))
+        view.addGestureRecognizer(tap)
     
+        navigationController?.title = "Preferências e Configurações"
         
     }
-    
+    //Object-C para recolher o teclado ao tocar na tela.
+    @objc func dismissKeyboard() {
+        view.endEditing(true)
+    }
 
-    @IBAction func backMain(_ sender: Any) {
-        self.performSegue(withIdentifier: "segueMain", sender: nil)
-        
+    @IBAction func backMain(_ sender: UIBarButtonItem) {
+      self.performSegue(withIdentifier: "segueMain", sender: nil)
+
+ 
     }
     
-
 }
+
 

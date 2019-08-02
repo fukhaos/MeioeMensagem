@@ -15,14 +15,6 @@
         </array>
     </customFonts>
     <scenes>
-        <!--Tutorial-->
-        <scene sceneID="9EA-XT-ORW">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Tutorial" id="OY9-7T-idq" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Qbj-aW-KTa" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-12153" y="231"/>
-        </scene>
         <!--Menu View Controller-->
         <scene sceneID="AyB-u7-hdP">
             <objects>
@@ -536,15 +528,15 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0TY-mJ-eMY">
-                                <rect key="frame" x="0.0" y="64" width="375" height="1197"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="1083"/>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" red="0.014258780516684055" green="0.42303025722503662" blue="0.66545295715332031" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="0TY-mJ-eMY" secondAttribute="bottom" constant="-594" id="UWC-kr-ocf"/>
-                            <constraint firstAttribute="trailing" secondItem="0TY-mJ-eMY" secondAttribute="trailing" id="l9a-39-0u6"/>
-                            <constraint firstItem="0TY-mJ-eMY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="mh1-bn-bid"/>
-                            <constraint firstItem="0TY-mJ-eMY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="zSg-59-6zA"/>
+                            <constraint firstItem="0TY-mJ-eMY" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="79f-rl-vDz"/>
+                            <constraint firstAttribute="trailing" secondItem="0TY-mJ-eMY" secondAttribute="trailing" id="Ryc-p3-7OX"/>
+                            <constraint firstAttribute="bottom" secondItem="0TY-mJ-eMY" secondAttribute="bottom" constant="-480" id="UKi-6D-z1a"/>
+                            <constraint firstItem="0TY-mJ-eMY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="bOY-jJ-nrh"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -556,9 +548,6 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
-                    <connections>
-                        <segue destination="OY9-7T-idq" kind="show" identifier="segueTuto" id="k8B-x8-qvq"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -804,7 +793,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2wW-Qd-hqB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-12745" y="1900"/>
+            <point key="canvasLocation" x="-10876" y="1899"/>
         </scene>
     </scenes>
     <resources>

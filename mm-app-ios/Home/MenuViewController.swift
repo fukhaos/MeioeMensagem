@@ -35,44 +35,66 @@ class MenuViewController: UITableViewController {
         super.viewDidLoad()
 
     }
-    
+
 
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         guard let menuType = MenuType(rawValue: indexPath.row) else { return }
         
         //Encaminha para a pagina selecionada no SlideBar
         switch menuType {
+        case .notificacao:
+            dismiss(animated: true) { [weak self] in
+                print("Dismissing: \(menuType)")
+                self?.didTapMenuType?(menuType)
+                
+            }
         case .preferencia:
             self.performSegue(withIdentifier: "seguePrefeAndConf", sender: nil)
-        case .notificacao:
-            self.performSegue(withIdentifier: "preferencia", sender: nil)
         case .meusDownloads:
-            self.performSegue(withIdentifier: "preferencia", sender: nil)
+            dismiss(animated: true) { [weak self] in
+                print("Dismissing: \(menuType)")
+                self?.didTapMenuType?(menuType)
+                
+            }
         case .salvo:
-            self.performSegue(withIdentifier: "preferencia", sender: nil)
+            dismiss(animated: true) { [weak self] in
+                print("Dismissing: \(menuType)")
+                self?.didTapMenuType?(menuType)
+                
+            }
         case .avaliarApp:
-            self.performSegue(withIdentifier: "preferencia", sender: nil)
+            dismiss(animated: true) { [weak self] in
+                print("Dismissing: \(menuType)")
+                self?.didTapMenuType?(menuType)
+                
+            }
         case .tutorial:
             self.performSegue(withIdentifier: "tutorial", sender: nil)
         case .faleConosco:
-            self.performSegue(withIdentifier: "preferencia", sender: nil)
+            dismiss(animated: true) { [weak self] in
+                print("Dismissing: \(menuType)")
+                self?.didTapMenuType?(menuType)
+                
+            }
         case .faq:
-            self.performSegue(withIdentifier: "preferencia", sender: nil)
+            dismiss(animated: true) { [weak self] in
+                print("Dismissing: \(menuType)")
+                self?.didTapMenuType?(menuType)
+                
+            }
         case .politicaPrivacidade:
-            self.performSegue(withIdentifier: "preferencia", sender: nil)
+            dismiss(animated: true) { [weak self] in
+                print("Dismissing: \(menuType)")
+                self?.didTapMenuType?(menuType)
+                
+            }
         case .sair:
-            self.performSegue(withIdentifier: "preferencia", sender: nil)
-            break
-        }
-        
-        //
-//        dismiss(animated: true) { [weak self] in
-//            print("Dismissing: \(menuType)")
-//            self?.didTapMenuType?(menuType)
-//
-//        }
-        
-        
+            dismiss(animated: true) { [weak self] in
+                print("Dismissing: \(menuType)")
+                self?.didTapMenuType?(menuType)
+                
+            }
+        }   
         
     }
     

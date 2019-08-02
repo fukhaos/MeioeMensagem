@@ -31,13 +31,13 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="group2Copy" translatesAutoresizingMaskIntoConstraints="NO" id="fq4-Ll-Brb">
-                                                <rect key="frame" x="43" y="91" width="116" height="239.00000000000006"/>
+                                                <rect key="frame" x="43" y="91" width="116" height="239"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="239" id="3QD-Ef-nlO"/>
                                                 </constraints>
                                             </imageView>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="group2Copy2" translatesAutoresizingMaskIntoConstraints="NO" id="dsT-zY-e94">
-                                                <rect key="frame" x="216" y="91" width="116" height="240.00000000000006"/>
+                                                <rect key="frame" x="216" y="91" width="116" height="240"/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Deslize o dedo horizontalmente para avançar ou retornar entre as matérias" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A8Y-ff-JSR">
                                                 <rect key="frame" x="31" y="350" width="140" height="90"/>
