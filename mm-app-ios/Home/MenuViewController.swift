@@ -29,6 +29,8 @@ class MenuViewController: UITableViewController {
     
     
     
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -37,11 +39,38 @@ class MenuViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         guard let menuType = MenuType(rawValue: indexPath.row) else { return }
-        dismiss(animated: true) { [weak self] in
-            print("Dismissing: \(menuType)")
-            self?.didTapMenuType?(menuType)
-            
+        
+        //Encaminha para a pagina selecionada no SlideBar
+        switch menuType {
+        case .preferencia:
+            self.performSegue(withIdentifier: "seguePrefeAndConf", sender: nil)
+        case .notificacao:
+            self.performSegue(withIdentifier: "preferencia", sender: nil)
+        case .meusDownloads:
+            self.performSegue(withIdentifier: "preferencia", sender: nil)
+        case .salvo:
+            self.performSegue(withIdentifier: "preferencia", sender: nil)
+        case .avaliarApp:
+            self.performSegue(withIdentifier: "preferencia", sender: nil)
+        case .tutorial:
+            self.performSegue(withIdentifier: "tutorial", sender: nil)
+        case .faleConosco:
+            self.performSegue(withIdentifier: "preferencia", sender: nil)
+        case .faq:
+            self.performSegue(withIdentifier: "preferencia", sender: nil)
+        case .politicaPrivacidade:
+            self.performSegue(withIdentifier: "preferencia", sender: nil)
+        case .sair:
+            self.performSegue(withIdentifier: "preferencia", sender: nil)
+            break
         }
+        
+        //
+//        dismiss(animated: true) { [weak self] in
+//            print("Dismissing: \(menuType)")
+//            self?.didTapMenuType?(menuType)
+//
+//        }
         
         
         

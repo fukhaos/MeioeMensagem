@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		07F3D3BF7B776148D55F1FA8 /* Pods_mm_app_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03C24D40C3591D84EB1DF17C /* Pods_mm_app_ios.framework */; };
+		B6813EEB22F3975E00CAC5EA /* PreferAndConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6813EEA22F3975E00CAC5EA /* PreferAndConfigViewController.swift */; };
+		B6813EF222F4619900CAC5EA /* TutorialViewInit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6813EF122F4619900CAC5EA /* TutorialViewInit.storyboard */; };
+		B6813EF422F461B300CAC5EA /* TutorialViewInitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6813EF322F461B300CAC5EA /* TutorialViewInitViewController.swift */; };
 		B68B1EB722F06B85009310A2 /* meioMensagem.png in Resources */ = {isa = PBXBuildFile; fileRef = B68B1EB622F06B85009310A2 /* meioMensagem.png */; };
 		B68B1EBB22F097DE009310A2 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B68B1EBA22F097DE009310A2 /* Login.storyboard */; };
 		B68B1EC222F0D323009310A2 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B68B1EC122F0D323009310A2 /* Colors.xcassets */; };
@@ -51,6 +54,9 @@
 		03C24D40C3591D84EB1DF17C /* Pods_mm_app_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mm_app_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		80F0A74DCB9F3FEFD5D974CA /* Pods-mm-app-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mm-app-ios.debug.xcconfig"; path = "Target Support Files/Pods-mm-app-ios/Pods-mm-app-ios.debug.xcconfig"; sourceTree = "<group>"; };
 		834153118F4E1737552448B1 /* Pods-mm-app-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mm-app-ios.release.xcconfig"; path = "Target Support Files/Pods-mm-app-ios/Pods-mm-app-ios.release.xcconfig"; sourceTree = "<group>"; };
+		B6813EEA22F3975E00CAC5EA /* PreferAndConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferAndConfigViewController.swift; sourceTree = "<group>"; };
+		B6813EF122F4619900CAC5EA /* TutorialViewInit.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TutorialViewInit.storyboard; sourceTree = "<group>"; };
+		B6813EF322F461B300CAC5EA /* TutorialViewInitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewInitViewController.swift; sourceTree = "<group>"; };
 		B68B1EB622F06B85009310A2 /* meioMensagem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meioMensagem.png; sourceTree = "<group>"; };
 		B68B1EBA22F097DE009310A2 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		B68B1EC122F0D323009310A2 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
@@ -130,6 +136,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		B6813EF022F4616800CAC5EA /* ViewTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				B6813EF122F4619900CAC5EA /* TutorialViewInit.storyboard */,
+				B6813EF322F461B300CAC5EA /* TutorialViewInitViewController.swift */,
+			);
+			path = ViewTutorial;
+			sourceTree = "<group>";
+		};
 		B68B1EC022F0CD52009310A2 /* ThemaDark */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				B68B1EED22F0EDBD009310A2 /* PreferenceAndConfig.storyboard */,
+				B6813EEA22F3975E00CAC5EA /* PreferAndConfigViewController.swift */,
 			);
 			path = PreferenceAndConfig;
 			sourceTree = "<group>";
@@ -198,6 +214,7 @@
 		B6B5B44822E77A55004BBF81 /* mm-app-ios */ = {
 			isa = PBXGroup;
 			children = (
+				B6813EF022F4616800CAC5EA /* ViewTutorial */,
 				B6AA906022F232B7001A9F0D /* Tutorial */,
 				B68B1EEC22F0ED8A009310A2 /* PreferenceAndConfig */,
 				B68B1EC022F0CD52009310A2 /* ThemaDark */,
@@ -351,6 +368,7 @@
 				B68B1EEE22F0EDBD009310A2 /* PreferenceAndConfig.storyboard in Resources */,
 				B68B1EB722F06B85009310A2 /* meioMensagem.png in Resources */,
 				B6B5B46822E8C8D3004BBF81 /* 41528940_241462876494767_8632959559543993127_n.jpg in Resources */,
+				B6813EF222F4619900CAC5EA /* TutorialViewInit.storyboard in Resources */,
 				B6AEF82F22EB852B00C86800 /* GoogleService-Info-2.plist in Resources */,
 				B6AA906422F23305001A9F0D /* Tutorial.storyboard in Resources */,
 				B69DC2D322EB37B400C8F142 /* iconCheckoff@2x.png in Resources */,
@@ -412,6 +430,7 @@
 			files = (
 				B6D84B2522F1DD1B00C9EEDB /* ResendEmailViewController.swift in Sources */,
 				B6B5B48722E8FC75004BBF81 /* LoginViewController.swift in Sources */,
+				B6813EEB22F3975E00CAC5EA /* PreferAndConfigViewController.swift in Sources */,
 				B6B5B44C22E77A55004BBF81 /* HomeViewController.swift in Sources */,
 				B6D84B2322F1D93E00C9EEDB /* ForgotPassViewController.swift in Sources */,
 				B69DC2E222EB3E6500C8F142 /* SpringTextView.swift in Sources */,
@@ -430,6 +449,7 @@
 				B69DC2DB22EB3DE300C8F142 /* SpringImageView.swift in Sources */,
 				B69DC2CA22EA0A5C00C8F142 /* UserTermViewController.swift in Sources */,
 				B69DC2E022EB3E3A00C8F142 /* SpringTextField.swift in Sources */,
+				B6813EF422F461B300CAC5EA /* TutorialViewInitViewController.swift in Sources */,
 				B68B1EC622F0D849009310A2 /* Theme.swift in Sources */,
 				B6B74ACB22E9D455001261B3 /* CadastroViewController.swift in Sources */,
 				B6B5B46122E78B20004BBF81 /* SlideInTransition.swift in Sources */,
