@@ -11,10 +11,6 @@
 		B6813EEB22F3975E00CAC5EA /* PreferAndConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6813EEA22F3975E00CAC5EA /* PreferAndConfigViewController.swift */; };
 		B6813EF222F4619900CAC5EA /* TutorialViewInit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6813EF122F4619900CAC5EA /* TutorialViewInit.storyboard */; };
 		B6813EF422F461B300CAC5EA /* TutorialViewInitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6813EF322F461B300CAC5EA /* TutorialViewInitViewController.swift */; };
-		B6813EF622F4BA9C00CAC5EA /* ThemeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6813EF522F4BA9C00CAC5EA /* ThemeProtocol.swift */; };
-		B6813EF822F4BAAF00CAC5EA /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6813EF722F4BAAF00CAC5EA /* Theme.swift */; };
-		B6813EFA22F4BC3200CAC5EA /* LightTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6813EF922F4BC3200CAC5EA /* LightTheme.swift */; };
-		B6813EFD22F4BC5100CAC5EA /* DarkTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6813EFC22F4BC5100CAC5EA /* DarkTheme.swift */; };
 		B68B1EB722F06B85009310A2 /* meioMensagem.png in Resources */ = {isa = PBXBuildFile; fileRef = B68B1EB622F06B85009310A2 /* meioMensagem.png */; };
 		B68B1EBB22F097DE009310A2 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B68B1EBA22F097DE009310A2 /* Login.storyboard */; };
 		B68B1EC222F0D323009310A2 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B68B1EC122F0D323009310A2 /* Colors.xcassets */; };
@@ -47,6 +43,10 @@
 		B6B5B48722E8FC75004BBF81 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B5B48622E8FC75004BBF81 /* LoginViewController.swift */; };
 		B6B74ACB22E9D455001261B3 /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B74ACA22E9D455001261B3 /* CadastroViewController.swift */; };
 		B6B74ACD22E9D571001261B3 /* ValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B74ACC22E9D571001261B3 /* ValidationViewController.swift */; };
+		B6C5184522F874C900D85B59 /* McDonalds.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6C5184422F874C800D85B59 /* McDonalds.jpg */; };
+		B6C5184722F899FB00D85B59 /* shopping-cidade-jardim.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6C5184622F899FA00D85B59 /* shopping-cidade-jardim.jpg */; };
+		B6C5184922F8A56C00D85B59 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C5184822F8A56C00D85B59 /* CollectionViewCell.swift */; };
+		B6C5184B22F8B9BA00D85B59 /* BurguerKing.png in Resources */ = {isa = PBXBuildFile; fileRef = B6C5184A22F8B9BA00D85B59 /* BurguerKing.png */; };
 		B6D84B2322F1D93E00C9EEDB /* ForgotPassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D84B2222F1D93E00C9EEDB /* ForgotPassViewController.swift */; };
 		B6D84B2522F1DD1B00C9EEDB /* ResendEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D84B2422F1DD1B00C9EEDB /* ResendEmailViewController.swift */; };
 /* End PBXBuildFile section */
@@ -58,10 +58,6 @@
 		B6813EEA22F3975E00CAC5EA /* PreferAndConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferAndConfigViewController.swift; sourceTree = "<group>"; };
 		B6813EF122F4619900CAC5EA /* TutorialViewInit.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TutorialViewInit.storyboard; sourceTree = "<group>"; };
 		B6813EF322F461B300CAC5EA /* TutorialViewInitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewInitViewController.swift; sourceTree = "<group>"; };
-		B6813EF522F4BA9C00CAC5EA /* ThemeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeProtocol.swift; sourceTree = "<group>"; };
-		B6813EF722F4BAAF00CAC5EA /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
-		B6813EF922F4BC3200CAC5EA /* LightTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightTheme.swift; sourceTree = "<group>"; };
-		B6813EFC22F4BC5100CAC5EA /* DarkTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkTheme.swift; sourceTree = "<group>"; };
 		B68B1EB622F06B85009310A2 /* meioMensagem.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = meioMensagem.png; sourceTree = "<group>"; };
 		B68B1EBA22F097DE009310A2 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		B68B1EC122F0D323009310A2 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
@@ -114,6 +110,10 @@
 		B6B5B48622E8FC75004BBF81 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B6B74ACA22E9D455001261B3 /* CadastroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
 		B6B74ACC22E9D571001261B3 /* ValidationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationViewController.swift; sourceTree = "<group>"; };
+		B6C5184422F874C800D85B59 /* McDonalds.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = McDonalds.jpg; sourceTree = "<group>"; };
+		B6C5184622F899FA00D85B59 /* shopping-cidade-jardim.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "shopping-cidade-jardim.jpg"; sourceTree = "<group>"; };
+		B6C5184822F8A56C00D85B59 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		B6C5184A22F8B9BA00D85B59 /* BurguerKing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BurguerKing.png; sourceTree = "<group>"; };
 		B6D84B2222F1D93E00C9EEDB /* ForgotPassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassViewController.swift; sourceTree = "<group>"; };
 		B6D84B2422F1DD1B00C9EEDB /* ResendEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResendEmailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -150,10 +150,6 @@
 		B68B1EC022F0CD52009310A2 /* Theme */ = {
 			isa = PBXGroup;
 			children = (
-				B6813EF522F4BA9C00CAC5EA /* ThemeProtocol.swift */,
-				B6813EF722F4BAAF00CAC5EA /* Theme.swift */,
-				B6813EF922F4BC3200CAC5EA /* LightTheme.swift */,
-				B6813EFC22F4BC5100CAC5EA /* DarkTheme.swift */,
 			);
 			path = Theme;
 			sourceTree = "<group>";
@@ -226,6 +222,9 @@
 				B6B5B46422E8C517004BBF81 /* Home */,
 				B6B5B44922E77A55004BBF81 /* AppDelegate.swift */,
 				B6B5B44D22E77A55004BBF81 /* Main.storyboard */,
+				B6C5184422F874C800D85B59 /* McDonalds.jpg */,
+				B6C5184A22F8B9BA00D85B59 /* BurguerKing.png */,
+				B6C5184622F899FA00D85B59 /* shopping-cidade-jardim.jpg */,
 				B6B5B45322E77A58004BBF81 /* Assets.xcassets */,
 				B68B1EC122F0D323009310A2 /* Colors.xcassets */,
 				B6B5B45522E77A58004BBF81 /* LaunchScreen.storyboard */,
@@ -257,6 +256,7 @@
 				B6B5B44B22E77A55004BBF81 /* HomeViewController.swift */,
 				B6B5B45E22E77C16004BBF81 /* MenuViewController.swift */,
 				B6B5B46022E78B20004BBF81 /* SlideInTransition.swift */,
+				B6C5184822F8A56C00D85B59 /* CollectionViewCell.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -365,12 +365,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				B6B5B45722E77A58004BBF81 /* LaunchScreen.storyboard in Resources */,
+				B6C5184522F874C900D85B59 /* McDonalds.jpg in Resources */,
 				B6B5B46A22E8CF64004BBF81 /* headerBranco@2x.png in Resources */,
 				B6B5B45422E77A58004BBF81 /* Assets.xcassets in Resources */,
+				B6C5184722F899FB00D85B59 /* shopping-cidade-jardim.jpg in Resources */,
 				B69DC2E822EB433C00C8F142 /* iconCheckOn@2x.png in Resources */,
 				B68B1EEE22F0EDBD009310A2 /* PreferenceAndConfig.storyboard in Resources */,
 				B68B1EB722F06B85009310A2 /* meioMensagem.png in Resources */,
 				B6B5B46822E8C8D3004BBF81 /* 41528940_241462876494767_8632959559543993127_n.jpg in Resources */,
+				B6C5184B22F8B9BA00D85B59 /* BurguerKing.png in Resources */,
 				B6813EF222F4619900CAC5EA /* TutorialViewInit.storyboard in Resources */,
 				B6AEF82F22EB852B00C86800 /* GoogleService-Info-2.plist in Resources */,
 				B6AA906422F23305001A9F0D /* Tutorial.storyboard in Resources */,
@@ -435,18 +438,15 @@
 				B6B5B48722E8FC75004BBF81 /* LoginViewController.swift in Sources */,
 				B6813EEB22F3975E00CAC5EA /* PreferAndConfigViewController.swift in Sources */,
 				B6B5B44C22E77A55004BBF81 /* HomeViewController.swift in Sources */,
-				B6813EFA22F4BC3200CAC5EA /* LightTheme.swift in Sources */,
-				B6813EFD22F4BC5100CAC5EA /* DarkTheme.swift in Sources */,
 				B6D84B2322F1D93E00C9EEDB /* ForgotPassViewController.swift in Sources */,
 				B69DC2E222EB3E6500C8F142 /* SpringTextView.swift in Sources */,
+				B6C5184922F8A56C00D85B59 /* CollectionViewCell.swift in Sources */,
 				B6B5B44A22E77A55004BBF81 /* AppDelegate.swift in Sources */,
 				B69DC2D922EB3DBC00C8F142 /* SpringAnimation.swift in Sources */,
 				B69DC2D522EB3D1600C8F142 /* SpringButtom.swift in Sources */,
-				B6813EF822F4BAAF00CAC5EA /* Theme.swift in Sources */,
 				B69DC2E422EB3E9300C8F142 /* SpringView.swift in Sources */,
 				B6B74ACD22E9D571001261B3 /* ValidationViewController.swift in Sources */,
 				B6B5B45222E77A55004BBF81 /* mm_app_ios.xcdatamodeld in Sources */,
-				B6813EF622F4BA9C00CAC5EA /* ThemeProtocol.swift in Sources */,
 				B6AA905F22F232B1001A9F0D /* TutorialInitViewController.swift in Sources */,
 				B6B5B45F22E77C16004BBF81 /* MenuViewController.swift in Sources */,
 				B69DC2D722EB3D8C00C8F142 /* Spring.swift in Sources */,

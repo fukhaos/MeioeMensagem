@@ -928,12 +928,12 @@
                                                 <subviews>
                                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="bGN-Uy-Ww6">
                                                         <rect key="frame" x="0.0" y="0.0" width="375" height="250"/>
-                                                        <color key="backgroundColor" red="0.94889384509999997" green="0.95595830680000005" blue="0.95931655169999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="backgroundColor" red="0.67312854529999999" green="0.67012763019999999" blue="0.68866544959999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="375" id="U3X-dm-LiY"/>
                                                             <constraint firstAttribute="height" constant="250" id="bk1-Tz-VbO"/>
                                                         </constraints>
-                                                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="jbv-Xk-VUG">
+                                                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="jbv-Xk-VUG">
                                                             <size key="itemSize" width="50" height="50"/>
                                                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -941,7 +941,7 @@
                                                         </collectionViewFlowLayout>
                                                         <cells>
                                                             <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="VQn-iM-mTF" customClass="CollectionViewCell" customModule="mm_app_ios" customModuleProvider="target">
-                                                                <rect key="frame" x="0.0" y="15" width="156" height="220"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="156" height="220"/>
                                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
                                                                     <rect key="frame" x="0.0" y="0.0" width="156" height="220"/>
@@ -962,7 +962,7 @@
                                                                                 <constraint firstAttribute="height" constant="84" id="Z14-zL-jRZ"/>
                                                                                 <constraint firstAttribute="width" constant="125" id="fbq-0G-zcD"/>
                                                                             </constraints>
-                                                                            <fontDescription key="fontDescription" type="system" weight="black" pointSize="16"/>
+                                                                            <fontDescription key="fontDescription" type="system" weight="black" pointSize="14"/>
                                                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                             <nil key="highlightedColor"/>
                                                                         </label>
@@ -986,6 +986,7 @@
                                                         </cells>
                                                     </collectionView>
                                                 </subviews>
+                                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="bottom" secondItem="bGN-Uy-Ww6" secondAttribute="bottom" id="D8L-wt-GQY"/>
                                                     <constraint firstAttribute="trailing" secondItem="bGN-Uy-Ww6" secondAttribute="trailing" id="Rwy-YK-CQy"/>

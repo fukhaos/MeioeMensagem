@@ -10,13 +10,38 @@ import UIKit
 import FBSDKLoginKit
 import FacebookLogin
 
-class HomeViewController: UIViewController {
+
+class HomeViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource{
 
     let transition = SlideInTransition()
     var topView: UIView?
     
+    
+    @IBOutlet weak var collectionView: UICollectionView!
+    
+    
+    let noticiasSecundarias = ["McDonald`s muda pelo gosto do consumidor", "McDonald`s muda pelo gosto do consumidor", "McDonald`s muda pelo gosto do consumidor"]
+    let noticiasImagens: [UIImage] = [
+    UIImage(named: "shopping-cidade-jardim.jpg")!,
+    UIImage(named: "McDonalds.jpg")!,
+    UIImage(named: "BurguerKing")!,
+    ]
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        collectionView.dataSource = self
+        collectionView.delegate = self
+        
+        //Layout Manual da CollectionView
+        var layout = self.collectionView.collectionViewLayout as! UICollectionViewFlowLayout
+        layout.sectionInset = UIEdgeInsets(top: 0, left: 16, bottom: 0, right: 16)
+        layout.minimumInteritemSpacing = 5
+        layout.itemSize = CGSize(width: (self.collectionView.frame.size.width - 20)/2, height: self.collectionView.frame.size.height/1)
+        
+        
         
         // Recolhe o teclado com TAP na tela
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard))
@@ -76,7 +101,32 @@ class HomeViewController: UIViewController {
         }
     }
     
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return noticiasSecundarias.count
+    }
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath) as! CollectionViewCell
+        
+        cell.labelDescrisaoSec.text = noticiasSecundarias[indexPath.item]
+        cell.labelDescrisaoSec.textColor = UIColor.white
+        cell.materiaSec.image = noticiasImagens[indexPath.item]
+        cell.layer.borderColor = UIColor.lightGray.cgColor
+        cell.layer.borderWidth = 0.5
+        return cell
+    }
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let cell = collectionView.cellForItem(at: indexPath)
+        cell?.layer.borderColor = UIColor.gray.cgColor
+        cell?.layer.borderWidth = 2
+        
+    }
     
+    func collectionView(_ collectionView: UICollectionView, didDeselectItemAt indexPath: IndexPath) {
+        let cell = collectionView.cellForItem(at: indexPath)
+        cell?.layer.borderColor = UIColor.black.cgColor
+        cell?.layer.borderWidth = 0.5
+    }
     
 
     
@@ -94,4 +144,5 @@ extension HomeViewController: UIViewControllerTransitioningDelegate {
         transition.isPresenting = false
         return transition
     }
+    
 }

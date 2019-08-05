@@ -113,6 +113,10 @@ class LoginViewController: UIViewController {
         
     }
     
+    @IBAction func goMain(_ sender: UIBarButtonItem) {
+        
+        self.performSegue(withIdentifier: "goMain", sender: nil)
+    }
     
     
 

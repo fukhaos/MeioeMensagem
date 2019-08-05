@@ -83,9 +83,6 @@
                                                     <constraint firstAttribute="width" constant="49" id="HPf-Ti-m8Y"/>
                                                 </constraints>
                                                 <color key="onTintColor" red="0.0013012208510190248" green="0.61936485767364502" blue="0.8401070237159729" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <connections>
-                                                    <action selector="themeChanged:" destination="AEb-ao-qJL" eventType="valueChanged" id="OYa-bp-lpf"/>
-                                                </connections>
                                             </switch>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Notificações" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YsO-op-VGl">
                                                 <rect key="frame" x="20" y="150" width="149" height="28"/>
@@ -421,10 +418,8 @@
                     <navigationItem key="navigationItem" title="Tutorial" id="X5q-sd-lb1"/>
                     <size key="freeformSize" width="375" height="900"/>
                     <connections>
-                        <outlet property="Labels" destination="qof-BH-9ml" id="QXa-O4-Pga"/>
                         <outlet property="PrincipalView" destination="4dn-eh-1Z7" id="29k-vn-ugx"/>
-                        <outlet property="label2" destination="Uvf-qa-ha0" id="dzE-GR-KU3"/>
-                        <outlet property="label3" destination="YsO-op-VGl" id="5IZ-ew-MOy"/>
+                        <segue destination="XcU-d0-gcw" kind="show" identifier="goMain" id="bBH-AB-KFv"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PPL-Xe-Iqb" userLabel="First Responder" sceneMemberID="firstResponder"/>
