@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="TBc-WF-3AH">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Notificacao View Controller-->
+        <scene sceneID="BhX-Eg-zru">
+            <objects>
+                <viewController id="TBc-WF-3AH" customClass="NotificacaoViewController" customModule="mm_app_ios" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="erD-pS-BZe">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lRf-OD-HJY">
+                                <rect key="frame" x="0.0" y="44" width="375" height="922"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pKj-RJ-n6W" userLabel="PrincipalView">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="995"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Notificação" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fWB-Hy-vGf">
+                                                <rect key="frame" x="114" y="479.5" width="147.5" height="36"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xZ6-hs-G6e">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                                <color key="backgroundColor" red="0.0" green="0.48855721949999997" blue="0.76702791449999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="44" id="S8Y-Gl-da1"/>
+                                                    <constraint firstAttribute="width" constant="375" id="rtF-4J-n9B"/>
+                                                </constraints>
+                                                <color key="barTintColor" red="0.0" green="0.48855721949999997" blue="0.76702791449999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <items>
+                                                    <navigationItem title="Notificação" id="MS7-TQ-qmw">
+                                                        <barButtonItem key="leftBarButtonItem" image="voltarBranco" id="27C-Cq-vhn">
+                                                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <connections>
+                                                                <action selector="backMenu:" destination="TBc-WF-3AH" id="0Tf-Kc-AGv"/>
+                                                                <segue destination="COc-TT-oCQ" kind="show" identifier="segueMenu" id="ZBA-kS-KNU"/>
+                                                            </connections>
+                                                        </barButtonItem>
+                                                    </navigationItem>
+                                                </items>
+                                            </navigationBar>
+                                        </subviews>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="fWB-Hy-vGf" secondAttribute="bottom" constant="479.5" id="98C-IW-Gk7"/>
+                                            <constraint firstItem="xZ6-hs-G6e" firstAttribute="top" secondItem="pKj-RJ-n6W" secondAttribute="top" id="A4b-v1-L7z"/>
+                                            <constraint firstItem="xZ6-hs-G6e" firstAttribute="leading" secondItem="pKj-RJ-n6W" secondAttribute="leading" id="PvF-Nn-d6y"/>
+                                            <constraint firstItem="fWB-Hy-vGf" firstAttribute="centerX" secondItem="pKj-RJ-n6W" secondAttribute="centerX" id="RWj-Nt-n4Z"/>
+                                            <constraint firstItem="fWB-Hy-vGf" firstAttribute="centerY" secondItem="pKj-RJ-n6W" secondAttribute="centerY" id="SUJ-Nw-uhj"/>
+                                            <constraint firstAttribute="trailing" secondItem="xZ6-hs-G6e" secondAttribute="trailing" id="YpX-LV-pBR"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="pKj-RJ-n6W" secondAttribute="trailing" id="G7F-lP-0qb"/>
+                                    <constraint firstAttribute="bottom" secondItem="pKj-RJ-n6W" secondAttribute="bottom" id="KMO-X5-qOc"/>
+                                    <constraint firstItem="pKj-RJ-n6W" firstAttribute="width" secondItem="lRf-OD-HJY" secondAttribute="width" id="LKx-we-o5a"/>
+                                    <constraint firstItem="pKj-RJ-n6W" firstAttribute="leading" secondItem="lRf-OD-HJY" secondAttribute="leading" id="PP6-a5-gRj"/>
+                                    <constraint firstItem="pKj-RJ-n6W" firstAttribute="top" secondItem="lRf-OD-HJY" secondAttribute="top" id="inz-Ao-1dh"/>
+                                    <constraint firstItem="pKj-RJ-n6W" firstAttribute="height" secondItem="lRf-OD-HJY" secondAttribute="height" priority="250" id="noP-wB-4de"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.0" green="0.48855721949999997" blue="0.76702791449999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="lRf-OD-HJY" firstAttribute="top" secondItem="O4o-Il-cmP" secondAttribute="top" id="KYl-VV-KVJ"/>
+                            <constraint firstItem="fWB-Hy-vGf" firstAttribute="top" secondItem="O4o-Il-cmP" secondAttribute="top" constant="479.5" id="QAV-sc-Sv3"/>
+                            <constraint firstItem="lRf-OD-HJY" firstAttribute="leading" secondItem="O4o-Il-cmP" secondAttribute="leading" id="aOB-N6-P75"/>
+                            <constraint firstItem="O4o-Il-cmP" firstAttribute="trailing" secondItem="lRf-OD-HJY" secondAttribute="trailing" id="cfz-RM-Z7E"/>
+                            <constraint firstItem="O4o-Il-cmP" firstAttribute="bottom" secondItem="lRf-OD-HJY" secondAttribute="bottom" id="m5G-sP-0ca"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="O4o-Il-cmP"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="vuY-tz-FjS">
+                        <barButtonItem key="leftBarButtonItem" image="menu2Branco" id="grS-Sd-G81">
+                            <color key="tintColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
+                    <size key="freeformSize" width="375" height="1000"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xrb-NG-f65" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-15191" y="890"/>
+        </scene>
+        <!--Main-->
+        <scene sceneID="w4W-HQ-GTr">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" id="COc-TT-oCQ" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="27v-Nd-kPg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-14562" y="688"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="menu2Branco" width="24" height="24"/>
+        <image name="voltarBranco" width="24" height="24"/>
+    </resources>
+</document>

@@ -47,58 +47,52 @@ class MenuViewController: UITableViewController {
         //Encaminha para a pagina selecionada no SlideBar
         switch menuType {
         case .notificacao:
-            dismiss(animated: true) { [weak self] in
-                print("Dismissing: \(menuType)")
-                self?.didTapMenuType?(menuType)
-                
-            }
+         self.performSegue(withIdentifier: "notificacao", sender: nil)
         case .preferencia:
-            self.performSegue(withIdentifier: "PreferenceAndConfig", sender: nil)
+            self.performSegue(withIdentifier: "preferencia", sender: nil)
+            break
+            
         case .meusDownloads:
             dismiss(animated: true) { [weak self] in
                 print("Dismissing: \(menuType)")
                 self?.didTapMenuType?(menuType)
-                
             }
+        
         case .salvo:
             dismiss(animated: true) { [weak self] in
                 print("Dismissing: \(menuType)")
                 self?.didTapMenuType?(menuType)
-                
             }
         case .avaliarApp:
             dismiss(animated: true) { [weak self] in
                 print("Dismissing: \(menuType)")
                 self?.didTapMenuType?(menuType)
-                
             }
         case .tutorial:
             self.performSegue(withIdentifier: "tutorial", sender: nil)
+            
         case .faleConosco:
             dismiss(animated: true) { [weak self] in
                 print("Dismissing: \(menuType)")
                 self?.didTapMenuType?(menuType)
-                
             }
         case .faq:
             dismiss(animated: true) { [weak self] in
                 print("Dismissing: \(menuType)")
                 self?.didTapMenuType?(menuType)
-                
             }
         case .politicaPrivacidade:
             dismiss(animated: true) { [weak self] in
                 print("Dismissing: \(menuType)")
                 self?.didTapMenuType?(menuType)
-                
             }
         case .sair:
             dismiss(animated: true) { [weak self] in
                 print("Dismissing: \(menuType)")
-                self?.didTapMenuType?(menuType)
-                
+                self?.didTapMenuType?(menuType)                
             }
-        }   
+        
+        }
         
     }
     

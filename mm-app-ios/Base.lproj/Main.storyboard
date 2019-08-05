@@ -36,7 +36,7 @@
                                     </state>
                                     <connections>
                                         <action selector="segueStory:" destination="SnM-Fu-Zpq" eventType="touchUpInside" id="WTH-RF-s40"/>
-                                        <segue destination="LY2-Zk-0nR" kind="show" identifier="segueLogin" id="vUd-e5-5Vl"/>
+                                        <segue destination="LY2-Zk-0nR" kind="show" identifier="goMain" id="c3w-yV-m37"/>
                                     </connections>
                                 </button>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Luiz Fernando" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mk2-1E-ky7">
@@ -97,6 +97,9 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.01962757483124733" green="0.48962080478668213" blue="0.76839584112167358" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="wD9-Yd-Poa" kind="show" identifier="notificacao" id="m4v-yq-A09"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="55" id="lQK-gK-2pu">
                                         <rect key="frame" x="0.0" y="161" width="375" height="55"/>
@@ -140,7 +143,7 @@
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.019627574830000001" green="0.48962080479999998" blue="0.76839584110000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
-                                            <segue destination="zWL-7q-8UU" kind="show" identifier="PreferenceAndConfig" id="Eas-s6-131"/>
+                                            <segue destination="zce-gJ-Fs7" kind="show" identifier="preferencia" id="qZO-H1-ecs"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="55" id="rhY-rp-yVL">
@@ -311,7 +314,7 @@
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.019627574830000001" green="0.48962080479999998" blue="0.76839584110000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
-                                            <segue destination="fYx-06-Mxo" kind="show" identifier="tutorial" id="W63-Uj-TGT"/>
+                                            <segue destination="27O-YZ-1Rc" kind="show" identifier="tutorial" id="2hX-ee-eqJ"/>
                                         </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="55" id="11p-t1-nVO">
@@ -495,13 +498,29 @@
             </objects>
             <point key="canvasLocation" x="-11684" y="515"/>
         </scene>
-        <!--PreferenceAndConfig-->
-        <scene sceneID="78x-na-Vv9">
+        <!--Notificacao-->
+        <scene sceneID="cPJ-e1-t8t">
             <objects>
-                <viewControllerPlaceholder storyboardName="PreferenceAndConfig" id="zWL-7q-8UU" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="g6f-On-jZ8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardName="Notificacao" id="wD9-Yd-Poa" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Sl9-ni-3l0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-10986" y="397"/>
+            <point key="canvasLocation" x="-10877" y="301"/>
+        </scene>
+        <!--PreferenceAndConfig-->
+        <scene sceneID="eYV-bR-6Cg">
+            <objects>
+                <viewControllerPlaceholder storyboardName="PreferenceAndConfig" id="zce-gJ-Fs7" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4tY-DE-AhN" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-10829" y="349"/>
+        </scene>
+        <!--Tutorial-->
+        <scene sceneID="lVo-1e-Gl3">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Tutorial" id="27O-YZ-1Rc" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3DD-72-XmV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-10895" y="399"/>
         </scene>
         <!--Login-->
         <scene sceneID="Zhp-JN-YxY">
@@ -510,14 +529,6 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="b8L-rH-FKL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-10782" y="976"/>
-        </scene>
-        <!--Tutorial-->
-        <scene sceneID="dB1-MV-Zr4">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Tutorial" id="fYx-06-Mxo" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="5ST-a0-UdE" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-11054" y="439"/>
         </scene>
         <!--Notificações-->
         <scene sceneID="tne-QT-ifu">
@@ -1052,7 +1063,7 @@
                     <size key="freeformSize" width="375" height="1500"/>
                     <connections>
                         <outlet property="collectionView" destination="bGN-Uy-Ww6" id="tLz-gJ-BmB"/>
-                        <segue destination="W2O-Pw-dlD" kind="show" id="iIv-xe-pxa"/>
+                        <segue destination="W2O-Pw-dlD" kind="show" identifier="goMain" id="iIv-xe-pxa"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2wW-Qd-hqB" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1142,6 +1153,6 @@
         <image name="tuto" width="16" height="16"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="BHC-aH-uQJ"/>
+        <segue reference="c3w-yV-m37"/>
     </inferredMetricsTieBreakers>
 </document>

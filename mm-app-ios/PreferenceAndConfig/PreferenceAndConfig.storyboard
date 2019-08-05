@@ -396,7 +396,7 @@
                                         <barButtonItem key="leftBarButtonItem" image="voltarBranco" id="Hgl-MF-DBM">
                                             <color key="tintColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
                                             <connections>
-                                                <action selector="backMain:" destination="AEb-ao-qJL" id="2XQ-7l-crQ"/>
+                                                <action selector="backMain:" destination="AEb-ao-qJL" id="gER-ms-jVz"/>
                                             </connections>
                                         </barButtonItem>
                                     </navigationItem>
@@ -418,8 +418,7 @@
                     <navigationItem key="navigationItem" title="Tutorial" id="X5q-sd-lb1"/>
                     <size key="freeformSize" width="375" height="900"/>
                     <connections>
-                        <outlet property="PrincipalView" destination="4dn-eh-1Z7" id="29k-vn-ugx"/>
-                        <segue destination="XcU-d0-gcw" kind="show" identifier="goMain" id="bBH-AB-KFv"/>
+                        <segue destination="XcU-d0-gcw" kind="show" identifier="segueMenu" id="H00-c0-UCR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PPL-Xe-Iqb" userLabel="First Responder" sceneMemberID="firstResponder"/>

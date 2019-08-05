@@ -34,7 +34,7 @@ class PreferAndConfigViewController: UIViewController {
     
     
     @IBAction func backMain(_ sender: UIBarButtonItem) {
-      self.performSegue(withIdentifier: "goMain", sender: nil)
+      self.performSegue(withIdentifier: "segueMenu", sender: nil)
 
  
     }
