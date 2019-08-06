@@ -97,7 +97,7 @@ class MenuViewController: UITableViewController {
     }
     
     @IBAction func segueStory(_ sender: Any) {
-        self.performSegue(withIdentifier: "segueLogin", sender: nil)
+        self.performSegue(withIdentifier: "goMain", sender: nil)
     }
     
     

@@ -11,7 +11,8 @@ import UIKit
 
 class PreferAndConfigViewController: UIViewController {
     
-
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,6 +40,10 @@ class PreferAndConfigViewController: UIViewController {
  
     }
     
+    @IBAction func themeSender(_ sender: UISwitch) {
+
+        
+    }
     
     
 }

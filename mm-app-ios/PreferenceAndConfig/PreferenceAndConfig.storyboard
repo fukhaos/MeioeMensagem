@@ -83,6 +83,9 @@
                                                     <constraint firstAttribute="width" constant="49" id="HPf-Ti-m8Y"/>
                                                 </constraints>
                                                 <color key="onTintColor" red="0.0013012208510190248" green="0.61936485767364502" blue="0.8401070237159729" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <connections>
+                                                    <action selector="themeSender:" destination="AEb-ao-qJL" eventType="valueChanged" id="d2w-Bo-YgE"/>
+                                                </connections>
                                             </switch>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Notificações" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YsO-op-VGl">
                                                 <rect key="frame" x="20" y="150" width="149" height="28"/>
