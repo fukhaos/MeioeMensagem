@@ -22,9 +22,8 @@ class CadastroViewController: UIViewController {
     
     //MARK: - Outlets
     @IBOutlet weak var CadastrarView: UIView!
-    @IBOutlet weak var checkButton: SpringButton!
     @IBOutlet weak var userAndTermsButton: UIButton!
-    
+    @IBOutlet weak var viewCheck: UIView!
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var lastNameTextField: UITextField!
     @IBOutlet weak var nickNameTextField: UITextField!
@@ -38,6 +37,7 @@ class CadastroViewController: UIViewController {
 
     
     
+    var checkOk = true
     
     //MARK: - Properties
     //var dataBase : OpaquePointer? = nil
@@ -47,7 +47,14 @@ class CadastroViewController: UIViewController {
         super.viewDidLoad()
         //Arredando a View Cadastrar
         self.CadastrarView.layer.cornerRadius = 25
+        self.viewCheck.layer.cornerRadius = 10
+        self.viewCheck.layer.borderWidth = 1
+        
+        checkOk = false
+        
+        userAndTermsButton.setBackgroundImage(UIImage(named: "iconCheckoff@2x"), for: .normal)
 
+        
         //Recolhe o teclado ao tocar na tela
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard))
         view.addGestureRecognizer(tap)
@@ -55,6 +62,10 @@ class CadastroViewController: UIViewController {
     }
     //Objective-C para recolher teclado ao tocar na tela
     @objc func dismissKeyboard() {
+        view.endEditing(true)
+    }
+    
+    @objc func checkOn() {
         view.endEditing(true)
     }
     
@@ -80,21 +91,21 @@ class CadastroViewController: UIViewController {
         
     }
     
-    @IBAction func checkAction(_ sender: Any) {
-        UIImpactFeedbackGenerator(style: .medium).impactOccurred()
-        if checkButton.isSelected {
-            checkButton.isSelected = false
-        } else {
-            checkButton.isSelected = true
-            checkButton.animation = "pop"
-            checkButton.animate()
-        }
-    }
-        
+//    @IBAction func checkAction(_ sender: Any) {
+//        UIImpactFeedbackGenerator(style: .medium).impactOccurred()
+//        if checkButton.isSelected {
+//            checkButton.isSelected = false
+//        } else {
+//            checkButton.isSelected = true
+//            checkButton.animation = "pop"
+//            checkButton.animate()
+//        }
+//    }
+    
 
-    @IBAction func userAndTermo(_ sender: UIButton) {
-        self.performSegue(withIdentifier: "segueUserAndTermo", sender: nil)
-    }
+//    @IBAction func userAndTermo(_ sender: UIButton) {
+//        self.performSegue(withIdentifier: "segueUserAndTermo", sender: nil)
+//    }
     
     
     
@@ -181,12 +192,6 @@ class CadastroViewController: UIViewController {
             alerta.addAction(bntOk)
             present(alerta, animated: true, completion: nil)
             
-        } else if !checkButton.isSelected {
-            let alerta = UIAlertController(title: "Alerta", message: "Por favor, aceite os termos de uso.", preferredStyle: .alert)
-            let bntOk = UIAlertAction(title: "OK", style: .default, handler: nil)
-            alerta.addAction(bntOk)
-            present(alerta, animated: true, completion: nil)
-            
         } else {
             
                 self.shouldPerformSegue(withIdentifier: "segueOk", sender: nil)
@@ -195,5 +200,30 @@ class CadastroViewController: UIViewController {
      
 
     }
+    
+    //Check Box
+    
+    @IBAction func checkBox(_ sender: UIButton) {
+  
+        if !(checkOk) {
+            self.userAndTermsButton.setBackgroundImage(UIImage(named: "iconCheckoff@2x"), for: .normal)
+            checkOk = true
+            
+        } else {
+            self.userAndTermsButton.setBackgroundImage(UIImage(named: "checkON"), for: .normal)
+            checkOk = false
+        }
+        
+        
+//        if sender.isSelected == true {
+//            self.userAndTermsButton.setBackgroundImage(UIImage(named: "checkON"), for: .normal)
+//
+//        } else if sender.isSelected == false {
+//            self.userAndTermsButton.setBackgroundImage(UIImage(named: "iconCheckoff@2x"), for: .normal)
+//
+//        }
+        
+    }
+    
     
 }

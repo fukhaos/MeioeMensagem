@@ -234,7 +234,6 @@
 		B6B5B43D22E77A55004BBF81 = {
 			isa = PBXGroup;
 			children = (
-				B630B0BE22F9C3BF00A5EA25 /* Capa */,
 				B6B5B44822E77A55004BBF81 /* mm-app-ios */,
 				B6B5B44722E77A55004BBF81 /* Products */,
 				E258E872FC06260D848BE629 /* Pods */,
@@ -253,6 +252,7 @@
 		B6B5B44822E77A55004BBF81 /* mm-app-ios */ = {
 			isa = PBXGroup;
 			children = (
+				B630B0BE22F9C3BF00A5EA25 /* Capa */,
 				B6C5184C22F8C88D00D85B59 /* Notificacao */,
 				B6813EF022F4616800CAC5EA /* ViewTutorial */,
 				B68B1EEC22F0ED8A009310A2 /* PreferenceAndConfig */,
