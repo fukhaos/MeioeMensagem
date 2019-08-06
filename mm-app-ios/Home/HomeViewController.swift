@@ -110,9 +110,7 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
         let cell = collectionView.cellForItem(at: indexPath)
         cell?.layer.borderColor = UIColor.black.cgColor
         cell?.layer.borderWidth = 0.5
-        if indexPath.item == 0 {
-            self.performSegue(withIdentifier: "goMain", sender: nil)
-        }
+       
     }
     
 
