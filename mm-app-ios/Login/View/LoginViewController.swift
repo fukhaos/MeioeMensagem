@@ -24,6 +24,7 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var viewEntrar: UIView!
     @IBOutlet weak var viewFacebook: UIView!
     @IBOutlet weak var viewLinkedin: UIView!
+    @IBOutlet weak var novoCadastro: UIButton!
     
     
     
@@ -41,6 +42,9 @@ class LoginViewController: UIViewController {
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard))
         view.addGestureRecognizer(tap)
      
+        
+        self.novoCadastro.setAttributedTitle(setUIElements(), for: .normal)
+        
     }
     
     //Object-C para recolher teclado.
@@ -62,6 +66,21 @@ class LoginViewController: UIViewController {
     @IBAction func signIn(_ sender: Any) {
     
     }
+    
+    
+    func setUIElements()  -> NSMutableAttributedString{
+        let attributedString = NSMutableAttributedString(string: "Ainda não tem conta? Faça seu cadastro.", attributes: [
+            .font: UIFont.systemFont(ofSize: 14.0, weight: .regular),
+            .foregroundColor: UIColor(white: 36.0 / 255.0, alpha: 1.0)
+            ])
+        attributedString.addAttribute(.font, value: UIFont.systemFont(ofSize: 14.0, weight: .bold), range: NSRange(location: 21, length: 18))
+        attributedString.addAttribute(NSAttributedString.Key.foregroundColor, value: UIColor(red: 0/255, green: 96/255, blue: 152/255, alpha: 1), range: NSRange(location: 21, length: 18))
+        novoCadastro.setAttributedTitle(attributedString, for: .normal)
+        return attributedString
+        
+    }
+    
+    
 //
 //    @IBAction func loginWithFacebook(_ sender: Any) {
 //        let manager = LoginManager()

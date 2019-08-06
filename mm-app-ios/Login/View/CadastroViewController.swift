@@ -22,7 +22,7 @@ class CadastroViewController: UIViewController {
     
     //MARK: - Outlets
     @IBOutlet weak var CadastrarView: UIView!
-    @IBOutlet weak var userAndTermsButton: UIButton!
+    @IBOutlet weak var checkBox: UIButton!
     @IBOutlet weak var viewCheck: UIView!
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var lastNameTextField: UITextField!
@@ -32,28 +32,25 @@ class CadastroViewController: UIViewController {
     @IBOutlet weak var alternaEmailTextField: UITextField!
     @IBOutlet weak var passwdTextField: UITextField!
     @IBOutlet weak var confirmaPasswdTextField: UITextField!
-   
+    @IBOutlet weak var userAndTermsButton: UIButton!
     
-
-    
-    
+ 
     var checkOk = true
     
     //MARK: - Properties
-    //var dataBase : OpaquePointer? = nil
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
         //Arredando a View Cadastrar
         self.CadastrarView.layer.cornerRadius = 25
-        self.viewCheck.layer.cornerRadius = 10
+        self.viewCheck.layer.cornerRadius = 15
         self.viewCheck.layer.borderWidth = 1
         
         checkOk = false
         
-        userAndTermsButton.setBackgroundImage(UIImage(named: "iconCheckoff@2x"), for: .normal)
-
+        self.userAndTermsButton.setAttributedTitle(setUIElements(), for: .normal)
+       
         
         //Recolhe o teclado ao tocar na tela
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard))
@@ -69,14 +66,14 @@ class CadastroViewController: UIViewController {
         view.endEditing(true)
     }
     
-    func setUIElements() {
+    func setUIElements()  -> NSMutableAttributedString{
         let attributedString = NSMutableAttributedString(string: "Eu li e concordo com os Termos de Uso.", attributes: [
             .font: UIFont.systemFont(ofSize: 14.0, weight: .regular),
             .foregroundColor: UIColor(white: 36.0 / 255.0, alpha: 1.0)
             ])
         attributedString.addAttribute(.font, value: UIFont.systemFont(ofSize: 14.0, weight: .bold), range: NSRange(location: 24, length: 14))
         userAndTermsButton.setAttributedTitle(attributedString, for: .normal)
-        
+        return attributedString
 
     }
     
@@ -91,25 +88,7 @@ class CadastroViewController: UIViewController {
         
     }
     
-//    @IBAction func checkAction(_ sender: Any) {
-//        UIImpactFeedbackGenerator(style: .medium).impactOccurred()
-//        if checkButton.isSelected {
-//            checkButton.isSelected = false
-//        } else {
-//            checkButton.isSelected = true
-//            checkButton.animation = "pop"
-//            checkButton.animate()
-//        }
-//    }
-    
-
-//    @IBAction func userAndTermo(_ sender: UIButton) {
-//        self.performSegue(withIdentifier: "segueUserAndTermo", sender: nil)
-//    }
-    
-    
-    
-    
+  
     //MARK: - Action
     @IBAction func cadastroBTN(_ sender: UIButton) {
        let cpf = cpfTextField.text
@@ -203,27 +182,24 @@ class CadastroViewController: UIViewController {
     
     //Check Box
     
-    @IBAction func checkBox(_ sender: UIButton) {
+    @IBAction func checkBoxBTN(_ sender: UIButton) {
   
         if !(checkOk) {
-            self.userAndTermsButton.setBackgroundImage(UIImage(named: "iconCheckoff@2x"), for: .normal)
+            self.checkBox.setBackgroundImage(UIImage(named: "iconCheckoff@2x"), for: .normal)
             checkOk = true
             
         } else {
-            self.userAndTermsButton.setBackgroundImage(UIImage(named: "checkON"), for: .normal)
+            self.checkBox.setBackgroundImage(UIImage(named: "checkON"), for: .normal)
             checkOk = false
         }
-        
-        
-//        if sender.isSelected == true {
-//            self.userAndTermsButton.setBackgroundImage(UIImage(named: "checkON"), for: .normal)
-//
-//        } else if sender.isSelected == false {
-//            self.userAndTermsButton.setBackgroundImage(UIImage(named: "iconCheckoff@2x"), for: .normal)
-//
-//        }
+    }
+    
+    //Termos de uso.
+    @IBAction func userAndTermsBTN(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "segueUserAndTermo", sender: nil)
         
     }
+    
     
     
 }
