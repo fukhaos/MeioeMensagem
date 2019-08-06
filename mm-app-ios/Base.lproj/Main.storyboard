@@ -939,7 +939,6 @@
                                                 <subviews>
                                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="bGN-Uy-Ww6">
                                                         <rect key="frame" x="0.0" y="0.0" width="375" height="250"/>
-                                                        <color key="backgroundColor" red="0.94889384509999997" green="0.95595830680000005" blue="0.95931655169999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="375" id="U3X-dm-LiY"/>
                                                             <constraint firstAttribute="height" constant="250" id="bk1-Tz-VbO"/>

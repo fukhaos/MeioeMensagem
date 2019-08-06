@@ -260,14 +260,6 @@
             </objects>
             <point key="canvasLocation" x="-8849" y="991"/>
         </scene>
-        <!--Storyboard Reference-->
-        <scene sceneID="H3d-bu-kSl">
-            <objects>
-                <viewControllerPlaceholder id="Kwm-bX-9wI" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="fFK-5U-idy" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-10450" y="-549"/>
-        </scene>
         <!--Login View Controller-->
         <scene sceneID="fEB-hS-BTT">
             <objects>
@@ -534,7 +526,6 @@
                         <outlet property="viewLinkedin" destination="WrH-xt-6jZ" id="Wp5-a2-RQI"/>
                         <segue destination="KLm-q8-rDh" kind="show" identifier="segueForgotPass" id="prE-4M-2ME"/>
                         <segue destination="WTF-xj-nNw" kind="show" identifier="segueSingup" id="w7j-is-uXG"/>
-                        <segue destination="Fkd-lR-brN" kind="show" identifier="segueLoginOk" id="4GT-hv-0BL"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q3m-iR-2tw" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -918,34 +909,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1fB-1s-Bku" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-9882.3999999999996" y="7.1964017991004505"/>
-        </scene>
-        <!--View Controller-->
-        <scene sceneID="lTk-aP-YEC">
-            <objects>
-                <viewController id="Fkd-lR-brN" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="TnA-Ep-gAR">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login Efetuado com sucesso" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="O51-Kd-3Xs">
-                                <rect key="frame" x="62.5" y="321.5" width="250" height="24"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
-                        <color key="backgroundColor" red="0.018509034069999999" green="0.48856800789999999" blue="0.76702630520000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="O51-Kd-3Xs" firstAttribute="centerX" secondItem="TnA-Ep-gAR" secondAttribute="centerX" id="OlI-1C-YhJ"/>
-                            <constraint firstItem="O51-Kd-3Xs" firstAttribute="centerY" secondItem="TnA-Ep-gAR" secondAttribute="centerY" id="hnZ-Gi-dGV"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="NmS-sV-4Zb"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="uPg-hQ-OIw" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-9882" y="-771"/>
+            <point key="canvasLocation" x="-9882" y="7"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Moa-dc-DTt">
