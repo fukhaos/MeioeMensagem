@@ -24,7 +24,7 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
     let noticiasImagens: [UIImage] = [
     UIImage(named: "shopping-cidade-jardim.jpg")!,
     UIImage(named: "McDonalds.jpg")!,
-    UIImage(named: "BurguerKing")!,
+    UIImage(named: "BurguerKing.png")!,
     ]
     
     

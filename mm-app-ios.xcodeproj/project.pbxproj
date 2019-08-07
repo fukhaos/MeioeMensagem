@@ -52,6 +52,8 @@
 		B6B74ACB22E9D455001261B3 /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B74ACA22E9D455001261B3 /* CadastroViewController.swift */; };
 		B6B74ACD22E9D571001261B3 /* ValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B74ACC22E9D571001261B3 /* ValidationViewController.swift */; };
 		B6BF810522FAFC04009B3BF9 /* checkBoxOn.png in Resources */ = {isa = PBXBuildFile; fileRef = B6BF810422FAFC03009B3BF9 /* checkBoxOn.png */; };
+		B6BF810822FB3E3C009B3BF9 /* EdicaoEditorial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6BF810722FB3E3C009B3BF9 /* EdicaoEditorial.storyboard */; };
+		B6BF810A22FB3EA5009B3BF9 /* EdicaoEditorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BF810922FB3EA5009B3BF9 /* EdicaoEditorialViewController.swift */; };
 		B6C5184522F874C900D85B59 /* McDonalds.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6C5184422F874C800D85B59 /* McDonalds.jpg */; };
 		B6C5184722F899FB00D85B59 /* shopping-cidade-jardim.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6C5184622F899FA00D85B59 /* shopping-cidade-jardim.jpg */; };
 		B6C5184922F8A56C00D85B59 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C5184822F8A56C00D85B59 /* CollectionViewCell.swift */; };
@@ -130,6 +132,8 @@
 		B6B74ACA22E9D455001261B3 /* CadastroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
 		B6B74ACC22E9D571001261B3 /* ValidationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationViewController.swift; sourceTree = "<group>"; };
 		B6BF810422FAFC03009B3BF9 /* checkBoxOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkBoxOn.png; sourceTree = "<group>"; };
+		B6BF810722FB3E3C009B3BF9 /* EdicaoEditorial.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EdicaoEditorial.storyboard; sourceTree = "<group>"; };
+		B6BF810922FB3EA5009B3BF9 /* EdicaoEditorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdicaoEditorialViewController.swift; sourceTree = "<group>"; };
 		B6C5184422F874C800D85B59 /* McDonalds.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = McDonalds.jpg; sourceTree = "<group>"; };
 		B6C5184622F899FA00D85B59 /* shopping-cidade-jardim.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "shopping-cidade-jardim.jpg"; sourceTree = "<group>"; };
 		B6C5184822F8A56C00D85B59 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
@@ -255,6 +259,7 @@
 			isa = PBXGroup;
 			children = (
 				B630B0BE22F9C3BF00A5EA25 /* Capa */,
+				B6BF810622FB3DE5009B3BF9 /* EdicaoEditorial */,
 				B6C5184C22F8C88D00D85B59 /* Notificacao */,
 				B6813EF022F4616800CAC5EA /* ViewTutorial */,
 				B68B1EEC22F0ED8A009310A2 /* PreferenceAndConfig */,
@@ -341,6 +346,15 @@
 				B68B1EBA22F097DE009310A2 /* Login.storyboard */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		B6BF810622FB3DE5009B3BF9 /* EdicaoEditorial */ = {
+			isa = PBXGroup;
+			children = (
+				B6BF810722FB3E3C009B3BF9 /* EdicaoEditorial.storyboard */,
+				B6BF810922FB3EA5009B3BF9 /* EdicaoEditorialViewController.swift */,
+			);
+			path = EdicaoEditorial;
 			sourceTree = "<group>";
 		};
 		B6C5184C22F8C88D00D85B59 /* Notificacao */ = {
@@ -440,6 +454,7 @@
 				B6AA906422F23305001A9F0D /* Tutorial.storyboard in Resources */,
 				B69DC2D322EB37B400C8F142 /* iconCheckoff@2x.png in Resources */,
 				B630B0BD22F9BDCE00A5EA25 /* MinhaConta.storyboard in Resources */,
+				B6BF810822FB3E3C009B3BF9 /* EdicaoEditorial.storyboard in Resources */,
 				B6C5184E22F8C8B400D85B59 /* Notificacao.storyboard in Resources */,
 				B6B5B48522E8F4F7004BBF81 /* group@2x.png in Resources */,
 				B630B0C822F9E29100A5EA25 /* Materia2.png in Resources */,
@@ -501,6 +516,7 @@
 				B6D84B2522F1DD1B00C9EEDB /* ResendEmailViewController.swift in Sources */,
 				B630B0C222F9C3FB00A5EA25 /* CapaPrincipalViewController.swift in Sources */,
 				B6B5B48722E8FC75004BBF81 /* LoginViewController.swift in Sources */,
+				B6BF810A22FB3EA5009B3BF9 /* EdicaoEditorialViewController.swift in Sources */,
 				B6813EEB22F3975E00CAC5EA /* PreferAndConfigViewController.swift in Sources */,
 				B6B5B44C22E77A55004BBF81 /* HomeViewController.swift in Sources */,
 				B6D84B2322F1D93E00C9EEDB /* ForgotPassViewController.swift in Sources */,
