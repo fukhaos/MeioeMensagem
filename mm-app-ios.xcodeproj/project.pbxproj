@@ -62,6 +62,7 @@
 		B6C5185022F8C9C700D85B59 /* NotificacaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C5184F22F8C9C700D85B59 /* NotificacaoViewController.swift */; };
 		B6D84B2322F1D93E00C9EEDB /* ForgotPassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D84B2222F1D93E00C9EEDB /* ForgotPassViewController.swift */; };
 		B6D84B2522F1DD1B00C9EEDB /* ResendEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D84B2422F1DD1B00C9EEDB /* ResendEmailViewController.swift */; };
+		B6F0342422FB6B9800EA7CE1 /* Sadoun.png in Resources */ = {isa = PBXBuildFile; fileRef = B6F0342322FB6B9700EA7CE1 /* Sadoun.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -142,6 +143,7 @@
 		B6C5184F22F8C9C700D85B59 /* NotificacaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificacaoViewController.swift; sourceTree = "<group>"; };
 		B6D84B2222F1D93E00C9EEDB /* ForgotPassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassViewController.swift; sourceTree = "<group>"; };
 		B6D84B2422F1DD1B00C9EEDB /* ResendEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResendEmailViewController.swift; sourceTree = "<group>"; };
+		B6F0342322FB6B9700EA7CE1 /* Sadoun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sadoun.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -290,6 +292,7 @@
 				B630B0C522F9E15600A5EA25 /* Materia1.png */,
 				B630B0C722F9E29000A5EA25 /* Materia2.png */,
 				B6BF810422FAFC03009B3BF9 /* checkBoxOn.png */,
+				B6F0342322FB6B9700EA7CE1 /* Sadoun.png */,
 				B6B5B47122E8F1AD004BBF81 /* Font */,
 				B69DC2D622EB3D8C00C8F142 /* Spring.swift */,
 				B69DC2D822EB3DBC00C8F142 /* SpringAnimation.swift */,
@@ -435,6 +438,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6F0342422FB6B9800EA7CE1 /* Sadoun.png in Resources */,
 				B6B5B45722E77A58004BBF81 /* LaunchScreen.storyboard in Resources */,
 				B6C5184522F874C900D85B59 /* McDonalds.jpg in Resources */,
 				B6B5B46A22E8CF64004BBF81 /* headerBranco@2x.png in Resources */,

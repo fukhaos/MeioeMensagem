@@ -242,7 +242,7 @@
         <!--Tutorial-->
         <scene sceneID="f9c-s2-pCi">
             <objects>
-                <viewController id="m79-dj-S2z" customClass="TutorialInitViewController" customModule="mm_app_ios" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="m79-dj-S2z" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="u1S-k9-a0w">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="900"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
