@@ -50,5 +50,9 @@ class ForgotPassViewController: UIViewController {
         
     }
     
-
+    @IBAction func closedForgotPass(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+        
+    }
+    
 }

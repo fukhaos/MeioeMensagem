@@ -133,11 +133,11 @@ class LoginViewController: UIViewController {
         
     }
     
-
-    @IBAction func closedLoginPage(_ sender: UIBarButtonItem) {
-       
-        
+    @IBAction func closedLoginPage(_ sender: Any) {
+     self.performSegue(withIdentifier: "goMain", sender: nil)
+   
     }
+    
     
 }
 

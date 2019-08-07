@@ -105,7 +105,6 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
         cell?.layer.borderWidth = 2
         
         if indexPath.row == 0 {
-            navigationItem.title = "Capa Principal"
             self.performSegue(withIdentifier: "capaPrincipal", sender: nil)
         } else if indexPath.row == 1 {
             self.performSegue(withIdentifier: "capaPrincipal", sender: nil)
