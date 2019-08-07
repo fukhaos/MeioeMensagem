@@ -51,6 +51,7 @@
 		B6B5B48722E8FC75004BBF81 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B5B48622E8FC75004BBF81 /* LoginViewController.swift */; };
 		B6B74ACB22E9D455001261B3 /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B74ACA22E9D455001261B3 /* CadastroViewController.swift */; };
 		B6B74ACD22E9D571001261B3 /* ValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B74ACC22E9D571001261B3 /* ValidationViewController.swift */; };
+		B6BF810522FAFC04009B3BF9 /* checkBoxOn.png in Resources */ = {isa = PBXBuildFile; fileRef = B6BF810422FAFC03009B3BF9 /* checkBoxOn.png */; };
 		B6C5184522F874C900D85B59 /* McDonalds.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6C5184422F874C800D85B59 /* McDonalds.jpg */; };
 		B6C5184722F899FB00D85B59 /* shopping-cidade-jardim.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6C5184622F899FA00D85B59 /* shopping-cidade-jardim.jpg */; };
 		B6C5184922F8A56C00D85B59 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C5184822F8A56C00D85B59 /* CollectionViewCell.swift */; };
@@ -128,6 +129,7 @@
 		B6B5B48622E8FC75004BBF81 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B6B74ACA22E9D455001261B3 /* CadastroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
 		B6B74ACC22E9D571001261B3 /* ValidationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationViewController.swift; sourceTree = "<group>"; };
+		B6BF810422FAFC03009B3BF9 /* checkBoxOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkBoxOn.png; sourceTree = "<group>"; };
 		B6C5184422F874C800D85B59 /* McDonalds.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = McDonalds.jpg; sourceTree = "<group>"; };
 		B6C5184622F899FA00D85B59 /* shopping-cidade-jardim.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "shopping-cidade-jardim.jpg"; sourceTree = "<group>"; };
 		B6C5184822F8A56C00D85B59 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
@@ -282,6 +284,7 @@
 				B630B0C322F9CC8600A5EA25 /* streming.jpg */,
 				B630B0C522F9E15600A5EA25 /* Materia1.png */,
 				B630B0C722F9E29000A5EA25 /* Materia2.png */,
+				B6BF810422FAFC03009B3BF9 /* checkBoxOn.png */,
 				B6B5B47122E8F1AD004BBF81 /* Font */,
 				B69DC2D622EB3D8C00C8F142 /* Spring.swift */,
 				B69DC2D822EB3DBC00C8F142 /* SpringAnimation.swift */,
@@ -427,6 +430,7 @@
 				B630B0C422F9CC8600A5EA25 /* streming.jpg in Resources */,
 				B68B1EEE22F0EDBD009310A2 /* PreferenceAndConfig.storyboard in Resources */,
 				B68B1EB722F06B85009310A2 /* meioMensagem.png in Resources */,
+				B6BF810522FAFC04009B3BF9 /* checkBoxOn.png in Resources */,
 				B630B0C622F9E15600A5EA25 /* Materia1.png in Resources */,
 				B6B5B46822E8C8D3004BBF81 /* 41528940_241462876494767_8632959559543993127_n.jpg in Resources */,
 				B6C5184B22F8B9BA00D85B59 /* BurguerKing.png in Resources */,

@@ -15,6 +15,14 @@
         </array>
     </customFonts>
     <scenes>
+        <!--CapaPrincipal-->
+        <scene sceneID="7uj-zH-9HV">
+            <objects>
+                <viewControllerPlaceholder storyboardName="CapaPrincipal" id="kbU-MC-qmH" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MMW-NG-oD1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-12085" y="444"/>
+        </scene>
         <!--Menu View Controller-->
         <scene sceneID="AyB-u7-hdP">
             <objects>
@@ -1028,6 +1036,7 @@
                     <size key="freeformSize" width="375" height="1500"/>
                     <connections>
                         <outlet property="collectionView" destination="bGN-Uy-Ww6" id="tLz-gJ-BmB"/>
+                        <segue destination="kbU-MC-qmH" kind="show" identifier="capaPrincipal" id="tH9-gF-O9a"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2wW-Qd-hqB" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -1117,6 +1126,6 @@
         <image name="tuto" width="16" height="16"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="BHC-aH-uQJ"/>
+        <segue reference="c3w-yV-m37"/>
     </inferredMetricsTieBreakers>
 </document>

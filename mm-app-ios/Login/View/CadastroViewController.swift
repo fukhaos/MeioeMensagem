@@ -45,7 +45,7 @@ class CadastroViewController: UIViewController {
         //Arredando a View Cadastrar
         self.CadastrarView.layer.cornerRadius = 25
         self.viewCheck.layer.cornerRadius = 15
-        self.viewCheck.layer.borderWidth = 1
+        self.viewCheck.layer.borderWidth = 2
         
         checkOk = false
         
@@ -189,7 +189,7 @@ class CadastroViewController: UIViewController {
             checkOk = true
             
         } else {
-            self.checkBox.setBackgroundImage(UIImage(named: "checkON"), for: .normal)
+            self.checkBox.setBackgroundImage(UIImage(named: "checkBoxOn"), for: .normal)
             checkOk = false
         }
     }

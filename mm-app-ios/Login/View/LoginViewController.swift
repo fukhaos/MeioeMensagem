@@ -14,8 +14,8 @@ import FacebookCore
 
 
 class LoginViewController: UIViewController {
-    
-    
+  
+
     
     //MARK: - Outlets
     
@@ -43,6 +43,7 @@ class LoginViewController: UIViewController {
         view.addGestureRecognizer(tap)
      
         
+        //Inicializando o botão com o recebimento da Func setUIElements
         self.novoCadastro.setAttributedTitle(setUIElements(), for: .normal)
         
     }
@@ -68,6 +69,7 @@ class LoginViewController: UIViewController {
     }
     
     
+    //Func para incluir texto no botão de novo cadastro e criar um hiperlink.
     func setUIElements()  -> NSMutableAttributedString{
         let attributedString = NSMutableAttributedString(string: "Ainda não tem conta? Faça seu cadastro.", attributes: [
             .font: UIFont.systemFont(ofSize: 14.0, weight: .regular),
@@ -79,7 +81,6 @@ class LoginViewController: UIViewController {
         return attributedString
         
     }
-    
     
 //
 //    @IBAction func loginWithFacebook(_ sender: Any) {
@@ -132,21 +133,12 @@ class LoginViewController: UIViewController {
         
     }
     
-    @IBAction func goMain(_ sender: UIBarButtonItem) {
+
+    @IBAction func closedLoginPage(_ sender: UIBarButtonItem) {
+       
         
-        self.performSegue(withIdentifier: "goMain", sender: nil)
     }
     
-    
-
-    
-
-    
-    
-    
-       
-  
-        
 }
 
 
