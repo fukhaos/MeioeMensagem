@@ -435,7 +435,7 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Política de privacidade" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0dp-30-eIJ">
-                                                    <rect key="frame" x="56" y="18.5" width="153" height="20"/>
+                                                    <rect key="frame" x="56" y="18.5" width="151" height="20"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="20" id="4R9-Yy-X03"/>
                                                     </constraints>
@@ -818,11 +818,15 @@
                                                 </constraints>
                                             </view>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="41528940_241462876494767_8632959559543993127_n.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="uWk-OQ-s2d">
-                                                <rect key="frame" x="0.0" y="38" width="375" height="555"/>
+                                                <rect key="frame" x="0.0" y="38" width="375" height="612"/>
+                                                <gestureRecognizers/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="555" id="6Yb-Bf-24D"/>
+                                                    <constraint firstAttribute="height" constant="612" id="6Yb-Bf-24D"/>
                                                     <constraint firstAttribute="width" constant="375" id="agE-01-caO"/>
                                                 </constraints>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="wiW-dQ-VhW" appends="YES" id="74b-Kg-vh3"/>
+                                                </connections>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sabrina Sato é a primeira celebridade nacional da Sephora" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FrH-vH-Thz">
                                                 <rect key="frame" x="20" y="286" width="335" height="99"/>
@@ -922,12 +926,13 @@
                                                 </view>
                                             </tableView>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hve-an-nRf">
-                                                <rect key="frame" x="0.0" y="393" width="375" height="250"/>
+                                                <rect key="frame" x="15" y="393" width="348" height="250"/>
                                                 <subviews>
-                                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="bGN-Uy-Ww6">
-                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="250"/>
+                                                    <collectionView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFill" semanticContentAttribute="forceLeftToRight" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="bGN-Uy-Ww6">
+                                                        <rect key="frame" x="0.0" y="0.0" width="348" height="250"/>
+                                                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="width" constant="375" id="U3X-dm-LiY"/>
+                                                            <constraint firstAttribute="width" constant="348" id="U3X-dm-LiY"/>
                                                             <constraint firstAttribute="height" constant="250" id="bk1-Tz-VbO"/>
                                                         </constraints>
                                                         <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="jbv-Xk-VUG">
@@ -983,13 +988,14 @@
                                                         </cells>
                                                     </collectionView>
                                                 </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="bottom" secondItem="bGN-Uy-Ww6" secondAttribute="bottom" id="D8L-wt-GQY"/>
                                                     <constraint firstAttribute="trailing" secondItem="bGN-Uy-Ww6" secondAttribute="trailing" id="Rwy-YK-CQy"/>
                                                     <constraint firstItem="bGN-Uy-Ww6" firstAttribute="leading" secondItem="hve-an-nRf" secondAttribute="leading" id="TgS-k5-MGx"/>
                                                     <constraint firstItem="bGN-Uy-Ww6" firstAttribute="top" secondItem="hve-an-nRf" secondAttribute="top" id="jgg-wS-lOF"/>
                                                     <constraint firstAttribute="height" constant="250" id="nxH-bh-jJl"/>
-                                                    <constraint firstAttribute="width" constant="375" id="sAq-r3-f6T"/>
+                                                    <constraint firstAttribute="width" constant="348" id="sAq-r3-f6T"/>
                                                 </constraints>
                                             </view>
                                         </subviews>
@@ -998,7 +1004,7 @@
                                             <constraint firstAttribute="trailing" secondItem="5Ps-X1-n2U" secondAttribute="trailing" id="BrR-ds-rKZ"/>
                                             <constraint firstAttribute="bottom" secondItem="FrH-vH-Thz" secondAttribute="bottom" constant="1115" id="COu-w0-yBc"/>
                                             <constraint firstAttribute="trailing" secondItem="uWk-OQ-s2d" secondAttribute="trailing" id="DMI-2c-lXW"/>
-                                            <constraint firstItem="ZtD-TP-PhR" firstAttribute="top" secondItem="uWk-OQ-s2d" secondAttribute="bottom" constant="118" id="HCg-Oa-aG3"/>
+                                            <constraint firstItem="ZtD-TP-PhR" firstAttribute="top" secondItem="uWk-OQ-s2d" secondAttribute="bottom" constant="61" id="HCg-Oa-aG3"/>
                                             <constraint firstItem="FrH-vH-Thz" firstAttribute="top" secondItem="5Ps-X1-n2U" secondAttribute="bottom" constant="248" id="PfT-Cr-fWl"/>
                                             <constraint firstAttribute="trailing" secondItem="ZtD-TP-PhR" secondAttribute="trailing" constant="20" id="QIx-HW-DDO"/>
                                             <constraint firstItem="hve-an-nRf" firstAttribute="top" secondItem="FrH-vH-Thz" secondAttribute="bottom" constant="8" id="SK2-5q-4KP"/>
@@ -1008,10 +1014,10 @@
                                             <constraint firstItem="5Ps-X1-n2U" firstAttribute="top" secondItem="Kty-b3-MXf" secondAttribute="top" id="iai-Mi-Ouo"/>
                                             <constraint firstItem="ZtD-TP-PhR" firstAttribute="leading" secondItem="Kty-b3-MXf" secondAttribute="leading" constant="20" id="kg6-mH-a9g"/>
                                             <constraint firstItem="5Ps-X1-n2U" firstAttribute="leading" secondItem="Kty-b3-MXf" secondAttribute="leading" id="kwx-7k-iNU"/>
-                                            <constraint firstAttribute="trailing" secondItem="hve-an-nRf" secondAttribute="trailing" id="oq6-Oz-ZZR"/>
+                                            <constraint firstAttribute="trailing" secondItem="hve-an-nRf" secondAttribute="trailing" constant="12" id="oq6-Oz-ZZR"/>
                                             <constraint firstItem="uWk-OQ-s2d" firstAttribute="leading" secondItem="Kty-b3-MXf" secondAttribute="leading" id="sNS-WO-eXz"/>
                                             <constraint firstAttribute="trailing" secondItem="FrH-vH-Thz" secondAttribute="trailing" constant="20" id="wa3-Av-sTz"/>
-                                            <constraint firstItem="hve-an-nRf" firstAttribute="leading" secondItem="Kty-b3-MXf" secondAttribute="leading" id="yWg-y7-97Z"/>
+                                            <constraint firstItem="hve-an-nRf" firstAttribute="leading" secondItem="Kty-b3-MXf" secondAttribute="leading" constant="15" id="yWg-y7-97Z"/>
                                         </constraints>
                                     </view>
                                 </subviews>
@@ -1048,11 +1054,18 @@
                     </navigationItem>
                     <size key="freeformSize" width="375" height="1500"/>
                     <connections>
+                        <outlet property="ImagemPinch" destination="uWk-OQ-s2d" id="wkl-Mk-dK8"/>
                         <outlet property="collectionView" destination="bGN-Uy-Ww6" id="tLz-gJ-BmB"/>
+                        <outlet property="scrollView" destination="99d-0X-Plk" id="Yo6-ks-sUj"/>
                         <segue destination="kbU-MC-qmH" kind="show" identifier="capaPrincipal" id="tH9-gF-O9a"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2wW-Qd-hqB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <pinchGestureRecognizer id="wiW-dQ-VhW">
+                    <connections>
+                        <action selector="pinch:" destination="Puz-GT-9Ax" id="Ia9-KP-yGI"/>
+                    </connections>
+                </pinchGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="-12671.200000000001" y="889.65517241379314"/>
         </scene>

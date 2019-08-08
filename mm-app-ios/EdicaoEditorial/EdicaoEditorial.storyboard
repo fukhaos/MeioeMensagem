@@ -59,6 +59,9 @@
                                                         <leftBarButtonItems>
                                                             <barButtonItem image="fechar" id="TOV-7d-hqq">
                                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <connections>
+                                                                    <action selector="dismissPage:" destination="2eB-IH-2dP" id="JRG-x4-ojg"/>
+                                                                </connections>
                                                             </barButtonItem>
                                                             <barButtonItem title="Edição de 4 Abr 2019" id="WDS-lp-YOn">
                                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -85,7 +88,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YLB-cW-9De">
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YLB-cW-9De">
                                                 <rect key="frame" x="20" y="135" width="335" height="138"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
@@ -106,7 +109,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Qs5-zT-VpO">
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="Qs5-zT-VpO">
                                                 <rect key="frame" x="20" y="337" width="335" height="924"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="924" id="Yhx-qC-qBW"/>
@@ -144,13 +147,13 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ogB-kG-HP3">
                                                 <rect key="frame" x="104" y="1568" width="168" height="40"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Avançar ou voltar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WcN-OO-xUw">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Avançar ou voltar" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WcN-OO-xUw">
                                                         <rect key="frame" x="44" y="11" width="116" height="18"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="116" id="0F8-0A-xeZ"/>
                                                             <constraint firstAttribute="height" constant="18" id="yxw-OU-xkH"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -248,15 +251,26 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="5Uj-Xc-Syy"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Tutorial" id="GtV-pA-3AZ"/>
+                    <navigationItem key="navigationItem" id="GtV-pA-3AZ">
+                        <barButtonItem key="backBarButtonItem" title=" " id="J35-ib-NcD"/>
+                    </navigationItem>
                     <size key="freeformSize" width="375" height="1700"/>
                     <connections>
-                        <segue destination="dkp-Sr-YzO" kind="show" id="Pc2-mY-IHa"/>
+                        <outlet property="avancaMateria" destination="WcN-OO-xUw" id="Tor-Qp-ath"/>
+                        <segue destination="NaT-SP-e1E" kind="show" identifier="seguePublicidade" id="uST-Zd-9Wg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XfD-bi-CKv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-10786.231884057972" y="2036.3839285714284"/>
+            <point key="canvasLocation" x="-8965.9420289855079" y="2036.3839285714284"/>
+        </scene>
+        <!--PublicidadeVideo-->
+        <scene sceneID="1Os-BI-wkz">
+            <objects>
+                <viewControllerPlaceholder storyboardName="PublicidadeVideo" id="NaT-SP-e1E" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tp7-fR-Vpg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-8170" y="1171"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="LM9-Cp-hS6">
@@ -436,7 +450,7 @@
                                                     <constraint firstItem="Uob-Pr-eDW" firstAttribute="top" secondItem="Paa-9h-t8p" secondAttribute="top" constant="1" id="zOn-gl-VQP"/>
                                                 </constraints>
                                             </view>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="e2y-sm-CbB">
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e2y-sm-CbB">
                                                 <rect key="frame" x="20" y="629" width="335" height="668"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
@@ -526,7 +540,7 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="it3-EC-eWP">
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="it3-EC-eWP">
                                                 <rect key="frame" x="20" y="1829" width="335" height="840"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
@@ -561,7 +575,7 @@
                                                     <constraint firstAttribute="height" constant="3" id="vvP-yp-0XD"/>
                                                 </constraints>
                                             </view>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OLv-5J-YO5">
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OLv-5J-YO5">
                                                 <rect key="frame" x="20" y="3467" width="335" height="552"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
@@ -586,13 +600,13 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CQy-83-kHj">
                                                 <rect key="frame" x="103" y="4115" width="168" height="40"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Avançar ou voltar" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IGw-Yz-6az">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Avançar ou voltar" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IGw-Yz-6az">
                                                         <rect key="frame" x="44" y="11" width="116" height="18"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="18" id="MEs-WY-Sil"/>
                                                             <constraint firstAttribute="width" constant="116" id="aR7-LZ-PI1"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -740,10 +754,13 @@
                     </view>
                     <navigationItem key="navigationItem" id="TM1-As-4hO"/>
                     <size key="freeformSize" width="375" height="4250"/>
+                    <connections>
+                        <segue destination="XTR-oZ-5Wv" kind="show" id="ebB-QO-Mht"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kTr-Za-MjY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-9712" y="2890"/>
+            <point key="canvasLocation" x="-7893.4782608695659" y="2889.5089285714284"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="uOd-mx-gRU">
@@ -869,40 +886,6 @@
                                                     <constraint firstAttribute="width" constant="375" id="fdo-pR-lQB"/>
                                                 </constraints>
                                             </imageView>
-                                            <view alpha="0.55000000000000004" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iQc-bc-x5p">
-                                                <rect key="frame" x="108" y="473" width="160" height="32"/>
-                                                <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Toque para ampliar" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HDN-LO-N33">
-                                                        <rect key="frame" x="37" y="6" width="115" height="21"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="115" id="3kR-dg-qjI"/>
-                                                            <constraint firstAttribute="height" constant="21" id="Mqd-i5-9bp"/>
-                                                        </constraints>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="touch" translatesAutoresizingMaskIntoConstraints="NO" id="wxP-DV-kdf">
-                                                        <rect key="frame" x="8" y="0.0" width="32" height="32"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="32" id="WHC-a1-W3I"/>
-                                                            <constraint firstAttribute="height" constant="32" id="wUf-HU-fNg"/>
-                                                        </constraints>
-                                                    </imageView>
-                                                </subviews>
-                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <constraints>
-                                                    <constraint firstItem="HDN-LO-N33" firstAttribute="leading" secondItem="iQc-bc-x5p" secondAttribute="leading" constant="37" id="3ki-tc-Si1"/>
-                                                    <constraint firstAttribute="width" constant="160" id="8O4-Br-8vI"/>
-                                                    <constraint firstAttribute="bottom" secondItem="HDN-LO-N33" secondAttribute="bottom" constant="5" id="HFO-i6-bVU"/>
-                                                    <constraint firstItem="HDN-LO-N33" firstAttribute="leading" secondItem="wxP-DV-kdf" secondAttribute="trailing" constant="-3" id="HN1-xR-sgb"/>
-                                                    <constraint firstItem="wxP-DV-kdf" firstAttribute="top" secondItem="iQc-bc-x5p" secondAttribute="top" id="Nxt-fB-Gfn"/>
-                                                    <constraint firstAttribute="trailing" secondItem="HDN-LO-N33" secondAttribute="trailing" constant="8" id="bqf-Yu-Eoo"/>
-                                                    <constraint firstAttribute="bottom" secondItem="wxP-DV-kdf" secondAttribute="bottom" id="gfO-pS-pg2"/>
-                                                    <constraint firstItem="HDN-LO-N33" firstAttribute="top" secondItem="iQc-bc-x5p" secondAttribute="top" constant="6" id="pam-BJ-w7r"/>
-                                                    <constraint firstItem="wxP-DV-kdf" firstAttribute="leading" secondItem="iQc-bc-x5p" secondAttribute="leading" constant="8" id="r2a-ob-URO"/>
-                                                    <constraint firstAttribute="height" constant="32" id="rTO-se-Y4Z"/>
-                                                </constraints>
-                                            </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1D8-02-TWn">
                                                 <rect key="frame" x="0.0" y="537" width="375" height="65"/>
                                                 <subviews>
@@ -939,20 +922,20 @@
                                                     <constraint firstAttribute="trailing" secondItem="jfU-JP-pV6" secondAttribute="trailing" constant="20" id="thL-p2-M4P"/>
                                                 </constraints>
                                             </view>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qm6-rm-dDf">
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qm6-rm-dDf">
                                                 <rect key="frame" x="20" y="623" width="335" height="880"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="335" id="3D3-Mc-gcu"/>
                                                     <constraint firstAttribute="height" constant="880" id="weh-K8-Ijs"/>
                                                 </constraints>
-                                                <mutableString key="text">Charles Duhigg tornou-se um best-seller logo em seu primeiro livro, O Poder do Hábito, escrito quando ainda ocupava a cadeira de repórter investigativo do The New York Times. O sucesso estrondoso abriu os olhos do autor estreante para o potencial do filão a ser explorado no campo da produtividade. Em seu segundo e último trabalho até aqui, Mais Rápido e Melhor — os Segredos para ser Mais Produtivo na Vida e nos Negócios, 
+                                                <string key="text">Charles Duhigg tornou-se um best-seller logo em seu primeiro livro, O Poder do Hábito, escrito quando ainda ocupava a cadeira de repórter investigativo do The New York Times. O sucesso estrondoso abriu os olhos do autor estreante para o potencial do filão a ser explorado no campo da produtividade. Em seu segundo e último trabalho até aqui, Mais Rápido e Melhor — os Segredos para ser Mais Produtivo na Vida e nos Negócios, 
 Duhigg ampliou sua investigação do campo dos hábitos comportamentais individuais para colocar o foco também nas culturas corporativas. Embora careça das fórmulas originais destrinchadas no trabalho anterior em forma de exercícios práticos para se transformar rotinas, a obra é uma coleção de exemplos de revisão e aperfeiçoamento de processos e estruturas que levaram empresas e profissionais a multiplicar exponencialmente a eficiência em suas atividades. 
 Em um dos cases detalhados em Mais Rápido e Melhor, Duhigg relata a história da implementação do método ágil de pensamento na linha de produção de uma planta da General Motors, em Freemont (EUA). Notória por institucionalizar práticas incompatíveis com um padrão de qualidade à altura da tradicional marca de carros, a fábrica fora fechada em 1982, ` ganhou uma nova chance, dois anos depois, após ter sua gestão assumida por uma parceria- piloto entre a GM e a Toyota. Charles Duhigg tornou-se um best-seller logo em seu primeiro livro, O Poder do Hábito, escrito quando ainda ocupava a cadeira de repórter investigativo do The New York Times. O sucesso estrondoso abriu os olhos do autor estreante para o potencial do filão a ser explorado no campo da produtividade. Em seu segundo e último trabalho até aqui, Mais Rápido e Melhor — os Segredos para ser Mais Produtivo na Vida e nos Negócios, 
 Duhigg ampliou sua investigação do campo dos hábitos comportamentais individuais para colocar o foco também nas culturas corporativas. Embora careça das fórmulas originais destrinchadas no trabalho anterior em forma de exercícios práticos para se transformar rotinas, a obra é uma coleção de exemplos de revisão e aperfeiçoamento de processos e estruturas que levaram empresas e profissionais a multiplicar exponencialmente a eficiência em suas atividades. 
 Em um dos cases detalhados em Mais Rápido e Melhor, Duhigg relata a história da implementação do método ágil de pensamento na linha de produção de uma planta da General Motors, em Freemont (EUA). Notória por institucionalizar práticas incompatíveis com um padrão de qualidade à altura da tradicional marca de carros, a fábrica fora fechada em 1982, ` ganhou uma nova chance, dois anos depois, após ter sua gestão assumida por uma parceria- piloto entre a GM e a Toyota. Charles Duhigg tornou-se um best-seller logo em seu primeiro livro, O Poder do Hábito, escrito quando ainda ocupava a cadeira de repórter investigativo do The New York Times. O sucesso estrondoso abriu os olhos do autor estreante para o potencial do filão a ser explorado no campo da produtividade. Em seu segundo e último trabalho até aqui, Mais Rápido e Melhor — os Segredos para ser Mais Produtivo na Vida e nos Negócios, 
 Duhigg ampliou sua investigação do campo dos hábitos comportamentais individuais para colocar o foco também nas culturas corporativas. Embora careça das fórmulas originais destrinchadas no trabalho anterior em forma de exercícios práticos para se transformar rotinas, a obra é uma coleção de exemplos de revisão e aperfeiçoamento de processos e estruturas que levaram empresas e profissionais a multiplicar exponencialmente a eficiência em suas atividades. 
-Em um dos cases detalhados em Mais Rápido e Melhor, D</mutableString>
+Em um dos cases detalhados em Mais Rápido e Melhor, D</string>
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -973,20 +956,20 @@ Em um dos cases detalhados em Mais Rápido e Melhor, D</mutableString>
                                                     <constraint firstAttribute="height" constant="200" id="pZD-lU-eqP"/>
                                                 </constraints>
                                             </imageView>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fff-fb-iz4">
+                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fff-fb-iz4">
                                                 <rect key="frame" x="20" y="1801" width="335" height="880"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="880" id="0Ri-lq-gua"/>
                                                     <constraint firstAttribute="width" constant="335" id="jvD-V7-yhk"/>
                                                 </constraints>
-                                                <mutableString key="text">Charles Duhigg tornou-se um best-seller logo em seu primeiro livro, O Poder do Hábito, escrito quando ainda ocupava a cadeira de repórter investigativo do The New York Times. O sucesso estrondoso abriu os olhos do autor estreante para o potencial do filão a ser explorado no campo da produtividade. Em seu segundo e último trabalho até aqui, Mais Rápido e Melhor — os Segredos para ser Mais Produtivo na Vida e nos Negócios, 
+                                                <string key="text">Charles Duhigg tornou-se um best-seller logo em seu primeiro livro, O Poder do Hábito, escrito quando ainda ocupava a cadeira de repórter investigativo do The New York Times. O sucesso estrondoso abriu os olhos do autor estreante para o potencial do filão a ser explorado no campo da produtividade. Em seu segundo e último trabalho até aqui, Mais Rápido e Melhor — os Segredos para ser Mais Produtivo na Vida e nos Negócios, 
 Duhigg ampliou sua investigação do campo dos hábitos comportamentais individuais para colocar o foco também nas culturas corporativas. Embora careça das fórmulas originais destrinchadas no trabalho anterior em forma de exercícios práticos para se transformar rotinas, a obra é uma coleção de exemplos de revisão e aperfeiçoamento de processos e estruturas que levaram empresas e profissionais a multiplicar exponencialmente a eficiência em suas atividades. 
 Em um dos cases detalhados em Mais Rápido e Melhor, Duhigg relata a história da implementação do método ágil de pensamento na linha de produção de uma planta da General Motors, em Freemont (EUA). Notória por institucionalizar práticas incompatíveis com um padrão de qualidade à altura da tradicional marca de carros, a fábrica fora fechada em 1982, ` ganhou uma nova chance, dois anos depois, após ter sua gestão assumida por uma parceria- piloto entre a GM e a Toyota. Charles Duhigg tornou-se um best-seller logo em seu primeiro livro, O Poder do Hábito, escrito quando ainda ocupava a cadeira de repórter investigativo do The New York Times. O sucesso estrondoso abriu os olhos do autor estreante para o potencial do filão a ser explorado no campo da produtividade. Em seu segundo e último trabalho até aqui, Mais Rápido e Melhor — os Segredos para ser Mais Produtivo na Vida e nos Negócios, 
 Duhigg ampliou sua investigação do campo dos hábitos comportamentais individuais para colocar o foco também nas culturas corporativas. Embora careça das fórmulas originais destrinchadas no trabalho anterior em forma de exercícios práticos para se transformar rotinas, a obra é uma coleção de exemplos de revisão e aperfeiçoamento de processos e estruturas que levaram empresas e profissionais a multiplicar exponencialmente a eficiência em suas atividades. 
 Em um dos cases detalhados em Mais Rápido e Melhor, Duhigg relata a história da implementação do método ágil de pensamento na linha de produção de uma planta da General Motors, em Freemont (EUA). Notória por institucionalizar práticas incompatíveis com um padrão de qualidade à altura da tradicional marca de carros, a fábrica fora fechada em 1982, ` ganhou uma nova chance, dois anos depois, após ter sua gestão assumida por uma parceria- piloto entre a GM e a Toyota. Charles Duhigg tornou-se um best-seller logo em seu primeiro livro, O Poder do Hábito, escrito quando ainda ocupava a cadeira de repórter investigativo do The New York Times. O sucesso estrondoso abriu os olhos do autor estreante para o potencial do filão a ser explorado no campo da produtividade. Em seu segundo e último trabalho até aqui, Mais Rápido e Melhor — os Segredos para ser Mais Produtivo na Vida e nos Negócios, 
 Duhigg ampliou sua investigação do campo dos hábitos comportamentais individuais para colocar o foco também nas culturas corporativas. Embora careça das fórmulas originais destrinchadas no trabalho anterior em forma de exercícios práticos para se transformar rotinas, a obra é uma coleção de exemplos de revisão e aperfeiçoamento de processos e estruturas que levaram empresas e profissionais a multiplicar exponencialmente a eficiência em suas atividades. 
-Em um dos cases detalhados em Mais Rápido e Melhor, D</mutableString>
+Em um dos cases detalhados em Mais Rápido e Melhor, D</string>
                                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="16"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -1121,9 +1104,9 @@ Em um dos cases detalhados em Mais Rápido e Melhor, D</mutableString>
                                             <view alpha="0.55000001192092896" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="64o-De-70j">
                                                 <rect key="frame" x="108" y="3430" width="160" height="32"/>
                                                 <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Toque para ampliar" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pQG-7p-rmy">
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Toque para ampliar" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pQG-7p-rmy">
                                                         <rect key="frame" x="37" y="6" width="115" height="21"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -1162,6 +1145,40 @@ Em um dos cases detalhados em Mais Rápido e Melhor, D</mutableString>
                                                     <tabBarItem image="font" id="eTc-sj-kVZ"/>
                                                 </items>
                                             </tabBar>
+                                            <view alpha="0.55000000000000004" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iQc-bc-x5p">
+                                                <rect key="frame" x="107" y="610" width="160" height="32"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Toque para ampliar" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HDN-LO-N33">
+                                                        <rect key="frame" x="37" y="6" width="115" height="21"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="115" id="3kR-dg-qjI"/>
+                                                            <constraint firstAttribute="height" constant="21" id="Mqd-i5-9bp"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="touch" translatesAutoresizingMaskIntoConstraints="NO" id="wxP-DV-kdf">
+                                                        <rect key="frame" x="8" y="0.0" width="32" height="32"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="32" id="WHC-a1-W3I"/>
+                                                            <constraint firstAttribute="height" constant="32" id="wUf-HU-fNg"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                </subviews>
+                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <constraints>
+                                                    <constraint firstItem="HDN-LO-N33" firstAttribute="leading" secondItem="iQc-bc-x5p" secondAttribute="leading" constant="37" id="3ki-tc-Si1"/>
+                                                    <constraint firstAttribute="width" constant="160" id="8O4-Br-8vI"/>
+                                                    <constraint firstAttribute="bottom" secondItem="HDN-LO-N33" secondAttribute="bottom" constant="5" id="HFO-i6-bVU"/>
+                                                    <constraint firstItem="HDN-LO-N33" firstAttribute="leading" secondItem="wxP-DV-kdf" secondAttribute="trailing" constant="-3" id="HN1-xR-sgb"/>
+                                                    <constraint firstItem="wxP-DV-kdf" firstAttribute="top" secondItem="iQc-bc-x5p" secondAttribute="top" id="Nxt-fB-Gfn"/>
+                                                    <constraint firstAttribute="trailing" secondItem="HDN-LO-N33" secondAttribute="trailing" constant="8" id="bqf-Yu-Eoo"/>
+                                                    <constraint firstAttribute="bottom" secondItem="wxP-DV-kdf" secondAttribute="bottom" id="gfO-pS-pg2"/>
+                                                    <constraint firstItem="HDN-LO-N33" firstAttribute="top" secondItem="iQc-bc-x5p" secondAttribute="top" constant="6" id="pam-BJ-w7r"/>
+                                                    <constraint firstItem="wxP-DV-kdf" firstAttribute="leading" secondItem="iQc-bc-x5p" secondAttribute="leading" constant="8" id="r2a-ob-URO"/>
+                                                    <constraint firstAttribute="height" constant="32" id="rTO-se-Y4Z"/>
+                                                </constraints>
+                                            </view>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -1266,7 +1283,7 @@ Em um dos cases detalhados em Mais Rápido e Melhor, D</mutableString>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K1E-El-255" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-8638.4057971014499" y="2470.9821428571427"/>
+            <point key="canvasLocation" x="-6818.115942028986" y="2470.9821428571427"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Dca-qm-o45">
@@ -1344,7 +1361,7 @@ Em um dos cases detalhados em Mais Rápido e Melhor, D</mutableString>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mAp-uS-y43" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-7079" y="2036"/>
+            <point key="canvasLocation" x="-5260.144927536232" y="2035.7142857142856"/>
         </scene>
     </scenes>
     <resources>

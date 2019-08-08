@@ -17,7 +17,9 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
     var topView: UIView?
     
     
+    @IBOutlet weak var ImagemPinch: UIImageView!
     @IBOutlet weak var collectionView: UICollectionView!
+    @IBOutlet weak var scrollView: UIScrollView!
     
     
     let noticiasSecundarias = ["McDonald`s muda pelo gosto do consumidor", "McDonald`s muda pelo gosto do consumidor", "McDonald`s muda pelo gosto do consumidor"]
@@ -35,9 +37,13 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
         collectionView.dataSource = self
         collectionView.delegate = self
         
+//        self.scrollView.minimumZoomScale = 1.0
+//        self.scrollView.maximumZoomScale = 6.0
+        
+        
         //Layout Manual da CollectionView
         var layout = self.collectionView.collectionViewLayout as! UICollectionViewFlowLayout
-        layout.sectionInset = UIEdgeInsets(top: 0, left: 16, bottom: 0, right: 16)
+        layout.sectionInset = UIEdgeInsets(top: 0, left: 0, bottom: 5, right: 0)
         layout.minimumInteritemSpacing = 5
         layout.itemSize = CGSize(width: (self.collectionView.frame.size.width - 20)/2, height: self.collectionView.frame.size.height/1)
         
@@ -54,6 +60,8 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
         menuViewController.transitioningDelegate = self
         present(menuViewController, animated: true)
     }
+    
+
     
     //Transition Page
     func transitionToNew(_ menuType: MenuType) {
@@ -92,10 +100,11 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
         
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath) as! CollectionViewCell
         
+        cell.backgroundColor = UIColor.white
         cell.labelDescrisaoSec.text = noticiasSecundarias[indexPath.item]
         cell.labelDescrisaoSec.textColor = UIColor.white
         cell.materiaSec.image = noticiasImagens[indexPath.item]
-        cell.layer.borderColor = UIColor.lightGray.cgColor
+        cell.layer.borderColor = UIColor.white.cgColor
         cell.layer.borderWidth = 0.5
         return cell
     }
@@ -120,7 +129,10 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
        
     }
     
-
+    @IBAction func pinch(_ sender: UIPinchGestureRecognizer) {
+        ImagemPinch.transform = CGAffineTransform(scaleX: sender.scale, y: sender.scale)
+    }
+    
     
     
 }
@@ -136,5 +148,6 @@ extension HomeViewController: UIViewControllerTransitioningDelegate {
         transition.isPresenting = false
         return transition
     }
+    
     
 }

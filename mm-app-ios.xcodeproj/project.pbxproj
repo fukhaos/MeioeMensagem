@@ -36,7 +36,6 @@
 		B69DC2E822EB433C00C8F142 /* iconCheckOn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B69DC2E722EB433C00C8F142 /* iconCheckOn@2x.png */; };
 		B6AA905F22F232B1001A9F0D /* TutorialInitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AA905E22F232B1001A9F0D /* TutorialInitViewController.swift */; };
 		B6AA906422F23305001A9F0D /* Tutorial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6AA906322F23305001A9F0D /* Tutorial.storyboard */; };
-		B6AEF82F22EB852B00C86800 /* GoogleService-Info-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = B6AEF82E22EB852B00C86800 /* GoogleService-Info-2.plist */; };
 		B6B5B44A22E77A55004BBF81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B5B44922E77A55004BBF81 /* AppDelegate.swift */; };
 		B6B5B44C22E77A55004BBF81 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B5B44B22E77A55004BBF81 /* HomeViewController.swift */; };
 		B6B5B44F22E77A55004BBF81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6B5B44D22E77A55004BBF81 /* Main.storyboard */; };
@@ -60,6 +59,12 @@
 		B6C5184B22F8B9BA00D85B59 /* BurguerKing.png in Resources */ = {isa = PBXBuildFile; fileRef = B6C5184A22F8B9BA00D85B59 /* BurguerKing.png */; };
 		B6C5184E22F8C8B400D85B59 /* Notificacao.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C5184D22F8C8B400D85B59 /* Notificacao.storyboard */; };
 		B6C5185022F8C9C700D85B59 /* NotificacaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C5184F22F8C9C700D85B59 /* NotificacaoViewController.swift */; };
+		B6C6E72122FC663F003D303A /* PublicidadeFoto.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C6E72022FC663F003D303A /* PublicidadeFoto.storyboard */; };
+		B6C6E72322FC6676003D303A /* PublicidadeFotoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C6E72222FC6676003D303A /* PublicidadeFotoCollectionViewController.swift */; };
+		B6C6E72522FC86EE003D303A /* PublicidadeFoto.png in Resources */ = {isa = PBXBuildFile; fileRef = B6C6E72422FC86EE003D303A /* PublicidadeFoto.png */; };
+		B6C6E72722FC9673003D303A /* PublicidadeVideo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C6E72622FC9673003D303A /* PublicidadeVideo.storyboard */; };
+		B6C6E72922FC9691003D303A /* PublicidadeVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C6E72822FC9691003D303A /* PublicidadeVideoViewController.swift */; };
+		B6C6E72B22FCA199003D303A /* PublicidadeVideosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C6E72A22FCA199003D303A /* PublicidadeVideosCollectionViewCell.swift */; };
 		B6D84B2322F1D93E00C9EEDB /* ForgotPassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D84B2222F1D93E00C9EEDB /* ForgotPassViewController.swift */; };
 		B6D84B2522F1DD1B00C9EEDB /* ResendEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D84B2422F1DD1B00C9EEDB /* ResendEmailViewController.swift */; };
 		B6F0342422FB6B9800EA7CE1 /* Sadoun.png in Resources */ = {isa = PBXBuildFile; fileRef = B6F0342322FB6B9700EA7CE1 /* Sadoun.png */; };
@@ -99,7 +104,6 @@
 		B69DC2E722EB433C00C8F142 /* iconCheckOn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconCheckOn@2x.png"; sourceTree = "<group>"; };
 		B6AA905E22F232B1001A9F0D /* TutorialInitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialInitViewController.swift; sourceTree = "<group>"; };
 		B6AA906322F23305001A9F0D /* Tutorial.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tutorial.storyboard; sourceTree = "<group>"; };
-		B6AEF82E22EB852B00C86800 /* GoogleService-Info-2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-2.plist"; sourceTree = "<group>"; };
 		B6B5B44622E77A55004BBF81 /* mm-app-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mm-app-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6B5B44922E77A55004BBF81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B6B5B44B22E77A55004BBF81 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
@@ -143,6 +147,12 @@
 		B6C5184A22F8B9BA00D85B59 /* BurguerKing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BurguerKing.png; sourceTree = "<group>"; };
 		B6C5184D22F8C8B400D85B59 /* Notificacao.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Notificacao.storyboard; sourceTree = "<group>"; };
 		B6C5184F22F8C9C700D85B59 /* NotificacaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificacaoViewController.swift; sourceTree = "<group>"; };
+		B6C6E72022FC663F003D303A /* PublicidadeFoto.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PublicidadeFoto.storyboard; sourceTree = "<group>"; };
+		B6C6E72222FC6676003D303A /* PublicidadeFotoCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicidadeFotoCollectionViewController.swift; sourceTree = "<group>"; };
+		B6C6E72422FC86EE003D303A /* PublicidadeFoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PublicidadeFoto.png; sourceTree = "<group>"; };
+		B6C6E72622FC9673003D303A /* PublicidadeVideo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PublicidadeVideo.storyboard; sourceTree = "<group>"; };
+		B6C6E72822FC9691003D303A /* PublicidadeVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicidadeVideoViewController.swift; sourceTree = "<group>"; };
+		B6C6E72A22FCA199003D303A /* PublicidadeVideosCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicidadeVideosCollectionViewCell.swift; sourceTree = "<group>"; };
 		B6D84B2222F1D93E00C9EEDB /* ForgotPassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassViewController.swift; sourceTree = "<group>"; };
 		B6D84B2422F1DD1B00C9EEDB /* ResendEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResendEmailViewController.swift; sourceTree = "<group>"; };
 		B6F0342322FB6B9700EA7CE1 /* Sadoun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sadoun.png; sourceTree = "<group>"; };
@@ -187,6 +197,45 @@
 				B630B0C122F9C3FB00A5EA25 /* CapaPrincipalViewController.swift */,
 			);
 			path = Capa;
+			sourceTree = "<group>";
+		};
+		B65E760522FCB4E400118FD1 /* FotosDiversas */ = {
+			isa = PBXGroup;
+			children = (
+				B6C6E72422FC86EE003D303A /* PublicidadeFoto.png */,
+				B6C5184A22F8B9BA00D85B59 /* BurguerKing.png */,
+				B6C5184622F899FA00D85B59 /* shopping-cidade-jardim.jpg */,
+				B6C5184422F874C800D85B59 /* McDonalds.jpg */,
+				B68B1EB622F06B85009310A2 /* meioMensagem.png */,
+				B6B5B46922E8CF64004BBF81 /* headerBranco@2x.png */,
+				B6B5B46722E8C8D3004BBF81 /* 41528940_241462876494767_8632959559543993127_n.jpg */,
+				B6F0342522FC4B7200EA7CE1 /* Engajamento1.png */,
+				B6F0342622FC4B7200EA7CE1 /* Engajamento2.png */,
+				B6B5B48422E8F4F7004BBF81 /* group@2x.png */,
+				B69DC2E722EB433C00C8F142 /* iconCheckOn@2x.png */,
+				B69DC2D222EB37B400C8F142 /* iconCheckoff@2x.png */,
+				B630B0C322F9CC8600A5EA25 /* streming.jpg */,
+				B630B0C522F9E15600A5EA25 /* Materia1.png */,
+				B630B0C722F9E29000A5EA25 /* Materia2.png */,
+				B6BF810422FAFC03009B3BF9 /* checkBoxOn.png */,
+				B6F0342322FB6B9700EA7CE1 /* Sadoun.png */,
+			);
+			path = FotosDiversas;
+			sourceTree = "<group>";
+		};
+		B65E760622FCB51D00118FD1 /* Springs */ = {
+			isa = PBXGroup;
+			children = (
+				B69DC2D622EB3D8C00C8F142 /* Spring.swift */,
+				B69DC2D822EB3DBC00C8F142 /* SpringAnimation.swift */,
+				B69DC2D422EB3D1600C8F142 /* SpringButtom.swift */,
+				B69DC2DA22EB3DE300C8F142 /* SpringImageView.swift */,
+				B69DC2DD22EB3E1400C8F142 /* SpringLabel.swift */,
+				B69DC2DF22EB3E3A00C8F142 /* SpringTextField.swift */,
+				B69DC2E122EB3E6500C8F142 /* SpringTextView.swift */,
+				B69DC2E322EB3E9300C8F142 /* SpringView.swift */,
+			);
+			path = Springs;
 			sourceTree = "<group>";
 		};
 		B6813EF022F4616800CAC5EA /* ViewTutorial */ = {
@@ -264,6 +313,8 @@
 		B6B5B44822E77A55004BBF81 /* mm-app-ios */ = {
 			isa = PBXGroup;
 			children = (
+				B6C6E71F22FC65F7003D303A /* PublicidadeFoto */,
+				B6C6E71E22FC64FA003D303A /* PublicidadeVideo */,
 				B630B0BE22F9C3BF00A5EA25 /* Capa */,
 				B6BF810622FB3DE5009B3BF9 /* EdicaoEditorial */,
 				B6C5184C22F8C88D00D85B59 /* Notificacao */,
@@ -277,37 +328,14 @@
 				B6B5B46422E8C517004BBF81 /* Home */,
 				B6B5B44922E77A55004BBF81 /* AppDelegate.swift */,
 				B6B5B44D22E77A55004BBF81 /* Main.storyboard */,
-				B6C5184422F874C800D85B59 /* McDonalds.jpg */,
-				B6C5184A22F8B9BA00D85B59 /* BurguerKing.png */,
-				B6C5184622F899FA00D85B59 /* shopping-cidade-jardim.jpg */,
 				B6B5B45322E77A58004BBF81 /* Assets.xcassets */,
 				B68B1EC122F0D323009310A2 /* Colors.xcassets */,
+				B65E760522FCB4E400118FD1 /* FotosDiversas */,
 				B6B5B45522E77A58004BBF81 /* LaunchScreen.storyboard */,
 				B6B5B45822E77A58004BBF81 /* Info.plist */,
 				B6B5B45022E77A55004BBF81 /* mm_app_ios.xcdatamodeld */,
-				B6B5B46922E8CF64004BBF81 /* headerBranco@2x.png */,
-				B6B5B46722E8C8D3004BBF81 /* 41528940_241462876494767_8632959559543993127_n.jpg */,
-				B6F0342522FC4B7200EA7CE1 /* Engajamento1.png */,
-				B6F0342622FC4B7200EA7CE1 /* Engajamento2.png */,
-				B6B5B48422E8F4F7004BBF81 /* group@2x.png */,
-				B69DC2E722EB433C00C8F142 /* iconCheckOn@2x.png */,
-				B69DC2D222EB37B400C8F142 /* iconCheckoff@2x.png */,
-				B6AEF82E22EB852B00C86800 /* GoogleService-Info-2.plist */,
-				B68B1EB622F06B85009310A2 /* meioMensagem.png */,
-				B630B0C322F9CC8600A5EA25 /* streming.jpg */,
-				B630B0C522F9E15600A5EA25 /* Materia1.png */,
-				B630B0C722F9E29000A5EA25 /* Materia2.png */,
-				B6BF810422FAFC03009B3BF9 /* checkBoxOn.png */,
-				B6F0342322FB6B9700EA7CE1 /* Sadoun.png */,
 				B6B5B47122E8F1AD004BBF81 /* Font */,
-				B69DC2D622EB3D8C00C8F142 /* Spring.swift */,
-				B69DC2D822EB3DBC00C8F142 /* SpringAnimation.swift */,
-				B69DC2D422EB3D1600C8F142 /* SpringButtom.swift */,
-				B69DC2DA22EB3DE300C8F142 /* SpringImageView.swift */,
-				B69DC2DD22EB3E1400C8F142 /* SpringLabel.swift */,
-				B69DC2DF22EB3E3A00C8F142 /* SpringTextField.swift */,
-				B69DC2E122EB3E6500C8F142 /* SpringTextView.swift */,
-				B69DC2E322EB3E9300C8F142 /* SpringView.swift */,
+				B65E760622FCB51D00118FD1 /* Springs */,
 			);
 			path = "mm-app-ios";
 			sourceTree = "<group>";
@@ -373,6 +401,25 @@
 				B6C5184F22F8C9C700D85B59 /* NotificacaoViewController.swift */,
 			);
 			path = Notificacao;
+			sourceTree = "<group>";
+		};
+		B6C6E71E22FC64FA003D303A /* PublicidadeVideo */ = {
+			isa = PBXGroup;
+			children = (
+				B6C6E72622FC9673003D303A /* PublicidadeVideo.storyboard */,
+				B6C6E72822FC9691003D303A /* PublicidadeVideoViewController.swift */,
+				B6C6E72A22FCA199003D303A /* PublicidadeVideosCollectionViewCell.swift */,
+			);
+			path = PublicidadeVideo;
+			sourceTree = "<group>";
+		};
+		B6C6E71F22FC65F7003D303A /* PublicidadeFoto */ = {
+			isa = PBXGroup;
+			children = (
+				B6C6E72022FC663F003D303A /* PublicidadeFoto.storyboard */,
+				B6C6E72222FC6676003D303A /* PublicidadeFotoCollectionViewController.swift */,
+			);
+			path = PublicidadeFoto;
 			sourceTree = "<group>";
 		};
 		E258E872FC06260D848BE629 /* Pods */ = {
@@ -460,7 +507,6 @@
 				B6C5184B22F8B9BA00D85B59 /* BurguerKing.png in Resources */,
 				B630B0C022F9C3E500A5EA25 /* CapaPrincipal.storyboard in Resources */,
 				B6813EF222F4619900CAC5EA /* TutorialViewInit.storyboard in Resources */,
-				B6AEF82F22EB852B00C86800 /* GoogleService-Info-2.plist in Resources */,
 				B6AA906422F23305001A9F0D /* Tutorial.storyboard in Resources */,
 				B6F0342822FC4B7300EA7CE1 /* Engajamento2.png in Resources */,
 				B69DC2D322EB37B400C8F142 /* iconCheckoff@2x.png in Resources */,
@@ -473,6 +519,9 @@
 				B68B1EC222F0D323009310A2 /* Colors.xcassets in Resources */,
 				B6B5B44F22E77A55004BBF81 /* Main.storyboard in Resources */,
 				B68B1EBB22F097DE009310A2 /* Login.storyboard in Resources */,
+				B6C6E72122FC663F003D303A /* PublicidadeFoto.storyboard in Resources */,
+				B6C6E72522FC86EE003D303A /* PublicidadeFoto.png in Resources */,
+				B6C6E72722FC9673003D303A /* PublicidadeVideo.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -548,7 +597,10 @@
 				B630B0BA22F9BC9200A5EA25 /* AlterarSenhaViewController.swift in Sources */,
 				B69DC2DE22EB3E1400C8F142 /* SpringLabel.swift in Sources */,
 				B69DC2DB22EB3DE300C8F142 /* SpringImageView.swift in Sources */,
+				B6C6E72922FC9691003D303A /* PublicidadeVideoViewController.swift in Sources */,
 				B69DC2CA22EA0A5C00C8F142 /* UserTermViewController.swift in Sources */,
+				B6C6E72322FC6676003D303A /* PublicidadeFotoCollectionViewController.swift in Sources */,
+				B6C6E72B22FCA199003D303A /* PublicidadeVideosCollectionViewCell.swift in Sources */,
 				B69DC2E022EB3E3A00C8F142 /* SpringTextField.swift in Sources */,
 				B6813EF422F461B300CAC5EA /* TutorialViewInitViewController.swift in Sources */,
 				B6B74ACB22E9D455001261B3 /* CadastroViewController.swift in Sources */,
