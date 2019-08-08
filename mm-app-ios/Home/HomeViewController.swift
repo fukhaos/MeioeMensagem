@@ -16,6 +16,8 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
     let transition = SlideInTransition()
     var topView: UIView?
     
+    //Local User Preferences
+    let defaults = UserDefaults.standard
     
     @IBOutlet weak var collectionView: UICollectionView!
     
@@ -41,7 +43,16 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
         layout.minimumInteritemSpacing = 5
         layout.itemSize = CGSize(width: (self.collectionView.frame.size.width - 20)/2, height: self.collectionView.frame.size.height/1)
         
-
+        
+        //Ler status do tutorial
+        let showTutorial = defaults.bool(forKey: "showTutorial")
+        
+        //se for a primeira vez que o app estiver sendo executado
+        if showTutorial == false {
+            let tutorialStoryboard = UIStoryboard(name: "TutorialViewInit", bundle: nil)
+            let switchViewController = tutorialStoryboard.instantiateViewController(withIdentifier: "InitialTutorial")
+            self.present(switchViewController, animated: true, completion: nil)
+        }
 
     }
     

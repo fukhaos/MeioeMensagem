@@ -13,7 +13,7 @@
         <!--Tutorial-->
         <scene sceneID="Itz-nr-t3c">
             <objects>
-                <viewController id="hik-dj-Dhu" customClass="TutorialViewInitViewController" customModule="mm_app_ios" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="InitialTutorial" id="hik-dj-Dhu" customClass="TutorialViewInitViewController" customModule="mm_app_ios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FEG-EI-MSe">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="900"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -148,7 +148,6 @@
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
                                                         <connections>
-                                                            <action selector="endTutorial:" destination="hik-dj-Dhu" eventType="touchUpInside" id="bXR-hP-TLg"/>
                                                             <action selector="goMainButton:" destination="hik-dj-Dhu" eventType="touchUpInside" id="lCg-VN-R8Y"/>
                                                         </connections>
                                                     </button>
@@ -251,7 +250,6 @@
                     <size key="freeformSize" width="375" height="900"/>
                     <connections>
                         <outlet property="goMainView" destination="zgk-ti-hwp" id="YHY-GW-oxj"/>
-                        <outlet property="viewEntendi" destination="zgk-ti-hwp" id="25u-ra-sDL"/>
                         <segue destination="CRQ-bD-ErT" kind="show" identifier="segueMain" id="LNF-Yj-vkD"/>
                     </connections>
                 </viewController>

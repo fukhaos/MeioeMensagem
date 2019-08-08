@@ -13,6 +13,7 @@ class TutorialViewInitViewController: UIViewController {
     
     @IBOutlet weak var goMainView: UIView!
     
+    let defaults = UserDefaults.standard
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,6 +25,7 @@ class TutorialViewInitViewController: UIViewController {
 
     @IBAction func goMainButton(_ sender: Any) {
         self.performSegue(withIdentifier: "segueMain", sender: nil)
+        defaults.set(true, forKey: "showTutorial")
     }
     
 
