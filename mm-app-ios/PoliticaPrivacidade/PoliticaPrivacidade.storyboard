@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yQe-DZ-riK">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Politica Privacidade-->
+        <scene sceneID="gpS-2z-Pwf">
+            <objects>
+                <viewController id="yQe-DZ-riK" customClass="PoliticaPrivacidade" customModule="mm_app_ios" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Gs1-RT-o3N">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f8y-oD-eQ3">
+                                <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="414" id="3XU-gt-Mi7"/>
+                                    <constraint firstAttribute="height" constant="44" id="nPN-GY-Bru"/>
+                                </constraints>
+                                <items>
+                                    <barButtonItem image="fecharBranco" id="Eur-mz-hE1">
+                                        <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <action selector="fecharPolitica:" destination="yQe-DZ-riK" id="CJF-x4-3B3"/>
+                                        </connections>
+                                    </barButtonItem>
+                                </items>
+                                <color key="barTintColor" red="0.0" green="0.48855721949999997" blue="0.76702791449999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </toolbar>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4Vq-kl-SGR">
+                                <rect key="frame" x="0.0" y="88" width="414" height="808"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="808" id="k8T-jX-ZqR"/>
+                                    <constraint firstAttribute="width" constant="414" id="vLk-jk-6Pz"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="f8y-oD-eQ3" firstAttribute="top" secondItem="uhU-5l-6Cl" secondAttribute="top" id="2CF-NB-Ndb"/>
+                            <constraint firstItem="4Vq-kl-SGR" firstAttribute="trailing" secondItem="uhU-5l-6Cl" secondAttribute="trailing" id="HHu-6W-0B0"/>
+                            <constraint firstItem="f8y-oD-eQ3" firstAttribute="leading" secondItem="uhU-5l-6Cl" secondAttribute="leading" id="PNc-hJ-0hx"/>
+                            <constraint firstItem="4Vq-kl-SGR" firstAttribute="leading" secondItem="uhU-5l-6Cl" secondAttribute="leading" id="VHG-Kh-3Wa"/>
+                            <constraint firstAttribute="bottom" secondItem="4Vq-kl-SGR" secondAttribute="bottom" id="XFy-eB-NGv"/>
+                            <constraint firstItem="f8y-oD-eQ3" firstAttribute="trailing" secondItem="uhU-5l-6Cl" secondAttribute="trailing" id="dHx-Eb-6Nc"/>
+                            <constraint firstItem="4Vq-kl-SGR" firstAttribute="top" secondItem="f8y-oD-eQ3" secondAttribute="bottom" id="ybp-Lu-2bd"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="uhU-5l-6Cl"/>
+                    </view>
+                    <connections>
+                        <outlet property="toolBar" destination="f8y-oD-eQ3" id="SYe-jn-c92"/>
+                        <outlet property="viewController" destination="4Vq-kl-SGR" id="Vm0-up-MSB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GEn-Th-hY9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-7959.420289855073" y="66.964285714285708"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="fecharBranco" width="24" height="24"/>
+    </resources>
+</document>

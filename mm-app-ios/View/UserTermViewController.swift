@@ -87,5 +87,11 @@ class UserTermViewController: UIViewController, WKNavigationDelegate {
     
             decisionHandler(.allow)
         }
+    
+    
+
+    
+    
+    
 }
 

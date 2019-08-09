@@ -11,22 +11,23 @@ import UIKit
 class CapaPrincipalViewController: UIViewController {
     
     
-
+    @IBOutlet weak var avancarPage: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        
+        //Add tap in label
+        let tap = UITapGestureRecognizer(target: self, action: #selector(CapaPrincipalViewController.tapFunction))
+        avancarPage.isUserInteractionEnabled = true
+        avancarPage.addGestureRecognizer(tap)
 
     }
+
+    @IBAction func tapFunction(sender: UITapGestureRecognizer) {
+    self.performSegue(withIdentifier: "segueEdicao", sender: nil)
+    }
+
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }

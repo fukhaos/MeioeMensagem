@@ -78,15 +78,10 @@ class MenuViewController: UITableViewController {
             //    self?.didTapMenuType?(menuType)
             //}
         case .faq:
-            dismiss(animated: true) { [weak self] in
-                print("Dismissing: \(menuType)")
-                self?.didTapMenuType?(menuType)
-            }
+            self.performSegue(withIdentifier: "segueFAQ", sender: nil)
+
         case .politicaPrivacidade:
-            dismiss(animated: true) { [weak self] in
-                print("Dismissing: \(menuType)")
-                self?.didTapMenuType?(menuType)
-            }
+            self.performSegue(withIdentifier: "seguePolitica", sender: nil)
         case .sair:
             dismiss(animated: true) { [weak self] in
                 print("Dismissing: \(menuType)")
