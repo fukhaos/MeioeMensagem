@@ -72,10 +72,11 @@ class MenuViewController: UITableViewController {
             self.performSegue(withIdentifier: "tutorial", sender: nil)
             
         case .faleConosco:
-            dismiss(animated: true) { [weak self] in
-                print("Dismissing: \(menuType)")
-                self?.didTapMenuType?(menuType)
-            }
+            self.performSegue(withIdentifier: "segueFaleConosco", sender: nil)
+            //dismiss(animated: true) { [weak self] in
+            //    print("Dismissing: \(menuType)")
+            //    self?.didTapMenuType?(menuType)
+            //}
         case .faq:
             dismiss(animated: true) { [weak self] in
                 print("Dismissing: \(menuType)")

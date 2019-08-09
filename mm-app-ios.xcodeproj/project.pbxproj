@@ -23,6 +23,9 @@
 		B68B1EBB22F097DE009310A2 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B68B1EBA22F097DE009310A2 /* Login.storyboard */; };
 		B68B1EC222F0D323009310A2 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B68B1EC122F0D323009310A2 /* Colors.xcassets */; };
 		B68B1EEE22F0EDBD009310A2 /* PreferenceAndConfig.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B68B1EED22F0EDBD009310A2 /* PreferenceAndConfig.storyboard */; };
+		B69A6DC622FD9B2000786A1D /* FaleConosco.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B69A6DC522FD9B2000786A1D /* FaleConosco.storyboard */; };
+		B69A6DC822FD9BAB00786A1D /* FaleConoscoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69A6DC722FD9BAB00786A1D /* FaleConoscoViewController.swift */; };
+		B69A6DCA22FDA35500786A1D /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69A6DC922FDA35500786A1D /* Categories.swift */; };
 		B69DC2CA22EA0A5C00C8F142 /* UserTermViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69DC2C922EA0A5C00C8F142 /* UserTermViewController.swift */; };
 		B69DC2D322EB37B400C8F142 /* iconCheckoff@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B69DC2D222EB37B400C8F142 /* iconCheckoff@2x.png */; };
 		B69DC2D522EB3D1600C8F142 /* SpringButtom.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69DC2D422EB3D1600C8F142 /* SpringButtom.swift */; };
@@ -81,6 +84,9 @@
 		B68B1EBA22F097DE009310A2 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		B68B1EC122F0D323009310A2 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		B68B1EED22F0EDBD009310A2 /* PreferenceAndConfig.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PreferenceAndConfig.storyboard; sourceTree = "<group>"; };
+		B69A6DC522FD9B2000786A1D /* FaleConosco.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FaleConosco.storyboard; sourceTree = "<group>"; };
+		B69A6DC722FD9BAB00786A1D /* FaleConoscoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaleConoscoViewController.swift; sourceTree = "<group>"; };
+		B69A6DC922FDA35500786A1D /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
 		B69DC2C922EA0A5C00C8F142 /* UserTermViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTermViewController.swift; sourceTree = "<group>"; };
 		B69DC2D222EB37B400C8F142 /* iconCheckoff@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconCheckoff@2x.png"; sourceTree = "<group>"; };
 		B69DC2D422EB3D1600C8F142 /* SpringButtom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpringButtom.swift; sourceTree = "<group>"; };
@@ -204,6 +210,16 @@
 			path = PreferenceAndConfig;
 			sourceTree = "<group>";
 		};
+		B69A6DC422FD9ADA00786A1D /* FaleConosco */ = {
+			isa = PBXGroup;
+			children = (
+				B69A6DC522FD9B2000786A1D /* FaleConosco.storyboard */,
+				B69A6DC722FD9BAB00786A1D /* FaleConoscoViewController.swift */,
+				B69A6DC922FDA35500786A1D /* Categories.swift */,
+			);
+			path = FaleConosco;
+			sourceTree = "<group>";
+		};
 		B69DC2C822EA0A3200C8F142 /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -254,6 +270,7 @@
 		B6B5B44822E77A55004BBF81 /* mm-app-ios */ = {
 			isa = PBXGroup;
 			children = (
+				B69A6DC422FD9ADA00786A1D /* FaleConosco */,
 				B630B0BE22F9C3BF00A5EA25 /* Capa */,
 				B6C5184C22F8C88D00D85B59 /* Notificacao */,
 				B6813EF022F4616800CAC5EA /* ViewTutorial */,
@@ -430,6 +447,7 @@
 				B630B0C422F9CC8600A5EA25 /* streming.jpg in Resources */,
 				B68B1EEE22F0EDBD009310A2 /* PreferenceAndConfig.storyboard in Resources */,
 				B68B1EB722F06B85009310A2 /* meioMensagem.png in Resources */,
+				B69A6DC622FD9B2000786A1D /* FaleConosco.storyboard in Resources */,
 				B6BF810522FAFC04009B3BF9 /* checkBoxOn.png in Resources */,
 				B630B0C622F9E15600A5EA25 /* Materia1.png in Resources */,
 				B6B5B46822E8C8D3004BBF81 /* 41528940_241462876494767_8632959559543993127_n.jpg in Resources */,
@@ -509,8 +527,10 @@
 				B6B5B44A22E77A55004BBF81 /* AppDelegate.swift in Sources */,
 				B69DC2D922EB3DBC00C8F142 /* SpringAnimation.swift in Sources */,
 				B6C5185022F8C9C700D85B59 /* NotificacaoViewController.swift in Sources */,
+				B69A6DCA22FDA35500786A1D /* Categories.swift in Sources */,
 				B630B0B822F9BC7900A5EA25 /* MinhaContaViewController.swift in Sources */,
 				B69DC2D522EB3D1600C8F142 /* SpringButtom.swift in Sources */,
+				B69A6DC822FD9BAB00786A1D /* FaleConoscoViewController.swift in Sources */,
 				B69DC2E422EB3E9300C8F142 /* SpringView.swift in Sources */,
 				B6B74ACD22E9D571001261B3 /* ValidationViewController.swift in Sources */,
 				B6B5B45222E77A55004BBF81 /* mm_app_ios.xcdatamodeld in Sources */,

@@ -366,6 +366,9 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.019627574830000001" green="0.48962080479999998" blue="0.76839584110000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="kyI-VQ-0vC" kind="show" identifier="segueFaleConosco" id="stz-uV-MRI"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="55" id="sqQ-KW-m6g">
                                         <rect key="frame" x="0.0" y="491" width="375" height="55"/>
@@ -529,6 +532,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3DD-72-XmV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-10895" y="399"/>
+        </scene>
+        <!--FaleConosco-->
+        <scene sceneID="oy3-4I-Gwl">
+            <objects>
+                <viewControllerPlaceholder storyboardName="FaleConosco" id="kyI-VQ-0vC" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X6A-wP-fqh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-10870" y="463"/>
         </scene>
         <!--Login-->
         <scene sceneID="Zhp-JN-YxY">
