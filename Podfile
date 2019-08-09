@@ -12,6 +12,7 @@ target 'mm-app-ios' do
 	pod 'FacebookShare'
 	pod 'FBSDKLoginKit'
 	pod 'RxTheme'
-	pod 'TinyConstraints'	
+	pod 'TinyConstraints'
+	pod 'ImageSlideshow'	
 
 end

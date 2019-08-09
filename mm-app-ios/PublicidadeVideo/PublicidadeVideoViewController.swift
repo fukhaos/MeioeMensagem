@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class PublicidadeVideoViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
 
     
@@ -15,8 +16,7 @@ class PublicidadeVideoViewController: UIViewController, UICollectionViewDelegate
     
     
     
-    
-    let imagemView: [UIImage] = [
+    var imagemView: [UIImage] = [
         UIImage(named: "shopping-cidade-jardim.jpg")!,
         UIImage(named: "McDonalds.jpg")!,
         UIImage(named: "BurguerKing.png")!,
@@ -29,7 +29,16 @@ class PublicidadeVideoViewController: UIViewController, UICollectionViewDelegate
         collectionView.dataSource = self
         collectionView.delegate = self
         
+
+    
+        
     }
+    override func viewWillDisappear(_ animated: Bool) {
+        super.viewWillDisappear(animated)
+        
+    }
+    
+ 
     
 
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
@@ -60,3 +69,24 @@ class PublicidadeVideoViewController: UIViewController, UICollectionViewDelegate
     
 
 }
+
+extension PublicidadeVideoViewController: UICollectionViewDelegateFlowLayout {
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        let size = UIScreen.main.bounds
+        return CGSize(width: size.width, height: size.height)
+    }
+   
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
+        return UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
+        return 0
+    }
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
+        return 0
+    }
+}
+
+
+
