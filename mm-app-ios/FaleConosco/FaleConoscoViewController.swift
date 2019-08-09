@@ -15,7 +15,6 @@ class FaleConoscoViewController: UIViewController {
 
     @IBOutlet weak var messageTextView: UITextView!
     
-    
     //Caixa de texto de categorias a vincular com o pickerview
     @IBOutlet weak var categoryTextField: UITextField! {
         didSet {
@@ -33,6 +32,13 @@ class FaleConoscoViewController: UIViewController {
         //Ocultar o cursor piscando
         categoryTextField.tintColor = .clear
         
+        messageTextView.text = "Sua mensagem"
+        messageTextView.textColor = .lightGray
+        messageTextView.layer.borderWidth = 0.5
+        //messageTextView.font = UIFont(name: "Roboto-Regular", size: 16.0)
+        messageTextView.returnKeyType = .done
+        messageTextView.delegate = self
+        
         //Função que vincula a caixa de texto de categorias com o pickerview de categorias
         insertPickerInputView()
     }
@@ -46,7 +52,6 @@ class FaleConoscoViewController: UIViewController {
     
     @IBAction func close(_ sender: Any) {
         self.performSegue(withIdentifier: "goMain", sender: nil)
-        
     }
     
     /*
@@ -78,6 +83,31 @@ extension FaleConoscoViewController: UITextFieldDelegate {
     func textFieldDidBeginEditing(_ textField: UITextField){
         if textField == categoryTextField {
             categoryTextField.text = Categories.allValues[0]
+        }
+    }
+}
+
+extension FaleConoscoViewController: UITextViewDelegate {
+    func textViewDidBeginEditing(_ textView: UITextView) {
+        if textView.text == "Sua mensagem" {
+            textView.text = ""
+            textView.textColor = UIColor.black
+            //textView.font = UIFont(name: "Roboto-Regular", size: 16.0)
+        }
+    }
+    
+    func textView(_ textView: UITextView, shouldChangeTextIn range: NSRange, replacementText text: String) -> Bool {
+        if text == "\n" {
+            textView.resignFirstResponder()
+        }
+        return true
+    }
+    
+    func textViewDidEndEditing(_ textView: UITextView) {
+        if textView.text == "" {
+            textView.text = "Sua mensagem"
+            textView.textColor = UIColor.lightGray
+            //textView.font = UIFont(name: "Roboto-Regular", size: 16.0)
         }
     }
 }
