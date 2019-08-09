@@ -23,9 +23,10 @@ class FAQViewController: UIViewController {
 
     //MARK: Action
     
-    @IBAction func fecharFAQ(_ sender: UIBarButtonItem) {
+    @IBAction func voltarMain(_ sender: UIBarButtonItem) {
         self.performSegue(withIdentifier: "goMain", sender: nil)
     }
+    
     
 
 }

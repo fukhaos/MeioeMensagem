@@ -462,6 +462,9 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.019627574830000001" green="0.48962080479999998" blue="0.76839584110000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="Hhj-h3-sbU" kind="show" identifier="seguePolitica" id="vzt-7J-gIT"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="55" id="fFv-3X-HA4">
                                         <rect key="frame" x="0.0" y="601" width="375" height="55"/>
@@ -528,7 +531,7 @@
                 <viewControllerPlaceholder storyboardName="Notificacao" id="wD9-Yd-Poa" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Sl9-ni-3l0" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-10877" y="301"/>
+            <point key="canvasLocation" x="-10878" y="309"/>
         </scene>
         <!--PreferenceAndConfig-->
         <scene sceneID="eYV-bR-6Cg">
@@ -536,7 +539,7 @@
                 <viewControllerPlaceholder storyboardName="PreferenceAndConfig" id="zce-gJ-Fs7" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4tY-DE-AhN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-10829" y="349"/>
+            <point key="canvasLocation" x="-10830" y="354"/>
         </scene>
         <!--Tutorial-->
         <scene sceneID="lVo-1e-Gl3">
@@ -552,7 +555,15 @@
                 <viewControllerPlaceholder storyboardName="FAQ" id="Wi5-am-kMH" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mZ8-Wq-bdl" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-10860" y="468"/>
+            <point key="canvasLocation" x="-10913" y="443"/>
+        </scene>
+        <!--PoliticaPrivacidade-->
+        <scene sceneID="sZl-ds-OSa">
+            <objects>
+                <viewControllerPlaceholder storyboardName="PoliticaPrivacidade" id="Hhj-h3-sbU" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1fv-dX-JKW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-10840" y="487"/>
         </scene>
         <!--Login-->
         <scene sceneID="Zhp-JN-YxY">
