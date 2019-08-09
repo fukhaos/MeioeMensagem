@@ -762,7 +762,7 @@
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="F8s-2v-4y1">
                                                 <rect key="frame" x="70" y="484" width="268" height="30"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yIN-D7-mV3">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="yIN-D7-mV3">
                                                         <rect key="frame" x="1" y="0.0" width="266" height="30"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="266" id="HMN-RA-dIZ"/>
@@ -924,7 +924,7 @@
                         <viewLayoutGuide key="safeArea" id="JN7-an-Dd4"/>
                     </view>
                     <navigationItem key="navigationItem" title="Política de privacidade" id="UxC-9g-Om8">
-                        <barButtonItem key="leftBarButtonItem" image="fecharBranco" id="j8x-Me-yjn">
+                        <barButtonItem key="leftBarButtonItem" image="voltarBranco" id="j8x-Me-yjn">
                             <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <action selector="UserAndTerms:" destination="1PE-Ba-ZAC" id="vev-Hu-lae"/>

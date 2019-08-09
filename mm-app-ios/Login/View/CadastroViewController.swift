@@ -67,11 +67,12 @@ class CadastroViewController: UIViewController {
     }
     
     func setUIElements()  -> NSMutableAttributedString{
-        let attributedString = NSMutableAttributedString(string: "Eu li e concordo com os Termos de Uso.", attributes: [
+        let attributedString = NSMutableAttributedString(string: "Li e aceito os termos da Política de Privacidade Meio e Mensagem.", attributes: [
             .font: UIFont.systemFont(ofSize: 14.0, weight: .regular),
             .foregroundColor: UIColor(white: 36.0 / 255.0, alpha: 1.0)
             ])
-        attributedString.addAttribute(.font, value: UIFont.systemFont(ofSize: 14.0, weight: .bold), range: NSRange(location: 24, length: 14))
+        attributedString.addAttribute(.font, value: UIFont.systemFont(ofSize: 14.0, weight: .bold), range: NSRange(location: 25, length: 40))
+        attributedString.addAttribute(NSAttributedString.Key.foregroundColor, value: UIColor(red: 0/255, green: 96/255, blue: 152/255, alpha: 1), range: NSRange(location: 25, length: 40))
         userAndTermsButton.setAttributedTitle(attributedString, for: .normal)
         return attributedString
 
