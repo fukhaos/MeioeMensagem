@@ -19,6 +19,12 @@ class FaleConoscoViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        //Ativar o delegate para a caixa de texto de categoria
+        categoryTextField.delegate = self
+        
+        //Ocultar o cursor piscando
+        categoryTextField.tintColor = .clear
+        
         //Função que vincula a caixa de texto de categorias com o pickerview de categorias
         insertPickerInputView()
     }
@@ -30,6 +36,9 @@ class FaleConoscoViewController: UIViewController {
         self.categoryTextField.inputView = pickerView
     }
     
+    @IBAction func close(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
     
     /*
     // MARK: - Navigation
@@ -48,6 +57,19 @@ extension FaleConoscoViewController: UITextFieldDelegate {
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
         return true
+    }
+    
+    func textField(_ textField: UITextField, shouldChangeCharactersIn range: NSRange, replacementString string: String) -> Bool {
+        if textField == categoryTextField {
+            return false
+        }
+        return true
+    }
+    
+    func textFieldDidBeginEditing(_ textField: UITextField){
+        if textField == categoryTextField {
+            categoryTextField.text = Categories.allValues[0]
+        }
     }
 }
 
