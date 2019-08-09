@@ -250,9 +250,9 @@
 		B680F8F022FDFDF100C1A79D /* FaleConosco */ = {
 			isa = PBXGroup;
 			children = (
-				B680F8F122FDFE3500C1A79D /* Categories.swift */,
 				B680F8F222FDFE3500C1A79D /* FaleConosco.storyboard */,
 				B680F8F322FDFE3500C1A79D /* FaleConoscoViewController.swift */,
+				B680F8F122FDFE3500C1A79D /* Categories.swift */,
 			);
 			path = FaleConosco;
 			sourceTree = "<group>";

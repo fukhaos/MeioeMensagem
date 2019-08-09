@@ -52,7 +52,7 @@ Escreva sua mensagem no campo abaixo. Retornaremos o contato o mais breve possí
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Categoria" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jp5-yq-SXI">
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Categoria" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="jp5-yq-SXI">
                                         <rect key="frame" x="20" y="145.5" width="374" height="51"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="51" id="o5K-8C-wbc"/>
@@ -119,6 +119,7 @@ Escreva sua mensagem no campo abaixo. Retornaremos o contato o mais breve possí
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="categoryTextField" destination="jp5-yq-SXI" id="RFk-wb-Dsh"/>
+                        <outlet property="messageTextView" destination="hdF-eM-1Wu" id="gB1-SN-aQn"/>
                         <segue destination="SV9-F8-JP0" kind="show" identifier="goMain" id="dae-MA-cuW"/>
                     </connections>
                 </viewController>

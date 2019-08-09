@@ -13,8 +13,16 @@ class FaleConoscoViewController: UIViewController {
     //criando objecto PickerView
     let pickerView = UIPickerView()
 
+    @IBOutlet weak var messageTextView: UITextView!
+    
+    
     //Caixa de texto de categorias a vincular com o pickerview
-    @IBOutlet weak var categoryTextField: UITextField!
+    @IBOutlet weak var categoryTextField: UITextField! {
+        didSet {
+            categoryTextField.tintColor = .lightGray
+            categoryTextField.setIcon(UIImage(named: "arrow-down-30")!)
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -90,5 +98,18 @@ extension FaleConoscoViewController: UIPickerViewDataSource, UIPickerViewDelegat
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         self.categoryTextField.text = Categories.allValues[row]
+    }
+}
+
+extension UITextField {
+    func setIcon(_ image: UIImage) {
+        let iconView = UIImageView(frame: CGRect(x: 10, y: 5, width: 20, height: 20))
+        iconView.image = image
+        let iconContainerView: UIView = UIView(frame: CGRect(x: 20, y: 0, width: 40, height: 30))
+        iconContainerView.addSubview(iconView)
+        rightView = iconContainerView
+        rightViewMode = .always
+        //leftView = iconContainerView
+        //leftViewMode = .always
     }
 }
