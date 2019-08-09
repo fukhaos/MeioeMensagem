@@ -201,7 +201,9 @@ class CadastroViewController: UIViewController {
     }
     
     @IBAction func closedCadastro(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
+        if ((self.presentingViewController) != nil){
+            self.dismiss(animated: false, completion: nil)
+        }
     }
     
     

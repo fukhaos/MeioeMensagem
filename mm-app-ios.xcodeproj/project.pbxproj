@@ -21,6 +21,7 @@
 		B680F8F622FDFE3500C1A79D /* FaleConoscoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B680F8F322FDFE3500C1A79D /* FaleConoscoViewController.swift */; };
 		B680F8F822FE078000C1A79D /* EdicaoMateriaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B680F8F722FE078000C1A79D /* EdicaoMateriaViewController.swift */; };
 		B680F8FA22FE079D00C1A79D /* MateriaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B680F8F922FE079D00C1A79D /* MateriaViewController.swift */; };
+		B680F8FC22FE0B4900C1A79D /* UserTerm.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B680F8FB22FE0B4900C1A79D /* UserTerm.storyboard */; };
 		B6813EEB22F3975E00CAC5EA /* PreferAndConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6813EEA22F3975E00CAC5EA /* PreferAndConfigViewController.swift */; };
 		B6813EF222F4619900CAC5EA /* TutorialViewInit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6813EF122F4619900CAC5EA /* TutorialViewInit.storyboard */; };
 		B6813EF422F461B300CAC5EA /* TutorialViewInitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6813EF322F461B300CAC5EA /* TutorialViewInitViewController.swift */; };
@@ -59,7 +60,6 @@
 		B6B5B48722E8FC75004BBF81 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B5B48622E8FC75004BBF81 /* LoginViewController.swift */; };
 		B6B74ACB22E9D455001261B3 /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B74ACA22E9D455001261B3 /* CadastroViewController.swift */; };
 		B6B74ACD22E9D571001261B3 /* ValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B74ACC22E9D571001261B3 /* ValidationViewController.swift */; };
-		B6BF810522FAFC04009B3BF9 /* checkBoxOn.png in Resources */ = {isa = PBXBuildFile; fileRef = B6BF810422FAFC03009B3BF9 /* checkBoxOn.png */; };
 		B6BF810822FB3E3C009B3BF9 /* EdicaoEditorial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6BF810722FB3E3C009B3BF9 /* EdicaoEditorial.storyboard */; };
 		B6BF810A22FB3EA5009B3BF9 /* EdicaoEditorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BF810922FB3EA5009B3BF9 /* EdicaoEditorialViewController.swift */; };
 		B6C5184522F874C900D85B59 /* McDonalds.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B6C5184422F874C800D85B59 /* McDonalds.jpg */; };
@@ -92,6 +92,7 @@
 		B680F8F322FDFE3500C1A79D /* FaleConoscoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaleConoscoViewController.swift; sourceTree = "<group>"; };
 		B680F8F722FE078000C1A79D /* EdicaoMateriaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdicaoMateriaViewController.swift; sourceTree = "<group>"; };
 		B680F8F922FE079D00C1A79D /* MateriaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MateriaViewController.swift; sourceTree = "<group>"; };
+		B680F8FB22FE0B4900C1A79D /* UserTerm.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UserTerm.storyboard; sourceTree = "<group>"; };
 		B6813EEA22F3975E00CAC5EA /* PreferAndConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferAndConfigViewController.swift; sourceTree = "<group>"; };
 		B6813EF122F4619900CAC5EA /* TutorialViewInit.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TutorialViewInit.storyboard; sourceTree = "<group>"; };
 		B6813EF322F461B300CAC5EA /* TutorialViewInitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewInitViewController.swift; sourceTree = "<group>"; };
@@ -153,7 +154,6 @@
 		B6B5B48622E8FC75004BBF81 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B6B74ACA22E9D455001261B3 /* CadastroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
 		B6B74ACC22E9D571001261B3 /* ValidationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationViewController.swift; sourceTree = "<group>"; };
-		B6BF810422FAFC03009B3BF9 /* checkBoxOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkBoxOn.png; sourceTree = "<group>"; };
 		B6BF810722FB3E3C009B3BF9 /* EdicaoEditorial.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EdicaoEditorial.storyboard; sourceTree = "<group>"; };
 		B6BF810922FB3EA5009B3BF9 /* EdicaoEditorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdicaoEditorialViewController.swift; sourceTree = "<group>"; };
 		B6C5184422F874C800D85B59 /* McDonalds.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = McDonalds.jpg; sourceTree = "<group>"; };
@@ -230,7 +230,6 @@
 				B630B0C322F9CC8600A5EA25 /* streming.jpg */,
 				B630B0C522F9E15600A5EA25 /* Materia1.png */,
 				B630B0C722F9E29000A5EA25 /* Materia2.png */,
-				B6BF810422FAFC03009B3BF9 /* checkBoxOn.png */,
 				B6F0342322FB6B9700EA7CE1 /* Sadoun.png */,
 			);
 			path = FotosDiversas;
@@ -290,6 +289,7 @@
 			isa = PBXGroup;
 			children = (
 				B69DC2C922EA0A5C00C8F142 /* UserTermViewController.swift */,
+				B680F8FB22FE0B4900C1A79D /* UserTerm.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -548,13 +548,13 @@
 				B630B0C422F9CC8600A5EA25 /* streming.jpg in Resources */,
 				B68B1EEE22F0EDBD009310A2 /* PreferenceAndConfig.storyboard in Resources */,
 				B68B1EB722F06B85009310A2 /* meioMensagem.png in Resources */,
-				B6BF810522FAFC04009B3BF9 /* checkBoxOn.png in Resources */,
 				B630B0C622F9E15600A5EA25 /* Materia1.png in Resources */,
 				B6B5B46822E8C8D3004BBF81 /* 41528940_241462876494767_8632959559543993127_n.jpg in Resources */,
 				B6C5184B22F8B9BA00D85B59 /* BurguerKing.png in Resources */,
 				B680F8F522FDFE3500C1A79D /* FaleConosco.storyboard in Resources */,
 				B630B0C022F9C3E500A5EA25 /* CapaPrincipal.storyboard in Resources */,
 				B6813EF222F4619900CAC5EA /* TutorialViewInit.storyboard in Resources */,
+				B680F8FC22FE0B4900C1A79D /* UserTerm.storyboard in Resources */,
 				B6AA906422F23305001A9F0D /* Tutorial.storyboard in Resources */,
 				B69DC2D322EB37B400C8F142 /* iconCheckoff@2x.png in Resources */,
 				B630B0BD22F9BDCE00A5EA25 /* MinhaConta.storyboard in Resources */,

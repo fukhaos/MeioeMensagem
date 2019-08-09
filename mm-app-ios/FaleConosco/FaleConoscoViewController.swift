@@ -37,7 +37,15 @@ class FaleConoscoViewController: UIViewController {
     }
     
     @IBAction func close(_ sender: Any) {
-        self.performSegue(withIdentifier: "goMain", sender: nil)
+        if ((self.presentingViewController) != nil){
+            self.dismiss(animated: false) {
+                self.performSegue(withIdentifier: "goMain", sender: nil)
+            }
+            
+            
+        }
+        
+        //self.performSegue(withIdentifier: "goMain", sender: nil)
         
     }
     

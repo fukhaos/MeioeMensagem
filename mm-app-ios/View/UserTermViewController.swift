@@ -12,6 +12,9 @@ import WebKit
 
 class UserTermViewController: UIViewController, WKNavigationDelegate {
     
+    
+    
+    
     var webView: WKWebView!
     var progressView: UIProgressView!
     //Using user term with Barpass for demo.
@@ -27,6 +30,8 @@ class UserTermViewController: UIViewController, WKNavigationDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        CadastroViewController()
         
         progressView = UIProgressView(progressViewStyle: .default)
         progressView.sizeToFit()
@@ -89,7 +94,13 @@ class UserTermViewController: UIViewController, WKNavigationDelegate {
         }
     
     
-
+    @IBAction func UserAndTerms(_ sender: UIBarButtonItem) {
+        //Dismiss na tela atual e volta pra View anterior.
+        if ((self.presentingViewController) != nil){
+            self.dismiss(animated: false, completion: nil)
+        }
+    }
+    
     
     
     

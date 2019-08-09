@@ -230,7 +230,7 @@
                                     <constraint firstAttribute="width" constant="375" id="cwJ-Em-sX7"/>
                                 </constraints>
                                 <items>
-                                    <navigationItem title="Tutorial" id="h3U-UG-86s"/>
+                                    <navigationItem id="h3U-UG-86s"/>
                                 </items>
                             </navigationBar>
                         </subviews>
