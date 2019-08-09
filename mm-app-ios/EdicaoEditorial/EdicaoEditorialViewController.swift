@@ -38,7 +38,7 @@ class EdicaoEditorialViewController: UIViewController {
     }
 
     @IBAction func tapFunction(_ sender: Any) {
-        self.performSegue(withIdentifier: "seguePublicidade", sender: nil)
+        self.performSegue(withIdentifier: "segueMateria", sender: nil)
     }
 
 }

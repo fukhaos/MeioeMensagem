@@ -19,6 +19,8 @@
 		B680F8F422FDFE3500C1A79D /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = B680F8F122FDFE3500C1A79D /* Categories.swift */; };
 		B680F8F522FDFE3500C1A79D /* FaleConosco.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B680F8F222FDFE3500C1A79D /* FaleConosco.storyboard */; };
 		B680F8F622FDFE3500C1A79D /* FaleConoscoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B680F8F322FDFE3500C1A79D /* FaleConoscoViewController.swift */; };
+		B680F8F822FE078000C1A79D /* EdicaoMateriaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B680F8F722FE078000C1A79D /* EdicaoMateriaViewController.swift */; };
+		B680F8FA22FE079D00C1A79D /* MateriaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B680F8F922FE079D00C1A79D /* MateriaViewController.swift */; };
 		B6813EEB22F3975E00CAC5EA /* PreferAndConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6813EEA22F3975E00CAC5EA /* PreferAndConfigViewController.swift */; };
 		B6813EF222F4619900CAC5EA /* TutorialViewInit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6813EF122F4619900CAC5EA /* TutorialViewInit.storyboard */; };
 		B6813EF422F461B300CAC5EA /* TutorialViewInitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6813EF322F461B300CAC5EA /* TutorialViewInitViewController.swift */; };
@@ -88,6 +90,8 @@
 		B680F8F122FDFE3500C1A79D /* Categories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
 		B680F8F222FDFE3500C1A79D /* FaleConosco.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FaleConosco.storyboard; sourceTree = "<group>"; };
 		B680F8F322FDFE3500C1A79D /* FaleConoscoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaleConoscoViewController.swift; sourceTree = "<group>"; };
+		B680F8F722FE078000C1A79D /* EdicaoMateriaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdicaoMateriaViewController.swift; sourceTree = "<group>"; };
+		B680F8F922FE079D00C1A79D /* MateriaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MateriaViewController.swift; sourceTree = "<group>"; };
 		B6813EEA22F3975E00CAC5EA /* PreferAndConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferAndConfigViewController.swift; sourceTree = "<group>"; };
 		B6813EF122F4619900CAC5EA /* TutorialViewInit.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TutorialViewInit.storyboard; sourceTree = "<group>"; };
 		B6813EF322F461B300CAC5EA /* TutorialViewInitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewInitViewController.swift; sourceTree = "<group>"; };
@@ -440,6 +444,8 @@
 			children = (
 				B6BF810722FB3E3C009B3BF9 /* EdicaoEditorial.storyboard */,
 				B6BF810922FB3EA5009B3BF9 /* EdicaoEditorialViewController.swift */,
+				B680F8F722FE078000C1A79D /* EdicaoMateriaViewController.swift */,
+				B680F8F922FE079D00C1A79D /* MateriaViewController.swift */,
 			);
 			path = EdicaoEditorial;
 			sourceTree = "<group>";
@@ -621,10 +627,12 @@
 				B6813EEB22F3975E00CAC5EA /* PreferAndConfigViewController.swift in Sources */,
 				B6B5B44C22E77A55004BBF81 /* HomeViewController.swift in Sources */,
 				B6D84B2322F1D93E00C9EEDB /* ForgotPassViewController.swift in Sources */,
+				B680F8FA22FE079D00C1A79D /* MateriaViewController.swift in Sources */,
 				B69DC2E222EB3E6500C8F142 /* SpringTextView.swift in Sources */,
 				B6C5184922F8A56C00D85B59 /* CollectionViewCell.swift in Sources */,
 				B6A50CFC22FD9DF000B3DAFD /* FAQViewController.swift in Sources */,
 				B6B5B44A22E77A55004BBF81 /* AppDelegate.swift in Sources */,
+				B680F8F822FE078000C1A79D /* EdicaoMateriaViewController.swift in Sources */,
 				B69DC2D922EB3DBC00C8F142 /* SpringAnimation.swift in Sources */,
 				B6C5185022F8C9C700D85B59 /* NotificacaoViewController.swift in Sources */,
 				B630B0B822F9BC7900A5EA25 /* MinhaContaViewController.swift in Sources */,
