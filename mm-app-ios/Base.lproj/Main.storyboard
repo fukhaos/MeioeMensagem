@@ -418,6 +418,9 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="0.019627574830000001" green="0.48962080479999998" blue="0.76839584110000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="Wi5-am-kMH" kind="show" identifier="segueFAQ" id="pwZ-B1-6Av"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="55" id="w9f-Mx-Mhy">
                                         <rect key="frame" x="0.0" y="546" width="375" height="55"/>
@@ -542,6 +545,14 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3DD-72-XmV" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-10895" y="399"/>
+        </scene>
+        <!--FAQ-->
+        <scene sceneID="Kug-gz-wUb">
+            <objects>
+                <viewControllerPlaceholder storyboardName="FAQ" id="Wi5-am-kMH" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mZ8-Wq-bdl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-10860" y="468"/>
         </scene>
         <!--Login-->
         <scene sceneID="Zhp-JN-YxY">
