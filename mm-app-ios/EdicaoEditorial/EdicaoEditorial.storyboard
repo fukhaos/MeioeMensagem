@@ -264,10 +264,10 @@
             </objects>
             <point key="canvasLocation" x="-8965.9420289855079" y="2036.3839285714284"/>
         </scene>
-        <!--PublicidadeVideo-->
+        <!--Storyboard Reference-->
         <scene sceneID="1Os-BI-wkz">
             <objects>
-                <viewControllerPlaceholder storyboardName="PublicidadeVideo" id="NaT-SP-e1E" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder id="NaT-SP-e1E" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tp7-fR-Vpg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-8170" y="1171"/>

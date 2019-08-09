@@ -23,9 +23,6 @@
 		B68B1EBB22F097DE009310A2 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B68B1EBA22F097DE009310A2 /* Login.storyboard */; };
 		B68B1EC222F0D323009310A2 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B68B1EC122F0D323009310A2 /* Colors.xcassets */; };
 		B68B1EEE22F0EDBD009310A2 /* PreferenceAndConfig.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B68B1EED22F0EDBD009310A2 /* PreferenceAndConfig.storyboard */; };
-		B69A6DC622FD9B2000786A1D /* FaleConosco.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B69A6DC522FD9B2000786A1D /* FaleConosco.storyboard */; };
-		B69A6DC822FD9BAB00786A1D /* FaleConoscoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69A6DC722FD9BAB00786A1D /* FaleConoscoViewController.swift */; };
-		B69A6DCA22FDA35500786A1D /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69A6DC922FDA35500786A1D /* Categories.swift */; };
 		B69DC2CA22EA0A5C00C8F142 /* UserTermViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69DC2C922EA0A5C00C8F142 /* UserTermViewController.swift */; };
 		B69DC2D322EB37B400C8F142 /* iconCheckoff@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B69DC2D222EB37B400C8F142 /* iconCheckoff@2x.png */; };
 		B69DC2D522EB3D1600C8F142 /* SpringButtom.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69DC2D422EB3D1600C8F142 /* SpringButtom.swift */; };
@@ -41,7 +38,6 @@
 		B6A50CFC22FD9DF000B3DAFD /* FAQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A50CFB22FD9DF000B3DAFD /* FAQViewController.swift */; };
 		B6A50D0322FDD4A400B3DAFD /* PoliticaPrivacidade.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6A50D0222FDD4A400B3DAFD /* PoliticaPrivacidade.storyboard */; };
 		B6A50D0522FDD4C600B3DAFD /* PoliticaPrivacidadeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A50D0422FDD4C600B3DAFD /* PoliticaPrivacidadeViewController.swift */; };
-		B6A7C9CF22FDDF4F00ED2E09 /* FaleConosco in Resources */ = {isa = PBXBuildFile; fileRef = B6A7C9CE22FDDF4E00ED2E09 /* FaleConosco */; };
 		B6AA905F22F232B1001A9F0D /* TutorialInitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AA905E22F232B1001A9F0D /* TutorialInitViewController.swift */; };
 		B6AA906422F23305001A9F0D /* Tutorial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6AA906322F23305001A9F0D /* Tutorial.storyboard */; };
 		B6B5B44A22E77A55004BBF81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B5B44922E77A55004BBF81 /* AppDelegate.swift */; };
@@ -67,17 +63,11 @@
 		B6C5184B22F8B9BA00D85B59 /* BurguerKing.png in Resources */ = {isa = PBXBuildFile; fileRef = B6C5184A22F8B9BA00D85B59 /* BurguerKing.png */; };
 		B6C5184E22F8C8B400D85B59 /* Notificacao.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C5184D22F8C8B400D85B59 /* Notificacao.storyboard */; };
 		B6C5185022F8C9C700D85B59 /* NotificacaoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C5184F22F8C9C700D85B59 /* NotificacaoViewController.swift */; };
-		B6C6E72122FC663F003D303A /* PublicidadeFoto.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C6E72022FC663F003D303A /* PublicidadeFoto.storyboard */; };
-		B6C6E72322FC6676003D303A /* PublicidadeFotoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C6E72222FC6676003D303A /* PublicidadeFotoCollectionViewController.swift */; };
-		B6C6E72522FC86EE003D303A /* PublicidadeFoto.png in Resources */ = {isa = PBXBuildFile; fileRef = B6C6E72422FC86EE003D303A /* PublicidadeFoto.png */; };
-		B6C6E72722FC9673003D303A /* PublicidadeVideo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6C6E72622FC9673003D303A /* PublicidadeVideo.storyboard */; };
 		B6C6E72922FC9691003D303A /* PublicidadeVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C6E72822FC9691003D303A /* PublicidadeVideoViewController.swift */; };
 		B6C6E72B22FCA199003D303A /* PublicidadeVideosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C6E72A22FCA199003D303A /* PublicidadeVideosCollectionViewCell.swift */; };
 		B6D84B2322F1D93E00C9EEDB /* ForgotPassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D84B2222F1D93E00C9EEDB /* ForgotPassViewController.swift */; };
 		B6D84B2522F1DD1B00C9EEDB /* ResendEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D84B2422F1DD1B00C9EEDB /* ResendEmailViewController.swift */; };
 		B6F0342422FB6B9800EA7CE1 /* Sadoun.png in Resources */ = {isa = PBXBuildFile; fileRef = B6F0342322FB6B9700EA7CE1 /* Sadoun.png */; };
-		B6F0342722FC4B7300EA7CE1 /* Engajamento1.png in Resources */ = {isa = PBXBuildFile; fileRef = B6F0342522FC4B7200EA7CE1 /* Engajamento1.png */; };
-		B6F0342822FC4B7300EA7CE1 /* Engajamento2.png in Resources */ = {isa = PBXBuildFile; fileRef = B6F0342622FC4B7200EA7CE1 /* Engajamento2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -117,7 +107,6 @@
 		B6A50CFB22FD9DF000B3DAFD /* FAQViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQViewController.swift; sourceTree = "<group>"; };
 		B6A50D0222FDD4A400B3DAFD /* PoliticaPrivacidade.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PoliticaPrivacidade.storyboard; sourceTree = "<group>"; };
 		B6A50D0422FDD4C600B3DAFD /* PoliticaPrivacidadeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoliticaPrivacidadeViewController.swift; sourceTree = "<group>"; };
-		B6A7C9CE22FDDF4E00ED2E09 /* FaleConosco */ = {isa = PBXFileReference; lastKnownFileType = folder; path = FaleConosco; sourceTree = "<group>"; };
 		B6AA905E22F232B1001A9F0D /* TutorialInitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialInitViewController.swift; sourceTree = "<group>"; };
 		B6AA906322F23305001A9F0D /* Tutorial.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tutorial.storyboard; sourceTree = "<group>"; };
 		B6B5B44622E77A55004BBF81 /* mm-app-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mm-app-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -163,8 +152,6 @@
 		B6C5184A22F8B9BA00D85B59 /* BurguerKing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BurguerKing.png; sourceTree = "<group>"; };
 		B6C5184D22F8C8B400D85B59 /* Notificacao.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Notificacao.storyboard; sourceTree = "<group>"; };
 		B6C5184F22F8C9C700D85B59 /* NotificacaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificacaoViewController.swift; sourceTree = "<group>"; };
-		B6C6E72022FC663F003D303A /* PublicidadeFoto.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PublicidadeFoto.storyboard; sourceTree = "<group>"; };
-		B6C6E72222FC6676003D303A /* PublicidadeFotoCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicidadeFotoCollectionViewController.swift; sourceTree = "<group>"; };
 		B6C6E72422FC86EE003D303A /* PublicidadeFoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PublicidadeFoto.png; sourceTree = "<group>"; };
 		B6C6E72622FC9673003D303A /* PublicidadeVideo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PublicidadeVideo.storyboard; sourceTree = "<group>"; };
 		B6C6E72822FC9691003D303A /* PublicidadeVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicidadeVideoViewController.swift; sourceTree = "<group>"; };
@@ -358,10 +345,8 @@
 		B6B5B44822E77A55004BBF81 /* mm-app-ios */ = {
 			isa = PBXGroup;
 			children = (
-				B6A7C9CE22FDDF4E00ED2E09 /* FaleConosco */,
 				B6A50D0122FDD48800B3DAFD /* PoliticaPrivacidade */,
 				B6A50CF822FD9DC500B3DAFD /* FAQ */,
-				B6C6E71F22FC65F7003D303A /* PublicidadeFoto */,
 				B6C6E71E22FC64FA003D303A /* PublicidadeVideo */,
 				B630B0BE22F9C3BF00A5EA25 /* Capa */,
 				B6BF810622FB3DE5009B3BF9 /* EdicaoEditorial */,
@@ -461,15 +446,6 @@
 			path = PublicidadeVideo;
 			sourceTree = "<group>";
 		};
-		B6C6E71F22FC65F7003D303A /* PublicidadeFoto */ = {
-			isa = PBXGroup;
-			children = (
-				B6C6E72022FC663F003D303A /* PublicidadeFoto.storyboard */,
-				B6C6E72222FC6676003D303A /* PublicidadeFotoCollectionViewController.swift */,
-			);
-			path = PublicidadeFoto;
-			sourceTree = "<group>";
-		};
 		E258E872FC06260D848BE629 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -549,7 +525,6 @@
 				B630B0C422F9CC8600A5EA25 /* streming.jpg in Resources */,
 				B68B1EEE22F0EDBD009310A2 /* PreferenceAndConfig.storyboard in Resources */,
 				B68B1EB722F06B85009310A2 /* meioMensagem.png in Resources */,
-				B69A6DC622FD9B2000786A1D /* FaleConosco.storyboard in Resources */,
 				B6BF810522FAFC04009B3BF9 /* checkBoxOn.png in Resources */,
 				B630B0C622F9E15600A5EA25 /* Materia1.png in Resources */,
 				B6B5B46822E8C8D3004BBF81 /* 41528940_241462876494767_8632959559543993127_n.jpg in Resources */,
@@ -557,23 +532,17 @@
 				B630B0C022F9C3E500A5EA25 /* CapaPrincipal.storyboard in Resources */,
 				B6813EF222F4619900CAC5EA /* TutorialViewInit.storyboard in Resources */,
 				B6AA906422F23305001A9F0D /* Tutorial.storyboard in Resources */,
-				B6F0342822FC4B7300EA7CE1 /* Engajamento2.png in Resources */,
 				B69DC2D322EB37B400C8F142 /* iconCheckoff@2x.png in Resources */,
 				B630B0BD22F9BDCE00A5EA25 /* MinhaConta.storyboard in Resources */,
 				B6A50D0322FDD4A400B3DAFD /* PoliticaPrivacidade.storyboard in Resources */,
 				B6BF810822FB3E3C009B3BF9 /* EdicaoEditorial.storyboard in Resources */,
-				B6F0342722FC4B7300EA7CE1 /* Engajamento1.png in Resources */,
 				B6C5184E22F8C8B400D85B59 /* Notificacao.storyboard in Resources */,
 				B6B5B48522E8F4F7004BBF81 /* group@2x.png in Resources */,
 				B630B0C822F9E29100A5EA25 /* Materia2.png in Resources */,
 				B68B1EC222F0D323009310A2 /* Colors.xcassets in Resources */,
 				B6B5B44F22E77A55004BBF81 /* Main.storyboard in Resources */,
 				B68B1EBB22F097DE009310A2 /* Login.storyboard in Resources */,
-				B6C6E72122FC663F003D303A /* PublicidadeFoto.storyboard in Resources */,
 				B6A50CFA22FD9DE100B3DAFD /* FAQ.storyboard in Resources */,
-				B6A7C9CF22FDDF4F00ED2E09 /* FaleConosco in Resources */,
-				B6C6E72522FC86EE003D303A /* PublicidadeFoto.png in Resources */,
-				B6C6E72722FC9673003D303A /* PublicidadeVideo.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -639,10 +608,8 @@
 				B6B5B44A22E77A55004BBF81 /* AppDelegate.swift in Sources */,
 				B69DC2D922EB3DBC00C8F142 /* SpringAnimation.swift in Sources */,
 				B6C5185022F8C9C700D85B59 /* NotificacaoViewController.swift in Sources */,
-				B69A6DCA22FDA35500786A1D /* Categories.swift in Sources */,
 				B630B0B822F9BC7900A5EA25 /* MinhaContaViewController.swift in Sources */,
 				B69DC2D522EB3D1600C8F142 /* SpringButtom.swift in Sources */,
-				B69A6DC822FD9BAB00786A1D /* FaleConoscoViewController.swift in Sources */,
 				B69DC2E422EB3E9300C8F142 /* SpringView.swift in Sources */,
 				B6B74ACD22E9D571001261B3 /* ValidationViewController.swift in Sources */,
 				B6B5B45222E77A55004BBF81 /* mm_app_ios.xcdatamodeld in Sources */,
@@ -654,7 +621,6 @@
 				B69DC2DB22EB3DE300C8F142 /* SpringImageView.swift in Sources */,
 				B6C6E72922FC9691003D303A /* PublicidadeVideoViewController.swift in Sources */,
 				B69DC2CA22EA0A5C00C8F142 /* UserTermViewController.swift in Sources */,
-				B6C6E72322FC6676003D303A /* PublicidadeFotoCollectionViewController.swift in Sources */,
 				B6C6E72B22FCA199003D303A /* PublicidadeVideosCollectionViewCell.swift in Sources */,
 				B69DC2E022EB3E3A00C8F142 /* SpringTextField.swift in Sources */,
 				B6A50D0522FDD4C600B3DAFD /* PoliticaPrivacidadeViewController.swift in Sources */,
