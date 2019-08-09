@@ -16,6 +16,9 @@
 		B630B0C422F9CC8600A5EA25 /* streming.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B630B0C322F9CC8600A5EA25 /* streming.jpg */; };
 		B630B0C622F9E15600A5EA25 /* Materia1.png in Resources */ = {isa = PBXBuildFile; fileRef = B630B0C522F9E15600A5EA25 /* Materia1.png */; };
 		B630B0C822F9E29100A5EA25 /* Materia2.png in Resources */ = {isa = PBXBuildFile; fileRef = B630B0C722F9E29000A5EA25 /* Materia2.png */; };
+		B680F8F422FDFE3500C1A79D /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = B680F8F122FDFE3500C1A79D /* Categories.swift */; };
+		B680F8F522FDFE3500C1A79D /* FaleConosco.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B680F8F222FDFE3500C1A79D /* FaleConosco.storyboard */; };
+		B680F8F622FDFE3500C1A79D /* FaleConoscoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B680F8F322FDFE3500C1A79D /* FaleConoscoViewController.swift */; };
 		B6813EEB22F3975E00CAC5EA /* PreferAndConfigViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6813EEA22F3975E00CAC5EA /* PreferAndConfigViewController.swift */; };
 		B6813EF222F4619900CAC5EA /* TutorialViewInit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6813EF122F4619900CAC5EA /* TutorialViewInit.storyboard */; };
 		B6813EF422F461B300CAC5EA /* TutorialViewInitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6813EF322F461B300CAC5EA /* TutorialViewInitViewController.swift */; };
@@ -82,6 +85,9 @@
 		B630B0C322F9CC8600A5EA25 /* streming.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = streming.jpg; sourceTree = "<group>"; };
 		B630B0C522F9E15600A5EA25 /* Materia1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Materia1.png; sourceTree = "<group>"; };
 		B630B0C722F9E29000A5EA25 /* Materia2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Materia2.png; sourceTree = "<group>"; };
+		B680F8F122FDFE3500C1A79D /* Categories.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
+		B680F8F222FDFE3500C1A79D /* FaleConosco.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = FaleConosco.storyboard; sourceTree = "<group>"; };
+		B680F8F322FDFE3500C1A79D /* FaleConoscoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaleConoscoViewController.swift; sourceTree = "<group>"; };
 		B6813EEA22F3975E00CAC5EA /* PreferAndConfigViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreferAndConfigViewController.swift; sourceTree = "<group>"; };
 		B6813EF122F4619900CAC5EA /* TutorialViewInit.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TutorialViewInit.storyboard; sourceTree = "<group>"; };
 		B6813EF322F461B300CAC5EA /* TutorialViewInitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewInitViewController.swift; sourceTree = "<group>"; };
@@ -241,6 +247,16 @@
 			path = Springs;
 			sourceTree = "<group>";
 		};
+		B680F8F022FDFDF100C1A79D /* FaleConosco */ = {
+			isa = PBXGroup;
+			children = (
+				B680F8F122FDFE3500C1A79D /* Categories.swift */,
+				B680F8F222FDFE3500C1A79D /* FaleConosco.storyboard */,
+				B680F8F322FDFE3500C1A79D /* FaleConoscoViewController.swift */,
+			);
+			path = FaleConosco;
+			sourceTree = "<group>";
+		};
 		B6813EF022F4616800CAC5EA /* ViewTutorial */ = {
 			isa = PBXGroup;
 			children = (
@@ -345,6 +361,7 @@
 		B6B5B44822E77A55004BBF81 /* mm-app-ios */ = {
 			isa = PBXGroup;
 			children = (
+				B680F8F022FDFDF100C1A79D /* FaleConosco */,
 				B6A50D0122FDD48800B3DAFD /* PoliticaPrivacidade */,
 				B6A50CF822FD9DC500B3DAFD /* FAQ */,
 				B6C6E71E22FC64FA003D303A /* PublicidadeVideo */,
@@ -529,6 +546,7 @@
 				B630B0C622F9E15600A5EA25 /* Materia1.png in Resources */,
 				B6B5B46822E8C8D3004BBF81 /* 41528940_241462876494767_8632959559543993127_n.jpg in Resources */,
 				B6C5184B22F8B9BA00D85B59 /* BurguerKing.png in Resources */,
+				B680F8F522FDFE3500C1A79D /* FaleConosco.storyboard in Resources */,
 				B630B0C022F9C3E500A5EA25 /* CapaPrincipal.storyboard in Resources */,
 				B6813EF222F4619900CAC5EA /* TutorialViewInit.storyboard in Resources */,
 				B6AA906422F23305001A9F0D /* Tutorial.storyboard in Resources */,
@@ -598,6 +616,7 @@
 				B6D84B2522F1DD1B00C9EEDB /* ResendEmailViewController.swift in Sources */,
 				B630B0C222F9C3FB00A5EA25 /* CapaPrincipalViewController.swift in Sources */,
 				B6B5B48722E8FC75004BBF81 /* LoginViewController.swift in Sources */,
+				B680F8F622FDFE3500C1A79D /* FaleConoscoViewController.swift in Sources */,
 				B6BF810A22FB3EA5009B3BF9 /* EdicaoEditorialViewController.swift in Sources */,
 				B6813EEB22F3975E00CAC5EA /* PreferAndConfigViewController.swift in Sources */,
 				B6B5B44C22E77A55004BBF81 /* HomeViewController.swift in Sources */,
@@ -612,6 +631,7 @@
 				B69DC2D522EB3D1600C8F142 /* SpringButtom.swift in Sources */,
 				B69DC2E422EB3E9300C8F142 /* SpringView.swift in Sources */,
 				B6B74ACD22E9D571001261B3 /* ValidationViewController.swift in Sources */,
+				B680F8F422FDFE3500C1A79D /* Categories.swift in Sources */,
 				B6B5B45222E77A55004BBF81 /* mm_app_ios.xcdatamodeld in Sources */,
 				B6AA905F22F232B1001A9F0D /* TutorialInitViewController.swift in Sources */,
 				B6B5B45F22E77C16004BBF81 /* MenuViewController.swift in Sources */,

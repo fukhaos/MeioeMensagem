@@ -37,7 +37,8 @@ class FaleConoscoViewController: UIViewController {
     }
     
     @IBAction func close(_ sender: Any) {
-        self.dismiss(animated: true, completion: nil)
+        self.performSegue(withIdentifier: "goMain", sender: nil)
+        
     }
     
     /*

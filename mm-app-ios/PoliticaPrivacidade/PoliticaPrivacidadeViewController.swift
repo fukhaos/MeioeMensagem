@@ -26,7 +26,7 @@ class PoliticaPrivacidade: UIViewController, WKNavigationDelegate {
     override func loadView() {
         webView = WKWebView()
         webView.navigationDelegate = self
-        viewController = webView
+        self.view = webView
     }
     
     override func viewDidLoad() {
@@ -96,7 +96,7 @@ class PoliticaPrivacidade: UIViewController, WKNavigationDelegate {
     
     @IBAction func fecharPolitica(_ sender: UIBarButtonItem) {
         
-        dismiss(animated: true, completion: nil)
+        self.performSegue(withIdentifier: "goMain", sender: nil)
     }
     
     

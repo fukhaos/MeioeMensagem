@@ -13,6 +13,6 @@ target 'mm-app-ios' do
 	pod 'FBSDKLoginKit'
 	pod 'RxTheme'
 	pod 'TinyConstraints'
-	pod 'ImageSlideshow'	
+		
 
 end

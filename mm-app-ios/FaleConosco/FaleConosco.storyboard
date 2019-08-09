@@ -119,11 +119,20 @@ Escreva sua mensagem no campo abaixo. Retornaremos o contato o mais breve possí
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="categoryTextField" destination="jp5-yq-SXI" id="RFk-wb-Dsh"/>
+                        <segue destination="SV9-F8-JP0" kind="show" identifier="goMain" id="dae-MA-cuW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ogV-Dl-xEe" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-97.101449275362327" y="16.741071428571427"/>
+        </scene>
+        <!--Main-->
+        <scene sceneID="aII-t0-WG1">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" id="SV9-F8-JP0" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EKB-eA-uhh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="757" y="-106"/>
         </scene>
     </scenes>
     <resources>
