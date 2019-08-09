@@ -36,8 +36,6 @@
 		B69DC2E822EB433C00C8F142 /* iconCheckOn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B69DC2E722EB433C00C8F142 /* iconCheckOn@2x.png */; };
 		B6A50CFA22FD9DE100B3DAFD /* FAQ.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6A50CF922FD9DE100B3DAFD /* FAQ.storyboard */; };
 		B6A50CFC22FD9DF000B3DAFD /* FAQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A50CFB22FD9DF000B3DAFD /* FAQViewController.swift */; };
-		B6A50CFE22FDA23D00B3DAFD /* FAQTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A50CFD22FDA23D00B3DAFD /* FAQTableViewCell.swift */; };
-		B6A50D0022FDA37100B3DAFD /* FAQ.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A50CFF22FDA37100B3DAFD /* FAQ.swift */; };
 		B6AA905F22F232B1001A9F0D /* TutorialInitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AA905E22F232B1001A9F0D /* TutorialInitViewController.swift */; };
 		B6AA906422F23305001A9F0D /* Tutorial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6AA906322F23305001A9F0D /* Tutorial.storyboard */; };
 		B6B5B44A22E77A55004BBF81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B5B44922E77A55004BBF81 /* AppDelegate.swift */; };
@@ -108,8 +106,6 @@
 		B69DC2E722EB433C00C8F142 /* iconCheckOn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iconCheckOn@2x.png"; sourceTree = "<group>"; };
 		B6A50CF922FD9DE100B3DAFD /* FAQ.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FAQ.storyboard; sourceTree = "<group>"; };
 		B6A50CFB22FD9DF000B3DAFD /* FAQViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQViewController.swift; sourceTree = "<group>"; };
-		B6A50CFD22FDA23D00B3DAFD /* FAQTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQTableViewCell.swift; sourceTree = "<group>"; };
-		B6A50CFF22FDA37100B3DAFD /* FAQ.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQ.swift; sourceTree = "<group>"; };
 		B6AA905E22F232B1001A9F0D /* TutorialInitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialInitViewController.swift; sourceTree = "<group>"; };
 		B6AA906322F23305001A9F0D /* Tutorial.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tutorial.storyboard; sourceTree = "<group>"; };
 		B6B5B44622E77A55004BBF81 /* mm-app-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mm-app-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -284,8 +280,6 @@
 			children = (
 				B6A50CF922FD9DE100B3DAFD /* FAQ.storyboard */,
 				B6A50CFB22FD9DF000B3DAFD /* FAQViewController.swift */,
-				B6A50CFD22FDA23D00B3DAFD /* FAQTableViewCell.swift */,
-				B6A50CFF22FDA37100B3DAFD /* FAQ.swift */,
 			);
 			path = FAQ;
 			sourceTree = "<group>";
@@ -612,12 +606,10 @@
 				B69DC2D522EB3D1600C8F142 /* SpringButtom.swift in Sources */,
 				B69DC2E422EB3E9300C8F142 /* SpringView.swift in Sources */,
 				B6B74ACD22E9D571001261B3 /* ValidationViewController.swift in Sources */,
-				B6A50CFE22FDA23D00B3DAFD /* FAQTableViewCell.swift in Sources */,
 				B6B5B45222E77A55004BBF81 /* mm_app_ios.xcdatamodeld in Sources */,
 				B6AA905F22F232B1001A9F0D /* TutorialInitViewController.swift in Sources */,
 				B6B5B45F22E77C16004BBF81 /* MenuViewController.swift in Sources */,
 				B69DC2D722EB3D8C00C8F142 /* Spring.swift in Sources */,
-				B6A50D0022FDA37100B3DAFD /* FAQ.swift in Sources */,
 				B630B0BA22F9BC9200A5EA25 /* AlterarSenhaViewController.swift in Sources */,
 				B69DC2DE22EB3E1400C8F142 /* SpringLabel.swift in Sources */,
 				B69DC2DB22EB3DE300C8F142 /* SpringImageView.swift in Sources */,
