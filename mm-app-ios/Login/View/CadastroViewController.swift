@@ -142,13 +142,7 @@ class CadastroViewController: UIViewController {
             alerta.addAction(bntOk)
             present(alerta, animated: true, completion: nil)
             
-        } else if self.emailTextField.text != self.alternaEmailTextField.text {
-            let alerta = UIAlertController(title: "Alerta", message: "O Campo e-mail e confirma e-mail são diferentes.", preferredStyle: .alert)
-            let bntOk = UIAlertAction(title: "OK", style: .default, handler: nil)
-            alerta.addAction(bntOk)
-            present(alerta, animated: true, completion: nil)
-            
-        } else if !(self.emailTextField.text?.isValidEmail() ?? true) {
+        }  else if !(self.emailTextField.text?.isValidEmail() ?? true) {
             let alerta = UIAlertController(title: "Alerta", message: "E-mail invalido", preferredStyle: .alert)
             let bntOk = UIAlertAction(title: "OK", style: .default, handler: nil)
             alerta.addAction(bntOk)

@@ -127,8 +127,14 @@ class LoginViewController: UIViewController {
             let bntOk = UIAlertAction(title: "OK", style: .default, handler: nil)
             alerta.addAction(bntOk)
             present(alerta, animated: true, completion: nil)
-        }else {
-            self.performSegue(withIdentifier: "segueLoginOk", sender: nil)
+        }else if emailTextField.text == "teste@megaleios.com" || senhaTextField.text == "123456" {
+            let alerta = UIAlertController(title: "Olá!!", message: "Login Efetuado com sucesso.", preferredStyle: .alert)
+            let bntOk = UIAlertAction(title: "OK", style: .default) { (alert) in
+                self.performSegue(withIdentifier: "goMain", sender: nil)
+            }
+            alerta.addAction(bntOk)
+            present(alerta, animated: true, completion: nil)
+  
         }
         
     }

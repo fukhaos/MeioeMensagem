@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hik-dj-Dhu">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="rog-0N-0Nr">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hf9-dA-fZJ">
-                                <rect key="frame" x="0.0" y="44" width="375" height="856"/>
+                                <rect key="frame" x="0.0" y="88" width="375" height="812"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rCr-WF-lrV" userLabel="PrincipalView">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="922"/>
@@ -224,7 +224,7 @@
                                 </constraints>
                             </scrollView>
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="26K-Ma-cFe">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="44" id="5pf-Ud-7on"/>
                                     <constraint firstAttribute="width" constant="375" id="cwJ-Em-sX7"/>
@@ -255,15 +255,37 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="PYB-HK-9EQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-10003.623188405798" y="2036.3839285714284"/>
+            <point key="canvasLocation" x="-9093.4782608695659" y="2036.3839285714284"/>
         </scene>
-        <!--Main-->
+        <!--Login-->
         <scene sceneID="lWN-Aa-Tcy">
             <objects>
-                <viewControllerPlaceholder storyboardName="Main" id="CRQ-bD-ErT" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardName="Login" id="CRQ-bD-ErT" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="j54-qY-oeu" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-9304" y="1993"/>
+            <point key="canvasLocation" x="-8394.2028985507259" y="1992.8571428571427"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="DyG-7H-EZi">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="rog-0N-0Nr" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Op6-Y0-PKZ">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="0.94889384509999997" green="0.95595830680000005" blue="0.95931655169999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="hik-dj-Dhu" kind="relationship" relationship="rootViewController" id="JJp-3H-WTq"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v3t-il-fuH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-10004.347826086958" y="2036.3839285714284"/>
         </scene>
     </scenes>
     <resources>

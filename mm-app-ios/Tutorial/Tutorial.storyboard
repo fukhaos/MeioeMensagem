@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="D2J-qJ-e19">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bjG-MP-8X6">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -19,10 +19,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xHu-lH-mEk">
-                                <rect key="frame" x="0.0" y="92" width="375" height="808"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="900"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0PB-vL-PHe" userLabel="PrincipalView">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="922"/>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0PB-vL-PHe" userLabel="PrincipalView">
+                                        <rect key="frame" x="0.0" y="8" width="375" height="914"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Guia de navegação" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uct-zb-wCV">
                                                 <rect key="frame" x="20" y="32" width="219" height="27"/>
@@ -146,7 +146,7 @@
                                             <constraint firstAttribute="trailing" secondItem="qJP-y8-08t" secondAttribute="trailing" constant="227" id="AMd-Aw-Qef"/>
                                             <constraint firstItem="A8Y-ff-JSR" firstAttribute="firstBaseline" secondItem="dO6-qj-Exs" secondAttribute="firstBaseline" id="AfH-OE-IIm"/>
                                             <constraint firstItem="AJz-c4-dyU" firstAttribute="leading" secondItem="tlc-c5-TLF" secondAttribute="trailing" constant="14" id="Bgt-Td-VcZ"/>
-                                            <constraint firstAttribute="bottom" secondItem="Ggm-vG-c2D" secondAttribute="bottom" constant="243" id="Bu2-KN-wP9"/>
+                                            <constraint firstAttribute="bottom" secondItem="Ggm-vG-c2D" secondAttribute="bottom" constant="235" id="Bu2-KN-wP9"/>
                                             <constraint firstItem="NbQ-Qv-nhh" firstAttribute="leading" secondItem="iRj-nN-Ug3" secondAttribute="trailing" constant="14" id="DAH-5z-gsF"/>
                                             <constraint firstAttribute="trailing" secondItem="dO6-qj-Exs" secondAttribute="trailing" constant="31" id="EE5-fn-mDR"/>
                                             <constraint firstItem="dsT-zY-e94" firstAttribute="leading" secondItem="fq4-Ll-Brb" secondAttribute="trailing" constant="57" id="FUm-v5-vq2"/>
@@ -183,44 +183,32 @@
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="0PB-vL-PHe" secondAttribute="bottom" constant="-114" id="WAZ-Vf-SdS"/>
+                                    <constraint firstAttribute="bottom" secondItem="0PB-vL-PHe" secondAttribute="bottom" constant="-86" id="WAZ-Vf-SdS"/>
                                     <constraint firstItem="0PB-vL-PHe" firstAttribute="leading" secondItem="xHu-lH-mEk" secondAttribute="leading" id="YP5-SL-qnZ"/>
                                     <constraint firstItem="0PB-vL-PHe" firstAttribute="width" secondItem="xHu-lH-mEk" secondAttribute="width" id="clD-tY-esS"/>
                                     <constraint firstAttribute="trailing" secondItem="0PB-vL-PHe" secondAttribute="trailing" id="hqP-yN-fWe"/>
-                                    <constraint firstItem="0PB-vL-PHe" firstAttribute="height" secondItem="xHu-lH-mEk" secondAttribute="height" priority="250" constant="114" id="qdN-aS-G0d"/>
-                                    <constraint firstItem="0PB-vL-PHe" firstAttribute="top" secondItem="xHu-lH-mEk" secondAttribute="top" id="vr8-55-umj"/>
+                                    <constraint firstItem="0PB-vL-PHe" firstAttribute="height" secondItem="xHu-lH-mEk" secondAttribute="height" priority="250" constant="14" id="qdN-aS-G0d"/>
+                                    <constraint firstItem="0PB-vL-PHe" firstAttribute="top" secondItem="xHu-lH-mEk" secondAttribute="top" constant="72" id="vr8-55-umj"/>
                                 </constraints>
                             </scrollView>
-                            <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ncq-vm-Czq">
-                                <rect key="frame" x="0.0" y="20" width="375" height="44"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="375" id="CmL-S9-OzL"/>
-                                    <constraint firstAttribute="height" constant="44" id="PPE-Yu-FA9"/>
-                                </constraints>
-                                <items>
-                                    <navigationItem title="Tutorial" id="gv7-kg-YV8">
-                                        <barButtonItem key="leftBarButtonItem" image="voltarBranco" id="3I0-wr-5FC">
-                                            <connections>
-                                                <action selector="backMain:" destination="D2J-qJ-e19" id="ZBQ-ys-P1p"/>
-                                            </connections>
-                                        </barButtonItem>
-                                    </navigationItem>
-                                </items>
-                            </navigationBar>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="ncq-vm-Czq" firstAttribute="trailing" secondItem="fwD-8U-QuQ" secondAttribute="trailing" id="6hu-Wf-gCA"/>
-                            <constraint firstItem="ncq-vm-Czq" firstAttribute="leading" secondItem="fwD-8U-QuQ" secondAttribute="leading" id="9cw-kv-l1g"/>
-                            <constraint firstItem="xHu-lH-mEk" firstAttribute="top" secondItem="fwD-8U-QuQ" secondAttribute="top" constant="72" id="AHl-2h-keb"/>
+                            <constraint firstItem="xHu-lH-mEk" firstAttribute="top" secondItem="fwD-8U-QuQ" secondAttribute="top" constant="-64" id="AHl-2h-keb"/>
                             <constraint firstItem="xHu-lH-mEk" firstAttribute="leading" secondItem="fwD-8U-QuQ" secondAttribute="leading" id="JSN-mg-oxA"/>
                             <constraint firstItem="fwD-8U-QuQ" firstAttribute="bottom" secondItem="xHu-lH-mEk" secondAttribute="bottom" id="klA-eE-z2c"/>
                             <constraint firstItem="fwD-8U-QuQ" firstAttribute="trailing" secondItem="xHu-lH-mEk" secondAttribute="trailing" id="lEm-pM-Mgh"/>
-                            <constraint firstItem="ncq-vm-Czq" firstAttribute="top" secondItem="fwD-8U-QuQ" secondAttribute="top" id="sEP-kY-yUJ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="fwD-8U-QuQ"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Tutorial" id="sIg-Tr-OpQ"/>
+                    <navigationItem key="navigationItem" title="Tutorial" id="sIg-Tr-OpQ">
+                        <barButtonItem key="leftBarButtonItem" image="voltarBranco" id="qsf-HV-UKv">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <connections>
+                                <action selector="backMain:" destination="D2J-qJ-e19" id="TG2-og-Jsa"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <size key="freeformSize" width="375" height="900"/>
                     <connections>
                         <outlet property="PrincipalView" destination="0PB-vL-PHe" id="nTJ-JO-6Yf"/>
@@ -229,7 +217,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a3f-UK-PDK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-12249" y="2018"/>
+            <point key="canvasLocation" x="-11311.200000000001" y="2017.6911544227887"/>
         </scene>
         <!--Main-->
         <scene sceneID="8AE-vy-mJ2">
@@ -237,7 +225,7 @@
                 <viewControllerPlaceholder storyboardName="Main" id="JhU-i1-FWy" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="R4h-mC-ega" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-11675" y="1667"/>
+            <point key="canvasLocation" x="-10646" y="2017"/>
         </scene>
         <!--Tutorial-->
         <scene sceneID="f9c-s2-pCi">
@@ -298,7 +286,29 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u9n-wX-39E" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-10786" y="2037"/>
+            <point key="canvasLocation" x="-9847.2000000000007" y="2036.5817091454273"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="qj2-Fg-7FW">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="bjG-MP-8X6" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="yYP-JH-QhP">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.0" green="0.48855721949999997" blue="0.76702791449999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="D2J-qJ-e19" kind="relationship" relationship="rootViewController" id="NWA-vu-HAE"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GC3-Y0-ino" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-12250.4" y="2017.2413793103449"/>
         </scene>
     </scenes>
     <resources>
