@@ -12,7 +12,7 @@ class DownloadCollectionViewCell: UICollectionViewCell {
     
     //MARK: - Outlets
     
-    @IBOutlet weak var imagensNoticia: UIImageView!
-    @IBOutlet weak var materiaDescr: UILabel!
+    @IBOutlet weak var materiaSec: UIImageView!
+    @IBOutlet weak var labelDescrisaoSec: UILabel!
     
 }

@@ -32,6 +32,9 @@
                                                     <constraint firstAttribute="width" constant="375" id="rtF-4J-n9B"/>
                                                 </constraints>
                                                 <color key="barTintColor" red="0.0" green="0.48855721949999997" blue="0.76702791449999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <textAttributes key="titleTextAttributes">
+                                                    <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </textAttributes>
                                                 <items>
                                                     <navigationItem title="Notificações" id="MS7-TQ-qmw">
                                                         <barButtonItem key="leftBarButtonItem" image="voltarBranco" id="27C-Cq-vhn">

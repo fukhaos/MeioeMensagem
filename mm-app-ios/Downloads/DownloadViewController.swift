@@ -11,6 +11,7 @@ import UIKit
 class DownloadViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
 
     
+    @IBOutlet weak var collectionView: UICollectionView!
     
     let defaults = UserDefaults.standard
     
@@ -27,9 +28,10 @@ class DownloadViewController: UIViewController, UICollectionViewDelegate, UIColl
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        collectionView.dataSource = self
+        collectionView.delegate = self
+        
 
-//        collectionView.dataSource = self
-//        collectionView.delegate = self
         
 //        //Layout Manual da CollectionView
 //        var layout = self.collectionView.collectionViewLayout as! UICollectionViewFlowLayout

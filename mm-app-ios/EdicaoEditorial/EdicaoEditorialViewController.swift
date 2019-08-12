@@ -17,13 +17,7 @@ class EdicaoEditorialViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let tap = UITapGestureRecognizer(target: self, action: #selector(EdicaoEditorialViewController.tapFunction))
-        avancaMateria.isUserInteractionEnabled = true
-        avancaMateria.addGestureRecognizer(tap)
-        
-
-        
-        
+  
         
     }
     

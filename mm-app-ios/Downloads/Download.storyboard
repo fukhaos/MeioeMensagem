@@ -187,6 +187,9 @@
                         </barButtonItem>
                     </navigationItem>
                     <size key="freeformSize" width="375" height="1000"/>
+                    <connections>
+                        <outlet property="collectionView" destination="t6p-eb-OAF" id="Pv5-Ee-lHt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aLv-k9-Gvk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

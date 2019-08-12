@@ -144,6 +144,10 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
         ImagemPinch.transform = CGAffineTransform(scaleX: sender.scale, y: sender.scale)
     }
     
+    @IBAction func notificacao(_ sender: UIBarButtonItem) {
+        
+        performSegue(withIdentifier: "goNotifica", sender: nil)
+    }
     
     
 }

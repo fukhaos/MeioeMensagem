@@ -15,6 +15,14 @@
         </array>
     </customFonts>
     <scenes>
+        <!--Notificacao-->
+        <scene sceneID="SdL-uB-gW8">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Notificacao" id="RhC-ly-EQe" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="YGC-DV-vQr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-12085" y="93"/>
+        </scene>
         <!--CapaPrincipal-->
         <scene sceneID="7uj-zH-9HV">
             <objects>
@@ -30,7 +38,7 @@
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" alwaysBounceVertical="YES" dataMode="static" style="grouped" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" id="0Ma-3H-nHb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.019627574830000001" green="0.48962080479999998" blue="0.76839584110000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.0" green="0.37647058820000001" blue="0.59607843140000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <color key="separatorColor" red="0.01962757483124733" green="0.48962080478668213" blue="0.76839584112167358" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <view key="tableHeaderView" contentMode="scaleToFill" id="bpp-Xl-FgG">
                             <rect key="frame" x="0.0" y="0.0" width="375" height="106"/>
@@ -55,7 +63,7 @@
                                     <rect key="frame" x="30" y="41" width="24" height="24"/>
                                 </imageView>
                             </subviews>
-                            <color key="backgroundColor" red="0.0061942464672029018" green="0.42313081026077271" blue="0.66588133573532104" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <color key="backgroundColor" red="0.0" green="0.37647058823529411" blue="0.59607843137254901" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <constraints>
                                 <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Mk2-1E-ky7" secondAttribute="trailing" constant="20" symbolic="YES" id="4Pq-Et-qDq"/>
                                 <constraint firstItem="gzw-7l-YhD" firstAttribute="top" secondItem="bpp-Xl-FgG" secondAttribute="top" constant="41" id="6Z8-Jx-8c4"/>
@@ -106,7 +114,7 @@
                                                 <constraint firstItem="DgU-ay-r8Y" firstAttribute="top" secondItem="ZDR-Mc-muv" secondAttribute="topMargin" constant="7.5" id="cCe-yd-SM3"/>
                                             </constraints>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" red="0.01962757483124733" green="0.48962080478668213" blue="0.76839584112167358" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.0" green="0.48855721949999997" blue="0.76702791449999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <segue destination="wD9-Yd-Poa" kind="show" identifier="notificacao" id="m4v-yq-A09"/>
                                         </connections>
@@ -1063,6 +1071,9 @@
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" image="notBranco" id="sa2-r5-vb0">
                             <color key="tintColor" red="0.84705882349999995" green="0.84705882349999995" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="notificacao:" destination="Puz-GT-9Ax" id="rJa-KJ-d2C"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <size key="freeformSize" width="375" height="1500"/>
@@ -1071,6 +1082,7 @@
                         <outlet property="collectionView" destination="bGN-Uy-Ww6" id="tLz-gJ-BmB"/>
                         <outlet property="scrollView" destination="99d-0X-Plk" id="Yo6-ks-sUj"/>
                         <segue destination="kbU-MC-qmH" kind="show" identifier="capaPrincipal" id="tH9-gF-O9a"/>
+                        <segue destination="RhC-ly-EQe" kind="show" identifier="goNotifica" id="BXW-nF-JuE"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2wW-Qd-hqB" userLabel="First Responder" sceneMemberID="firstResponder"/>
