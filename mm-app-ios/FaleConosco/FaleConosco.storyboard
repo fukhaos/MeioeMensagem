@@ -69,6 +69,9 @@ Escreva sua mensagem no campo abaixo. Retornaremos o contato o mais breve possí
                                         </constraints>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                        <connections>
+                                            <outlet property="delegate" destination="az5-fY-r10" id="gq4-e0-8Oy"/>
+                                        </connections>
                                     </textView>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CUk-Ky-7gs">
                                         <rect key="frame" x="20" y="440.5" width="374" height="51"/>
@@ -76,6 +79,7 @@ Escreva sua mensagem no campo abaixo. Retornaremos o contato o mais breve possí
                                         <constraints>
                                             <constraint firstAttribute="height" constant="51" id="mjr-nC-WSS"/>
                                         </constraints>
+                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="17"/>
                                         <state key="normal" title="ENVIAR">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
@@ -119,7 +123,11 @@ Escreva sua mensagem no campo abaixo. Retornaremos o contato o mais breve possí
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="categoryTextField" destination="jp5-yq-SXI" id="RFk-wb-Dsh"/>
+                        <outlet property="descriptionLabel" destination="8P4-xq-Iaf" id="7tO-Wu-az8"/>
                         <outlet property="messageTextView" destination="hdF-eM-1Wu" id="gB1-SN-aQn"/>
+                        <outlet property="navigationBar" destination="IUe-Si-CGH" id="S0q-Km-vVm"/>
+                        <outlet property="sendButton" destination="CUk-Ky-7gs" id="w0l-Ke-odd"/>
+                        <outlet property="viewContainer" destination="az5-fY-r10" id="mbN-tM-qb2"/>
                         <segue destination="SV9-F8-JP0" kind="show" identifier="goMain" id="dae-MA-cuW"/>
                     </connections>
                 </viewController>

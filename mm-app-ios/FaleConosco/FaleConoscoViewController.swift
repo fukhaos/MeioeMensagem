@@ -14,12 +14,17 @@ class FaleConoscoViewController: UIViewController {
     let pickerView = UIPickerView()
 
     @IBOutlet weak var messageTextView: UITextView!
+    @IBOutlet weak var sendButton: UIButton!
+    @IBOutlet weak var descriptionLabel: UILabel!
+    @IBOutlet weak var viewContainer: UIView!
+    @IBOutlet weak var navigationBar: UINavigationBar!
     
     //Caixa de texto de categorias a vincular com o pickerview
     @IBOutlet weak var categoryTextField: UITextField! {
         didSet {
-            categoryTextField.tintColor = .lightGray
+            categoryTextField.tintColor = Theme.current.placeholderColor
             categoryTextField.setIcon(UIImage(named: "arrow-down-30")!)
+            categoryTextField.applyTheme()
         }
     }
     
@@ -30,11 +35,12 @@ class FaleConoscoViewController: UIViewController {
         categoryTextField.delegate = self
         
         //Ocultar o cursor piscando
-        categoryTextField.tintColor = .clear
+        //categoryTextField.tintColor = .clear
         
         messageTextView.text = "Sua mensagem"
         messageTextView.textColor = .lightGray
-        messageTextView.layer.borderWidth = 0.5
+        //messageTextView.layer.borderWidth = 0.5
+        //messageTextView.layer.borderColor = Theme.current.lineColor.cgColor
         //messageTextView.font = UIFont(name: "Roboto-Regular", size: 16.0)
         messageTextView.returnKeyType = .done
         messageTextView.delegate = self
@@ -43,10 +49,31 @@ class FaleConoscoViewController: UIViewController {
         insertPickerInputView()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        applyTheme()
+    }
+    
+    fileprivate func applyTheme() {
+        sendButton.applyTheme()
+        descriptionLabel.applyTheme()
+        messageTextView.applyTheme()
+        navigationBar.applyTheme()
+        self.viewContainer.backgroundColor = Theme.current.background
+        self.view.backgroundColor = Theme.current.backgroundSecondary
+    }
+    
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
         self.view.endEditing(true)
     }
     
+    
+    //Alterar para o projeto inteiro
+    //Go to Project -> Target, Set Status Bar Style to Light
+    override var preferredStatusBarStyle: UIStatusBarStyle {
+        return .lightContent
+    }
     //Função que vincula a caixa de texto de categorias com o pickerview de categorias
     fileprivate func insertPickerInputView() {
         pickerView.dataSource = self
@@ -57,17 +84,6 @@ class FaleConoscoViewController: UIViewController {
     @IBAction func close(_ sender: Any) {
         self.performSegue(withIdentifier: "goMain", sender: nil)
     }
-    
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
 }
 
 //Extensão delegate da caixa de texto
@@ -95,7 +111,7 @@ extension FaleConoscoViewController: UITextViewDelegate {
     func textViewDidBeginEditing(_ textView: UITextView) {
         if textView.text == "Sua mensagem" {
             textView.text = ""
-            textView.textColor = UIColor.black
+            textView.textColor = Theme.current.textColor
             //textView.font = UIFont(name: "Roboto-Regular", size: 16.0)
         }
     }
@@ -110,7 +126,7 @@ extension FaleConoscoViewController: UITextViewDelegate {
     func textViewDidEndEditing(_ textView: UITextView) {
         if textView.text == "" {
             textView.text = "Sua mensagem"
-            textView.textColor = UIColor.lightGray
+            textView.textColor = Theme.current.placeholderColor
             //textView.font = UIFont(name: "Roboto-Regular", size: 16.0)
         }
     }
@@ -139,6 +155,7 @@ extension UITextField {
     func setIcon(_ image: UIImage) {
         let iconView = UIImageView(frame: CGRect(x: 10, y: 5, width: 20, height: 20))
         iconView.image = image
+        iconView.tintColor = .white
         let iconContainerView: UIView = UIView(frame: CGRect(x: 20, y: 0, width: 40, height: 30))
         iconContainerView.addSubview(iconView)
         rightView = iconContainerView

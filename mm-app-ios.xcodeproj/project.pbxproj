@@ -57,6 +57,11 @@
 		B6B5B48722E8FC75004BBF81 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B5B48622E8FC75004BBF81 /* LoginViewController.swift */; };
 		B6B74ACB22E9D455001261B3 /* CadastroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B74ACA22E9D455001261B3 /* CadastroViewController.swift */; };
 		B6B74ACD22E9D571001261B3 /* ValidationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B74ACC22E9D571001261B3 /* ValidationViewController.swift */; };
+		B6BDBE652301BC95008EB63B /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BDBE642301BC95008EB63B /* Theme.swift */; };
+		B6BDBE672301BCC9008EB63B /* ThemeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BDBE662301BCC9008EB63B /* ThemeProtocol.swift */; };
+		B6BDBE692301BCE4008EB63B /* LightTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BDBE682301BCE4008EB63B /* LightTheme.swift */; };
+		B6BDBE6B2301BCFD008EB63B /* DarkTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BDBE6A2301BCFD008EB63B /* DarkTheme.swift */; };
+		B6BDBE6D2301DB3F008EB63B /* ThemeExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BDBE6C2301DB3F008EB63B /* ThemeExtensions.swift */; };
 		B6BF810522FAFC04009B3BF9 /* checkBoxOn.png in Resources */ = {isa = PBXBuildFile; fileRef = B6BF810422FAFC03009B3BF9 /* checkBoxOn.png */; };
 		B6BF810822FB3E3C009B3BF9 /* EdicaoEditorial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6BF810722FB3E3C009B3BF9 /* EdicaoEditorial.storyboard */; };
 		B6BF810A22FB3EA5009B3BF9 /* EdicaoEditorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BF810922FB3EA5009B3BF9 /* EdicaoEditorialViewController.swift */; };
@@ -149,6 +154,11 @@
 		B6B5B48622E8FC75004BBF81 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B6B74ACA22E9D455001261B3 /* CadastroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroViewController.swift; sourceTree = "<group>"; };
 		B6B74ACC22E9D571001261B3 /* ValidationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationViewController.swift; sourceTree = "<group>"; };
+		B6BDBE642301BC95008EB63B /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Theme.swift; path = "mm-app-ios/Theme.swift"; sourceTree = SOURCE_ROOT; };
+		B6BDBE662301BCC9008EB63B /* ThemeProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ThemeProtocol.swift; path = "mm-app-ios/ThemeProtocol.swift"; sourceTree = SOURCE_ROOT; };
+		B6BDBE682301BCE4008EB63B /* LightTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LightTheme.swift; path = "mm-app-ios/LightTheme.swift"; sourceTree = SOURCE_ROOT; };
+		B6BDBE6A2301BCFD008EB63B /* DarkTheme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DarkTheme.swift; path = "mm-app-ios/DarkTheme.swift"; sourceTree = SOURCE_ROOT; };
+		B6BDBE6C2301DB3F008EB63B /* ThemeExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ThemeExtensions.swift; path = "mm-app-ios/ThemeExtensions.swift"; sourceTree = SOURCE_ROOT; };
 		B6BF810422FAFC03009B3BF9 /* checkBoxOn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checkBoxOn.png; sourceTree = "<group>"; };
 		B6BF810722FB3E3C009B3BF9 /* EdicaoEditorial.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EdicaoEditorial.storyboard; sourceTree = "<group>"; };
 		B6BF810922FB3EA5009B3BF9 /* EdicaoEditorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EdicaoEditorialViewController.swift; sourceTree = "<group>"; };
@@ -269,6 +279,11 @@
 		B68B1EC022F0CD52009310A2 /* Theme */ = {
 			isa = PBXGroup;
 			children = (
+				B6BDBE642301BC95008EB63B /* Theme.swift */,
+				B6BDBE662301BCC9008EB63B /* ThemeProtocol.swift */,
+				B6BDBE682301BCE4008EB63B /* LightTheme.swift */,
+				B6BDBE6A2301BCFD008EB63B /* DarkTheme.swift */,
+				B6BDBE6C2301DB3F008EB63B /* ThemeExtensions.swift */,
 			);
 			path = Theme;
 			sourceTree = "<group>";
@@ -628,18 +643,23 @@
 				B69DC2D922EB3DBC00C8F142 /* SpringAnimation.swift in Sources */,
 				B6C5185022F8C9C700D85B59 /* NotificacaoViewController.swift in Sources */,
 				B630B0B822F9BC7900A5EA25 /* MinhaContaViewController.swift in Sources */,
+				B6BDBE672301BCC9008EB63B /* ThemeProtocol.swift in Sources */,
 				B69DC2D522EB3D1600C8F142 /* SpringButtom.swift in Sources */,
 				B69DC2E422EB3E9300C8F142 /* SpringView.swift in Sources */,
 				B6B74ACD22E9D571001261B3 /* ValidationViewController.swift in Sources */,
 				B680F8F422FDFE3500C1A79D /* Categories.swift in Sources */,
 				B6B5B45222E77A55004BBF81 /* mm_app_ios.xcdatamodeld in Sources */,
+				B6BDBE6B2301BCFD008EB63B /* DarkTheme.swift in Sources */,
 				B6AA905F22F232B1001A9F0D /* TutorialInitViewController.swift in Sources */,
 				B6B5B45F22E77C16004BBF81 /* MenuViewController.swift in Sources */,
 				B69DC2D722EB3D8C00C8F142 /* Spring.swift in Sources */,
 				B630B0BA22F9BC9200A5EA25 /* AlterarSenhaViewController.swift in Sources */,
 				B69DC2DE22EB3E1400C8F142 /* SpringLabel.swift in Sources */,
+				B6BDBE692301BCE4008EB63B /* LightTheme.swift in Sources */,
 				B69DC2DB22EB3DE300C8F142 /* SpringImageView.swift in Sources */,
+				B6BDBE6D2301DB3F008EB63B /* ThemeExtensions.swift in Sources */,
 				B6C6E72922FC9691003D303A /* PublicidadeVideoViewController.swift in Sources */,
+				B6BDBE652301BC95008EB63B /* Theme.swift in Sources */,
 				B69DC2CA22EA0A5C00C8F142 /* UserTermViewController.swift in Sources */,
 				B6C6E72B22FCA199003D303A /* PublicidadeVideosCollectionViewCell.swift in Sources */,
 				B69DC2E022EB3E3A00C8F142 /* SpringTextField.swift in Sources */,
