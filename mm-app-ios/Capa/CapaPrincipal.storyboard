@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="qHq-NX-aPO">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="0lG-Ey-8E7">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -27,7 +27,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="POj-pn-FfF">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="1500"/>
+                                <rect key="frame" x="0.0" y="44" width="375" height="1456"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bpM-ML-HEy" userLabel="PrincipalView">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="1500"/>
@@ -416,7 +416,24 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="3jy-Hy-1IV"/>
                     </view>
-                    <navigationItem key="navigationItem" id="prF-fn-Gji"/>
+                    <navigationItem key="navigationItem" id="prF-fn-Gji">
+                        <leftBarButtonItems>
+                            <barButtonItem image="fecharBranco" id="Tj3-Bb-ScS">
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </barButtonItem>
+                            <barButtonItem title="Edição de 4 Abr 2019" id="xev-rp-Wkr">
+                                <color key="tintColor" red="0.94889384509999997" green="0.95595830680000005" blue="0.95931655169999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </barButtonItem>
+                        </leftBarButtonItems>
+                        <rightBarButtonItems>
+                            <barButtonItem image="pontosBranco" id="JZi-gi-GC1">
+                                <color key="tintColor" red="0.94889384509999997" green="0.95595830680000005" blue="0.95931655169999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </barButtonItem>
+                            <barButtonItem image="buscaBranco" id="Dsg-Ih-2C9">
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </barButtonItem>
+                        </rightBarButtonItems>
+                    </navigationItem>
                     <size key="freeformSize" width="375" height="1500"/>
                     <connections>
                         <outlet property="avancarPage" destination="5eg-nz-un6" id="rgh-y1-hlo"/>
@@ -425,7 +442,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mql-X2-NLB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-8753" y="1957"/>
+            <point key="canvasLocation" x="-7844.202898550725" y="1956.6964285714284"/>
         </scene>
         <!--EdicaoEditorial-->
         <scene sceneID="rz6-3h-Rm3">
@@ -433,16 +450,38 @@
                 <viewControllerPlaceholder storyboardName="EdicaoEditorial" id="Trb-fI-43d" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="ppN-VM-tbt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-8079" y="1659"/>
+            <point key="canvasLocation" x="-7170.289855072464" y="1658.7053571428571"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="WUF-Kp-k4M">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="0lG-Ey-8E7" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="3rv-Yg-uyd">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="qHq-NX-aPO" kind="relationship" relationship="rootViewController" id="zJE-3N-2xQ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ndb-Po-l0S" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-8753.6231884057979" y="1956.6964285714284"/>
         </scene>
     </scenes>
     <resources>
         <image name="Materia1.png" width="184" height="185"/>
         <image name="Materia2.png" width="184" height="183"/>
         <image name="bookmark" width="14" height="19"/>
+        <image name="buscaBranco" width="24" height="24"/>
+        <image name="fecharBranco" width="24" height="24"/>
         <image name="font" width="16" height="17"/>
         <image name="headerBranco.png" width="160" height="26"/>
         <image name="heart" width="18" height="17"/>
+        <image name="pontosBranco" width="24" height="24"/>
         <image name="slide" width="32" height="32"/>
         <image name="streming.jpg" width="900" height="540"/>
     </resources>

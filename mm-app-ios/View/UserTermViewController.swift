@@ -31,7 +31,7 @@ class UserTermViewController: UIViewController, WKNavigationDelegate {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        CadastroViewController()
+        
         
         progressView = UIProgressView(progressViewStyle: .default)
         progressView.sizeToFit()

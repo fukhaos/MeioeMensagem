@@ -134,7 +134,12 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func closedLoginPage(_ sender: Any) {
-     self.performSegue(withIdentifier: "goMain", sender: nil)
+         if ((self.presentingViewController) != nil){
+            self.dismiss(animated: false) {
+                self.performSegue(withIdentifier: "goMain", sender: nil)
+            }
+        }
+        
    
     }
     
