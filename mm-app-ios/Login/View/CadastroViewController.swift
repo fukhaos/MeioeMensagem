@@ -67,11 +67,12 @@ class CadastroViewController: UIViewController {
     }
     
     func setUIElements()  -> NSMutableAttributedString{
-        let attributedString = NSMutableAttributedString(string: "Eu li e concordo com os Termos de Uso.", attributes: [
+        let attributedString = NSMutableAttributedString(string: "Li e aceito os termos da Política de Privacidade Meio e Mensagem.", attributes: [
             .font: UIFont.systemFont(ofSize: 14.0, weight: .regular),
             .foregroundColor: UIColor(white: 36.0 / 255.0, alpha: 1.0)
             ])
-        attributedString.addAttribute(.font, value: UIFont.systemFont(ofSize: 14.0, weight: .bold), range: NSRange(location: 24, length: 14))
+        attributedString.addAttribute(.font, value: UIFont.systemFont(ofSize: 14.0, weight: .bold), range: NSRange(location: 25, length: 40))
+        attributedString.addAttribute(NSAttributedString.Key.foregroundColor, value: UIColor(red: 0/255, green: 96/255, blue: 152/255, alpha: 1), range: NSRange(location: 25, length: 40))
         userAndTermsButton.setAttributedTitle(attributedString, for: .normal)
         return attributedString
 
@@ -136,24 +137,24 @@ class CadastroViewController: UIViewController {
             present(alerta, animated: true, completion: nil)
             
         } else if self.alternaEmailTextField.text == "" {
-            let alerta = UIAlertController(title: "Alerta", message: "Preencha o campo de confirmação de e-mail", preferredStyle: .alert)
+            let alerta = UIAlertController(title: "Alerta", message: "Preencha o campo de E-mail Alternativo", preferredStyle: .alert)
             let bntOk = UIAlertAction(title: "OK", style: .default, handler: nil)
             alerta.addAction(bntOk)
             present(alerta, animated: true, completion: nil)
             
-        } else if self.emailTextField.text != self.alternaEmailTextField.text {
-            let alerta = UIAlertController(title: "Alerta", message: "O Campo e-mail e confirma e-mail são diferentes.", preferredStyle: .alert)
-            let bntOk = UIAlertAction(title: "OK", style: .default, handler: nil)
-            alerta.addAction(bntOk)
-            present(alerta, animated: true, completion: nil)
-            
-        } else if !(self.emailTextField.text?.isValidEmail() ?? true) {
+        }  else if !(self.emailTextField.text?.isValidEmail() ?? true) {
             let alerta = UIAlertController(title: "Alerta", message: "E-mail invalido", preferredStyle: .alert)
             let bntOk = UIAlertAction(title: "OK", style: .default, handler: nil)
             alerta.addAction(bntOk)
             present(alerta, animated: true, completion: nil)
             
-        } else if self.passwdTextField.text == "" {
+        }else if !(self.alternaEmailTextField.text?.isValidEmail() ?? true) {
+            let alerta = UIAlertController(title: "Alerta", message: "E-mail Alternativo invalido", preferredStyle: .alert)
+            let bntOk = UIAlertAction(title: "OK", style: .default, handler: nil)
+            alerta.addAction(bntOk)
+            present(alerta, animated: true, completion: nil)
+            
+        }else if self.passwdTextField.text == "" {
             let alerta = UIAlertController(title: "Alerta", message: "Preencha o campo senha.", preferredStyle: .alert)
             let bntOk = UIAlertAction(title: "OK", style: .default, handler: nil)
             alerta.addAction(bntOk)
@@ -173,7 +174,7 @@ class CadastroViewController: UIViewController {
             
         } else {
             
-                self.shouldPerformSegue(withIdentifier: "segueOk", sender: nil)
+                self.performSegue(withIdentifier: "segueOk", sender: nil)
            
         }
      
@@ -201,7 +202,9 @@ class CadastroViewController: UIViewController {
     }
     
     @IBAction func closedCadastro(_ sender: Any) {
-        dismiss(animated: true, completion: nil)
+        if ((self.presentingViewController) != nil){
+            self.dismiss(animated: false, completion: nil)
+        }
     }
     
     

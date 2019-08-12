@@ -9,20 +9,25 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Edica Especial-->
         <scene sceneID="6rn-2K-6JK">
             <objects>
                 <viewController id="2eB-IH-2dP" userLabel="Edica Especial" customClass="EdicaoEditorialViewController" customModule="mm_app_ios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cga-0Y-dg7">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="1700"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1850"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D9v-Sc-hpr">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="1700"/>
+                                <rect key="frame" x="6" y="0.0" width="375" height="1850"/>
                                 <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V1m-9p-FQf" userLabel="PrincipalView">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1700"/>
+                                    <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="V1m-9p-FQf" userLabel="PrincipalView">
+                                        <rect key="frame" x="-6" y="0.0" width="375" height="1800"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B7j-PY-KED">
                                                 <rect key="frame" x="0.0" y="44" width="375" height="31"/>
@@ -54,13 +59,14 @@
                                                     <constraint firstAttribute="height" constant="44" id="YZq-Wz-GDb"/>
                                                     <constraint firstAttribute="width" constant="375" id="wMT-vU-auZ"/>
                                                 </constraints>
+                                                <color key="barTintColor" red="0.18039215689999999" green="0.18039215689999999" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <items>
                                                     <navigationItem id="3As-he-bbP">
                                                         <leftBarButtonItems>
-                                                            <barButtonItem image="fechar" id="TOV-7d-hqq">
+                                                            <barButtonItem image="fecharBranco" id="yhG-e3-4eq">
                                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <connections>
-                                                                    <action selector="dismissPage:" destination="2eB-IH-2dP" id="JRG-x4-ojg"/>
+                                                                    <action selector="teste:" destination="2eB-IH-2dP" id="tJT-iB-ONP"/>
                                                                 </connections>
                                                             </barButtonItem>
                                                             <barButtonItem title="Edição de 4 Abr 2019" id="WDS-lp-YOn">
@@ -153,7 +159,7 @@
                                                             <constraint firstAttribute="width" constant="116" id="0F8-0A-xeZ"/>
                                                             <constraint firstAttribute="height" constant="18" id="yxw-OU-xkH"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="15"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -179,19 +185,6 @@
                                                     <constraint firstAttribute="bottom" secondItem="WcN-OO-xUw" secondAttribute="bottom" constant="11" id="vQS-lh-i39"/>
                                                 </constraints>
                                             </view>
-                                            <tabBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="69X-Wi-hGf">
-                                                <rect key="frame" x="0.0" y="1651" width="375" height="49"/>
-                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="height" constant="49" id="1BZ-d3-qzE"/>
-                                                    <constraint firstAttribute="width" constant="375" id="DDm-Tw-shO"/>
-                                                </constraints>
-                                                <items>
-                                                    <tabBarItem image="heart" id="g8g-yl-Q8D"/>
-                                                    <tabBarItem title="" image="bookmark" id="gS7-Nt-NEp"/>
-                                                    <tabBarItem image="font" id="PhN-0W-Sbd"/>
-                                                </items>
-                                            </tabBar>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
@@ -219,15 +212,12 @@
                                             <constraint firstAttribute="trailing" secondItem="ogB-kG-HP3" secondAttribute="trailing" constant="103" id="kHu-fS-IUe"/>
                                             <constraint firstItem="9V7-6X-UMZ" firstAttribute="leading" secondItem="V1m-9p-FQf" secondAttribute="leading" constant="20" id="mTx-37-9AX"/>
                                             <constraint firstItem="B7j-PY-KED" firstAttribute="leading" secondItem="V1m-9p-FQf" secondAttribute="leading" id="nqj-gc-TFU"/>
-                                            <constraint firstAttribute="bottom" secondItem="ogB-kG-HP3" secondAttribute="bottom" constant="92" id="nst-gi-nJA"/>
+                                            <constraint firstAttribute="bottom" secondItem="ogB-kG-HP3" secondAttribute="bottom" constant="242" id="nst-gi-nJA"/>
                                             <constraint firstItem="wSr-ng-3bk" firstAttribute="leading" secondItem="V1m-9p-FQf" secondAttribute="leading" id="p0O-Cz-P7c"/>
                                             <constraint firstAttribute="trailing" secondItem="Qs5-zT-VpO" secondAttribute="trailing" constant="20" id="pzc-Aa-wZN"/>
                                             <constraint firstItem="Qs5-zT-VpO" firstAttribute="top" secondItem="8Ro-F3-X31" secondAttribute="bottom" constant="24" id="qry-Ap-rgz"/>
                                             <constraint firstItem="8Ro-F3-X31" firstAttribute="leading" secondItem="V1m-9p-FQf" secondAttribute="leading" constant="20" id="r7r-FQ-nt4"/>
                                             <constraint firstAttribute="trailing" secondItem="YLB-cW-9De" secondAttribute="trailing" constant="20" id="r89-xh-ZOR"/>
-                                            <constraint firstItem="69X-Wi-hGf" firstAttribute="leading" secondItem="V1m-9p-FQf" secondAttribute="leading" id="w8k-qU-doT"/>
-                                            <constraint firstAttribute="bottom" secondItem="69X-Wi-hGf" secondAttribute="bottom" id="wLI-EM-pX1"/>
-                                            <constraint firstAttribute="trailing" secondItem="69X-Wi-hGf" secondAttribute="trailing" id="wYF-PB-tOc"/>
                                             <constraint firstItem="YLB-cW-9De" firstAttribute="top" secondItem="GZp-SR-tqa" secondAttribute="bottom" constant="16" id="yBJ-V3-GF8"/>
                                         </constraints>
                                     </view>
@@ -244,38 +234,37 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="5Uj-Xc-Syy" firstAttribute="trailing" secondItem="D9v-Sc-hpr" secondAttribute="trailing" id="1qx-1A-gtp"/>
-                            <constraint firstItem="D9v-Sc-hpr" firstAttribute="leading" secondItem="5Uj-Xc-Syy" secondAttribute="leading" id="CRs-6Z-tfD"/>
+                            <constraint firstItem="5Uj-Xc-Syy" firstAttribute="trailing" secondItem="D9v-Sc-hpr" secondAttribute="trailing" constant="-6" id="1qx-1A-gtp"/>
+                            <constraint firstItem="D9v-Sc-hpr" firstAttribute="leading" secondItem="5Uj-Xc-Syy" secondAttribute="leading" constant="6" id="CRs-6Z-tfD"/>
                             <constraint firstItem="5Uj-Xc-Syy" firstAttribute="bottom" secondItem="D9v-Sc-hpr" secondAttribute="bottom" constant="-34" id="FJ9-Mf-SJC"/>
                             <constraint firstItem="D9v-Sc-hpr" firstAttribute="top" secondItem="5Uj-Xc-Syy" secondAttribute="top" constant="-44" id="MuT-rs-6W0"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="5Uj-Xc-Syy"/>
                     </view>
-                    <navigationItem key="navigationItem" id="GtV-pA-3AZ">
-                        <barButtonItem key="backBarButtonItem" title=" " id="J35-ib-NcD"/>
-                    </navigationItem>
-                    <size key="freeformSize" width="375" height="1700"/>
+                    <navigationItem key="navigationItem" id="dIC-1M-3Up"/>
+                    <size key="freeformSize" width="375" height="1850"/>
                     <connections>
                         <outlet property="avancaMateria" destination="WcN-OO-xUw" id="Tor-Qp-ath"/>
-                        <segue destination="NaT-SP-e1E" kind="show" identifier="seguePublicidade" id="uST-Zd-9Wg"/>
+                        <segue destination="dkp-Sr-YzO" kind="show" identifier="segueMateria" id="rtS-lo-qzQ"/>
+                        <segue destination="ETn-fz-Jhp" kind="show" identifier="goMain" id="BZA-Pe-zWG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XfD-bi-CKv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-8965.9420289855079" y="2036.3839285714284"/>
+            <point key="canvasLocation" x="-5289.130434782609" y="2042.4107142857142"/>
         </scene>
-        <!--Storyboard Reference-->
-        <scene sceneID="1Os-BI-wkz">
+        <!--Main-->
+        <scene sceneID="epy-HV-RFG">
             <objects>
-                <viewControllerPlaceholder id="NaT-SP-e1E" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Tp7-fR-Vpg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewControllerPlaceholder storyboardName="Main" id="ETn-fz-Jhp" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mbD-v1-1xY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-8170" y="1171"/>
+            <point key="canvasLocation" x="-4817.391304347826" y="1636.6071428571429"/>
         </scene>
-        <!--View Controller-->
+        <!--Edicao Materia View Controller-->
         <scene sceneID="LM9-Cp-hS6">
             <objects>
-                <viewController id="dkp-Sr-YzO" sceneMemberID="viewController">
+                <viewController id="dkp-Sr-YzO" customClass="EdicaoMateriaViewController" customModule="mm_app_ios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="lWB-Q4-BUU">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="4250"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -290,14 +279,20 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
+                                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="ItQ-ft-F1A"/>
                                                     <constraint firstAttribute="height" constant="44" id="OIs-ZK-TA8"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="375" id="dCT-gc-qpj"/>
                                                     <constraint firstAttribute="width" constant="375" id="wpg-OM-kim"/>
                                                 </constraints>
+                                                <color key="barTintColor" red="0.18039215689999999" green="0.18039215689999999" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <items>
                                                     <navigationItem id="4bN-Sv-dbP">
                                                         <leftBarButtonItems>
                                                             <barButtonItem image="fecharBranco" id="I1P-60-i08">
                                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <connections>
+                                                                    <action selector="goMain:" destination="dkp-Sr-YzO" id="dtb-7B-qLz"/>
+                                                                </connections>
                                                             </barButtonItem>
                                                             <barButtonItem title="Edição de 4 Abr 2019" id="pAb-ka-YEW">
                                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -606,7 +601,7 @@
                                                             <constraint firstAttribute="height" constant="18" id="MEs-WY-Sil"/>
                                                             <constraint firstAttribute="width" constant="116" id="aR7-LZ-PI1"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="15"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -669,6 +664,7 @@
                                             <constraint firstItem="it3-EC-eWP" firstAttribute="top" secondItem="Paa-9h-t8p" secondAttribute="bottom" constant="24" id="GxE-aT-X2u"/>
                                             <constraint firstItem="RaV-Oh-7nA" firstAttribute="leading" secondItem="jFg-9G-9GL" secondAttribute="leading" constant="20" id="K7n-qf-sPx"/>
                                             <constraint firstItem="j1d-dz-nkS" firstAttribute="leading" secondItem="jFg-9G-9GL" secondAttribute="leading" constant="20" id="KoM-1d-7sD"/>
+                                            <constraint firstItem="R5z-Ea-AvO" firstAttribute="top" secondItem="GHo-a1-iYq" secondAttribute="bottom" id="L4l-QY-vw8"/>
                                             <constraint firstItem="mLm-Pb-WLA" firstAttribute="top" secondItem="OLv-5J-YO5" secondAttribute="bottom" constant="40" id="LVb-5p-ZpC"/>
                                             <constraint firstItem="Paa-9h-t8p" firstAttribute="top" secondItem="UpA-hi-Nbv" secondAttribute="bottom" id="OH2-yO-pQM"/>
                                             <constraint firstItem="gbd-Ln-OhJ" firstAttribute="top" secondItem="R5z-Ea-AvO" secondAttribute="bottom" constant="16" id="OUK-7w-rsA"/>
@@ -688,6 +684,7 @@
                                             <constraint firstAttribute="trailing" secondItem="RaV-Oh-7nA" secondAttribute="trailing" constant="20" id="WRj-Ya-ojE"/>
                                             <constraint firstItem="CQy-83-kHj" firstAttribute="top" secondItem="mLm-Pb-WLA" secondAttribute="bottom" constant="40" id="Wr4-dt-hEY"/>
                                             <constraint firstAttribute="trailing" secondItem="v8x-Pp-GhK" secondAttribute="trailing" id="XEQ-CL-Z9e"/>
+                                            <constraint firstItem="GHo-a1-iYq" firstAttribute="leading" secondItem="jFg-9G-9GL" secondAttribute="leading" id="Xw5-Bs-MRr"/>
                                             <constraint firstAttribute="trailing" secondItem="e2y-sm-CbB" secondAttribute="trailing" constant="20" id="Zfa-tU-F29"/>
                                             <constraint firstAttribute="trailing" secondItem="gBP-8G-GJ2" secondAttribute="trailing" constant="291" id="b86-nb-6Of"/>
                                             <constraint firstAttribute="trailing" secondItem="CQZ-Cq-Loa" secondAttribute="trailing" constant="20" id="bGm-oL-87c"/>
@@ -700,7 +697,9 @@
                                             <constraint firstItem="lwS-9H-3jK" firstAttribute="top" secondItem="RaV-Oh-7nA" secondAttribute="bottom" constant="24" id="cpG-b9-XUD"/>
                                             <constraint firstItem="MIA-Mm-UPG" firstAttribute="top" secondItem="j1d-dz-nkS" secondAttribute="bottom" constant="24" id="d49-H1-VjB"/>
                                             <constraint firstItem="R5z-Ea-AvO" firstAttribute="top" secondItem="GHo-a1-iYq" secondAttribute="bottom" id="g0E-g7-81H"/>
+                                            <constraint firstItem="GHo-a1-iYq" firstAttribute="top" secondItem="jFg-9G-9GL" secondAttribute="top" id="gPT-XB-8Ef"/>
                                             <constraint firstAttribute="trailing" secondItem="gbd-Ln-OhJ" secondAttribute="trailing" constant="291" id="gsf-Ig-YNK"/>
+                                            <constraint firstAttribute="trailing" secondItem="GHo-a1-iYq" secondAttribute="trailing" id="h2I-XV-rB3"/>
                                             <constraint firstItem="gBP-8G-GJ2" firstAttribute="leading" secondItem="jFg-9G-9GL" secondAttribute="leading" constant="20" id="hOD-LN-80C"/>
                                             <constraint firstItem="GHo-a1-iYq" firstAttribute="top" secondItem="jFg-9G-9GL" secondAttribute="top" id="iCM-IG-CYb"/>
                                             <constraint firstItem="8sw-Dm-Zh3" firstAttribute="leading" secondItem="jFg-9G-9GL" secondAttribute="leading" id="iUq-Qk-ghi"/>
@@ -755,17 +754,17 @@
                     <navigationItem key="navigationItem" id="TM1-As-4hO"/>
                     <size key="freeformSize" width="375" height="4250"/>
                     <connections>
-                        <segue destination="XTR-oZ-5Wv" kind="show" id="ebB-QO-Mht"/>
+                        <segue destination="XTR-oZ-5Wv" kind="show" identifier="segueMateria" id="ebB-QO-Mht"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kTr-Za-MjY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-7893.4782608695659" y="2889.5089285714284"/>
+            <point key="canvasLocation" x="-4252.898550724638" y="2889.5089285714284"/>
         </scene>
-        <!--View Controller-->
+        <!--Materia View Controller-->
         <scene sceneID="uOd-mx-gRU">
             <objects>
-                <viewController id="XTR-oZ-5Wv" sceneMemberID="viewController">
+                <viewController id="XTR-oZ-5Wv" customClass="MateriaViewController" customModule="mm_app_ios" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sL8-cZ-D0p">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="3600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -783,6 +782,7 @@
                                                     <constraint firstAttribute="width" constant="375" id="H9l-Ju-IwC"/>
                                                     <constraint firstAttribute="height" constant="44" id="b16-X1-6wM"/>
                                                 </constraints>
+                                                <color key="barTintColor" red="0.1803921568627451" green="0.1803921568627451" blue="0.1803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <items>
                                                     <navigationItem id="lwS-d3-YPV">
                                                         <leftBarButtonItems>
@@ -1106,7 +1106,7 @@ Em um dos cases detalhados em Mais Rápido e Melhor, D</string>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Toque para ampliar" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pQG-7p-rmy">
                                                         <rect key="frame" x="37" y="6" width="115" height="21"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="13"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -1278,12 +1278,14 @@ Em um dos cases detalhados em Mais Rápido e Melhor, D</string>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ywY-RG-843"/>
                     </view>
-                    <navigationItem key="navigationItem" id="uh0-8Z-x0R"/>
+                    <navigationItem key="navigationItem" id="uh0-8Z-x0R">
+                        <barButtonItem key="backBarButtonItem" title=" " id="PqQ-rC-K1Y"/>
+                    </navigationItem>
                     <size key="freeformSize" width="375" height="3600"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K1E-El-255" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-6818.115942028986" y="2470.9821428571427"/>
+            <point key="canvasLocation" x="-3197.826086956522" y="2671.875"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Dca-qm-o45">
@@ -1361,7 +1363,7 @@ Em um dos cases detalhados em Mais Rápido e Melhor, D</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mAp-uS-y43" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-5260.144927536232" y="2035.7142857142856"/>
+            <point key="canvasLocation" x="-1619.5652173913045" y="2035.7142857142856"/>
         </scene>
     </scenes>
     <resources>
@@ -1371,7 +1373,6 @@ Em um dos cases detalhados em Mais Rápido e Melhor, D</string>
         <image name="Sadoun.png" width="704" height="476"/>
         <image name="bookmark" width="14" height="19"/>
         <image name="buscaBranco" width="24" height="24"/>
-        <image name="fechar" width="24" height="24"/>
         <image name="fecharBranco" width="24" height="24"/>
         <image name="font" width="16" height="17"/>
         <image name="heart" width="18" height="17"/>

@@ -41,7 +41,12 @@ extension String {
 }
 
 extension String {
-    
+//    func validLine() -> Bool {
+//        self.navigationBar.shadowImage = UIImage()
+//        self.navigationBar.backIndicatorImage = UIImage()
+//        self.navigationBar.isTranslucent = false
+//        self.navigationBar.backgroundColor = .white
+//    }
 }
 
 

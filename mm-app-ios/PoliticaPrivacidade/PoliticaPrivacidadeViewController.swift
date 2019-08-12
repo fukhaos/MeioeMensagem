@@ -40,9 +40,9 @@ class PoliticaPrivacidade: UIViewController, WKNavigationDelegate {
         
         let progressButton = UIBarButtonItem(customView: progressView)
         let spacer = UIBarButtonItem(barButtonSystemItem: .flexibleSpace, target: nil, action: nil)
-        let refresh = UIBarButtonItem(barButtonSystemItem: .refresh, target: webView, action: #selector(webView.reload))
+        //let refresh = UIBarButtonItem(barButtonSystemItem: .refresh, target: webView, action: #selector(webView.reload))
         
-        toolbarItems = [progressButton, spacer, refresh]
+        toolbarItems = [progressButton, spacer]
         
         navigationController?.isToolbarHidden = false
         

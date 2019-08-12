@@ -11,14 +11,20 @@ import UIKit
 class ResendEmailViewController: UIViewController {
 
     @IBOutlet weak var ViewResendEmail: UIView!
+    @IBOutlet weak var navigationBar: UINavigationBar!
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        self.ViewResendEmail.layer.cornerRadius = 19
+        self.ViewResendEmail.layer.cornerRadius = 25
         
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard))
         view.addGestureRecognizer(tap)
+        
+        self.navigationBar.shadowImage = UIImage()
+        self.navigationBar.backIndicatorImage = UIImage()
+        self.navigationBar.isTranslucent = false
+        self.navigationBar.backgroundColor = .white
         
     }
     

@@ -53,10 +53,7 @@ class MenuViewController: UITableViewController {
             break
             
         case .meusDownloads:
-            dismiss(animated: true) { [weak self] in
-                print("Dismissing: \(menuType)")
-                self?.didTapMenuType?(menuType)
-            }
+            self.performSegue(withIdentifier: "goDownload", sender: nil)
         
         case .salvo:
             dismiss(animated: true) { [weak self] in
@@ -68,33 +65,39 @@ class MenuViewController: UITableViewController {
                 print("Dismissing: \(menuType)")
                 self?.didTapMenuType?(menuType)
             }
+            
         case .tutorial:
             self.performSegue(withIdentifier: "tutorial", sender: nil)
             
         case .faleConosco:
             self.performSegue(withIdentifier: "segueFaleConosco", sender: nil)
-            //dismiss(animated: true) { [weak self] in
-            //    print("Dismissing: \(menuType)")
-            //    self?.didTapMenuType?(menuType)
-            //}
+
         case .faq:
             self.performSegue(withIdentifier: "segueFAQ", sender: nil)
 
         case .politicaPrivacidade:
             self.performSegue(withIdentifier: "seguePolitica", sender: nil)
+            
         case .sair:
-            dismiss(animated: true) { [weak self] in
-                print("Dismissing: \(menuType)")
-                self?.didTapMenuType?(menuType)                
+            let alerta = UIAlertController(title: "Alerta", message: "Deseja realmente sair ?", preferredStyle: .alert)
+            let bntOk = UIAlertAction(title: "OK", style: .default) { (alert) in
+                self.performSegue(withIdentifier: "goLogin", sender: nil)
             }
-        
+            let bntCancel = UIAlertAction(title: "Cancelar", style: .cancel, handler: nil)
+            alerta.addAction(bntOk)
+            alerta.addAction(bntCancel)
+            present(alerta, animated: true, completion: nil)
+           
         }
         
     }
     
-    @IBAction func segueStory(_ sender: Any) {
-        self.performSegue(withIdentifier: "goMain", sender: nil)
+    @IBAction func minhaConta(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "goConta", sender: nil)
     }
     
+
+    
+
     
 }

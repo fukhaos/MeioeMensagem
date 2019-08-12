@@ -25,6 +25,8 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var viewFacebook: UIView!
     @IBOutlet weak var viewLinkedin: UIView!
     @IBOutlet weak var novoCadastro: UIButton!
+    @IBOutlet weak var navigationBar: UINavigationBar!
+    
     
     
     
@@ -32,7 +34,7 @@ class LoginViewController: UIViewController {
         super.viewDidLoad()
      
         //Arredonda os cantos das UIView
-        self.viewEntrar.layer.cornerRadius = 20
+        self.viewEntrar.layer.cornerRadius = 25
         self.viewFacebook.layer.cornerRadius = 30
         self.viewLinkedin.layer.cornerRadius = 30
         
@@ -45,6 +47,11 @@ class LoginViewController: UIViewController {
         
         //Inicializando o botão com o recebimento da Func setUIElements
         self.novoCadastro.setAttributedTitle(setUIElements(), for: .normal)
+        
+        self.navigationBar.shadowImage = UIImage()
+        self.navigationBar.backIndicatorImage = UIImage()
+        self.navigationBar.isTranslucent = false
+        self.navigationBar.backgroundColor = .white
         
     }
     
@@ -127,14 +134,31 @@ class LoginViewController: UIViewController {
             let bntOk = UIAlertAction(title: "OK", style: .default, handler: nil)
             alerta.addAction(bntOk)
             present(alerta, animated: true, completion: nil)
-        }else {
-            self.performSegue(withIdentifier: "segueLoginOk", sender: nil)
+        }else if senhaTextField.text!.count <= 5  {
+        let alerta = UIAlertController(title: "Alerta", message: "A senha deve conter ao menos 6 caracteres.", preferredStyle: .alert)
+            let bntOk = UIAlertAction(title: "OK", style: .default, handler: nil)
+            alerta.addAction(bntOk)
+            present(alerta, animated: true, completion: nil)
+        }else if emailTextField.text == "teste@megaleios.com" && senhaTextField.text == "123456" {
+            let alerta = UIAlertController(title: "Olá!!", message: "Login Efetuado com sucesso.", preferredStyle: .alert)
+            let bntOk = UIAlertAction(title: "OK", style: .default) { (alert) in
+                self.performSegue(withIdentifier: "goMain", sender: nil)
+            }
+            alerta.addAction(bntOk)
+            present(alerta, animated: true, completion: nil)
+  
+        } else {
+            let alerta = UIAlertController(title: "Alerta", message: "Senha Inválida.", preferredStyle: .alert)
+            let bntOk = UIAlertAction(title: "OK", style: .default, handler: nil)
+            alerta.addAction(bntOk)
+            present(alerta, animated: true, completion: nil)
         }
         
     }
     
     @IBAction func closedLoginPage(_ sender: Any) {
-     self.performSegue(withIdentifier: "goMain", sender: nil)
+       performSegue(withIdentifier: "goMain", sender: nil)
+        
    
     }
     
