@@ -20,9 +20,17 @@ class AlterarSenhaViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard))
+        view.addGestureRecognizer(tap)
 
        self.salvarView.layer.cornerRadius = 25
         
+    }
+    
+    //Object-C para recolher teclado.
+    @objc func dismissKeyboard() {
+        view.endEditing(true)
     }
     
 

@@ -22,6 +22,10 @@ class MinhaContaViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard))
+        view.addGestureRecognizer(tap)
+        
+        
         nameTextField.text = "Luis"
         sobrenomeTextField.text = "Ricardo"
         apelidoTextField.text = "Sr"
@@ -30,6 +34,10 @@ class MinhaContaViewController: UIViewController {
         
         
         // Do any additional setup after loading the view.
+    }
+    //Object-C para recolher teclado.
+    @objc func dismissKeyboard() {
+        view.endEditing(true)
     }
     
     @IBAction func chancePasswd(_ sender: UIButton) {

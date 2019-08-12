@@ -11,6 +11,7 @@ import UIKit
 class ResendEmailViewController: UIViewController {
 
     @IBOutlet weak var ViewResendEmail: UIView!
+    @IBOutlet weak var navigationBar: UINavigationBar!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,6 +20,11 @@ class ResendEmailViewController: UIViewController {
         
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard))
         view.addGestureRecognizer(tap)
+        
+        self.navigationBar.shadowImage = UIImage()
+        self.navigationBar.backIndicatorImage = UIImage()
+        self.navigationBar.isTranslucent = false
+        self.navigationBar.backgroundColor = .white
         
     }
     

@@ -21,21 +21,26 @@ class EdicaoEditorialViewController: UIViewController {
         avancaMateria.isUserInteractionEnabled = true
         avancaMateria.addGestureRecognizer(tap)
         
-//        self.scrollView.minimumZoomScale = 1.0
-//        self.scrollView.maximumZoomScale = 6.0
+
         
         
         
     }
     
-//    func viewForZooming(in scrollView: UIScrollView) -> UIView? {
-//        return self.ImageView
-//    }
+
     
-    @IBAction func dismissPage(_ sender: Any) {
-        
+ 
+    @IBAction func dismiss(_ sender: UIBarButtonItem) {
         dismiss(animated: true, completion: nil)
     }
+    
+    @IBAction func teste(_ sender: Any) {
+        
+        print("Passou aqui")
+    }
+    
+    
+    
 
     @IBAction func tapFunction(_ sender: Any) {
         self.performSegue(withIdentifier: "segueMateria", sender: nil)

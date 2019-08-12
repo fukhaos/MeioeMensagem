@@ -130,6 +130,7 @@
                     </view>
                     <connections>
                         <outlet property="emailTextField" destination="WwM-42-tV7" id="Vtw-cz-ygV"/>
+                        <outlet property="navigationBar" destination="bz6-sz-ho5" id="ry8-Np-M5b"/>
                         <outlet property="viewSendPass" destination="Acr-XD-vqJ" id="MYo-dL-LsP"/>
                         <segue destination="7nq-vN-eVr" kind="show" identifier="segueResendEmail" id="JlK-Jj-J7B"/>
                     </connections>
@@ -234,6 +235,7 @@
                         <viewLayoutGuide key="safeArea" id="lcn-x5-9Xg"/>
                     </view>
                     <connections>
+                        <outlet property="navigationBar" destination="sk9-wA-K00" id="sBe-sq-S0T"/>
                         <outlet property="viewResendEmail" destination="Xjv-WK-h0Z" id="IkM-o9-5HU"/>
                         <segue destination="K4j-FX-61h" kind="show" identifier="segueHomeScreen" id="tzR-KO-6RB"/>
                     </connections>
@@ -256,7 +258,7 @@
                 <viewControllerPlaceholder storyboardName="Main" id="nhe-oI-wHN" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wJR-tf-3dI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-10128" y="-542"/>
+            <point key="canvasLocation" x="-10110" y="-333"/>
         </scene>
         <!--Login View Controller-->
         <scene sceneID="fEB-hS-BTT">
@@ -523,6 +525,7 @@
                     <size key="freeformSize" width="375" height="800"/>
                     <connections>
                         <outlet property="emailTextField" destination="08J-dI-5D0" id="uxJ-OK-7ot"/>
+                        <outlet property="navigationBar" destination="rzm-Jf-aJM" id="UoV-zx-HNU"/>
                         <outlet property="novoCadastro" destination="lfe-bz-WNN" id="Tqh-y2-kUV"/>
                         <outlet property="senhaTextField" destination="q4r-as-Yrj" id="g0j-SK-lkV"/>
                         <outlet property="viewEntrar" destination="BNg-ld-heo" id="7KU-M8-WVh"/>
@@ -535,7 +538,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Q3m-iR-2tw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-10665" y="65"/>
+            <point key="canvasLocation" x="-10612" y="66"/>
         </scene>
         <!--Cadastro-->
         <scene sceneID="KtX-hw-fai">
@@ -902,11 +905,11 @@
         <scene sceneID="jjQ-u7-wLq">
             <objects>
                 <viewController id="1PE-Ba-ZAC" customClass="UserTermViewController" customModule="mm_app_ios" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="E0g-k7-iKN">
+                    <view key="view" contentMode="scaleToFill" ambiguous="YES" id="E0g-k7-iKN">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ux1-75-tMd">
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ux1-75-tMd">
                                 <rect key="frame" x="0.0" y="-141" width="375" height="808"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>

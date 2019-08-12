@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JfG-H8-t5K">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Dwz-2t-ayG">
     <device id="retina6_1" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -19,7 +19,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="D9v-Sc-hpr">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="1651"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="1700"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V1m-9p-FQf" userLabel="PrincipalView">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="1700"/>
@@ -57,10 +57,10 @@
                                                 <items>
                                                     <navigationItem id="3As-he-bbP">
                                                         <leftBarButtonItems>
-                                                            <barButtonItem image="fechar" id="TOV-7d-hqq">
+                                                            <barButtonItem image="fecharBranco" id="yhG-e3-4eq">
                                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <connections>
-                                                                    <action selector="dismissPage:" destination="2eB-IH-2dP" id="JRG-x4-ojg"/>
+                                                                    <action selector="teste:" destination="2eB-IH-2dP" id="W7J-fP-wHQ"/>
                                                                 </connections>
                                                             </barButtonItem>
                                                             <barButtonItem title="Edição de 4 Abr 2019" id="WDS-lp-YOn">
@@ -258,11 +258,20 @@
                     <connections>
                         <outlet property="avancaMateria" destination="WcN-OO-xUw" id="Tor-Qp-ath"/>
                         <segue destination="dkp-Sr-YzO" kind="show" identifier="segueMateria" id="rtS-lo-qzQ"/>
+                        <segue destination="ETn-fz-Jhp" kind="show" identifier="goMain" id="BZA-Pe-zWG"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XfD-bi-CKv" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-8024" y="2036"/>
+            <point key="canvasLocation" x="-7115.217391304348" y="2035.7142857142856"/>
+        </scene>
+        <!--Main-->
+        <scene sceneID="epy-HV-RFG">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" id="ETn-fz-Jhp" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="mbD-v1-1xY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-6636" y="1637"/>
         </scene>
         <!--Edicao Materia View Controller-->
         <scene sceneID="LM9-Cp-hS6">
@@ -273,7 +282,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="g9u-ea-0bc">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="4201"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="4250"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jFg-9G-9GL" userLabel="PrincipalView">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="4250"/>
@@ -761,7 +770,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kTr-Za-MjY" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-6983.3333333333339" y="2889.5089285714284"/>
+            <point key="canvasLocation" x="-6073.188405797102" y="2889.5089285714284"/>
         </scene>
         <!--Materia View Controller-->
         <scene sceneID="uOd-mx-gRU">
@@ -772,7 +781,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lRe-hB-SgZ">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="3551"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="3600"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="b7o-Nz-BXX" userLabel="PrincipalView">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="3600"/>
@@ -1286,7 +1295,7 @@ Em um dos cases detalhados em Mais Rápido e Melhor, D</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="K1E-El-255" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-5927" y="2672"/>
+            <point key="canvasLocation" x="-5018.115942028986" y="2671.875"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Dca-qm-o45">
@@ -1364,29 +1373,28 @@ Em um dos cases detalhados em Mais Rápido e Melhor, D</string>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mAp-uS-y43" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4350" y="2035.7142857142856"/>
+            <point key="canvasLocation" x="-3439.8550724637685" y="2035.7142857142856"/>
         </scene>
         <!--Navigation Controller-->
-        <scene sceneID="pZt-wg-Iuq">
+        <scene sceneID="MkM-Ex-mv5">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" toolbarHidden="NO" id="JfG-H8-t5K" sceneMemberID="viewController">
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="Dwz-2t-ayG" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="cuz-MR-mHe">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="P7I-0T-TnJ">
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="barTintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
-                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="gqJ-GO-s4o">
-                        <rect key="frame" x="0.0" y="813" width="414" height="49"/>
+                    <toolbar key="toolbar" opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="7V4-Mh-jro">
                         <autoresizingMask key="autoresizingMask"/>
                     </toolbar>
                     <connections>
-                        <segue destination="2eB-IH-2dP" kind="relationship" relationship="rootViewController" id="5nl-zI-dfD"/>
+                        <segue destination="2eB-IH-2dP" kind="relationship" relationship="rootViewController" id="Eju-lh-DA7"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="0FB-fu-Rsq" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tkY-HM-fHU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-8958" y="1767"/>
+            <point key="canvasLocation" x="-8024.6376811594209" y="2035.7142857142856"/>
         </scene>
     </scenes>
     <resources>
@@ -1396,7 +1404,6 @@ Em um dos cases detalhados em Mais Rápido e Melhor, D</string>
         <image name="Sadoun.png" width="704" height="476"/>
         <image name="bookmark" width="14" height="19"/>
         <image name="buscaBranco" width="24" height="24"/>
-        <image name="fechar" width="24" height="24"/>
         <image name="fecharBranco" width="24" height="24"/>
         <image name="font" width="16" height="17"/>
         <image name="heart" width="18" height="17"/>

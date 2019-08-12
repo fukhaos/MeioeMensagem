@@ -25,6 +25,8 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var viewFacebook: UIView!
     @IBOutlet weak var viewLinkedin: UIView!
     @IBOutlet weak var novoCadastro: UIButton!
+    @IBOutlet weak var navigationBar: UINavigationBar!
+    
     
     
     
@@ -45,6 +47,11 @@ class LoginViewController: UIViewController {
         
         //Inicializando o botão com o recebimento da Func setUIElements
         self.novoCadastro.setAttributedTitle(setUIElements(), for: .normal)
+        
+        self.navigationBar.shadowImage = UIImage()
+        self.navigationBar.backIndicatorImage = UIImage()
+        self.navigationBar.isTranslucent = false
+        self.navigationBar.backgroundColor = .white
         
     }
     
@@ -140,11 +147,7 @@ class LoginViewController: UIViewController {
     }
     
     @IBAction func closedLoginPage(_ sender: Any) {
-         if ((self.presentingViewController) != nil){
-            self.dismiss(animated: false) {
-                self.performSegue(withIdentifier: "goMain", sender: nil)
-            }
-        }
+       performSegue(withIdentifier: "goMain", sender: nil)
         
    
     }

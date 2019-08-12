@@ -22,11 +22,13 @@ class FAQViewController: UIViewController {
     }
 
     //MARK: Action
-    
-    @IBAction func voltarMain(_ sender: UIBarButtonItem) {
-        self.performSegue(withIdentifier: "goMain", sender: nil)
+    @IBAction func goFaleConosco(_ sender: UIButton) {
+        self.performSegue(withIdentifier: "goFale", sender: nil)
     }
     
+    @IBAction func back(_ sender: UIBarButtonItem) {
+        self.performSegue(withIdentifier: "goMain", sender: nil)
     
-
+  }
+    
 }

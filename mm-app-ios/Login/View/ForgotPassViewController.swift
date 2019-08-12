@@ -14,6 +14,7 @@ class ForgotPassViewController: UIViewController {
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var viewSendPass: UIView!
     
+    @IBOutlet weak var navigationBar: UINavigationBar!
     
     
     override func viewDidLoad() {
@@ -24,6 +25,11 @@ class ForgotPassViewController: UIViewController {
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIInputViewController.dismissKeyboard))
         view.addGestureRecognizer(tap)
         
+        
+        self.navigationBar.shadowImage = UIImage()
+        self.navigationBar.backIndicatorImage = UIImage()
+        self.navigationBar.isTranslucent = false
+        self.navigationBar.backgroundColor = .white
         
     }
     
