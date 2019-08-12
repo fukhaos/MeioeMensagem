@@ -43,6 +43,10 @@ class FaleConoscoViewController: UIViewController {
         insertPickerInputView()
     }
     
+    override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    
     //Função que vincula a caixa de texto de categorias com o pickerview de categorias
     fileprivate func insertPickerInputView() {
         pickerView.dataSource = self
