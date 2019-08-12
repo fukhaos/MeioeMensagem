@@ -53,10 +53,7 @@ class MenuViewController: UITableViewController {
             break
             
         case .meusDownloads:
-            dismiss(animated: true) { [weak self] in
-                print("Dismissing: \(menuType)")
-                self?.didTapMenuType?(menuType)
-            }
+            self.performSegue(withIdentifier: "goDownload", sender: nil)
         
         case .salvo:
             dismiss(animated: true) { [weak self] in

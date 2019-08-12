@@ -10,7 +10,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Politica Privacidade-->
+        <!--Política de privacidade-->
         <scene sceneID="gpS-2z-Pwf">
             <objects>
                 <viewController id="yQe-DZ-riK" customClass="PoliticaPrivacidade" customModule="mm_app_ios" customModuleProvider="target" sceneMemberID="viewController">
@@ -35,9 +35,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="uhU-5l-6Cl"/>
                     </view>
-                    <navigationItem key="navigationItem" id="rbO-sT-CTr">
-                        <barButtonItem key="leftBarButtonItem" image="fecharBranco" id="44S-l3-SUj">
-                            <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <navigationItem key="navigationItem" title="Política de privacidade" id="rbO-sT-CTr">
+                        <barButtonItem key="leftBarButtonItem" image="voltarBranco" id="44S-l3-SUj">
+                            <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <connections>
                                 <action selector="fecharPolitica:" destination="yQe-DZ-riK" id="o97-Nd-sQT"/>
                             </connections>
@@ -68,6 +68,10 @@
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dyh-DZ-1uU">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.0" green="0.48855721949999997" blue="0.76702791449999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -80,6 +84,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="fecharBranco" width="24" height="24"/>
+        <image name="voltarBranco" width="24" height="24"/>
     </resources>
 </document>

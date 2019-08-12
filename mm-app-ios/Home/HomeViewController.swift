@@ -26,9 +26,9 @@ class HomeViewController: UIViewController, UICollectionViewDelegate, UICollecti
     
     let noticiasSecundarias = ["McDonald`s muda pelo gosto do consumidor", "McDonald`s muda pelo gosto do consumidor", "McDonald`s muda pelo gosto do consumidor"]
     let noticiasImagens: [UIImage] = [
-    UIImage(named: "shopping-cidade-jardim.jpg")!,
-    UIImage(named: "McDonalds.jpg")!,
-    UIImage(named: "BurguerKing.png")!,
+        UIImage(named: "shopping-cidade-jardim.jpg")!,
+        UIImage(named: "McDonalds.jpg")!,
+        UIImage(named: "BurguerKing.png")!,
     ]
     
     

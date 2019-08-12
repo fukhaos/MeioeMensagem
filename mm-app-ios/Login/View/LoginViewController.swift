@@ -34,7 +34,7 @@ class LoginViewController: UIViewController {
         super.viewDidLoad()
      
         //Arredonda os cantos das UIView
-        self.viewEntrar.layer.cornerRadius = 20
+        self.viewEntrar.layer.cornerRadius = 25
         self.viewFacebook.layer.cornerRadius = 30
         self.viewLinkedin.layer.cornerRadius = 30
         
@@ -134,7 +134,12 @@ class LoginViewController: UIViewController {
             let bntOk = UIAlertAction(title: "OK", style: .default, handler: nil)
             alerta.addAction(bntOk)
             present(alerta, animated: true, completion: nil)
-        }else if emailTextField.text == "teste@megaleios.com" || senhaTextField.text == "123456" {
+        }else if senhaTextField.text!.count <= 5  {
+        let alerta = UIAlertController(title: "Alerta", message: "A senha deve conter ao menos 6 caracteres.", preferredStyle: .alert)
+            let bntOk = UIAlertAction(title: "OK", style: .default, handler: nil)
+            alerta.addAction(bntOk)
+            present(alerta, animated: true, completion: nil)
+        }else if emailTextField.text == "teste@megaleios.com" && senhaTextField.text == "123456" {
             let alerta = UIAlertController(title: "Olá!!", message: "Login Efetuado com sucesso.", preferredStyle: .alert)
             let bntOk = UIAlertAction(title: "OK", style: .default) { (alert) in
                 self.performSegue(withIdentifier: "goMain", sender: nil)
@@ -142,6 +147,11 @@ class LoginViewController: UIViewController {
             alerta.addAction(bntOk)
             present(alerta, animated: true, completion: nil)
   
+        } else {
+            let alerta = UIAlertController(title: "Alerta", message: "Senha Inválida.", preferredStyle: .alert)
+            let bntOk = UIAlertAction(title: "OK", style: .default, handler: nil)
+            alerta.addAction(bntOk)
+            present(alerta, animated: true, completion: nil)
         }
         
     }

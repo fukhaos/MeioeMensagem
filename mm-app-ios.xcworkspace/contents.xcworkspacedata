@@ -2,9 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/megaleiosdev/Desktop/mm-app-ios/mm-app-ios/Exit/ExitViewController.swift">
-   </FileRef>
-   <FileRef
       location = "group:mm-app-ios.xcodeproj">
    </FileRef>
    <FileRef

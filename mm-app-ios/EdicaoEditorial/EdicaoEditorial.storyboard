@@ -9,6 +9,11 @@
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--Edica Especial-->
         <scene sceneID="6rn-2K-6JK">
@@ -54,6 +59,7 @@
                                                     <constraint firstAttribute="height" constant="44" id="YZq-Wz-GDb"/>
                                                     <constraint firstAttribute="width" constant="375" id="wMT-vU-auZ"/>
                                                 </constraints>
+                                                <color key="barTintColor" red="0.18039215689999999" green="0.18039215689999999" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <items>
                                                     <navigationItem id="3As-he-bbP">
                                                         <leftBarButtonItems>
@@ -153,7 +159,7 @@
                                                             <constraint firstAttribute="width" constant="116" id="0F8-0A-xeZ"/>
                                                             <constraint firstAttribute="height" constant="18" id="yxw-OU-xkH"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="15"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -296,6 +302,7 @@
                                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="375" id="dCT-gc-qpj"/>
                                                     <constraint firstAttribute="width" constant="375" id="wpg-OM-kim"/>
                                                 </constraints>
+                                                <color key="barTintColor" red="0.18039215689999999" green="0.18039215689999999" blue="0.18039215689999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <items>
                                                     <navigationItem id="4bN-Sv-dbP">
                                                         <leftBarButtonItems>
@@ -612,7 +619,7 @@
                                                             <constraint firstAttribute="height" constant="18" id="MEs-WY-Sil"/>
                                                             <constraint firstAttribute="width" constant="116" id="aR7-LZ-PI1"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="15"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -793,6 +800,7 @@
                                                     <constraint firstAttribute="width" constant="375" id="H9l-Ju-IwC"/>
                                                     <constraint firstAttribute="height" constant="44" id="b16-X1-6wM"/>
                                                 </constraints>
+                                                <color key="barTintColor" red="0.1803921568627451" green="0.1803921568627451" blue="0.1803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <items>
                                                     <navigationItem id="lwS-d3-YPV">
                                                         <leftBarButtonItems>
@@ -1116,7 +1124,7 @@ Em um dos cases detalhados em Mais Rápido e Melhor, D</string>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Toque para ampliar" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pQG-7p-rmy">
                                                         <rect key="frame" x="37" y="6" width="115" height="21"/>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="13"/>
                                                         <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>

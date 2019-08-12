@@ -137,7 +137,7 @@ class CadastroViewController: UIViewController {
             present(alerta, animated: true, completion: nil)
             
         } else if self.alternaEmailTextField.text == "" {
-            let alerta = UIAlertController(title: "Alerta", message: "Preencha o campo de confirmação de e-mail", preferredStyle: .alert)
+            let alerta = UIAlertController(title: "Alerta", message: "Preencha o campo de E-mail Alternativo", preferredStyle: .alert)
             let bntOk = UIAlertAction(title: "OK", style: .default, handler: nil)
             alerta.addAction(bntOk)
             present(alerta, animated: true, completion: nil)
@@ -148,7 +148,13 @@ class CadastroViewController: UIViewController {
             alerta.addAction(bntOk)
             present(alerta, animated: true, completion: nil)
             
-        } else if self.passwdTextField.text == "" {
+        }else if !(self.alternaEmailTextField.text?.isValidEmail() ?? true) {
+            let alerta = UIAlertController(title: "Alerta", message: "E-mail Alternativo invalido", preferredStyle: .alert)
+            let bntOk = UIAlertAction(title: "OK", style: .default, handler: nil)
+            alerta.addAction(bntOk)
+            present(alerta, animated: true, completion: nil)
+            
+        }else if self.passwdTextField.text == "" {
             let alerta = UIAlertController(title: "Alerta", message: "Preencha o campo senha.", preferredStyle: .alert)
             let bntOk = UIAlertAction(title: "OK", style: .default, handler: nil)
             alerta.addAction(bntOk)
@@ -168,7 +174,7 @@ class CadastroViewController: UIViewController {
             
         } else {
             
-                self.shouldPerformSegue(withIdentifier: "segueOk", sender: nil)
+                self.performSegue(withIdentifier: "segueOk", sender: nil)
            
         }
      
