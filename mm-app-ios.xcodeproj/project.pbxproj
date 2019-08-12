@@ -44,8 +44,6 @@
 		B6A50CFC22FD9DF000B3DAFD /* FAQViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A50CFB22FD9DF000B3DAFD /* FAQViewController.swift */; };
 		B6A50D0322FDD4A400B3DAFD /* PoliticaPrivacidade.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6A50D0222FDD4A400B3DAFD /* PoliticaPrivacidade.storyboard */; };
 		B6A50D0522FDD4C600B3DAFD /* PoliticaPrivacidadeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A50D0422FDD4C600B3DAFD /* PoliticaPrivacidadeViewController.swift */; };
-		B6A5FB1C2301963300264C0F /* Exit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6A5FB1B2301963300264C0F /* Exit.storyboard */; };
-		B6A5FB1E2301964C00264C0F /* ExitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A5FB1D2301964C00264C0F /* ExitViewController.swift */; };
 		B6A5FB2023019C3E00264C0F /* AssintaturaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A5FB1F23019C3E00264C0F /* AssintaturaViewController.swift */; };
 		B6AA905F22F232B1001A9F0D /* TutorialInitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AA905E22F232B1001A9F0D /* TutorialInitViewController.swift */; };
 		B6AA906422F23305001A9F0D /* Tutorial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6AA906322F23305001A9F0D /* Tutorial.storyboard */; };
@@ -121,8 +119,6 @@
 		B6A50CFB22FD9DF000B3DAFD /* FAQViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAQViewController.swift; sourceTree = "<group>"; };
 		B6A50D0222FDD4A400B3DAFD /* PoliticaPrivacidade.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PoliticaPrivacidade.storyboard; sourceTree = "<group>"; };
 		B6A50D0422FDD4C600B3DAFD /* PoliticaPrivacidadeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoliticaPrivacidadeViewController.swift; sourceTree = "<group>"; };
-		B6A5FB1B2301963300264C0F /* Exit.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Exit.storyboard; sourceTree = "<group>"; };
-		B6A5FB1D2301964C00264C0F /* ExitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ExitViewController.swift; path = "/Users/megaleiosdev/Desktop/mm-app-ios/mm-app-ios/Exit/ExitViewController.swift"; sourceTree = "<absolute>"; };
 		B6A5FB1F23019C3E00264C0F /* AssintaturaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssintaturaViewController.swift; sourceTree = "<group>"; };
 		B6AA905E22F232B1001A9F0D /* TutorialInitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialInitViewController.swift; sourceTree = "<group>"; };
 		B6AA906322F23305001A9F0D /* Tutorial.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tutorial.storyboard; sourceTree = "<group>"; };
@@ -318,15 +314,6 @@
 			path = PoliticaPrivacidade;
 			sourceTree = "<group>";
 		};
-		B6A5FB1A2301961700264C0F /* Exit */ = {
-			isa = PBXGroup;
-			children = (
-				B6A5FB1D2301964C00264C0F /* ExitViewController.swift */,
-				B6A5FB1B2301963300264C0F /* Exit.storyboard */,
-			);
-			path = Exit;
-			sourceTree = "<group>";
-		};
 		B6A7C9CD22FDDF0500ED2E09 /* Recovered References */ = {
 			isa = PBXGroup;
 			children = (
@@ -380,7 +367,6 @@
 		B6B5B44822E77A55004BBF81 /* mm-app-ios */ = {
 			isa = PBXGroup;
 			children = (
-				B6A5FB1A2301961700264C0F /* Exit */,
 				B680F8F022FDFDF100C1A79D /* FaleConosco */,
 				B6A50D0122FDD48800B3DAFD /* PoliticaPrivacidade */,
 				B6A50CF822FD9DC500B3DAFD /* FAQ */,
@@ -565,7 +551,6 @@
 				B630B0C422F9CC8600A5EA25 /* streming.jpg in Resources */,
 				B68B1EEE22F0EDBD009310A2 /* PreferenceAndConfig.storyboard in Resources */,
 				B68B1EB722F06B85009310A2 /* meioMensagem.png in Resources */,
-				B6A5FB1C2301963300264C0F /* Exit.storyboard in Resources */,
 				B630B0C622F9E15600A5EA25 /* Materia1.png in Resources */,
 				B6B5B46822E8C8D3004BBF81 /* 41528940_241462876494767_8632959559543993127_n.jpg in Resources */,
 				B6C5184B22F8B9BA00D85B59 /* BurguerKing.png in Resources */,
@@ -663,7 +648,6 @@
 				B6B5B45F22E77C16004BBF81 /* MenuViewController.swift in Sources */,
 				B69DC2D722EB3D8C00C8F142 /* Spring.swift in Sources */,
 				B630B0BA22F9BC9200A5EA25 /* AlterarSenhaViewController.swift in Sources */,
-				B6A5FB1E2301964C00264C0F /* ExitViewController.swift in Sources */,
 				B69DC2DE22EB3E1400C8F142 /* SpringLabel.swift in Sources */,
 				B69DC2DB22EB3DE300C8F142 /* SpringImageView.swift in Sources */,
 				B6C6E72922FC9691003D303A /* PublicidadeVideoViewController.swift in Sources */,
