@@ -25,7 +25,7 @@ extension UILabel {
 extension UITextField {
     func applyTheme() {
         textColor = Theme.current.textColor
-        tintColor = .clear
+        attributedPlaceholder = NSAttributedString(string: "Categoria", attributes: [NSAttributedString.Key.foregroundColor: Theme.current.placeholderColor])
         backgroundColor = Theme.current.background
         layer.borderWidth = 0.5
         layer.borderColor = Theme.current.lineColor.cgColor
@@ -37,6 +37,7 @@ extension UITextView {
         backgroundColor = Theme.current.background
         layer.borderWidth = 0.5
         layer.borderColor = Theme.current.lineColor.cgColor
+        textColor = .lightGray
     }
 }
 

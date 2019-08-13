@@ -22,7 +22,7 @@ class FaleConoscoViewController: UIViewController {
     //Caixa de texto de categorias a vincular com o pickerview
     @IBOutlet weak var categoryTextField: UITextField! {
         didSet {
-            categoryTextField.tintColor = Theme.current.placeholderColor
+            categoryTextField.tintColor = .clear
             categoryTextField.setIcon(UIImage(named: "arrow-down-30")!)
             categoryTextField.applyTheme()
         }
@@ -38,7 +38,7 @@ class FaleConoscoViewController: UIViewController {
         //categoryTextField.tintColor = .clear
         
         messageTextView.text = "Sua mensagem"
-        messageTextView.textColor = .lightGray
+        //messageTextView.textColor = .lightGray
         //messageTextView.layer.borderWidth = 0.5
         //messageTextView.layer.borderColor = Theme.current.lineColor.cgColor
         //messageTextView.font = UIFont(name: "Roboto-Regular", size: 16.0)
@@ -101,7 +101,7 @@ extension FaleConoscoViewController: UITextFieldDelegate {
     }
     
     func textFieldDidBeginEditing(_ textField: UITextField){
-        if textField == categoryTextField {
+        if textField == categoryTextField && textField.text?.isEmpty ?? true {
             categoryTextField.text = Categories.allValues[0]
         }
     }
@@ -155,12 +155,20 @@ extension UITextField {
     func setIcon(_ image: UIImage) {
         let iconView = UIImageView(frame: CGRect(x: 10, y: 5, width: 20, height: 20))
         iconView.image = image
-        iconView.tintColor = .white
+        iconView.setImageColor(color: Theme.current.lineColor)
         let iconContainerView: UIView = UIView(frame: CGRect(x: 20, y: 0, width: 40, height: 30))
         iconContainerView.addSubview(iconView)
         rightView = iconContainerView
         rightViewMode = .always
         //leftView = iconContainerView
         //leftViewMode = .always
+    }
+}
+
+extension UIImageView {
+    func setImageColor(color: UIColor) {
+        let templateImage = self.image?.withRenderingMode(.alwaysTemplate)
+        self.image = templateImage
+        self.tintColor = color
     }
 }
