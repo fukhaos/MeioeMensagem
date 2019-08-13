@@ -19,8 +19,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        Theme.current = LightTheme()
+        let storedTheme: Bool = (UserDefaults.standard.value(forKey: "StoredTheme") != nil)
         
+        if storedTheme {
+            Theme.current = DarkTheme()
+        } else {
+            Theme.current = LightTheme()
+        }
+
         return true
     }
 

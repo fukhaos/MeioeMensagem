@@ -421,6 +421,23 @@
                     <navigationItem key="navigationItem" title="Tutorial" id="X5q-sd-lb1"/>
                     <size key="freeformSize" width="375" height="900"/>
                     <connections>
+                        <outlet property="darkThemeButton" destination="mka-oj-8px" id="Yj7-em-hON"/>
+                        <outlet property="navigationBar" destination="5EA-i3-u8c" id="K1H-Mc-2qF"/>
+                        <outlet property="viewContainer" destination="4dn-eh-1Z7" id="UPx-v2-TLU"/>
+                        <outletCollection property="ThemeLabels" destination="qof-BH-9ml" collectionClass="NSMutableArray" id="dVX-GX-hch"/>
+                        <outletCollection property="ThemeLabels" destination="Uvf-qa-ha0" collectionClass="NSMutableArray" id="xB0-zU-voQ"/>
+                        <outletCollection property="ThemeLabels" destination="YsO-op-VGl" collectionClass="NSMutableArray" id="Pts-uP-zbq"/>
+                        <outletCollection property="ThemeLabels" destination="nLr-uc-h6s" collectionClass="NSMutableArray" id="WWJ-L3-Wpf"/>
+                        <outletCollection property="ThemeLabels" destination="l04-GS-H5Z" collectionClass="NSMutableArray" id="p55-4z-TBs"/>
+                        <outletCollection property="ThemeLabels" destination="mft-JG-ANT" collectionClass="NSMutableArray" id="0Hs-FY-AUa"/>
+                        <outletCollection property="ThemeLabels" destination="sG2-nz-c27" collectionClass="NSMutableArray" id="tIB-a5-3Sw"/>
+                        <outletCollection property="ThemeLabels" destination="cWE-Ry-OOx" collectionClass="NSMutableArray" id="3pm-uT-e3q"/>
+                        <outletCollection property="ThemeLabels" destination="w4O-ah-OJd" collectionClass="NSMutableArray" id="DK1-69-rkx"/>
+                        <outletCollection property="ThemeLabels" destination="8eV-DN-cYi" collectionClass="NSMutableArray" id="Fqh-AY-zkM"/>
+                        <outletCollection property="ThemeLabels" destination="jB3-l0-bdP" collectionClass="NSMutableArray" id="7tY-nq-FhA"/>
+                        <outletCollection property="ThemeLabels" destination="F3M-5T-sPF" collectionClass="NSMutableArray" id="Weg-lj-Q1I"/>
+                        <outletCollection property="ThemeButtons" destination="Zmg-Cf-RRe" collectionClass="NSMutableArray" id="h2E-XG-I1y"/>
+                        <outletCollection property="ThemeButtons" destination="p0d-bh-hpM" collectionClass="NSMutableArray" id="cnJ-2P-RJ7"/>
                         <segue destination="XcU-d0-gcw" kind="show" identifier="segueMenu" id="H00-c0-UCR"/>
                     </connections>
                 </viewController>

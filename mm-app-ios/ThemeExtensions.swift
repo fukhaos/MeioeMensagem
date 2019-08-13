@@ -13,6 +13,9 @@ extension UIButton {
         backgroundColor = Theme.current.buttonBackgroundColor
         tintColor = Theme.current.tint
     }
+    func applyIcon() {
+        imageView?.setImageColor(color: Theme.current.lineColor)
+    }
 }
 
 extension UILabel {
@@ -49,4 +52,12 @@ extension UINavigationBar {
 
 extension UIView {
 
+}
+
+extension UIImageView {
+    func setImageColor(color: UIColor) {
+        let templateImage = self.image?.withRenderingMode(.alwaysTemplate)
+        self.image = templateImage
+        self.tintColor = color
+    }
 }
