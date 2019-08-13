@@ -8,76 +8,91 @@
 
 import UIKit
 
-class DownloadViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource {
+struct Item {
+    var imageName: String
+}
 
+class DownloadViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
     
     @IBOutlet weak var collectionView: UICollectionView!
     
-    let defaults = UserDefaults.standard
+    var items: [Item] = [Item(imageName: "Materia1"),
+                         Item(imageName: "shopping-cidade-jardim.jpg"),
+                         Item(imageName: "Materia2"),
+                        Item(imageName: "streming.jpg")]
+    let noticia = ["McDonald`s muda pelo gosto do consumidor", "McDonald`s muda pelo gosto do consumidor", "McDonald`s muda pelo gosto do consumidor", "McDonald`s muda pelo gosto do consumidor"]
     
-    
-    let noticiasSecundarias = ["McDonald`s muda pelo gosto do consumidor", "McDonald`s muda pelo gosto do consumidor", "McDonald`s muda pelo gosto do consumidor"]
-    let noticiasImagens: [UIImage] = [
-        UIImage(named: "shopping-cidade-jardim.jpg")!,
-        UIImage(named: "McDonalds.jpg")!,
-        UIImage(named: "BurguerKing.png")!,
-    ]
+    var collectionViewFlowLayout: UICollectionViewFlowLayout!
+   // let cellIdentdentifier = "DownloadsCollectionViewCell"
+    let cellIdentifier = "DownloadsCollectionViewCell"
     
     
 
+    override func viewWillLayoutSubviews() {
+        super.viewWillLayoutSubviews()
+        setupCollectionViewItemSize()
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        collectionView.dataSource = self
-        collectionView.delegate = self
-        
 
-        
-//        //Layout Manual da CollectionView
-//        var layout = self.collectionView.collectionViewLayout as! UICollectionViewFlowLayout
-//        layout.sectionInset = UIEdgeInsets(top: 0, left: 0, bottom: 5, right: 0)
-//        layout.minimumInteritemSpacing = 5
-//        layout.itemSize = CGSize(width: (self.collectionView.frame.size.width - 20)/2, height: self.collectionView.frame.size.height/1)
+        setupCollectionView()
+        // Do any additional setup after loading the view.
     }
     
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return noticiasSecundarias.count
-    }
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath) as! CollectionViewCell
+
+    private func setupCollectionView() {
+        collectionView.delegate = self
+        collectionView.dataSource = self
         
-        cell.backgroundColor = UIColor.white
-        cell.labelDescrisaoSec.text = noticiasSecundarias[indexPath.item]
-        cell.labelDescrisaoSec.textColor = UIColor.white
-        cell.materiaSec.image = noticiasImagens[indexPath.item]
-        cell.layer.borderColor = UIColor.white.cgColor
-        cell.layer.borderWidth = 0.5
-        return cell
+        let nib = UINib(nibName: "DownloadsCollectionViewCell", bundle: nil)
+        collectionView.register(nib, forCellWithReuseIdentifier: cellIdentifier)
+
     }
     
-    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        let cell = collectionView.cellForItem(at: indexPath)
-        cell?.layer.borderColor = UIColor.gray.cgColor
-        cell?.layer.borderWidth = 2
-        
-        if indexPath.row == 0 {
-            self.performSegue(withIdentifier: "capaPrincipal", sender: nil)
-        } else if indexPath.row == 1 {
-            self.performSegue(withIdentifier: "capaPrincipal", sender: nil)
+    private func setupCollectionViewItemSize() {
+        if collectionViewFlowLayout == nil {
+            let numberOfItemForRow: CGFloat = 1.1
+            let lineSpacing: CGFloat = 1
+            let interInterSpacing: CGFloat = 0.5
+            
+//            let width = (collectionView.frame.width - (numberOfItemForRow - 1) * interInterSpacing) / numberOfItemForRow
+//            let height = width
+            collectionViewFlowLayout = UICollectionViewFlowLayout()
+            
+            collectionViewFlowLayout.itemSize = CGSize(width: (self.collectionView.frame.size.width - 5), height: self.collectionView.frame.size.height/1)
+            collectionViewFlowLayout.sectionInset = UIEdgeInsets(top: 0, left: 0, bottom: 5, right: 0)
+            collectionViewFlowLayout.scrollDirection = .horizontal
+            collectionViewFlowLayout.minimumLineSpacing = lineSpacing
+            collectionViewFlowLayout.minimumInteritemSpacing = interInterSpacing
+            
+            collectionView.setCollectionViewLayout(collectionViewFlowLayout, animated: true)
         }
     }
     
-    func collectionView(_ collectionView: UICollectionView, didDeselectItemAt indexPath: IndexPath) {
-        let cell = collectionView.cellForItem(at: indexPath)
-        cell?.layer.borderColor = UIColor.black.cgColor
-        cell?.layer.borderWidth = 0.5
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return items.count
     }
     
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: cellIdentifier, for: indexPath) as! DownloadsCollectionViewCell
+        
+        cell.noticias.text = noticia[indexPath.item]
+        cell.imagens.image = UIImage(named: items[indexPath.item].imageName)
+        return cell
+        
+    }
     
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        print("didSelectItemAt: \(indexPath)")
+    }
+
+    func collectionView(_ collectionView: UICollectionView, didDeselectItemAt indexPath: IndexPath) {
+        
+    }
     
     @IBAction func backBtn(_ sender: UIBarButtonItem) {
-        self.performSegue(withIdentifier: "segueMenu", sender: nil)
+        self.performSegue(withIdentifier: "goMain", sender: nil)
     }
     
-
 }
+

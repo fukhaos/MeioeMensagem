@@ -29,6 +29,11 @@
 		B68B1EBB22F097DE009310A2 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B68B1EBA22F097DE009310A2 /* Login.storyboard */; };
 		B68B1EC222F0D323009310A2 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B68B1EC122F0D323009310A2 /* Colors.xcassets */; };
 		B68B1EEE22F0EDBD009310A2 /* PreferenceAndConfig.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B68B1EED22F0EDBD009310A2 /* PreferenceAndConfig.storyboard */; };
+		B6979F5E2302407600D5F26A /* DownloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6979F5D2302407600D5F26A /* DownloadViewController.swift */; };
+		B6979F612302415500D5F26A /* DownloadsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6979F5F2302415500D5F26A /* DownloadsCollectionViewCell.swift */; };
+		B6979F622302415500D5F26A /* DownloadsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B6979F602302415500D5F26A /* DownloadsCollectionViewCell.xib */; };
+		B6979F692302E94D00D5F26A /* Engajamento2.png in Resources */ = {isa = PBXBuildFile; fileRef = B6979F672302E94D00D5F26A /* Engajamento2.png */; };
+		B6979F6A2302E94D00D5F26A /* Engajamento1.png in Resources */ = {isa = PBXBuildFile; fileRef = B6979F682302E94D00D5F26A /* Engajamento1.png */; };
 		B69DC2CA22EA0A5C00C8F142 /* UserTermViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69DC2C922EA0A5C00C8F142 /* UserTermViewController.swift */; };
 		B69DC2D322EB37B400C8F142 /* iconCheckoff@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B69DC2D222EB37B400C8F142 /* iconCheckoff@2x.png */; };
 		B69DC2D522EB3D1600C8F142 /* SpringButtom.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69DC2D422EB3D1600C8F142 /* SpringButtom.swift */; };
@@ -46,8 +51,6 @@
 		B6A50D0522FDD4C600B3DAFD /* PoliticaPrivacidadeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A50D0422FDD4C600B3DAFD /* PoliticaPrivacidadeViewController.swift */; };
 		B6A5FB2023019C3E00264C0F /* AssintaturaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A5FB1F23019C3E00264C0F /* AssintaturaViewController.swift */; };
 		B6A5FB232301D94300264C0F /* Download.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6A5FB222301D94300264C0F /* Download.storyboard */; };
-		B6A5FB252301D97F00264C0F /* DownloadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A5FB242301D97F00264C0F /* DownloadViewController.swift */; };
-		B6A5FB272301DD5B00264C0F /* DownloadCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6A5FB262301DD5B00264C0F /* DownloadCollectionViewCell.swift */; };
 		B6AA905F22F232B1001A9F0D /* TutorialInitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AA905E22F232B1001A9F0D /* TutorialInitViewController.swift */; };
 		B6AA906422F23305001A9F0D /* Tutorial.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6AA906322F23305001A9F0D /* Tutorial.storyboard */; };
 		B6B5B44A22E77A55004BBF81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6B5B44922E77A55004BBF81 /* AppDelegate.swift */; };
@@ -110,6 +113,11 @@
 		B68B1EBA22F097DE009310A2 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
 		B68B1EC122F0D323009310A2 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		B68B1EED22F0EDBD009310A2 /* PreferenceAndConfig.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PreferenceAndConfig.storyboard; sourceTree = "<group>"; };
+		B6979F5D2302407600D5F26A /* DownloadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadViewController.swift; sourceTree = "<group>"; };
+		B6979F5F2302415500D5F26A /* DownloadsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadsCollectionViewCell.swift; sourceTree = "<group>"; };
+		B6979F602302415500D5F26A /* DownloadsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DownloadsCollectionViewCell.xib; sourceTree = "<group>"; };
+		B6979F672302E94D00D5F26A /* Engajamento2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Engajamento2.png; sourceTree = "<group>"; };
+		B6979F682302E94D00D5F26A /* Engajamento1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Engajamento1.png; sourceTree = "<group>"; };
 		B69A6DC522FD9B2000786A1D /* FaleConosco.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = FaleConosco.storyboard; sourceTree = "<group>"; };
 		B69A6DC722FD9BAB00786A1D /* FaleConoscoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaleConoscoViewController.swift; sourceTree = "<group>"; };
 		B69A6DC922FDA35500786A1D /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
@@ -130,8 +138,6 @@
 		B6A50D0422FDD4C600B3DAFD /* PoliticaPrivacidadeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PoliticaPrivacidadeViewController.swift; sourceTree = "<group>"; };
 		B6A5FB1F23019C3E00264C0F /* AssintaturaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssintaturaViewController.swift; sourceTree = "<group>"; };
 		B6A5FB222301D94300264C0F /* Download.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Download.storyboard; sourceTree = "<group>"; };
-		B6A5FB242301D97F00264C0F /* DownloadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadViewController.swift; sourceTree = "<group>"; };
-		B6A5FB262301DD5B00264C0F /* DownloadCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadCollectionViewCell.swift; sourceTree = "<group>"; };
 		B6AA905E22F232B1001A9F0D /* TutorialInitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialInitViewController.swift; sourceTree = "<group>"; };
 		B6AA906322F23305001A9F0D /* Tutorial.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Tutorial.storyboard; sourceTree = "<group>"; };
 		B6B5B44622E77A55004BBF81 /* mm-app-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "mm-app-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -182,15 +188,12 @@
 		B6C5184A22F8B9BA00D85B59 /* BurguerKing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BurguerKing.png; sourceTree = "<group>"; };
 		B6C5184D22F8C8B400D85B59 /* Notificacao.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Notificacao.storyboard; sourceTree = "<group>"; };
 		B6C5184F22F8C9C700D85B59 /* NotificacaoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificacaoViewController.swift; sourceTree = "<group>"; };
-		B6C6E72422FC86EE003D303A /* PublicidadeFoto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PublicidadeFoto.png; sourceTree = "<group>"; };
 		B6C6E72622FC9673003D303A /* PublicidadeVideo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PublicidadeVideo.storyboard; sourceTree = "<group>"; };
 		B6C6E72822FC9691003D303A /* PublicidadeVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicidadeVideoViewController.swift; sourceTree = "<group>"; };
 		B6C6E72A22FCA199003D303A /* PublicidadeVideosCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublicidadeVideosCollectionViewCell.swift; sourceTree = "<group>"; };
 		B6D84B2222F1D93E00C9EEDB /* ForgotPassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPassViewController.swift; sourceTree = "<group>"; };
 		B6D84B2422F1DD1B00C9EEDB /* ResendEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResendEmailViewController.swift; sourceTree = "<group>"; };
 		B6F0342322FB6B9700EA7CE1 /* Sadoun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sadoun.png; sourceTree = "<group>"; };
-		B6F0342522FC4B7200EA7CE1 /* Engajamento1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Engajamento1.png; sourceTree = "<group>"; };
-		B6F0342622FC4B7200EA7CE1 /* Engajamento2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Engajamento2.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -235,15 +238,14 @@
 		B65E760522FCB4E400118FD1 /* FotosDiversas */ = {
 			isa = PBXGroup;
 			children = (
-				B6C6E72422FC86EE003D303A /* PublicidadeFoto.png */,
 				B6C5184A22F8B9BA00D85B59 /* BurguerKing.png */,
 				B6C5184622F899FA00D85B59 /* shopping-cidade-jardim.jpg */,
 				B6C5184422F874C800D85B59 /* McDonalds.jpg */,
 				B68B1EB622F06B85009310A2 /* meioMensagem.png */,
 				B6B5B46922E8CF64004BBF81 /* headerBranco@2x.png */,
 				B6B5B46722E8C8D3004BBF81 /* 41528940_241462876494767_8632959559543993127_n.jpg */,
-				B6F0342522FC4B7200EA7CE1 /* Engajamento1.png */,
-				B6F0342622FC4B7200EA7CE1 /* Engajamento2.png */,
+				B6979F682302E94D00D5F26A /* Engajamento1.png */,
+				B6979F672302E94D00D5F26A /* Engajamento2.png */,
 				B6B5B48422E8F4F7004BBF81 /* group@2x.png */,
 				B69DC2E722EB433C00C8F142 /* iconCheckOn@2x.png */,
 				B69DC2D222EB37B400C8F142 /* iconCheckoff@2x.png */,
@@ -341,8 +343,9 @@
 			isa = PBXGroup;
 			children = (
 				B6A5FB222301D94300264C0F /* Download.storyboard */,
-				B6A5FB242301D97F00264C0F /* DownloadViewController.swift */,
-				B6A5FB262301DD5B00264C0F /* DownloadCollectionViewCell.swift */,
+				B6979F5D2302407600D5F26A /* DownloadViewController.swift */,
+				B6979F5F2302415500D5F26A /* DownloadsCollectionViewCell.swift */,
+				B6979F602302415500D5F26A /* DownloadsCollectionViewCell.xib */,
 			);
 			path = Downloads;
 			sourceTree = "<group>";
@@ -581,6 +584,7 @@
 				B6B5B46A22E8CF64004BBF81 /* headerBranco@2x.png in Resources */,
 				B6A5FB232301D94300264C0F /* Download.storyboard in Resources */,
 				B6B5B45422E77A58004BBF81 /* Assets.xcassets in Resources */,
+				B6979F622302415500D5F26A /* DownloadsCollectionViewCell.xib in Resources */,
 				B6C5184722F899FB00D85B59 /* shopping-cidade-jardim.jpg in Resources */,
 				B69DC2E822EB433C00C8F142 /* iconCheckOn@2x.png in Resources */,
 				B630B0C422F9CC8600A5EA25 /* streming.jpg in Resources */,
@@ -595,6 +599,7 @@
 				B680F8FC22FE0B4900C1A79D /* UserTerm.storyboard in Resources */,
 				B6AA906422F23305001A9F0D /* Tutorial.storyboard in Resources */,
 				B69DC2D322EB37B400C8F142 /* iconCheckoff@2x.png in Resources */,
+				B6979F6A2302E94D00D5F26A /* Engajamento1.png in Resources */,
 				B630B0BD22F9BDCE00A5EA25 /* MinhaConta.storyboard in Resources */,
 				B6A50D0322FDD4A400B3DAFD /* PoliticaPrivacidade.storyboard in Resources */,
 				B6BF810822FB3E3C009B3BF9 /* EdicaoEditorial.storyboard in Resources */,
@@ -604,6 +609,7 @@
 				B68B1EC222F0D323009310A2 /* Colors.xcassets in Resources */,
 				B6B5B44F22E77A55004BBF81 /* Main.storyboard in Resources */,
 				B68B1EBB22F097DE009310A2 /* Login.storyboard in Resources */,
+				B6979F692302E94D00D5F26A /* Engajamento2.png in Resources */,
 				B6A50CFA22FD9DE100B3DAFD /* FAQ.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -657,6 +663,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6979F612302415500D5F26A /* DownloadsCollectionViewCell.swift in Sources */,
 				B6D84B2522F1DD1B00C9EEDB /* ResendEmailViewController.swift in Sources */,
 				B630B0C222F9C3FB00A5EA25 /* CapaPrincipalViewController.swift in Sources */,
 				B6B5B48722E8FC75004BBF81 /* LoginViewController.swift in Sources */,
@@ -664,8 +671,8 @@
 				B6BF810A22FB3EA5009B3BF9 /* EdicaoEditorialViewController.swift in Sources */,
 				B6813EEB22F3975E00CAC5EA /* PreferAndConfigViewController.swift in Sources */,
 				B6B5B44C22E77A55004BBF81 /* HomeViewController.swift in Sources */,
+				B6979F5E2302407600D5F26A /* DownloadViewController.swift in Sources */,
 				B6D84B2322F1D93E00C9EEDB /* ForgotPassViewController.swift in Sources */,
-				B6A5FB252301D97F00264C0F /* DownloadViewController.swift in Sources */,
 				B680F8FA22FE079D00C1A79D /* MateriaViewController.swift in Sources */,
 				B69DC2E222EB3E6500C8F142 /* SpringTextView.swift in Sources */,
 				B6C5184922F8A56C00D85B59 /* CollectionViewCell.swift in Sources */,
