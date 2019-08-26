@@ -4,6 +4,3768 @@
    <FileRef
       location = "group:mm-app-ios.xcodeproj">
    </FileRef>
+   <Group
+      location = "group:"
+      name = "">
+      <FileRef
+         location = "group:mm-app-ios.xcodeproj">
+      </FileRef>
+      <Group
+         location = "group:Pods"
+         name = "Pods">
+         <Group
+            location = "group:RxTheme"
+            name = "RxTheme">
+            <Group
+               location = "group:RxTheme"
+               name = "RxTheme">
+               <Group
+                  location = "group:Classes"
+                  name = "Classes">
+                  <FileRef
+                     location = "group:ThemeProxy.swift">
+                  </FileRef>
+                  <Group
+                     location = "group:RxExtensions"
+                     name = "RxExtensions">
+                     <FileRef
+                        location = "group:CALayer+Rx.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UINavigationBar+Rx.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UITextView+Rx.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UILabel+Rx.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UIProgressView+Rx.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:CAShapeLayer+Rx.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UITextField+Rx.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UISearchBar+Rx.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UISlider+Rx.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UIToolbar+Rx.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UIView+Rx.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UIButton+Rx.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UITabBar+Rx.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UISwitch+Rx.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UIPageControl+Rx.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UITAbleViewCell+Rx.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UIActivityIndicatorView+Rx.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UITableView+Rx.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UIBarButtonItem+Rx.swift">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:ThemeService.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ThemeBindable.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ThemeProvider.swift">
+                  </FileRef>
+                  <Group
+                     location = "group:ThemeExtensions"
+                     name = "ThemeExtensions">
+                     <FileRef
+                        location = "group:CALayer+Theme.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UIToolbar+Theme.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UIButton+Theme.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UIView+Theme.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UIBarButtonItem+Theme.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UISwitch+Theme.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UIProgressView+Theme.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UITextView+Theme.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UISearchBar+Theme.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UIPageControl+Theme.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UITableView+Theme.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UITAbleViewCell+Theme.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UINavigationBar+Theme.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:CAShapeLayer+Theme.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UITabBar+Theme.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UILabel+Theme.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UISlider+Theme.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UITextField+Theme.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:UIActivityIndicatorView+Theme.swift">
+                     </FileRef>
+                  </Group>
+               </Group>
+            </Group>
+            <FileRef
+               location = "group:LICENSE">
+            </FileRef>
+            <FileRef
+               location = "group:README.md">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:RxCocoa"
+            name = "RxCocoa">
+            <Group
+               location = "group:RxCocoa"
+               name = "RxCocoa">
+               <Group
+                  location = "group:macOS"
+                  name = "macOS">
+                  <FileRef
+                     location = "group:NSView+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSButton+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSTextView+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSTextField+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSControl+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSSlider+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSImageView+Rx.swift">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Traits"
+                  name = "Traits">
+                  <FileRef
+                     location = "group:ControlEvent.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ControlProperty.swift">
+                  </FileRef>
+                  <Group
+                     location = "group:Driver"
+                     name = "Driver">
+                     <FileRef
+                        location = "group:Driver+Subscription.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:BehaviorRelay+Driver.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ObservableConvertibleType+Driver.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Driver.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ControlEvent+Driver.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ControlProperty+Driver.swift">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:SharedSequence"
+                     name = "SharedSequence">
+                     <FileRef
+                        location = "group:SharedSequence.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SharedSequence+Operators+arity.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SchedulerType+SharedSequence.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:SharedSequence+Operators.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ObservableConvertibleType+SharedSequence.swift">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:Signal"
+                     name = "Signal">
+                     <FileRef
+                        location = "group:ObservableConvertibleType+Signal.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:PublishRelay+Signal.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Signal+Subscription.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ControlEvent+Signal.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Signal.swift">
+                     </FileRef>
+                  </Group>
+               </Group>
+               <Group
+                  location = "group:Runtime"
+                  name = "Runtime">
+                  <FileRef
+                     location = "group:_RXDelegateProxy.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:_RXObjCRuntime.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:_RX.m">
+                  </FileRef>
+                  <Group
+                     location = "group:include"
+                     name = "include">
+                     <FileRef
+                        location = "group:_RXKVOObserver.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:_RXObjCRuntime.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:_RXDelegateProxy.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:_RX.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:RxCocoaRuntime.h">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:_RXKVOObserver.m">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Foundation"
+                  name = "Foundation">
+                  <FileRef
+                     location = "group:NSObject+Rx+KVORepresentable.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Logging.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:KVORepresentable.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSObject+Rx+RawRepresentable.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NotificationCenter+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:KVORepresentable+CoreGraphics.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:KVORepresentable+Swift.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSObject+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:URLSession+Rx.swift">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:RxCocoa.h">
+               </FileRef>
+               <Group
+                  location = "group:iOS"
+                  name = "iOS">
+                  <Group
+                     location = "group:DataSources"
+                     name = "DataSources">
+                     <FileRef
+                        location = "group:RxPickerViewAdapter.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:RxCollectionViewReactiveArrayDataSource.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:RxTableViewReactiveArrayDataSource.swift">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:UIDatePicker+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIScrollView+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIApplication+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UISegmentedControl+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UITextView+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIRefreshControl+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIImageView+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UILabel+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UITabBarItem+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSTextStorage+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIProgressView+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UITabBarController+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIWebView+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UITextField+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UISearchBar+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIAlertAction+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UISlider+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIPickerView+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIView+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIButton+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UISearchController+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UITabBar+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UISwitch+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIPageControl+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIViewController+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UICollectionView+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIActivityIndicatorView+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UITableView+Rx.swift">
+                  </FileRef>
+                  <Group
+                     location = "group:Proxies"
+                     name = "Proxies">
+                     <FileRef
+                        location = "group:RxTableViewDataSourcePrefetchingProxy.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:RxPickerViewDelegateProxy.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:RxTableViewDelegateProxy.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:RxNavigationControllerDelegateProxy.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:RxSearchControllerDelegateProxy.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:RxTabBarControllerDelegateProxy.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:RxCollectionViewDataSourcePrefetchingProxy.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:RxCollectionViewDelegateProxy.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:RxScrollViewDelegateProxy.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:RxPickerViewDataSourceProxy.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:RxTableViewDataSourceProxy.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:RxSearchBarDelegateProxy.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:RxCollectionViewDataSourceProxy.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:RxWebViewDelegateProxy.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:RxTextViewDelegateProxy.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:RxTextStorageDelegateProxy.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:RxTabBarDelegateProxy.swift">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:Events"
+                     name = "Events">
+                     <FileRef
+                        location = "group:ItemEvents.swift">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:UIGestureRecognizer+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIStepper+Rx.swift">
+                  </FileRef>
+                  <Group
+                     location = "group:Protocols"
+                     name = "Protocols">
+                     <FileRef
+                        location = "group:RxPickerViewDataSourceType.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:RxCollectionViewDataSourceType.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:RxTableViewDataSourceType.swift">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:UINavigationController+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIControl+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UIBarButtonItem+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:UINavigationItem+Rx.swift">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Common"
+                  name = "Common">
+                  <FileRef
+                     location = "group:KeyPathBinder.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NSLayoutConstraint+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:DelegateProxy.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:RxCocoaObjCRuntimeError+Extensions.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Binder.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:TextInput.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SectionedViewDataSourceType.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ControlTarget.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Observable+Bind.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:RxTarget.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:DelegateProxyType.swift">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Deprecated.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:RxCocoa.swift">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:LICENSE.md">
+            </FileRef>
+            <Group
+               location = "group:Platform"
+               name = "Platform">
+               <FileRef
+                  location = "group:Platform.Darwin.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:DispatchQueue+Extensions.swift">
+               </FileRef>
+               <Group
+                  location = "group:DataStructures"
+                  name = "DataStructures">
+                  <FileRef
+                     location = "group:Bag.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:PriorityQueue.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Queue.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:InfiniteSequence.swift">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Platform.Linux.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:RecursiveLock.swift">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:README.md">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:FBSDKCoreKit"
+            name = "FBSDKCoreKit">
+            <Group
+               location = "group:FBSDKCoreKit"
+               name = "FBSDKCoreKit">
+               <Group
+                  location = "group:FBSDKCoreKit"
+                  name = "FBSDKCoreKit">
+                  <Group
+                     location = "group:Basics"
+                     name = "Basics">
+                     <FileRef
+                        location = "group:FBSDKBasicUtility.m">
+                     </FileRef>
+                     <Group
+                        location = "group:Internal"
+                        name = "Internal">
+                        <FileRef
+                           location = "group:FBSDKTypeUtility.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKBasicUtility+Internal.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKTypeUtility.m">
+                        </FileRef>
+                     </Group>
+                     <FileRef
+                        location = "group:FBSDKBasicUtility.h">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:FBSDKGraphRequestDataAttachment.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKProfilePictureView.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKProfile.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKTestUsersManager.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKGraphErrorRecoveryProcessor.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKAccessToken.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKURL.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKUtility.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKConstants.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKSettings.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKGraphRequestConnection.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKMeasurementEvent.h">
+                  </FileRef>
+                  <Group
+                     location = "group:Internal"
+                     name = "Internal">
+                     <FileRef
+                        location = "group:FBSDKImageDownloader.m">
+                     </FileRef>
+                     <Group
+                        location = "group:UI"
+                        name = "UI">
+                        <FileRef
+                           location = "group:FBSDKColor.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKViewImpressionTracker.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKIcon.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKLogo.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKMaleSilhouetteIcon.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKCloseIcon.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKUIUtility.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKColor.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKViewImpressionTracker.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKMaleSilhouetteIcon.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKLogo.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKIcon.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKCloseIcon.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKButton+Subclass.h">
+                        </FileRef>
+                     </Group>
+                     <FileRef
+                        location = "group:FBSDKTriStateBOOL.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKCoreKit+Internal.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKLogger.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKSwizzler.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKDynamicFrameworkLoader.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKSettings+Internal.h">
+                     </FileRef>
+                     <Group
+                        location = "group:ErrorRecovery"
+                        name = "ErrorRecovery">
+                        <FileRef
+                           location = "group:_FBSDKTemporaryErrorRecoveryAttempter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKErrorRecoveryAttempter.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:_FBSDKTemporaryErrorRecoveryAttempter.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKErrorRecoveryAttempter.m">
+                        </FileRef>
+                     </Group>
+                     <FileRef
+                        location = "group:FBSDKMath.h">
+                     </FileRef>
+                     <Group
+                        location = "group:Cryptography"
+                        name = "Cryptography">
+                        <FileRef
+                           location = "group:FBSDKCrypto.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKCrypto.m">
+                        </FileRef>
+                     </Group>
+                     <FileRef
+                        location = "group:FBSDKDeviceRequestsHelper.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKURL_Internal.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKInternalUtility.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKContainerViewController.h">
+                     </FileRef>
+                     <Group
+                        location = "group:Network"
+                        name = "Network">
+                        <FileRef
+                           location = "group:FBSDKGraphRequestMetadata.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKGraphRequestBody.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKGraphRequest+Internal.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKURLSessionTask.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKGraphRequestPiggybackManager.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKGraphRequestMetadata.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKURLSessionTask.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKGraphRequestBody.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKGraphRequestConnection+Internal.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKGraphRequestPiggybackManager.h">
+                        </FileRef>
+                     </Group>
+                     <Group
+                        location = "group:Base64"
+                        name = "Base64">
+                        <FileRef
+                           location = "group:FBSDKBase64.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKBase64.m">
+                        </FileRef>
+                     </Group>
+                     <FileRef
+                        location = "group:FBSDKMeasurementEvent_Internal.h">
+                     </FileRef>
+                     <Group
+                        location = "group:WebDialog"
+                        name = "WebDialog">
+                        <FileRef
+                           location = "group:FBSDKWebDialogView.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKWebDialog.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKWebDialog.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKWebDialogView.m">
+                        </FileRef>
+                     </Group>
+                     <FileRef
+                        location = "group:FBSDKError.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKAudioResourceLoader.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKMonotonicTime.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKAppLinkReturnToRefererView_Internal.h">
+                     </FileRef>
+                     <Group
+                        location = "group:TokenCaching"
+                        name = "TokenCaching">
+                        <FileRef
+                           location = "group:FBSDKAccessTokenCache.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKKeychainStore.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKAccessTokenExpirer.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKKeychainStoreViaBundleID.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKAccessTokenCaching.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKAccessTokenCache.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKKeychainStoreViaBundleID.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKAccessTokenExpirer.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKKeychainStore.h">
+                        </FileRef>
+                     </Group>
+                     <FileRef
+                        location = "group:FBSDKSwizzler.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKLogger.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKTriStateBOOL.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKImageDownloader.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKProfile+Internal.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKMath.m">
+                     </FileRef>
+                     <Group
+                        location = "group:BridgeAPI"
+                        name = "BridgeAPI">
+                        <FileRef
+                           location = "group:FBSDKURLOpening.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKBridgeAPIRequest.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKBridgeAPI.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKBridgeAPIProtocolType.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKBridgeAPIProtocol.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKBridgeAPIResponse.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKBridgeAPI.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKBridgeAPIRequest.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKBridgeAPIRequest+Private.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKBridgeAPIResponse.m">
+                        </FileRef>
+                        <Group
+                           location = "group:ProtocolVersions"
+                           name = "ProtocolVersions">
+                           <FileRef
+                              location = "group:FBSDKBridgeAPIProtocolWebV1.h">
+                           </FileRef>
+                           <FileRef
+                              location = "group:FBSDKBridgeAPIProtocolNativeV1.m">
+                           </FileRef>
+                           <FileRef
+                              location = "group:FBSDKBridgeAPIProtocolWebV2.h">
+                           </FileRef>
+                           <FileRef
+                              location = "group:FBSDKBridgeAPIProtocolWebV1.m">
+                           </FileRef>
+                           <FileRef
+                              location = "group:FBSDKBridgeAPIProtocolNativeV1.h">
+                           </FileRef>
+                           <FileRef
+                              location = "group:FBSDKBridgeAPIProtocolWebV2.m">
+                           </FileRef>
+                        </Group>
+                     </Group>
+                     <FileRef
+                        location = "group:FBSDKContainerViewController.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKAppLink_Internal.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKApplicationObserving.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKInternalUtility.h">
+                     </FileRef>
+                     <Group
+                        location = "group:ServerConfiguration"
+                        name = "ServerConfiguration">
+                        <FileRef
+                           location = "group:FBSDKErrorRecoveryConfiguration.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKServerConfiguration.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKErrorConfiguration.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKServerConfigurationManager+Internal.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKServerConfigurationManager.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKGateKeeperManager.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKDialogConfiguration.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKErrorRecoveryConfiguration.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKServerConfigurationManager.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKServerConfiguration.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKErrorConfiguration.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKGateKeeperManager.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKServerConfiguration+Internal.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKDialogConfiguration.m">
+                        </FileRef>
+                     </Group>
+                     <FileRef
+                        location = "group:FBSDKDeviceRequestsHelper.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKMonotonicTime.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKAudioResourceLoader.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKError.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKApplicationDelegate+Internal.h">
+                     </FileRef>
+                  </Group>
+                  <Group
+                     location = "group:Internal_NoARC"
+                     name = "Internal_NoARC">
+                     <FileRef
+                        location = "group:FBSDKDynamicFrameworkLoader.m">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:FBSDKApplicationDelegate.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKButton.m">
+                  </FileRef>
+                  <Group
+                     location = "group:AppEvents"
+                     name = "AppEvents">
+                     <FileRef
+                        location = "group:FBSDKAppEvents.h">
+                     </FileRef>
+                     <Group
+                        location = "group:Internal"
+                        name = "Internal">
+                        <FileRef
+                           location = "group:FBSDKAppEventsUtility.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKAppEventsDeviceInfo.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKPaymentObserver.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKTimeSpentData.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKRestrictiveDataFilterManager.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKAppEvents+Internal.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKHybridAppEventsScriptMessageHandler.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKUserDataStore.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKAppEventsStateManager.m">
+                        </FileRef>
+                        <Group
+                           location = "group:Codeless"
+                           name = "Codeless">
+                           <FileRef
+                              location = "group:FBSDKCodelessParameterComponent.h">
+                           </FileRef>
+                           <FileRef
+                              location = "group:FBSDKViewHierarchy.m">
+                           </FileRef>
+                           <FileRef
+                              location = "group:FBSDKCodelessIndexer.m">
+                           </FileRef>
+                           <FileRef
+                              location = "group:FBSDKEventBindingManager.m">
+                           </FileRef>
+                           <FileRef
+                              location = "group:FBSDKCodelessMacros.h">
+                           </FileRef>
+                           <FileRef
+                              location = "group:FBSDKEventBinding.m">
+                           </FileRef>
+                           <FileRef
+                              location = "group:FBSDKCodelessPathComponent.h">
+                           </FileRef>
+                           <FileRef
+                              location = "group:FBSDKCodelessParameterComponent.m">
+                           </FileRef>
+                           <FileRef
+                              location = "group:FBSDKEventBindingManager.h">
+                           </FileRef>
+                           <FileRef
+                              location = "group:FBSDKCodelessIndexer.h">
+                           </FileRef>
+                           <FileRef
+                              location = "group:FBSDKViewHierarchy.h">
+                           </FileRef>
+                           <FileRef
+                              location = "group:FBSDKEventBinding.h">
+                           </FileRef>
+                           <FileRef
+                              location = "group:FBSDKCodelessPathComponent.m">
+                           </FileRef>
+                        </Group>
+                        <FileRef
+                           location = "group:FBSDKAppEventsState.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKAppEventsDeviceInfo.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKAppEventsUtility.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKTimeSpentData.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKPaymentObserver.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKHybridAppEventsScriptMessageHandler.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKRestrictiveDataFilterManager.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKAppEventsState.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKAppEventsStateManager.h">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKUserDataStore.m">
+                        </FileRef>
+                     </Group>
+                     <FileRef
+                        location = "group:FBSDKAppEvents.m">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:FBSDKCoreKit.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKGraphRequest.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKGraphRequestDataAttachment.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKURL.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKAccessToken.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKGraphErrorRecoveryProcessor.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKMutableCopying.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKTestUsersManager.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKProfile.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKProfilePictureView.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKMeasurementEvent.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKCopying.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKGraphRequestConnection.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKSettings.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKConstants.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKUtility.m">
+                  </FileRef>
+                  <Group
+                     location = "group:AppLink"
+                     name = "AppLink">
+                     <FileRef
+                        location = "group:FBSDKWebViewAppLinkResolver.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKAppLinkReturnToRefererView.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKAppLinkTarget.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKAppLinkResolver.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKAppLinkNavigation.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKAppLinkReturnToRefererController.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKAppLinkUtility.h">
+                     </FileRef>
+                     <Group
+                        location = "group:Internal"
+                        name = "Internal">
+                        <FileRef
+                           location = "group:FBSDKMeasurementEventListener.m">
+                        </FileRef>
+                        <FileRef
+                           location = "group:FBSDKMeasurementEventListener.h">
+                        </FileRef>
+                     </Group>
+                     <FileRef
+                        location = "group:FBSDKAppLink.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKAppLinkResolving.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKWebViewAppLinkResolver.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKAppLinkResolver.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKAppLinkTarget.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKAppLinkReturnToRefererView.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKAppLinkUtility.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKAppLinkReturnToRefererController.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKAppLinkNavigation.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKAppLink.h">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:FBSDKGraphRequest.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKButton.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKApplicationDelegate.m">
+                  </FileRef>
+               </Group>
+            </Group>
+            <FileRef
+               location = "group:LICENSE">
+            </FileRef>
+            <FileRef
+               location = "group:FacebookSDKStrings.bundle">
+            </FileRef>
+            <FileRef
+               location = "group:README.md">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:Pods.xcodeproj">
+         </FileRef>
+         <Group
+            location = "group:RxSwift"
+            name = "RxSwift">
+            <FileRef
+               location = "group:LICENSE.md">
+            </FileRef>
+            <Group
+               location = "group:RxSwift"
+               name = "RxSwift">
+               <FileRef
+                  location = "group:Cancelable.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:GroupedObservable.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:RxMutableBox.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Event.swift">
+               </FileRef>
+               <Group
+                  location = "group:Traits"
+                  name = "Traits">
+                  <FileRef
+                     location = "group:Completable+AndThen.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Completable.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Single.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:PrimitiveSequence.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Maybe.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ObservableType+PrimitiveSequence.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:PrimitiveSequence+Zip+arity.swift">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:AnyObserver.swift">
+               </FileRef>
+               <Group
+                  location = "group:Disposables"
+                  name = "Disposables">
+                  <FileRef
+                     location = "group:DisposeBase.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:DisposeBag.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ScheduledDisposable.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:NopDisposable.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SubscriptionDisposable.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:RefCountDisposable.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:CompositeDisposable.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SingleAssignmentDisposable.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SerialDisposable.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:BinaryDisposable.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:AnonymousDisposable.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:BooleanDisposable.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Disposables.swift">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Observables"
+                  name = "Observables">
+                  <FileRef
+                     location = "group:AsMaybe.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Timeout.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Never.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:RetryWhen.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Do.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Deferred.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Buffer.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SubscribeOn.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:DefaultIfEmpty.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Using.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Delay.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Producer.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:GroupBy.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Concat.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Take.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:TakeWhile.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:TakeLast.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Error.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:CombineLatest.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Sample.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:AsSingle.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Empty.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Enumerated.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:DistinctUntilChanged.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:First.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Timer.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:AddRef.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Sequence.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Sink.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Throttle.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Range.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:CompactMap.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:WithLatestFrom.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ObserveOn.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:CombineLatest+Collection.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Multicast.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SkipWhile.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:DelaySubscription.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Repeat.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ToArray.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:TakeUntil.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Switch.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Window.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Debounce.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Dematerialize.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Zip+Collection.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Catch.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Filter.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Amb.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Reduce.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:CombineLatest+arity.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Zip.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Debug.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Merge.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Skip.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Map.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SkipUntil.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:StartWith.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Just.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Optional.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Generate.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ShareReplayScope.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Scan.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Zip+arity.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SwitchIfEmpty.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ElementAt.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Create.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Materialize.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SingleAsync.swift">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Disposable.swift">
+               </FileRef>
+               <Group
+                  location = "group:SwiftSupport"
+                  name = "SwiftSupport">
+                  <FileRef
+                     location = "group:SwiftSupport.swift">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:ObservableType+Extensions.swift">
+               </FileRef>
+               <Group
+                  location = "group:Extensions"
+                  name = "Extensions">
+                  <FileRef
+                     location = "group:Bag+Rx.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:String+Rx.swift">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:ObserverType.swift">
+               </FileRef>
+               <Group
+                  location = "group:Concurrency"
+                  name = "Concurrency">
+                  <FileRef
+                     location = "group:LockOwnerType.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SynchronizedDisposeType.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SynchronizedOnType.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Lock.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:AsyncLock.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SynchronizedUnsubscribeType.swift">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Reactive.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Date+Dispatch.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Deprecated.swift">
+               </FileRef>
+               <Group
+                  location = "group:Subjects"
+                  name = "Subjects">
+                  <FileRef
+                     location = "group:SubjectType.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:BehaviorSubject.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:AsyncSubject.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ReplaySubject.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:PublishSubject.swift">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:ObservableConvertibleType.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Observable.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:SchedulerType.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ConnectableObservableType.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ObservableType.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Errors.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Rx.swift">
+               </FileRef>
+               <Group
+                  location = "group:Observers"
+                  name = "Observers">
+                  <FileRef
+                     location = "group:ObserverBase.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:TailRecursiveSink.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:AnonymousObserver.swift">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:Schedulers"
+                  name = "Schedulers">
+                  <FileRef
+                     location = "group:RecursiveScheduler.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:OperationQueueScheduler.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:VirtualTimeScheduler.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SchedulerServices+Emulation.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:CurrentThreadScheduler.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:MainScheduler.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ConcurrentDispatchQueueScheduler.swift">
+                  </FileRef>
+                  <Group
+                     location = "group:Internal"
+                     name = "Internal">
+                     <FileRef
+                        location = "group:ScheduledItem.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:InvocableType.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:InvocableScheduledItem.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:DispatchQueueConfiguration.swift">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ScheduledItemType.swift">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:ConcurrentMainScheduler.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:SerialDispatchQueueScheduler.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:HistoricalScheduler.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:VirtualTimeConverterType.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:HistoricalSchedulerTimeConverter.swift">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:ImmediateSchedulerType.swift">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Platform"
+               name = "Platform">
+               <FileRef
+                  location = "group:Platform.Darwin.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:DispatchQueue+Extensions.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:AtomicInt.swift">
+               </FileRef>
+               <Group
+                  location = "group:DataStructures"
+                  name = "DataStructures">
+                  <FileRef
+                     location = "group:Bag.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:PriorityQueue.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Queue.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:InfiniteSequence.swift">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:Platform.Linux.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:RecursiveLock.swift">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:README.md">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Target Support Files"
+            name = "Target Support Files">
+            <Group
+               location = "group:RxTheme"
+               name = "RxTheme">
+               <FileRef
+                  location = "group:RxTheme-Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:RxTheme.modulemap">
+               </FileRef>
+               <FileRef
+                  location = "group:RxTheme-prefix.pch">
+               </FileRef>
+               <FileRef
+                  location = "group:RxTheme-dummy.m">
+               </FileRef>
+               <FileRef
+                  location = "group:RxTheme.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:RxTheme-umbrella.h">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:RxCocoa"
+               name = "RxCocoa">
+               <FileRef
+                  location = "group:RxCocoa-umbrella.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RxCocoa.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:RxCocoa-prefix.pch">
+               </FileRef>
+               <FileRef
+                  location = "group:RxCocoa-dummy.m">
+               </FileRef>
+               <FileRef
+                  location = "group:RxCocoa-Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:RxCocoa.modulemap">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:FBSDKCoreKit"
+               name = "FBSDKCoreKit">
+               <FileRef
+                  location = "group:FBSDKCoreKit-umbrella.h">
+               </FileRef>
+               <FileRef
+                  location = "group:FBSDKCoreKit.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:FBSDKCoreKit-prefix.pch">
+               </FileRef>
+               <FileRef
+                  location = "group:FBSDKCoreKit-dummy.m">
+               </FileRef>
+               <FileRef
+                  location = "group:FBSDKCoreKit.modulemap">
+               </FileRef>
+               <FileRef
+                  location = "group:FBSDKCoreKit-Info.plist">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:Pods-mm-app-ios"
+               name = "Pods-mm-app-ios">
+               <FileRef
+                  location = "group:Pods-mm-app-ios-frameworks.sh">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-mm-app-ios.debug.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-mm-app-ios.modulemap">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-mm-app-ios-frameworks-Release-output-files.xcfilelist">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-mm-app-ios.release.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-mm-app-ios-dummy.m">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-mm-app-ios-umbrella.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-mm-app-ios-frameworks-Debug-input-files.xcfilelist">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-mm-app-ios-acknowledgements.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-mm-app-ios-Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-mm-app-ios-frameworks-Release-input-files.xcfilelist">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-mm-app-ios-acknowledgements.markdown">
+               </FileRef>
+               <FileRef
+                  location = "group:Pods-mm-app-ios-frameworks-Debug-output-files.xcfilelist">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:RxSwift"
+               name = "RxSwift">
+               <FileRef
+                  location = "group:RxSwift-prefix.pch">
+               </FileRef>
+               <FileRef
+                  location = "group:RxSwift-dummy.m">
+               </FileRef>
+               <FileRef
+                  location = "group:RxSwift-umbrella.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RxSwift-Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:RxSwift.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:RxSwift.modulemap">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:RxRelay"
+               name = "RxRelay">
+               <FileRef
+                  location = "group:RxRelay-prefix.pch">
+               </FileRef>
+               <FileRef
+                  location = "group:RxRelay.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:RxRelay.modulemap">
+               </FileRef>
+               <FileRef
+                  location = "group:RxRelay-umbrella.h">
+               </FileRef>
+               <FileRef
+                  location = "group:RxRelay-dummy.m">
+               </FileRef>
+               <FileRef
+                  location = "group:RxRelay-Info.plist">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:TinyConstraints"
+               name = "TinyConstraints">
+               <FileRef
+                  location = "group:TinyConstraints-umbrella.h">
+               </FileRef>
+               <FileRef
+                  location = "group:TinyConstraints.modulemap">
+               </FileRef>
+               <FileRef
+                  location = "group:TinyConstraints.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:TinyConstraints-prefix.pch">
+               </FileRef>
+               <FileRef
+                  location = "group:TinyConstraints-dummy.m">
+               </FileRef>
+               <FileRef
+                  location = "group:TinyConstraints-Info.plist">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:FacebookCore"
+               name = "FacebookCore">
+               <FileRef
+                  location = "group:FacebookCore-prefix.pch">
+               </FileRef>
+               <FileRef
+                  location = "group:FacebookCore.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:FacebookCore-umbrella.h">
+               </FileRef>
+               <FileRef
+                  location = "group:FacebookCore-Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:FacebookCore.modulemap">
+               </FileRef>
+               <FileRef
+                  location = "group:FacebookCore-dummy.m">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:FBSDKLoginKit"
+               name = "FBSDKLoginKit">
+               <FileRef
+                  location = "group:FBSDKLoginKit-dummy.m">
+               </FileRef>
+               <FileRef
+                  location = "group:FBSDKLoginKit.modulemap">
+               </FileRef>
+               <FileRef
+                  location = "group:FBSDKLoginKit-Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:FBSDKLoginKit-umbrella.h">
+               </FileRef>
+               <FileRef
+                  location = "group:FBSDKLoginKit.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:FBSDKLoginKit-prefix.pch">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:FacebookShare"
+               name = "FacebookShare">
+               <FileRef
+                  location = "group:FacebookShare.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:FacebookShare.modulemap">
+               </FileRef>
+               <FileRef
+                  location = "group:FacebookShare-dummy.m">
+               </FileRef>
+               <FileRef
+                  location = "group:FacebookShare-Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:FacebookShare-umbrella.h">
+               </FileRef>
+               <FileRef
+                  location = "group:FacebookShare-prefix.pch">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:FacebookLogin"
+               name = "FacebookLogin">
+               <FileRef
+                  location = "group:FacebookLogin.modulemap">
+               </FileRef>
+               <FileRef
+                  location = "group:FacebookLogin-prefix.pch">
+               </FileRef>
+               <FileRef
+                  location = "group:FacebookLogin-umbrella.h">
+               </FileRef>
+               <FileRef
+                  location = "group:FacebookLogin-Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:FacebookLogin.xcconfig">
+               </FileRef>
+               <FileRef
+                  location = "group:FacebookLogin-dummy.m">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:FBSDKShareKit"
+               name = "FBSDKShareKit">
+               <FileRef
+                  location = "group:FBSDKShareKit.modulemap">
+               </FileRef>
+               <FileRef
+                  location = "group:FBSDKShareKit-prefix.pch">
+               </FileRef>
+               <FileRef
+                  location = "group:FBSDKShareKit-umbrella.h">
+               </FileRef>
+               <FileRef
+                  location = "group:FBSDKShareKit-Info.plist">
+               </FileRef>
+               <FileRef
+                  location = "group:FBSDKShareKit-dummy.m">
+               </FileRef>
+               <FileRef
+                  location = "group:FBSDKShareKit.xcconfig">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:Manifest.lock">
+         </FileRef>
+         <Group
+            location = "group:RxRelay"
+            name = "RxRelay">
+            <FileRef
+               location = "group:LICENSE.md">
+            </FileRef>
+            <Group
+               location = "group:RxRelay"
+               name = "RxRelay">
+               <FileRef
+                  location = "group:PublishRelay.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Observable+Bind.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:Utils.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:BehaviorRelay.swift">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:README.md">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:TinyConstraints"
+            name = "TinyConstraints">
+            <FileRef
+               location = "group:LICENSE">
+            </FileRef>
+            <FileRef
+               location = "group:README.md">
+            </FileRef>
+            <Group
+               location = "group:TinyConstraints"
+               name = "TinyConstraints">
+               <Group
+                  location = "group:Classes"
+                  name = "Classes">
+                  <FileRef
+                     location = "group:Constraints.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Stack.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Abstraction.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:TinyEdgeInsets.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:TinyConstraints+superview.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:TinyConstraints.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Constrainable.swift">
+                  </FileRef>
+               </Group>
+            </Group>
+         </Group>
+         <Group
+            location = "group:FacebookCore"
+            name = "FacebookCore">
+            <FileRef
+               location = "group:LICENSE">
+            </FileRef>
+            <FileRef
+               location = "group:README.md">
+            </FileRef>
+            <Group
+               location = "group:Sources"
+               name = "Sources">
+               <Group
+                  location = "group:Core"
+                  name = "Core">
+                  <FileRef
+                     location = "group:Permission.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Dictionary+KeyValueMap.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:AccessToken.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBProfilePictureView.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:Settings.swift">
+                  </FileRef>
+               </Group>
+            </Group>
+         </Group>
+         <Group
+            location = "group:FBSDKLoginKit"
+            name = "FBSDKLoginKit">
+            <FileRef
+               location = "group:LICENSE">
+            </FileRef>
+            <FileRef
+               location = "group:README.md">
+            </FileRef>
+            <Group
+               location = "group:FBSDKLoginKit"
+               name = "FBSDKLoginKit">
+               <Group
+                  location = "group:FBSDKLoginKit"
+                  name = "FBSDKLoginKit">
+                  <FileRef
+                     location = "group:FBSDKDeviceLoginManagerResult.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKLoginButton.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKLoginConstants.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKDeviceLoginCodeInfo.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKDeviceLoginManager.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKLoginManagerLoginResult.m">
+                  </FileRef>
+                  <Group
+                     location = "group:Internal"
+                     name = "Internal">
+                     <FileRef
+                        location = "group:FBSDKLoginCompletion.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKDeviceLoginManagerResult+Internal.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKLoginManagerLogger.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:_FBSDKLoginRecoveryAttempter.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKLoginUtility.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKLoginError.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKDeviceLoginCodeInfo+Internal.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKLoginKit+Internal.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKLoginCompletion.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKLoginManagerLoginResult+Internal.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKLoginManagerLogger.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKLoginCompletion+Internal.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKLoginManager+Internal.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:_FBSDKLoginRecoveryAttempter.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKLoginError.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKLoginUtility.h">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:FBSDKTooltipView.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKLoginTooltipView.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKLoginManager.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKLoginButton.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKDeviceLoginManagerResult.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKLoginKit.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKLoginConstants.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKDeviceLoginManager.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKDeviceLoginCodeInfo.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKLoginManager.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKLoginTooltipView.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKTooltipView.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKLoginManagerLoginResult.h">
+                  </FileRef>
+               </Group>
+            </Group>
+         </Group>
+         <Group
+            location = "group:FacebookShare"
+            name = "FacebookShare">
+            <FileRef
+               location = "group:LICENSE">
+            </FileRef>
+            <FileRef
+               location = "group:README.md">
+            </FileRef>
+            <Group
+               location = "group:Sources"
+               name = "Sources">
+               <Group
+                  location = "group:Share"
+                  name = "Share">
+                  <FileRef
+                     location = "group:Enums+Extensions.swift">
+                  </FileRef>
+               </Group>
+            </Group>
+         </Group>
+         <Group
+            location = "group:FacebookLogin"
+            name = "FacebookLogin">
+            <FileRef
+               location = "group:LICENSE">
+            </FileRef>
+            <FileRef
+               location = "group:README.md">
+            </FileRef>
+            <Group
+               location = "group:Sources"
+               name = "Sources">
+               <Group
+                  location = "group:Login"
+                  name = "Login">
+                  <FileRef
+                     location = "group:FBLoginButton.swift">
+                  </FileRef>
+                  <FileRef
+                     location = "group:LoginManager.swift">
+                  </FileRef>
+               </Group>
+            </Group>
+         </Group>
+         <Group
+            location = "group:FBSDKShareKit"
+            name = "FBSDKShareKit">
+            <FileRef
+               location = "group:LICENSE">
+            </FileRef>
+            <FileRef
+               location = "group:README.md">
+            </FileRef>
+            <Group
+               location = "group:FBSDKShareKit"
+               name = "FBSDKShareKit">
+               <Group
+                  location = "group:FBSDKShareKit"
+                  name = "FBSDKShareKit">
+                  <FileRef
+                     location = "group:FBSDKShareAPI.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKLikeObjectType.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKSharingButton.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKShareMessengerMediaTemplateContent.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKShareOpenGraphAction.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKSendButton.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKShareLinkContent.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKShareKit.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKGameRequestDialog.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKShareOpenGraphContent.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKShareMessengerGenericTemplateContent.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKShareOpenGraphValueContainer.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKShareVideo.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKShareMediaContent.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKShareDialogMode.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKSharePhotoContent.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKAppGroupContent.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKCameraEffectArguments.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKShareMessengerGenericTemplateElement.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKAppInviteContent.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKShareConstants.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKShareButton.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKShareMessengerOpenGraphMusicTemplateContent.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKShareDialog.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKSharing.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKShareOpenGraphObject.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKLiking.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKShareMessengerURLActionButton.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKShareVideoContent.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKSharePhoto.h">
+                  </FileRef>
+                  <Group
+                     location = "group:Internal"
+                     name = "Internal">
+                     <FileRef
+                        location = "group:FBSDKGameRequestFrictionlessRecipientCache.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKLikeButton+Internal.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKLikeBoxView.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKShareUtility.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKLikeDialog.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKLikeBoxBorderView.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKLikeActionController.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKLikeButtonPopWAV.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKShareOpenGraphValueContainer+Internal.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKCheckmarkIcon.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKMessengerIcon.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKCameraEffectArguments+Internal.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKLikeActionControllerCache.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKShareKit+Internal.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKShareExtension.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKVideoUploader.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKShareMessengerContentUtility.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKLikeBoxBorderView.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKLikeDialog.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKShareUtility.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKLikeBoxView.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKGameRequestFrictionlessRecipientCache.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKMessengerIcon.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKCheckmarkIcon.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKLikeButtonPopWAV.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKShareDefines.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKLikeActionController.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKLikeActionControllerCache.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKShareMessengerContentUtility.m">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKCameraEffectTextures+Internal.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKVideoUploader.h">
+                     </FileRef>
+                     <FileRef
+                        location = "group:FBSDKShareExtension.h">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:FBSDKSharingContent.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKMessageDialog.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKCameraEffectTextures.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKHashtag.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKGameRequestContent.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKShareCameraEffectContent.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKShareLinkContent.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKSendButton.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKShareMessengerMediaTemplateContent.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKShareOpenGraphAction.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKLikeObjectType.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKShareAPI.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKShareMessengerGenericTemplateElement.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKAppInviteContent.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKCameraEffectArguments.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKAppGroupContent.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKSharePhotoContent.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKShareMediaContent.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKShareDialogMode.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKShareMessengerGenericTemplateContent.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKShareVideo.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKShareOpenGraphValueContainer.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKShareOpenGraphContent.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKGameRequestDialog.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKShareMessengerURLActionButton.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKShareVideoContent.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKSharePhoto.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKShareOpenGraphObject.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKShareDialog.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKSharingScheme.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKShareMessengerOpenGraphMusicTemplateContent.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKShareButton.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKShareConstants.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKShareCameraEffectContent.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKGameRequestContent.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKHashtag.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKCameraEffectTextures.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKShareMessengerActionButton.h">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKMessageDialog.m">
+                  </FileRef>
+                  <FileRef
+                     location = "group:FBSDKSharingValidation.h">
+                  </FileRef>
+               </Group>
+            </Group>
+         </Group>
+      </Group>
+      <Group
+         location = "group:mm-app-ios"
+         name = "mm-app-ios">
+         <Group
+            location = "group:Home"
+            name = "Home">
+            <FileRef
+               location = "group:AssintaturaViewController.swift">
+            </FileRef>
+            <FileRef
+               location = "group:SlideInTransition.swift">
+            </FileRef>
+            <FileRef
+               location = "group:CollectionViewCell.swift">
+            </FileRef>
+            <FileRef
+               location = "group:HomeViewController.swift">
+            </FileRef>
+            <Group
+               location = "group:Base.lproj"
+               name = "Base.lproj">
+               <FileRef
+                  location = "group:Main.storyboard">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:MenuViewController.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Colors.xcassets"
+            name = "Colors.xcassets">
+            <Group
+               location = "group:GrayBackground.colorset"
+               name = "GrayBackground.colorset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:BlackText.colorset"
+               name = "BlackText.colorset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:red.colorset"
+               name = "red.colorset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:black.colorset"
+               name = "black.colorset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:WhiteBackground.colorset"
+               name = "WhiteBackground.colorset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <Group
+               location = "group:WhiteText.colorset"
+               name = "WhiteText.colorset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:BlueBackground.colorset"
+               name = "BlueBackground.colorset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:BlackBackground.colorset"
+               name = "BlackBackground.colorset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:white.colorset"
+               name = "white.colorset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:GrayAlpha.colorset"
+               name = "GrayAlpha.colorset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:ViewTutorial"
+            name = "ViewTutorial">
+            <FileRef
+               location = "group:TutorialViewInit.storyboard">
+            </FileRef>
+            <FileRef
+               location = "group:TutorialViewInitViewController.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Tutorial"
+            name = "Tutorial">
+            <FileRef
+               location = "group:TutorialInitViewController.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Tutorial.storyboard">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:EdicaoEditorial"
+            name = "EdicaoEditorial">
+            <FileRef
+               location = "group:MateriaViewController.swift">
+            </FileRef>
+            <FileRef
+               location = "group:EdicaoMateriaViewController.swift">
+            </FileRef>
+            <FileRef
+               location = "group:EdicaoEditorialViewController.swift">
+            </FileRef>
+            <FileRef
+               location = "group:EdicaoEditorial.storyboard">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:LightTheme.swift">
+         </FileRef>
+         <Group
+            location = "group:FAQ"
+            name = "FAQ">
+            <FileRef
+               location = "group:FAQ.storyboard">
+            </FileRef>
+            <FileRef
+               location = "group:FAQViewController.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:FaleConosco"
+            name = "FaleConosco">
+            <FileRef
+               location = "group:Categories.swift">
+            </FileRef>
+            <FileRef
+               location = "group:FaleConoscoViewController.swift">
+            </FileRef>
+            <FileRef
+               location = "group:FaleConosco.storyboard">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Capa"
+            name = "Capa">
+            <FileRef
+               location = "group:CapaPrincipalViewController.swift">
+            </FileRef>
+            <FileRef
+               location = "group:CapaPrincipal.storyboard">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Assets.xcassets"
+            name = "Assets.xcassets">
+            <Group
+               location = "group:notBranco.imageset"
+               name = "notBranco.imageset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:notBranco@2x.png">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:checkBoxOn.imageset"
+               name = "checkBoxOn.imageset">
+               <FileRef
+                  location = "group:checkBoxOn.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:font-1.imageset"
+               name = "font-1.imageset">
+               <FileRef
+                  location = "group:font@3x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:font@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:font.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:font.imageset"
+               name = "font.imageset">
+               <FileRef
+                  location = "group:font@3x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:font@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:font.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:downloadedNoite.imageset"
+               name = "downloadedNoite.imageset">
+               <FileRef
+                  location = "group:downloadedNoite@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:downloadedNoite@3x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:facebook.imageset"
+               name = "facebook.imageset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:facebook.png">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:286Azul.imageset"
+               name = "286Azul.imageset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:286Azul@2x.png">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:minhaconta.imageset"
+               name = "minhaconta.imageset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:minhaconta@2x.png">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:headphones.imageset"
+               name = "headphones.imageset">
+               <FileRef
+                  location = "group:headphones.png">
+               </FileRef>
+               <FileRef
+                  location = "group:headphones@3x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:headphones@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:faleconosco.imageset"
+               name = "faleconosco.imageset">
+               <FileRef
+                  location = "group:faleconosco@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:salvoslerdepois.imageset"
+               name = "salvoslerdepois.imageset">
+               <FileRef
+                  location = "group:salvoslerdepois@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:fecharBranco.imageset"
+               name = "fecharBranco.imageset">
+               <FileRef
+                  location = "group:fecharBranco@3x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:LinkedinButton.imageset"
+               name = "LinkedinButton.imageset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:LinkedinButton.png">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:go.imageset"
+               name = "go.imageset">
+               <FileRef
+                  location = "group:go@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:go@3x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:go.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:faq.imageset"
+               name = "faq.imageset">
+               <FileRef
+                  location = "group:faq@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:header.imageset"
+               name = "header.imageset">
+               <FileRef
+                  location = "group:header.png">
+               </FileRef>
+               <FileRef
+                  location = "group:header@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:header@3x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:menu2Branco.imageset"
+               name = "menu2Branco.imageset">
+               <FileRef
+                  location = "group:menu2Branco@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:heart.imageset"
+               name = "heart.imageset">
+               <FileRef
+                  location = "group:heart.png">
+               </FileRef>
+               <FileRef
+                  location = "group:heart@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:heart@3x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:tuto.imageset"
+               name = "tuto.imageset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:tuto@2x.png">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:group2Copy.imageset"
+               name = "group2Copy.imageset">
+               <FileRef
+                  location = "group:group2Copy.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:group2Copy@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:group2Copy@3x.png">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:avaliarapp.imageset"
+               name = "avaliarapp.imageset">
+               <FileRef
+                  location = "group:avaliarapp@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:AppIcon.appiconset"
+               name = "AppIcon.appiconset">
+               <FileRef
+                  location = "group:60.png">
+               </FileRef>
+               <FileRef
+                  location = "group:58.png">
+               </FileRef>
+               <FileRef
+                  location = "group:167.png">
+               </FileRef>
+               <FileRef
+                  location = "group:icn_loja.png">
+               </FileRef>
+               <FileRef
+                  location = "group:120.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:180.png">
+               </FileRef>
+               <FileRef
+                  location = "group:80.png">
+               </FileRef>
+               <FileRef
+                  location = "group:40.png">
+               </FileRef>
+               <FileRef
+                  location = "group:87.png">
+               </FileRef>
+               <FileRef
+                  location = "group:152.png">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:configuracoes.imageset"
+               name = "configuracoes.imageset">
+               <FileRef
+                  location = "group:configuracoes@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:meusdownloads.imageset"
+               name = "meusdownloads.imageset">
+               <FileRef
+                  location = "group:meusdownloads@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:NavigationBarButtonItemSettings.imageset"
+               name = "NavigationBarButtonItemSettings.imageset">
+               <FileRef
+                  location = "group:NavigationBarButtonItemSettings@3x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:download.imageset"
+               name = "download.imageset">
+               <FileRef
+                  location = "group:download.png">
+               </FileRef>
+               <FileRef
+                  location = "group:download@3x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:download@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:loginFace.imageset"
+               name = "loginFace.imageset">
+               <FileRef
+                  location = "group:loginFace.png">
+               </FileRef>
+               <FileRef
+                  location = "group:loginFace@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:loginFace@3x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:voltarBranco.imageset"
+               name = "voltarBranco.imageset">
+               <FileRef
+                  location = "group:voltarBranco@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:sair.imageset"
+               name = "sair.imageset">
+               <FileRef
+                  location = "group:sair@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:notificacoes.imageset"
+               name = "notificacoes.imageset">
+               <FileRef
+                  location = "group:notificacoes@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:touch.imageset"
+               name = "touch.imageset">
+               <FileRef
+                  location = "group:touch@3x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:touch@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:touch.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:pdp.imageset"
+               name = "pdp.imageset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:pdp@2x.png">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:rectangle.imageset"
+               name = "rectangle.imageset">
+               <FileRef
+                  location = "group:rectangle@3x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:Contents.json">
+            </FileRef>
+            <Group
+               location = "group:pontosBranco.imageset"
+               name = "pontosBranco.imageset">
+               <FileRef
+                  location = "group:pontosBranco.png">
+               </FileRef>
+               <FileRef
+                  location = "group:pontosBranco@3x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:pontosBranco@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:slide.imageset"
+               name = "slide.imageset">
+               <FileRef
+                  location = "group:slide@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:slide@3x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:slide.png">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:fechar.imageset"
+               name = "fechar.imageset">
+               <FileRef
+                  location = "group:fechar@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:bookmark.imageset"
+               name = "bookmark.imageset">
+               <FileRef
+                  location = "group:bookmark.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:bookmark@3x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:bookmark@2x.png">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:icon-checkbox.dataset"
+               name = "icon-checkbox.dataset">
+               <FileRef
+                  location = "group:icon-checkbox.ico">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:buscaBranco.imageset"
+               name = "buscaBranco.imageset">
+               <FileRef
+                  location = "group:buscaBranco.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:buscaBranco@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:buscaBranco@3x.png">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:trash.imageset"
+               name = "trash.imageset">
+               <FileRef
+                  location = "group:trash@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:trash@3x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:trash.png">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:arrow-down-30.imageset"
+               name = "arrow-down-30.imageset">
+               <FileRef
+                  location = "group:arrow-down-30.png">
+               </FileRef>
+               <FileRef
+                  location = "group:arrow-down-31.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:arrow-down-32.png">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:facebook-1.imageset"
+               name = "facebook-1.imageset">
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:facebook@3x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:facebook.png">
+               </FileRef>
+               <FileRef
+                  location = "group:facebook@2x.png">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:linkedin.imageset"
+               name = "linkedin.imageset">
+               <FileRef
+                  location = "group:linkedin@2x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:linkedin@3x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:linkedin.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:group2Copy2.imageset"
+               name = "group2Copy2.imageset">
+               <FileRef
+                  location = "group:group2Copy2.png">
+               </FileRef>
+               <FileRef
+                  location = "group:Contents.json">
+               </FileRef>
+               <FileRef
+                  location = "group:group2Copy2@3x.png">
+               </FileRef>
+               <FileRef
+                  location = "group:group2Copy2@2x.png">
+               </FileRef>
+            </Group>
+         </Group>
+         <Group
+            location = "group:Notificacao"
+            name = "Notificacao">
+            <FileRef
+               location = "group:Notificacao.storyboard">
+            </FileRef>
+            <FileRef
+               location = "group:NotificacaoViewController.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:MinhaConta"
+            name = "MinhaConta">
+            <FileRef
+               location = "group:MinhaContaViewController.swift">
+            </FileRef>
+            <FileRef
+               location = "group:AlterarSenhaViewController.swift">
+            </FileRef>
+            <FileRef
+               location = "group:MinhaConta.storyboard">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:ThemeExtensions.swift">
+         </FileRef>
+         <Group
+            location = "group:Base.lproj"
+            name = "Base.lproj">
+            <FileRef
+               location = "group:LaunchScreen.storyboard">
+            </FileRef>
+            <FileRef
+               location = "group:Main.storyboard">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Springs"
+            name = "Springs">
+            <FileRef
+               location = "group:SpringButtom.swift">
+            </FileRef>
+            <FileRef
+               location = "group:Spring.swift">
+            </FileRef>
+            <FileRef
+               location = "group:SpringImageView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:SpringTextView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:SpringView.swift">
+            </FileRef>
+            <FileRef
+               location = "group:SpringTextField.swift">
+            </FileRef>
+            <FileRef
+               location = "group:SpringLabel.swift">
+            </FileRef>
+            <FileRef
+               location = "group:SpringAnimation.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:PoliticaPrivacidade"
+            name = "PoliticaPrivacidade">
+            <FileRef
+               location = "group:PoliticaPrivacidade.storyboard">
+            </FileRef>
+            <FileRef
+               location = "group:PoliticaPrivacidadeViewController.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:PreferenceAndConfig"
+            name = "PreferenceAndConfig">
+            <FileRef
+               location = "group:PreferenceAndConfig.storyboard">
+            </FileRef>
+            <FileRef
+               location = "group:PreferAndConfigViewController.swift">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:ThemeProtocol.swift">
+         </FileRef>
+         <Group
+            location = "group:View"
+            name = "View">
+            <FileRef
+               location = "group:UserTerm.storyboard">
+            </FileRef>
+            <FileRef
+               location = "group:UserTermViewController.swift">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:mm_app_ios.xcdatamodeld">
+         </FileRef>
+         <FileRef
+            location = "group:DarkTheme.swift">
+         </FileRef>
+         <FileRef
+            location = "group:AppDelegate.swift">
+         </FileRef>
+         <Group
+            location = "group:Font"
+            name = "Font">
+            <FileRef
+               location = "group:Roboto-Medium.ttf">
+            </FileRef>
+            <FileRef
+               location = "group:Roboto-Light.ttf">
+            </FileRef>
+            <FileRef
+               location = "group:RobotoCondensed-Bold.ttf">
+            </FileRef>
+            <FileRef
+               location = "group:RobotoCondensed-Light.ttf">
+            </FileRef>
+            <FileRef
+               location = "group:Roboto-Regular.ttf">
+            </FileRef>
+            <FileRef
+               location = "group:Roboto-MediumItalic.ttf">
+            </FileRef>
+            <FileRef
+               location = "group:RobotoCondensed-Italic.ttf">
+            </FileRef>
+            <FileRef
+               location = "group:RobotoCondensed-BoldItalic.ttf">
+            </FileRef>
+            <FileRef
+               location = "group:RobotoCondensed-LightItalic.ttf">
+            </FileRef>
+            <FileRef
+               location = "group:Roboto-ThinItalic.ttf">
+            </FileRef>
+            <FileRef
+               location = "group:RobotoCondensed-Regular.ttf">
+            </FileRef>
+            <FileRef
+               location = "group:Roboto-BoldItalic.ttf">
+            </FileRef>
+            <FileRef
+               location = "group:Roboto-LightItalic.ttf">
+            </FileRef>
+            <FileRef
+               location = "group:Roboto-Italic.ttf">
+            </FileRef>
+            <FileRef
+               location = "group:Roboto-BlackItalic.ttf">
+            </FileRef>
+            <FileRef
+               location = "group:Roboto-Bold.ttf">
+            </FileRef>
+            <FileRef
+               location = "group:Roboto-Thin.ttf">
+            </FileRef>
+            <FileRef
+               location = "group:Roboto-Black.ttf">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:Theme.swift">
+         </FileRef>
+         <Group
+            location = "group:FotosDiversas"
+            name = "FotosDiversas">
+            <FileRef
+               location = "group:shopping-cidade-jardim.jpg">
+            </FileRef>
+            <FileRef
+               location = "group:iconCheckoff@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:Engajamento2.png">
+            </FileRef>
+            <FileRef
+               location = "group:McDonalds.jpg">
+            </FileRef>
+            <FileRef
+               location = "group:Engajamento1.png">
+            </FileRef>
+            <FileRef
+               location = "group:meioMensagem.png">
+            </FileRef>
+            <FileRef
+               location = "group:headerBranco@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:group@2x.png">
+            </FileRef>
+            <FileRef
+               location = "group:BurguerKing.png">
+            </FileRef>
+            <FileRef
+               location = "group:streming.jpg">
+            </FileRef>
+            <FileRef
+               location = "group:Sadoun.png">
+            </FileRef>
+            <FileRef
+               location = "group:Materia2.png">
+            </FileRef>
+            <FileRef
+               location = "group:Materia1.png">
+            </FileRef>
+            <FileRef
+               location = "group:41528940_241462876494767_8632959559543993127_n.jpg">
+            </FileRef>
+            <FileRef
+               location = "group:iconCheckOn@2x.png">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Downloads"
+            name = "Downloads">
+            <FileRef
+               location = "group:Download.storyboard">
+            </FileRef>
+            <FileRef
+               location = "group:DownloadViewController.swift">
+            </FileRef>
+            <FileRef
+               location = "group:DownloadsCollectionViewCell.xib">
+            </FileRef>
+            <FileRef
+               location = "group:DownloadsCollectionViewCell.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:PublicidadeVideo"
+            name = "PublicidadeVideo">
+            <FileRef
+               location = "group:PublicidadeVideosCollectionViewCell.swift">
+            </FileRef>
+            <FileRef
+               location = "group:PublicidadeVideoViewController.swift">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:Login"
+            name = "Login">
+            <FileRef
+               location = "group:Login.storyboard">
+            </FileRef>
+            <Group
+               location = "group:View"
+               name = "View">
+               <FileRef
+                  location = "group:ForgotPassViewController.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:CadastroViewController.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ResendEmailViewController.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:LoginViewController.swift">
+               </FileRef>
+               <FileRef
+                  location = "group:ValidationViewController.swift">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:Info.plist">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:Podfile">
+      </FileRef>
+      <FileRef
+         location = "group:mm-app-ios.xcworkspace">
+      </FileRef>
+      <FileRef
+         location = "group:Podfile.lock">
+      </FileRef>
+   </Group>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
    </FileRef>
